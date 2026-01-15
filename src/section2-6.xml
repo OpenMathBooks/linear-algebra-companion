@@ -1567,7 +1567,7 @@
 	Then the vertical scale is compressed using the matrix
 	<m>
 	  \left[\begin{array}{rrr}
-	  \frac12 \amp 0 \amp 0 \\
+	  1 \amp 0 \amp 0 \\
 	  0 \amp \frac12 \amp 0 \\
 	  0 \amp 0 \amp 1 \\
 	  \end{array}\right]
