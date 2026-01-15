@@ -1,0 +1,64 @@
+assignmentType      = default
+openDate          = 01/22/2021 at 02:59pm EST
+reducedScoringDate = 12/31/1969 at 07:00pm EST
+dueDate           = 02/01/2021 at 11:00pm EST
+answerDate        = 02/03/2021 at 11:59pm EST
+enableReducedScoring = N
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = defaultHeader
+description       = 
+restrictProbProgression = 0
+emailInstructor   = 0
+
+problemListV2 
+problem_start
+problem_id = 1
+source_file = Library/ASU-topics/set119LinearSystems/p23.pg
+value = 1
+max_attempts = 8
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 2
+source_file = Library/ASU-topics/set119LinearSystems/p10.pg
+value = 1
+max_attempts = 8
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 3
+source_file = Library/ASU-topics/set119LinearSystems/p33.pg
+value = 1
+max_attempts = 8
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 4
+source_file = Library/Rochester/setLinearAlgebra1Systems/ur_la_1_22.pg
+value = 1
+max_attempts = 8
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 5
+source_file = Library/ASU-topics/set119LinearSystems/p22.pg
+value = 1
+max_attempts = 8
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+

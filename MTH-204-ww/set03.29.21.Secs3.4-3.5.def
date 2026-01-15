@@ -1,0 +1,64 @@
+assignmentType      = default
+openDate          = 03/19/2021 at 11:59am EDT
+reducedScoringDate = 12/31/1969 at 07:00pm EST
+dueDate           = 03/29/2021 at 11:00pm EDT
+answerDate        = 03/31/2021 at 11:00pm EDT
+enableReducedScoring = N
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = defaultHeader
+description       = 
+restrictProbProgression = 0
+emailInstructor   = 0
+
+problemListV2 
+problem_start
+problem_id = 1
+source_file = Library/TCNJ/TCNJ_Determinants/problem9.pg
+value = 1
+max_attempts = 8
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 2
+source_file = Library/TCNJ/TCNJ_PropertiesDeterminants/problem4.pg
+value = 1
+max_attempts = 8
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 3
+source_file = Library/Hope/Multi1/03-05-Basis-subspace/Basis_13_null_space.pg
+value = 1
+max_attempts = 8
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 4
+source_file = Library/Hope/Multi1/03-05-Basis-subspace/Basis_18_column_space.pg
+value = 1
+max_attempts = 8
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 5
+source_file = Library/TCNJ/TCNJ_NullColumnSpaces/problem6.pg
+value = 1
+max_attempts = 8
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+
