@@ -3,7 +3,8 @@
   <title>Systems of equations</title>
 
   <xi:include href="./section1-1.xml" />
-  <!-- <xi:include href="./section1-2.xml" />
+  <xi:include href="./section1-2.xml" />
+  <!-- 
   <xi:include href="./section1-3.xml" />
   <xi:include href="./section1-4.xml" />
    -->

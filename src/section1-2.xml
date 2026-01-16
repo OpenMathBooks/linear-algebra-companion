@@ -9,23 +9,60 @@
 
   <exercises xml:id="finding-solutions-practice">
     <title>Practice</title>
+
+    <exercise label="augmented-write-matrix-1">
+      <webwork source="Library/ASU-topics/set119LinearSystems/p21.pg" />
+    </exercise>
+
+    <exercise label="augmented-write-system-1">
+      <webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_002.pg" />
+    </exercise>
+
+    
+    <exercise label="rref-tf">
+      <webwork source="Library/ASU-topics/set119LinearSystems/p33.pg" />
+    </exercise>
+    
+    <exercise label="rref-solution-count">
+      <webwork source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_22.pg" />
+    </exercise>
+    
+    <exercise label="rref-solution-type">
+      <webwork source="Library/ASU-topics/set119LinearSystems/p22.pg" />
+    </exercise>
+    
+    
+    <exercise label="rref-free-vars">
+      <webwork source="Library/TCNJ/TCNJ_RowReduction/problem14.pg" />
+    </exercise>
+    
+    <exercise label="rref-basic-vars">
+      <webwork source="Library/TCNJ/TCNJ_RowReduction/problem15.pg" />
+    </exercise>
+    
+    
+
+
+    <exercise label="rref-2x2-steps-1">
+        <webwork source="Library/Mizzou/Finite_Math/Augmented_Matrices/AugMatrix1a.pg" />
+      </exercise>
+      
+      <exercise label="rref-2x2-steps-2">
+        <webwork source="Library/Mizzou/Finite_Math/Augmented_Matrices/GJ1.pg" />
+      </exercise>
+      
+      <exercise label="rref-3x3-steps-1">
+        <webwork source="Library/Mizzou/Finite_Math/Gauss-Jordan_Elimination/3by3a.pg" />
+      </exercise>
+      
+      
       <exercise label="find-sol-2-var-system">
         <webwork source="Library/ASU-topics/set119LinearSystems/p23.pg" />
       </exercise>
-      <exercise label="find-sol-3-var-system">
-        <webwork source="Library/ASU-topics/set119LinearSystems/p10.pg" />
-      </exercise>
-
-      <exercise label="rref-tf">
-        <webwork source="Library/ASU-topics/set119LinearSystems/p33.pg" />
-      </exercise>
-      <exercise label="rref-solution-count">
-        <webwork source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_22.pg" />
-      </exercise>
       
-      <exercise label="rref-solution-type">
-        <webwork source="Library/ASU-topics/set119LinearSystems/p22.pg" />
-      </exercise>
+        <exercise label="find-sol-3-var-system">
+          <webwork source="Library/ASU-topics/set119LinearSystems/p10.pg" />
+        </exercise>
 
   </exercises>
 

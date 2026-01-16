@@ -34,6 +34,22 @@
       <webwork source="Library/FortLewis/Algebra/5-6-Linear-systems/MCH1-5-6-22-Linear-systems.pg" />
     </exercise>
 
+    <exercise label="system-solve-graphically-1">
+      <webwork source="Library/Mizzou/Algebra/eqns_systems_solving/eqns_systems_graph_01.pg" />
+    </exercise>
+
+    <exercise label="system-solve-graphically-2">
+      <webwork source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolveSystemByGraphing40.pg" />
+    </exercise>
+
+    <exercise label="system-solve-graphically-3">
+      <webwork source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolveSystemByGraphing10.pg" />
+    </exercise>
+
+    <exercise label="system-solve-graphically-4">
+      <webwork source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolveSystemByGraphing20.pg" />
+    </exercise>
+
     <exercise label="system-2-classify-1">
       <webwork source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/NumberOfSolutionsOfSystem10.pg" />
     </exercise>
@@ -42,8 +58,24 @@
       <webwork source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/NumberOfSolutionsOfSystem40.pg" />
     </exercise>
 
-    <exercise label="substitution-system-solve">
+    <exercise label="substitution-system-solve-1">
       <webwork source="Library/ASU-topics/set119LinearSystems/p18.pg" />
+    </exercise>
+
+    <exercise label="substitution-system-solve-2">
+      <webwork source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SystemEquation40.pg" />
+    </exercise>
+
+    <exercise label="system-3-classify">
+      <webwork source="Library/Hope/Multi1/02-02-Linear-systems/Geometry_03/Geometry_03.pg" />
+    </exercise>
+
+    <exercise label="system-3-check-1">
+      <webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_002.pg" />
+    </exercise>
+
+    <exercise label="system-3-check-2">
+      <webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_005.pg" />
     </exercise>
   </exercises>
 

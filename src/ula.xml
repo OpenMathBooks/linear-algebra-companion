@@ -3,10 +3,10 @@
 
   <xi:include href="bookinfo.xml" />
   
-  <book xml:id="ula">
+  <book xml:id="ula-companion">
     <title>The Linear Algebra Companion</title>
 
-    <xi:include href="./frontmatter.xml" />
+    <!-- <xi:include href="./frontmatter.xml" /> -->
     <xi:include href="./chap1.xml" />
     <!-- <xi:include href="./chap2.xml" />
     <xi:include href="./chap3.xml" />
