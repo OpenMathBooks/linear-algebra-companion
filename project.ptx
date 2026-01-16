@@ -6,29 +6,18 @@
 -->
 <project
     ptx-version="2"
-    source="src"
-    publication="publication"
-    output-dir="output"
-    site="site"
-    stage="output/stage"
     xsl="xsl"
     >
   <targets>
     <target
         name="html"
         format="html"
-        source="ula.xml"
         publication="publication.ptx"
-        output-dir="html"
-        deploy-dir="."
-        xsl="html.xsl"
         />
     <target
         name="pdf"
         format="pdf"
-        source="ula.xml"
         publication="publication.ptx"
-        output-dir="pdf"
         xsl="latex.xsl"
         />
     <target
@@ -42,61 +31,9 @@
     <target
         name="runestone"
         format="html"
-        source="ula.xml"
         publication="runestone.ptx"
-        xsl="html.xsl"
-        output-dir="published/ula"
-        />
-    <target
-        name="proteus"
-        format="html"
-        source="ula.xml"
-        publication="runestone-proteus.ptx"
-        xsl="html.xsl"
-        output-dir="published/ula-proteus"
-        />
-    <target
-        name="proteus-dev"
-        format="html"
-        source="ula.xml"
-        publication="runestone-proteus-dev.ptx"
-        xsl="html.xsl"
-        output-dir="published/ula-proteus-dev"
-        />
-    <target
-        name="proteus-playground"
-        format="html"
-        source="ula.xml"
-        publication="runestone-proteus-playground.ptx"
-        xsl="html.xsl"
-        output-dir="published/ula-proteus-playground"
-        />
-    <target
-        name="proteus-playground-dev"
-        format="html"
-        source="ula.xml"
-        publication="runestone-proteus-playground-dev.ptx"
-        xsl="html.xsl"
-        output-dir="published/ula-proteus-playground-dev"
-        />
-    <target
-        name="solutions"
-        format="pdf"
-        source="solution-manual.xml"
-        publication="publication-solutions.ptx"
-        output-dir="solutions-pdf"
-        xsl="solution-manual.xsl"
-        latex-engine="xelatex"
         />
 
-    <target
-        name="solutions-latex"
-        format="latex"
-        source="solution-manual.xml"
-        publication="publication-solutions.ptx"
-        output-dir="solutions-latex"
-        xsl="solution-manual.xsl"
-        />
   </targets>
 </project>
 
