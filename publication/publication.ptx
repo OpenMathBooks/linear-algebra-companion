@@ -24,15 +24,21 @@
     <tableofcontents level="2" />
     <exercise-divisional
       statement="yes"
-      hint="no"
+      hint="yes"
       answer="no"
-      solution="no"
+      solution="yes"
+    />
+    <exercise-inline
+      statement="yes"
+      hint="yes"
+      answer="no"
+      solution="yes"
     />
     <exercise-project
       statement="yes"
-      hint="no"
-      answer="no"
-      solution="no"
+      hint="yes"
+      answer="yes"
+      solution="yes"
     />	
   </common>
   <webwork server="https://webwork.runestone.academy" />
