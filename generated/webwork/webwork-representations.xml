@@ -1,0 +1,2295 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-representations>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-1" ww-id="webwork-1">
+    <static seed="1" source="Library/ASU-topics/set119LinearSystems/p8.pg">
+      <statement><p>Find two numbers whose sum  is -1 
+and whose difference  is -7.</p>
+<p>Your answer is:</p>
+<p>The largest of the two numbers is: <fillin characters="25" name="AnSwEr0001"/></p>
+<p>The smallest of the two number is: <fillin characters="25" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-4</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/set119LinearSystems/p8.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/set119LinearSystems/p8.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-2" ww-id="webwork-2">
+    <static seed="2" source="Library/ASU-topics/set119LinearSystems/p9.pg">
+      <statement><p>A woman has 19 coins in her pocket, all of which are dimes and quarters.
+If the total value of the coins is $ 3.55, how many dimes and how
+many quarters does she have?</p>
+<p>Your answer is:</p>
+<p>Number of dimes equals <fillin characters="25" name="AnSwEr0001"/></p>
+<p>Number of quarters equals <fillin characters="25" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>8</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>11</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/set119LinearSystems/p9.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/set119LinearSystems/p9.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-3" ww-id="webwork-3">
+    <static seed="3" source="Library/CollegeOfIdaho/setAlgebra_03_01_SystemOfLinearEq/31IntAlg_05_LinearSystem.pg">
+      <statement><p>For the system of equations given below, determine whether 
+each ordered pair is a solution of the system. Type <em> Yes</em> or <em> No</em>. 
+<me>\begin{array}{rl}
+2x-4y \amp  = 4\\
+3x+2y \amp  = 6
+\end{array}</me></p>
+<p>a) Is <m>(3,0)</m> a solution?  Answer: <fillin characters="10" name="AnSwEr0001"/></p>
+<p>b) Is <m>(1,-1)</m> a solution?  Answer: <fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{No}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{No}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_03_01_SystemOfLinearEq/31IntAlg_05_LinearSystem.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_03_01_SystemOfLinearEq/31IntAlg_05_LinearSystem.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-4" ww-id="webwork-4">
+    <static seed="4" source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolutionOfSystem10.pg">
+      <statement><p>Decide whether <m>(-1,2)</m> is a  solution to the system of equations</p>
+<p><m>\displaystyle{\left\{\begin{aligned}
+  {-x-5y} \amp = {-9} \\
+  {4x+4y} \amp = {4} \\
+\end{aligned}\right.}</m></p>
+<p><ul form="buttons" name="AnSwEr0001">
+<li>
+<p>Yes</p>
+</li>
+<li>
+<p>No</p>
+</li>
+</ul></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{Yes}</m>
+        </p>
+      </answer>
+      <solution><p>If a point is a solution to a system of linear equations, it implies the point is on both lines.</p>
+<p>To decide whether a given point is a solution to a system of equations or not, we need to know whether or not the point is on both lines.</p>
+<p>Substituting the point <m>(-1,2)</m> into the first equation, we have:</p>
+<p><m>\displaystyle{\begin{aligned}
+   {-x-5y} \amp \stackrel{?}{=} {-9} \\
+   -(-1)-5\cdot(2) \amp \stackrel{?}{=} {-9} \\
+   {-9} \amp \stackrel{?}{=} {-9}
+\end{aligned}
+    }</m></p>
+<p>This is true, so <m>(-1,2)</m> is on the line <m>{-x-5y}={-9}</m>.</p>
+<p>Next, we substitute <m>(-1,2)</m> into the second equation, and we have:</p>
+<p><m>\displaystyle{\begin{aligned}[t]
+   {4x+4y} \amp \stackrel{?}{=} {4} \\
+   4\cdot(-1)+4\cdot(2) \amp \stackrel{?}{=} {4} \\
+   {4} \amp \stackrel{?}{=} {4}
+\end{aligned}
+    }</m></p>
+<p>This is also true, so <m>(-1,2)</m> is on the line <m>{4x+4y}={4}</m>.</p>
+<p>Since <m>(-1,2)</m> is on both lines, <m>(-1,2)</m> is a solution tp the system of equations.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolutionOfSystem10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolutionOfSystem10.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <static seed="5" source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolutionOfSystem20.pg">
+      <statement><p>Decide whether <m>(1,-1)</m> is a solution to the system of equations</p>
+<p><m>\displaystyle{\left\{\begin{aligned}
+  {4x+3y} \amp = {1} \\
+  y \amp = {-4x+2} \\
+\end{aligned}\right.}</m></p>
+<p><ul form="buttons" name="AnSwEr0001">
+<li>
+<p>Yes</p>
+</li>
+<li>
+<p>No</p>
+</li>
+</ul></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{No}</m>
+        </p>
+      </answer>
+      <solution><p>If a point is a solution to a system of equations, it implies the point is on both lines.</p>
+<p>To decide whether or not a given point is a solution to a system of linear equations, we need to know whether or not the point is on both lines.</p>
+<p>Substituting the point <m>(1,-1)</m> into the first equation, we have:</p>
+<p><m>\displaystyle{\begin{aligned}
+   {4x+3y} \amp \stackrel{?}{=} {1} \\
+   4\cdot(1)+3\cdot(-1) \amp \stackrel{?}{=} {1} \\
+   {1} \amp \stackrel{?}{=} {1}
+\end{aligned}
+    }</m></p>
+<p>This is true, so <m>(1,-1)</m> is on the line <m>{4x+3y}={1}</m>.</p>
+<p>Next, we substitute <m>(1,-1)</m> into the second equation and we have:</p>
+<p><m>\displaystyle{\begin{aligned}
+   y \amp \stackrel{?}{=} {-4x+2} \\
+   -1 \amp \stackrel{?}{=} -4\cdot(1)+2 \\
+   -1 \amp \stackrel{?}{=} {-2}
+\end{aligned}
+    }</m></p>
+<p>This is false, so <m>(1,-1)</m> is not on the line <m>y={-4x+2}</m>.</p>
+<p>Since <m>(1,-1)</m> is not on <em>both</em> lines, <m>(1,-1)</m> is not a solution to the system of equations.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolutionOfSystem20.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolutionOfSystem20.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-6" ww-id="webwork-6">
+    <static seed="6" source="Library/FortLewis/Algebra/5-6-Linear-systems/MCH1-5-6-22-Linear-systems.pg">
+      <statement><tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" valign="top">
+<row>
+<cell>Find the point of intersection of the lines in the figure,
+given that line <m>A</m>, in red, has equation <m>y = x + 2</m>
+and line <m>B</m>, in blue, has equation <m>2 x + 3 y = 10</m>.
+<m>x</m> = <fillin characters="10" name="AnSwEr0001"/>
+<m>y</m> = <fillin characters="10" name="AnSwEr0002"/> </cell>
+<cell>
+<image pi:generated="webwork/images/webwork-6-image-1.png" width="66%"/>
+<p>(Click on graph to enlarge)</p></cell>
+</row>
+</tabular>
+</statement>
+      <answer>
+        <p>
+          <m>{\frac{4}{5}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\frac{14}{5}}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Algebra/5-6-Linear-systems/MCH1-5-6-22-Linear-systems.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Algebra/5-6-Linear-systems/MCH1-5-6-22-Linear-systems.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <static seed="7" source="Library/Mizzou/Algebra/eqns_systems_solving/eqns_systems_graph_01.pg">
+      <statement><p>Solve the following system of equations graphically: <m>\left{ \begin{array}{rcrcr}-2 x \amp  - \amp  7 y \amp  = \amp  -27\\11 x \amp  - \amp  5 y\amp  = \amp  18 \end{array} \right.</m></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-7-image-1.png" width="33%"/>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(3,3\right)</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Mizzou/Algebra/eqns_systems_solving/eqns_systems_graph_01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Mizzou/Algebra/eqns_systems_solving/eqns_systems_graph_01.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-8" ww-id="webwork-8">
+    <static seed="8" source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolveSystemByGraphing40.pg">
+      <statement><p>Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.</p>
+<p><m>\displaystyle{  \left\{\begin{aligned}
+  y \amp =  {-\left({\frac{2}{3}}\right)x+1} \\
+  y \amp =  -1 \\
+\end{aligned}
+  \right.
+    }</m></p>
+<p>The correct graph is graph <ul form="buttons" name="AnSwEr0001">
+<li>
+<p>A</p>
+</li>
+<li>
+<p>B</p>
+</li>
+<li>
+<p>C</p>
+</li>
+<li>
+<p>D</p>
+</li>
+</ul></p>
+<p>The solution of this system, written as an ordered pair, is <fillin characters="15" name="AnSwEr0002"/>.</p>
+<p xmlns:pi="http://pretextbook.org/2020/pretext/internal"><sbsgroup widths="50% 50%">
+<sidebyside valign="top">
+<stack>
+<image pi:generated="webwork/images/webwork-8-image-1.png" width="40%"/>
+</stack>
+<stack>
+<image pi:generated="webwork/images/webwork-8-image-2.png" width="40%"/>
+</stack>
+</sidebyside>
+<sidebyside valign="top">
+<stack>
+<image pi:generated="webwork/images/webwork-8-image-3.png" width="40%"/>
+</stack>
+<stack>
+<image pi:generated="webwork/images/webwork-8-image-4.png" width="40%"/>
+</stack>
+</sidebyside>
+</sbsgroup></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{B}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(3,-1\right)</m>
+        </p>
+      </answer>
+      <solution><p>To solve a system of linear equations by graphing, one way is to first graph each line's <m>y</m>-intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.</p>
+<p>For this problem, the first equation is given in slope-intercept form. We can graph its <m>y</m>-intercept, and then draw slope triangles.</p>
+<p>The second line is horizontal.</p>
+<p>See solution in the graph:</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-8-image-5.png" width="40%"/>
+<p>The solution to this system of equations is <m>(3,-1)</m>. B is the correct answer.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolveSystemByGraphing40.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolveSystemByGraphing40.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <static seed="9" source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolveSystemByGraphing10.pg">
+      <statement><p>Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.</p>
+<p><m>\displaystyle{  \left\{\begin{aligned}
+  y \amp =  {\left({\frac{8}{5}}\right)x-3} \\
+  y \amp =  {\left({\frac{11}{5}}\right)x-6} \\
+\end{aligned}
+  \right.
+    }</m></p>
+<p>The correct graph is graph <ul form="buttons" name="AnSwEr0001">
+<li>
+<p>A</p>
+</li>
+<li>
+<p>B</p>
+</li>
+<li>
+<p>C</p>
+</li>
+<li>
+<p>D</p>
+</li>
+</ul></p>
+<p>The solution of this system, written as an ordered pair, is <fillin characters="15" name="AnSwEr0002"/>.</p>
+<p xmlns:pi="http://pretextbook.org/2020/pretext/internal"><sbsgroup widths="50% 50%">
+<sidebyside valign="top">
+<stack>
+<image pi:generated="webwork/images/webwork-9-image-1.png" width="40%"/>
+</stack>
+<stack>
+<image pi:generated="webwork/images/webwork-9-image-2.png" width="40%"/>
+</stack>
+</sidebyside>
+<sidebyside valign="top">
+<stack>
+<image pi:generated="webwork/images/webwork-9-image-3.png" width="40%"/>
+</stack>
+<stack>
+<image pi:generated="webwork/images/webwork-9-image-4.png" width="40%"/>
+</stack>
+</sidebyside>
+</sbsgroup></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{B}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(5,5\right)</m>
+        </p>
+      </answer>
+      <solution><p>To solve a system of linear equations by graphing, one way is to first graph each line's <m>y</m>-intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.</p>
+<p>For this problem, both equations are given in slope-intercept form. We graph each line's <m>y</m>-intercept, and then draw slope triangles. See the graph:</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-9-image-5.png" width="40%"/>
+<p>The solution to this system of equations is <m>(5,5)</m>. Graph B is the correct answer.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolveSystemByGraphing10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolveSystemByGraphing10.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <static seed="10" source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolveSystemByGraphing20.pg">
+      <statement><p>Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.</p>
+<p><m>\displaystyle{  \left\{\begin{aligned}
+  y \amp =  {\left({\frac{7}{4}}\right)x+8} \\
+  {3x+4y} \amp =  -8 \\
+\end{aligned}
+  \right.
+    }</m></p>
+<p>The correct graph is graph <ul form="buttons" name="AnSwEr0001">
+<li>
+<p>A</p>
+</li>
+<li>
+<p>B</p>
+</li>
+<li>
+<p>C</p>
+</li>
+<li>
+<p>D</p>
+</li>
+</ul></p>
+<p>The solution of this system, written as an ordered pair, is <fillin characters="15" name="AnSwEr0002"/>.</p>
+<p xmlns:pi="http://pretextbook.org/2020/pretext/internal"><sbsgroup widths="50% 50%">
+<sidebyside valign="top">
+<stack>
+<image pi:generated="webwork/images/webwork-10-image-1.png" width="40%"/>
+</stack>
+<stack>
+<image pi:generated="webwork/images/webwork-10-image-2.png" width="40%"/>
+</stack>
+</sidebyside>
+<sidebyside valign="top">
+<stack>
+<image pi:generated="webwork/images/webwork-10-image-3.png" width="40%"/>
+</stack>
+<stack>
+<image pi:generated="webwork/images/webwork-10-image-4.png" width="40%"/>
+</stack>
+</sidebyside>
+</sbsgroup></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{C}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(-4,1\right)</m>
+        </p>
+      </answer>
+      <solution><p>To solve a system of linear equations by graphing, one way is to first graph each line's <m>y</m>-intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.</p>
+<p>For this problem, the first equation is given in slope-intercept form. We can use its <m>y</m>-intercept and slope triangles immediately.</p>
+<p>The second equation is given in standard form. To accurately graph it, we can rewrite it in slope-intercept form:</p>
+<p><m>\begin{aligned}
+   3x+4y \amp = -8 \\
+   3x+4y \mathbf{-3 x} \amp = -8 \mathbf{-3 x} \\ 4 y \amp = -3 x -8 \\
+               \frac{4 y}{4} \amp = \frac{-3 x}{4} + \frac{-8}{4} \\
+   y \amp = -\left({\frac{3}{4}}\right)x-2
+\end{aligned}</m></p>
+<p>See solution in the graph:</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-10-image-5.png" width="40%"/>
+<p>The solution to this system of equations is <m>(-4,1)</m>. C is the correct answer.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolveSystemByGraphing20.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SolveSystemByGraphing20.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-11" ww-id="webwork-11">
+    <static seed="11" source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/NumberOfSolutionsOfSystem10.pg">
+      <statement><p>Simply by looking at this system of equations, decide the number of solutions it has.</p>
+<p><m>\displaystyle{\left\{\begin{aligned}
+  y \amp = {\left({\frac{3}{2}}\right)x-4} \\
+  y \amp = {\left({\frac{3}{2}}\right)x+3} \\
+\end{aligned}\right.}</m></p>
+<p><ul form="buttons" name="AnSwEr0001">
+<li>
+<p>No solution</p>
+</li>
+<li>
+<p>One solution</p>
+</li>
+<li>
+<p>Infinitely many solutions</p>
+</li>
+</ul></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{No solution}</m>
+        </p>
+      </answer>
+      <solution><p>Notice that these two lines have the same slope, but different y-intercepts. This implies they are parallel lines, which do not intersect. This system of equations has no solution.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/NumberOfSolutionsOfSystem10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/NumberOfSolutionsOfSystem10.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-12" ww-id="webwork-12">
+    <static seed="12" source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/NumberOfSolutionsOfSystem40.pg">
+      <statement><p>Simply by looking at this system of equations, decide the number of solutions it has.</p>
+<p><m>\displaystyle{\left\{\begin{aligned}
+  \amp y=3 \\
+  \amp y=4 \\
+\end{aligned}\right.}</m></p>
+<p><ul form="buttons" name="AnSwEr0001">
+<li>
+<p>No solution</p>
+</li>
+<li>
+<p>One solution</p>
+</li>
+<li>
+<p>Infinitely many solutions</p>
+</li>
+</ul></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{No solution}</m>
+        </p>
+      </answer>
+      <solution><p>Both lines are horizontal, and the equations are different. This implies they are parallel lines, which do not intersect. This system of equations has no solution.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/NumberOfSolutionsOfSystem40.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/NumberOfSolutionsOfSystem40.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-13" ww-id="webwork-13">
+    <static seed="13" source="Library/ASU-topics/set119LinearSystems/p18.pg">
+      <statement><p>Solve the system using substitution</p>
+<p><me>\left\{
+\begin{array}{r@{}l@{}}
+ -2 x+ y \amp  =  -13 \cr
+-7 x+ y \amp  =  -38
+\end{array} \right.</me></p>
+<p><m>x=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p><m>y=</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-3</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/set119LinearSystems/p18.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/set119LinearSystems/p18.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-14" ww-id="webwork-14">
+    <static seed="14" source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SystemEquation40.pg">
+      <statement><p>Solve the following system of equations, using whichever method you wish.</p>
+<p><m>\left\{\begin{aligned}
+  {x-2y} \amp  =  {11} \\
+  {2x} \amp  =  {2} 
+\end{aligned}\right.</m></p>
+<p><ul label="disc">
+<li>
+<p>If there is one solution, enter it as an ordered pair.</p>
+</li>
+<li>
+<p>If there is no solution, enter <alert>no solution</alert>. Spelling counts.</p>
+</li>
+<li>
+<p>If there is an infinite number of solutions, enter <alert>infinite number of solutions</alert>. Spelling counts.</p>
+</li>
+</ul></p>
+<p><fillin characters="33" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(1,-5\right)</m>
+        </p>
+      </answer>
+      <solution><p><ul label="disc">
+<li>
+<p>Let<rsq/>s solve the second equation for <m>x</m>; we divide both sides of the equation by <m>2</m>, so <m>x=1</m>.</p>
+</li>
+<li>
+<p>We find <m>y</m> by substituting this value of <m>x</m> in to the first equation: <m>{1-2y}={11}</m>, and solving for <m>y</m>.</p>
+</li>
+<li>
+<p>This gives <m>y=-5</m>.</p>
+</li>
+<li>
+<p>The solution to the system is <m>(1,-5)</m>. It is left as an exercise to check. Please also note that you may have solved this problem a different way.</p>
+</li>
+</ul></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SystemEquation40.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/SystemsOfLinearEquations/SystemEquation40.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-15" ww-id="webwork-15">
+    <static seed="15" source="Library/Hope/Multi1/02-02-Linear-systems/Geometry_03/Geometry_03.pg">
+      <statement><p>Each graph below is the graph of a system of three linear equations 
+in three unknowns.  Determine whether each system has a solution
+and, if it does, the dimension of the solution space.</p>
+<tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/webwork-15-image-1.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/webwork-15-image-2.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/webwork-15-image-3.png" width="33%"/>
+</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>A. <var form="popup">
+<li>
+choose
+</li>
+<li>
+no solution
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+2 dimensional
+</li>
+<li>
+0 dimensional
+</li>
+</var></cell>
+<cell>B. <var form="popup">
+<li>
+0 dimensional
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+2 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+choose
+</li>
+</var></cell>
+<cell>C. <var form="popup">
+<li>
+2 dimensional
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+choose
+</li>
+<li>
+no solution
+</li>
+<li>
+0 dimensional
+</li>
+</var></cell>
+</row>
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/webwork-15-image-4.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/webwork-15-image-5.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/webwork-15-image-6.png" width="33%"/>
+</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>D. <var form="popup">
+<li>
+0 dimensional
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+2 dimensional
+</li>
+<li>
+choose
+</li>
+<li>
+no solution
+</li>
+</var></cell>
+<cell>E. <var form="popup">
+<li>
+0 dimensional
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+2 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+choose
+</li>
+</var></cell>
+<cell>F. <var form="popup">
+<li>
+0 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+choose
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+2 dimensional
+</li>
+</var></cell>
+</row>
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/webwork-15-image-7.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/webwork-15-image-8.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/webwork-15-image-9.png" width="33%"/>
+</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>G. <var form="popup">
+<li>
+0 dimensional
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+2 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+choose
+</li>
+</var></cell>
+<cell>H. <var form="popup">
+<li>
+2 dimensional
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+choose
+</li>
+<li>
+0 dimensional
+</li>
+</var></cell>
+<cell>I. <var form="popup">
+<li>
+2 dimensional
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+choose
+</li>
+<li>
+<p>0 dimensional
+</p></li>
+</var></cell>
+</row>
+</tabular>
+<p>(Click on a graph to enlarge it.)</p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Hope/Multi1/02-02-Linear-systems/Geometry_03/Geometry_03.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Hope/Multi1/02-02-Linear-systems/Geometry_03/Geometry_03.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-16" ww-id="webwork-16">
+    <static seed="16" source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_002.pg">
+      <statement><p>Determine which of the points <m>\left(0,-1,2\right)</m>, <m>\left(4,6,6\right)</m>, and <m>\left(4,5,3\right)</m> lie in the plane <m>x_1+ 5 x_2+ 4 x_3 = 3</m>.</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(0,-1,2\right)</m>
+        </p>
+      </answer>
+      <solution><p><m>0 + 5(-1) + 4(2) = 3</m>, so <m>\left(0,-1,2\right)</m> lies on the plane <m>x_1+ 5 x_2+ 4 x_3 = 3</m></p>
+<p><m>4 + 5(6) + 4(6) = 58</m>, so <m>\left(4,6,6\right)</m> does not lie on the plane <m>x_1+ 5 x_2+ 4 x_3 = 3</m></p>
+<p><m>4 + 5(5) + 4(3) = 41</m>, so <m>\left(4,5,3\right)</m> does not lie on the plane <m>x_1+ 5 x_2+ 4 x_3 = 3</m></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_002.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_002.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-17" ww-id="webwork-17">
+    <static seed="17" source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_005.pg">
+      <statement><p>Determine which of the points <m>\left(5,1,4\right)</m>, <m>\left(-1,-4,1\right)</m>, and <m>\left(-3,6,3\right)</m> satisfy the linear system</p>
+<p><me>\begin{array}{rcrcrcr}-4 x_1 \amp  + \amp  3 x_{2} \amp  - \amp  4 x_{3} \amp  = \amp  -33 \\3 x_1 \amp  - \amp  4 x_{2} \amp  - \amp  9 x_{3} \amp  = \amp  -25\end{array}</me></p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(5,1,4\right)</m>
+        </p>
+      </answer>
+      <solution><p><alert>SOLUTION:</alert></p>
+<p><m>-4(5) + 3(1)  - 4(4) = -33</m> and <m>3(5)  - 4(1)  - 9(4) = -25</m>, so <m>\left(5,1,4\right)</m> satisfies the linear system</p>
+<p><m>-4(-3) + 3(6)  - 4(3) = 18</m> and <m>3(-3)  - 4(6)  - 9(3) = -60</m>, so <m>\left(-3,6,3\right)</m> does not satisfy the linear system</p>
+<p><m>-4(-1) + 3(-4)  - 4(1) = -12</m> and <m>3(-1)  - 4(-4)  - 9(1) = 4</m>, so <m>\left(-1,-4,1\right)</m> does not satisfy the linear system</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_005.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_005.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-18" ww-id="webwork-18">
+    <static seed="18" source="Library/ASU-topics/set119LinearSystems/p21.pg">
+      <statement><p>Write the augmented matrix of the system
+<me>\left\{ \begin{array}{r@{}r@{}r@{}r@{}r}
+\amp +33 y\amp +6 z\amp =\amp 9 \cr
+57 x\amp \amp +35 z\amp =\amp -32 \cr
+9 x\amp +7 y\amp  - 48 z\amp =\amp 95 \cr
+\end{array} \right.</me></p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0001"/></cell>
+<cell><fillin characters="5" name="AnSwEr0002"/></cell>
+<cell><fillin characters="5" name="AnSwEr0003"/></cell>
+<cell><fillin characters="5" name="AnSwEr0004"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0005"/></cell>
+<cell><fillin characters="5" name="AnSwEr0006"/></cell>
+<cell><fillin characters="5" name="AnSwEr0007"/></cell>
+<cell><fillin characters="5" name="AnSwEr0008"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0009"/></cell>
+<cell><fillin characters="5" name="AnSwEr0010"/></cell>
+<cell><fillin characters="5" name="AnSwEr0011"/></cell>
+<cell><fillin characters="5" name="AnSwEr0012"/></cell>
+</row>
+</tabular>
+</statement>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>33</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>9</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>57</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>35</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-32</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>9</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>7</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-48</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>95</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/set119LinearSystems/p21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/set119LinearSystems/p21.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-19" ww-id="webwork-19">
+    <static seed="19" source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_002.pg">
+      <statement><p>Convert the augmented matrix</p>
+<p><me>\left[\begin{array}{rrr} -4 \amp   2 \amp   5 \\ 2 \amp   -2 \amp   0 \\ -3 \amp   2 \amp   3\end{array}\right]</me></p>
+<p>to the equivalent linear system. Use <alert>x1</alert> and <alert>x2</alert> to enter the variables <m>x_1</m> and <m>x_2</m>.</p>
+<p><fillin characters="15" name="AnSwEr0001"/> <m>=</m> <fillin characters="5" name="AnSwEr0002"/></p>
+<p><fillin characters="15" name="AnSwEr0003"/> <m>=</m> <fillin characters="5" name="AnSwEr0004"/></p>
+<p><fillin characters="15" name="AnSwEr0005"/> <m>=</m> <fillin characters="5" name="AnSwEr0006"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2x_2-4x_1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2x_1-2x_2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2x_2-3x_1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <solution><p><alert>SOLUTION:</alert>
+<me>\begin{array}{rcrcr}-4 x_1 \amp  + \amp  2 x_{2} \amp  = \amp  5 \\2 x_1 \amp  - \amp  2 x_{2} \amp  = \amp  0 \\-3 x_1 \amp  + \amp  2 x_{2} \amp  = \amp  3\end{array}</me></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_002.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_002.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-20" ww-id="webwork-20">
+    <static seed="20" source="Library/ASU-topics/set119LinearSystems/p33.pg">
+      <statement><p>Enter T or F depending on whether the statement is true or false.
+(You must enter T or F -- True and False will not work.)</p>
+<p><ol>
+<li>
+<p>If the bottom row of a matrix in reduced row-echelon form contains all 0's to the left of the vertical bar and a nonzero entry to the right, then the system has no solution.</p>
+</li>
+<li>
+<p>If the first and second row entries of an augmented matrix are 1,1,0, and 0,1,0, respectively, then the matrix is not in reduced row-echelon form.</p>
+</li>
+<li>
+<p>If a matrix is in reduced-row echelon form, then the first nonzero entry in each row is a 1 and has 0's below it.</p>
+</li>
+</ol></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/set119LinearSystems/p33.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/set119LinearSystems/p33.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-21" ww-id="webwork-21">
+    <static seed="21" source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_22.pg">
+      <statement><p>The reduced row-echelon forms of the augmented matrices of four systems are given below. How
+many solutions does each system have?</p>
+<p><OL TYPE="a"/></p>
+<p><BR><BR>
+<LI>
+<m>\left\lbrack \begin{array}{rr|r} 1 \amp  0 \amp  16 \\ 0 \amp  1 \amp  -10 \end{array} \right\rbrack</m></LI></BR></BR></p>
+<p><var form="buttons">
+<li>
+<p>Unique solution</p>
+</li>
+<li>
+<p>No solutions</p>
+</li>
+<li>
+<p>Infinitely many solutions</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+<p><BR><BR>
+<LI>
+<m>\left\lbrack \begin{array}{rr|r} 1 \amp  0 \amp  0 \\ 0 \amp  1 \amp  8 \\ 0 \amp  0 \amp  0 \end{array} \right\rbrack</m></LI></BR></BR></p>
+<p><var form="buttons">
+<li>
+<p>No solutions</p>
+</li>
+<li>
+<p>Infinitely many solutions</p>
+</li>
+<li>
+<p>Unique solution</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+<p><BR><BR>
+<LI>
+<m>\left\lbrack \begin{array}{rrr|r} 1 \amp  0 \amp  7 \amp  0 \\ 0 \amp  1 \amp  13 \amp  0 \\ 0 \amp  0 \amp  0 \amp  1 \end{array} \right\rbrack</m></LI></BR></BR></p>
+<p><var form="buttons">
+<li>
+<p>Infinitely many solutions</p>
+</li>
+<li>
+<p>No solutions</p>
+</li>
+<li>
+<p>Unique solution</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+<p><BR><BR>
+<LI>
+<m>\left\lbrack \begin{array}{rrr|r} 0 \amp  1 \amp  0 \amp  -4 \\ 0 \amp  0 \amp  1 \amp  3 \end{array} \right\rbrack</m></LI></BR></BR></p>
+<p><var form="buttons">
+<li>
+<p>Infinitely many solutions</p>
+</li>
+<li>
+<p>Unique solution</p>
+</li>
+<li>
+<p>No solutions</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+<p/>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_22.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_22.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-22" ww-id="webwork-22">
+    <static seed="22" source="Library/ASU-topics/set119LinearSystems/p22.pg">
+      <statement><p>The reduced row echelon form of a system of linear equations in
+<m>x</m> and <m>y</m> or in <m>x</m>, <m>y</m> and <m>z</m> is given.
+For each system, determine whether it has a unique solution 
+(in this case, find the solution), infinitely many solutions, or no solutions.</p>
+<p>1.
+<me>\left[  \begin{array}{ccc}
+  1 \amp  0 \amp  0  \\
+  0 \amp  1 \amp  0  \\
+  0 \amp  0 \amp  0  
+\end{array}\right| \left. \begin{array}{c}
+-1\\ -1 \\0 \end{array}  \right]</me>
+<var form="buttons">
+<li>
+<p>Unique solution: <m>x=0, y=0, z=0</m></p>
+</li>
+<li>
+<p>Infinitely many solutions</p>
+</li>
+<li>
+<p>No solutions</p>
+</li>
+<li>
+<p>Unique solution: <m>x=-1, y=-1</m></p>
+</li>
+<li>
+<p>Unique solution:<m>x=-1, y=-1</m></p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+<p>2.
+<me>\left[
+\begin{array}{ccc}
+ 1 \amp  0  \amp  0   \\
+ 0 \amp  1 \amp   0 \\
+ 0 \amp  0 \amp  1 
+\end{array} \right| \left. \begin{array}{c}
+0 \\ -1\\4 \end{array} \right]</me>
+<var form="buttons">
+<li>
+<p>No solutions</p>
+</li>
+<li>
+<p>Infinitely many solutions</p>
+</li>
+<li>
+<p>Unique solution: <m>x=0, y=-1, z=4</m></p>
+</li>
+<li>
+<p>Unique solution: <m>x=-1,  y=4</m></p>
+</li>
+<li>
+<p>Unique solution: <m>x=0, y=-1</m></p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+<p>3.
+<me>\left[ \begin{array}{cc}
+ 1 \amp  0  \\
+ 0 \amp  1   \\
+ 0 \amp  0  
+\end{array} \right| \left. \begin{array}{c}
+0 \\ 0 \\ 0 \end{array} \right]</me>
+<var form="buttons">
+<li>
+<p>Unique solution: <m>x=1, y=1 ,z = 0</m></p>
+</li>
+<li>
+<p>No solutions</p>
+</li>
+<li>
+<p>Unique solution: <m>x=0, y=0, z = 0</m></p>
+</li>
+<li>
+<p>Infinitely many solutions</p>
+</li>
+<li>
+<p>Unique solution: <m>x=0, y=0</m></p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+<p>4.
+<me>\left[\begin{array}{ccc}
+ 1 \amp  0 \amp  0  \\
+ 0 \amp  1 \amp  0  \\
+ 0 \amp  0 \amp  0 
+\end{array}\right| \left. \begin{array}{c}
+ -4 \\1\\ 3 \end{array} \right]</me>
+<var form="buttons">
+<li>
+<p>Unique solution: <m>x=-4, y=1</m></p>
+</li>
+<li>
+<p>Unique solution: <m>x=-4, y=1, z =0</m></p>
+</li>
+<li>
+<p>Infinitely many solutions</p>
+</li>
+<li>
+<p>No solutions</p>
+</li>
+<li>
+<p>Unique solution: <m>x=-4, y=1, z=3</m></p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/set119LinearSystems/p22.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/set119LinearSystems/p22.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-23" ww-id="webwork-23">
+    <static seed="23" source="Library/TCNJ/TCNJ_RowReduction/problem14.pg">
+      <statement><p>How many free variables does each augmented matrix have?</p>
+<p><OL TYPE="a"/></p>
+<p><LI>
+<ul form="popup" name="AnSwEr0001"><li>
+<p>Choose</p>
+</li><li>
+<p>None</p>
+</li><li>
+<p>One</p>
+</li><li>
+<p>Two</p>
+</li><li>
+<p>Three</p>
+</li></ul> <m>\left\lbrack 
+\begin{array}{rrrr|r} 
+1 \amp  0 \amp  0 \amp  -7 \amp  -6 \\
+0 \amp  1 \amp  0 \amp  0 \amp  -3 \\
+0 \amp  0 \amp  0 \amp  0 \amp  0 \\
+0 \amp  0 \amp  0 \amp  0 \amp  0 
+\end{array}
+\right\rbrack</m>
+<BR><BR>
+<LI>
+<ul form="popup" name="AnSwEr0002"><li>
+<p>Choose</p>
+</li><li>
+<p>None</p>
+</li><li>
+<p>One</p>
+</li><li>
+<p>Two</p>
+</li><li>
+<p>Three</p>
+</li></ul> <m>\left\lbrack 
+\begin{array}{rr|r} 
+1 \amp  0 \amp  -6 \\ 
+0 \amp  1 \amp  5 \\ 
+0 \amp  0 \amp  0 
+\end{array}
+\right\rbrack</m>
+<BR><BR>
+<LI>
+<ul form="popup" name="AnSwEr0003"><li>
+<p>Choose</p>
+</li><li>
+<p>None</p>
+</li><li>
+<p>One</p>
+</li><li>
+<p>Two</p>
+</li><li>
+<p>Three</p>
+</li></ul> <m>\left\lbrack 
+\begin{array}{rr|r} 
+1 \amp  7 \amp  -2 \\
+0 \amp  0 \amp  0 \\
+0 \amp  0 \amp  0
+\end{array}
+\right\rbrack</m>
+<BR><BR>
+<LI>
+<ul form="popup" name="AnSwEr0004"><li>
+<p>Choose</p>
+</li><li>
+<p>None</p>
+</li><li>
+<p>One</p>
+</li><li>
+<p>Two</p>
+</li><li>
+<p>Three</p>
+</li></ul> <m>\left\lbrack 
+\begin{array}{rrr|r} 
+1 \amp  3 \amp  -8 \amp  4 \\
+0 \amp  0 \amp  0 \amp  0
+\end{array}
+\right\rbrack</m>
+</LI></BR></BR></LI></BR></BR></LI></BR></BR></LI></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{Two}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{None}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{One}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Two}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/TCNJ/TCNJ_RowReduction/problem14.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/TCNJ/TCNJ_RowReduction/problem14.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-24" ww-id="webwork-24">
+    <static seed="24" source="Library/TCNJ/TCNJ_RowReduction/problem15.pg">
+      <statement><p>How many determined (basic) variables does each augmented matrix have?</p>
+<p><OL TYPE="a"/></p>
+<p><LI>
+<ul form="popup" name="AnSwEr0001"><li>
+<p>Choose</p>
+</li><li>
+<p>Zero</p>
+</li><li>
+<p>One</p>
+</li><li>
+<p>Two</p>
+</li><li>
+<p>Three</p>
+</li><li>
+<p>Four</p>
+</li></ul> <m>\left\lbrack
+\begin{array}{rrr|r}
+1 \amp  0 \amp  0 \amp  7 \\
+0 \amp  1 \amp  0 \amp  -6 \\
+0 \amp  0 \amp  1 \amp  -3
+\end{array}
+\right\rbrack</m>
+<BR><BR>
+<LI>
+<ul form="popup" name="AnSwEr0002"><li>
+<p>Choose</p>
+</li><li>
+<p>Zero</p>
+</li><li>
+<p>One</p>
+</li><li>
+<p>Two</p>
+</li><li>
+<p>Three</p>
+</li><li>
+<p>Four</p>
+</li></ul> <m>\left\lbrack
+\begin{array}{rr|r}
+1 \amp  0 \amp  7 \\
+0 \amp  1 \amp  8 \\
+0 \amp  0 \amp  0
+\end{array}
+\right\rbrack</m>
+<BR><BR>
+<LI>
+<ul form="popup" name="AnSwEr0003"><li>
+<p>Choose</p>
+</li><li>
+<p>Zero</p>
+</li><li>
+<p>One</p>
+</li><li>
+<p>Two</p>
+</li><li>
+<p>Three</p>
+</li><li>
+<p>Four</p>
+</li></ul> <m>\left\lbrack
+\begin{array}{rrr|r}
+1 \amp  8 \amp  -7 \amp  -6 \\
+0 \amp  0 \amp  0 \amp  0
+\end{array}
+\right\rbrack</m>
+<BR><BR>
+<LI>
+<ul form="popup" name="AnSwEr0004"><li>
+<p>Choose</p>
+</li><li>
+<p>Zero</p>
+</li><li>
+<p>One</p>
+</li><li>
+<p>Two</p>
+</li><li>
+<p>Three</p>
+</li><li>
+<p>Four</p>
+</li></ul> <m>\left\lbrack
+\begin{array}{rrrr|r}
+1 \amp  0 \amp  0 \amp  -4 \amp  4 \\
+0 \amp  1 \amp  0 \amp  0 \amp  -7 \\
+0 \amp  0 \amp  1 \amp  0 \amp  6
+\end{array}
+\right\rbrack</m>
+</LI></BR></BR></LI></BR></BR></LI></BR></BR></LI></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{Three}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Two}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{One}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Three}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/TCNJ/TCNJ_RowReduction/problem15.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/TCNJ/TCNJ_RowReduction/problem15.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-25" ww-id="webwork-25">
+    <static seed="25" source="Library/Mizzou/Finite_Math/Augmented_Matrices/AugMatrix1a.pg">
+      <statement><p>Solve the following system using augmented matrix methods:
+<me>\begin{array}{c}
+3 x  - 6 y = 6
+\\
+-6 x + 12 y = -12
+\end{array}</me></p>
+<p>(a) The initial matrix is:</p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0001"/></cell>
+<cell><fillin characters="5" name="AnSwEr0002"/></cell>
+<cell><fillin characters="5" name="AnSwEr0003"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0004"/></cell>
+<cell><fillin characters="5" name="AnSwEr0005"/></cell>
+<cell><fillin characters="5" name="AnSwEr0006"/></cell>
+</row>
+</tabular>
+<p>(b) First, perform the Row Operation <m>\frac{1}{3} R_1 \to R_1</m>.  The resulting matrix is:</p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0007"/></cell>
+<cell><fillin characters="5" name="AnSwEr0008"/></cell>
+<cell><fillin characters="5" name="AnSwEr0009"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0010"/></cell>
+<cell><fillin characters="5" name="AnSwEr0011"/></cell>
+<cell><fillin characters="5" name="AnSwEr0012"/></cell>
+</row>
+</tabular>
+<p>(c) Next, perform the operation <m>+ 6 R_1 + R_2 \to R_2</m>.  The resulting matrix is:</p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0013"/></cell>
+<cell><fillin characters="5" name="AnSwEr0014"/></cell>
+<cell><fillin characters="5" name="AnSwEr0015"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0016"/></cell>
+<cell><fillin characters="5" name="AnSwEr0017"/></cell>
+<cell><fillin characters="5" name="AnSwEr0018"/></cell>
+</row>
+</tabular>
+<p>(d) Finish simplifying the augmented matrix to reduced row echelon form.  The reduced matrix is:</p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0019"/></cell>
+<cell><fillin characters="5" name="AnSwEr0020"/></cell>
+<cell><fillin characters="5" name="AnSwEr0021"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0022"/></cell>
+<cell><fillin characters="5" name="AnSwEr0023"/></cell>
+<cell><fillin characters="5" name="AnSwEr0024"/></cell>
+</row>
+</tabular>
+<p>(e) How many solutions does the system have?  If infinitely many, enter "Infinity".</p>
+<p><fillin characters="25" name="AnSwEr0025"/></p>
+<p>(f) What are the solutions to the system?</p>
+<p>If there are no solutions, write "No Solution" or "None" for each answer.  If there are infinitely many solutions let <m>y = t</m> and solve for <m>x</m> in terms of <m>t</m>.</p>
+<p><m>x=</m> <fillin characters="25" name="AnSwEr0026"/></p>
+<p><m>y=</m> <fillin characters="25" name="AnSwEr0027"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>12</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-12</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>12</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-12</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\infty </m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2+2t</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>t</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Mizzou/Finite_Math/Augmented_Matrices/AugMatrix1a.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Mizzou/Finite_Math/Augmented_Matrices/AugMatrix1a.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-26" ww-id="webwork-26">
+    <static seed="26" source="Library/Mizzou/Finite_Math/Augmented_Matrices/GJ1.pg">
+      <statement><p>Solve the following system using augmented matrix methods:
+<me>\begin{array}{c}
+5 x  - 10 y = -40
+\\
+1 x  - 2 y = -8
+\end{array}</me></p>
+<p>(a) The initial matrix is:</p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0001"/></cell>
+<cell><fillin characters="5" name="AnSwEr0002"/></cell>
+<cell><fillin characters="5" name="AnSwEr0003"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0004"/></cell>
+<cell><fillin characters="5" name="AnSwEr0005"/></cell>
+<cell><fillin characters="5" name="AnSwEr0006"/></cell>
+</row>
+</tabular>
+<p>(b) First, perform the Row Operation <m>\frac{1}{5} R_1 \to R_1</m>.  The resulting matrix is:</p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0007"/></cell>
+<cell><fillin characters="5" name="AnSwEr0008"/></cell>
+<cell><fillin characters="5" name="AnSwEr0009"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0010"/></cell>
+<cell><fillin characters="5" name="AnSwEr0011"/></cell>
+<cell><fillin characters="5" name="AnSwEr0012"/></cell>
+</row>
+</tabular>
+<p>(c) Next, perform the operation <m>-1 R_1 + R_2 \to R_2</m>.  The resulting matrix is:</p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0013"/></cell>
+<cell><fillin characters="5" name="AnSwEr0014"/></cell>
+<cell><fillin characters="5" name="AnSwEr0015"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0016"/></cell>
+<cell><fillin characters="5" name="AnSwEr0017"/></cell>
+<cell><fillin characters="5" name="AnSwEr0018"/></cell>
+</row>
+</tabular>
+<p>(d) Finish simplifying the augmented matrix.  The reduced matrix is:</p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0019"/></cell>
+<cell><fillin characters="5" name="AnSwEr0020"/></cell>
+<cell><fillin characters="5" name="AnSwEr0021"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0022"/></cell>
+<cell><fillin characters="5" name="AnSwEr0023"/></cell>
+<cell><fillin characters="5" name="AnSwEr0024"/></cell>
+</row>
+</tabular>
+<p>(e) How many solutions does the system have?  If infinitely many, enter "Infinity".</p>
+<p><fillin characters="25" name="AnSwEr0025"/></p>
+<p>(f) What are the solutions to the system?</p>
+<p>If there are no solutions, write "No Solution" or "None" for each answer.  If there are infinitely many solutions let <m>y = t</m> and solve for <m>x</m> in terms of <m>t</m>.</p>
+<p><m>x=</m> <fillin characters="25" name="AnSwEr0026"/></p>
+<p><m>y=</m> <fillin characters="25" name="AnSwEr0027"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-10</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-40</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-8</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-8</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-8</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-8</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-8</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\infty </m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-8+2t</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>t</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Mizzou/Finite_Math/Augmented_Matrices/GJ1.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Mizzou/Finite_Math/Augmented_Matrices/GJ1.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-27" ww-id="webwork-27">
+    <static seed="27" source="Library/Mizzou/Finite_Math/Gauss-Jordan_Elimination/3by3a.pg">
+      <statement><p>Solve the following system using augmented matrix methods:
+<me>\begin{array}{c}
+2 x_1  - 2 x_2  - 2 x_3 = -4
+\\
+-1 x_1 + 1 x_2 + 1 x_3 = 2
+\\
+-5 x_1 + 5 x_2 + 5 x_3 = 10
+\end{array}</me></p>
+<p>(a) The initial matrix is:</p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0001"/></cell>
+<cell><fillin characters="5" name="AnSwEr0002"/></cell>
+<cell><fillin characters="5" name="AnSwEr0003"/></cell>
+<cell><fillin characters="5" name="AnSwEr0004"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0005"/></cell>
+<cell><fillin characters="5" name="AnSwEr0006"/></cell>
+<cell><fillin characters="5" name="AnSwEr0007"/></cell>
+<cell><fillin characters="5" name="AnSwEr0008"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0009"/></cell>
+<cell><fillin characters="5" name="AnSwEr0010"/></cell>
+<cell><fillin characters="5" name="AnSwEr0011"/></cell>
+<cell><fillin characters="5" name="AnSwEr0012"/></cell>
+</row>
+</tabular>
+<p>(b) First, perform the Row Operation <m>\frac{1}{2} R_1 \to R_1</m>.  The resulting matrix is:</p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0013"/></cell>
+<cell><fillin characters="5" name="AnSwEr0014"/></cell>
+<cell><fillin characters="5" name="AnSwEr0015"/></cell>
+<cell><fillin characters="5" name="AnSwEr0016"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0017"/></cell>
+<cell><fillin characters="5" name="AnSwEr0018"/></cell>
+<cell><fillin characters="5" name="AnSwEr0019"/></cell>
+<cell><fillin characters="5" name="AnSwEr0020"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0021"/></cell>
+<cell><fillin characters="5" name="AnSwEr0022"/></cell>
+<cell><fillin characters="5" name="AnSwEr0023"/></cell>
+<cell><fillin characters="5" name="AnSwEr0024"/></cell>
+</row>
+</tabular>
+<p>(c) Next, perform the operations</p>
+<p><m>\qquad \qquad  + 1 R_1 + R_2 \to R_2</m></p>
+<p><m>\qquad \qquad  + 5 R_1 + R_3 \to R_3</m>.</p>
+<p>The resulting matrix is:</p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0025"/></cell>
+<cell><fillin characters="5" name="AnSwEr0026"/></cell>
+<cell><fillin characters="5" name="AnSwEr0027"/></cell>
+<cell><fillin characters="5" name="AnSwEr0028"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0029"/></cell>
+<cell><fillin characters="5" name="AnSwEr0030"/></cell>
+<cell><fillin characters="5" name="AnSwEr0031"/></cell>
+<cell><fillin characters="5" name="AnSwEr0032"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0033"/></cell>
+<cell><fillin characters="5" name="AnSwEr0034"/></cell>
+<cell><fillin characters="5" name="AnSwEr0035"/></cell>
+<cell><fillin characters="5" name="AnSwEr0036"/></cell>
+</row>
+</tabular>
+<p>(d) Finish simplifying the augmented matrix down to reduced row echelon form. The reduced matrix is:</p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0037"/></cell>
+<cell><fillin characters="5" name="AnSwEr0038"/></cell>
+<cell><fillin characters="5" name="AnSwEr0039"/></cell>
+<cell><fillin characters="5" name="AnSwEr0040"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0041"/></cell>
+<cell><fillin characters="5" name="AnSwEr0042"/></cell>
+<cell><fillin characters="5" name="AnSwEr0043"/></cell>
+<cell><fillin characters="5" name="AnSwEr0044"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0045"/></cell>
+<cell><fillin characters="5" name="AnSwEr0046"/></cell>
+<cell><fillin characters="5" name="AnSwEr0047"/></cell>
+<cell><fillin characters="5" name="AnSwEr0048"/></cell>
+</row>
+</tabular>
+<p>Remember: This matrix must be simplified all the way to reduced form.</p>
+<p>(e) How many solutions does the system have?  If infinitely many, enter "Infinity".  If none, enter 0.</p>
+<p><fillin characters="25" name="AnSwEr0049"/></p>
+<p>(f) What are the solutions of the system?</p>
+<p><m>x_1=</m> <fillin characters="25" name="AnSwEr0050"/></p>
+<p><m>x_2=</m> <fillin characters="25" name="AnSwEr0051"/></p>
+<p><m>x_3=</m> <fillin characters="25" name="AnSwEr0052"/></p>
+<p><alert>Note:</alert> In part (f), if there are no solutions, write "No Solution" or "None" in the answer blank after each equal sign.  If there are infinitely many solutions, and the solution set describes a line (that is, if there is only one free variable), set <m>x_{2} = t</m> and solve for the remaining variables in terms of <m>t</m>.  If there are infinitely many solutions, and the solution set describes a plane (that is, if the solution set has two free variables), set the variables <m>x_3 = t</m>  and <m>x_2 = s</m>, and then solve for <m>x_1</m> in terms of <m>s</m> and <m>t</m>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>10</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>10</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\infty </m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{2-t\cdot 1-s\cdot 1}{-1}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>s</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>t</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Mizzou/Finite_Math/Gauss-Jordan_Elimination/3by3a.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Mizzou/Finite_Math/Gauss-Jordan_Elimination/3by3a.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-28" ww-id="webwork-28">
+    <static seed="28" source="Library/ASU-topics/set119LinearSystems/p23.pg">
+      <statement><p>Solve the system using matrices (row operations)</p>
+<p><me>\left\{ \begin{array}{r@{}l@{}}
+-8 x - 3 y \amp  =  -29 \cr
+- x- y \amp  =  -8 
+\end{array}\right.</me></p>
+<p><m>x=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p><m>y=</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>7</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/set119LinearSystems/p23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/set119LinearSystems/p23.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-29" ww-id="webwork-29">
+    <static seed="29" source="Library/ASU-topics/set119LinearSystems/p10.pg">
+      <statement><p>Solve the system by finding the reduced row-echelon form of the augmented
+matrix.
+<me>\left\{
+\begin{array}{ll}
+        x - 2 y - 3 z \amp = -5 \\
+        3 x - 8 y - 15 z \amp = -9 \\
+        x - 3 y - 6 z \amp  = -2
+\end{array}\right.</me></p>
+<p>reduced row-echelon form:</p>
+<tabular>
+<row>
+<cell><fillin characters="5" name="AnSwEr0001"/></cell>
+<cell><fillin characters="5" name="AnSwEr0002"/></cell>
+<cell><fillin characters="5" name="AnSwEr0003"/></cell>
+<cell><fillin characters="5" name="AnSwEr0004"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0005"/></cell>
+<cell><fillin characters="5" name="AnSwEr0006"/></cell>
+<cell><fillin characters="5" name="AnSwEr0007"/></cell>
+<cell><fillin characters="5" name="AnSwEr0008"/></cell>
+</row>
+<row>
+<cell><fillin characters="5" name="AnSwEr0009"/></cell>
+<cell><fillin characters="5" name="AnSwEr0010"/></cell>
+<cell><fillin characters="5" name="AnSwEr0011"/></cell>
+<cell><fillin characters="5" name="AnSwEr0012"/></cell>
+</row>
+</tabular>
+<p>How many solutions are there to this system?</p>
+<p><var form="buttons">
+<li>
+<p>None</p>
+</li>
+<li>
+<p>Exactly 1</p>
+</li>
+<li>
+<p>Exactly 2</p>
+</li>
+<li>
+<p>Exactly 3</p>
+</li>
+<li>
+<p>Infinitely many</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+<p>If there is one solution, give its coordinates in the answer spaces below.</p>
+<p>If there
+are infinitely many solutions, enter <em>z</em> in the answer blank for <m>z</m>,
+enter a formula for <m>y</m> in terms of <m>z</m> in the answer blank for <m>y</m> and
+enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</m>.</p>
+<p>If there are no solutions, leave the answer blanks for <m>x</m>, <m>y</m> and <m>z</m> empty.</p>
+<p><m>x =</m> <fillin characters="40" name="AnSwEr0013"/></p>
+<p><m>y =</m> <fillin characters="40" name="AnSwEr0014"/></p>
+<p><m>z =</m> <fillin characters="40" name="AnSwEr0015"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-11</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>E</p>
+      </answer>
+      <answer>
+        <p>
+          <m>-11-3z</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-3-3z</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/set119LinearSystems/p10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/set119LinearSystems/p10.pg"/>
+  </webwork-reps>
+</webwork-representations>
