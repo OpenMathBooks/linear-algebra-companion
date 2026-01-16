@@ -549,19 +549,19 @@ and, if it does, the dimension of the solution space.</p>
 <row halign="center" valign="middle">
 <cell>A. <var form="popup">
 <li>
-choose
+0 dimensional
 </li>
 <li>
 no solution
 </li>
 <li>
-1 dimensional
+choose
 </li>
 <li>
 2 dimensional
 </li>
 <li>
-0 dimensional
+1 dimensional
 </li>
 </var></cell>
 <cell>B. <var form="popup">
@@ -575,24 +575,24 @@ no solution
 2 dimensional
 </li>
 <li>
+choose
+</li>
+<li>
+no solution
+</li>
+</var></cell>
+<cell>C. <var form="popup">
+<li>
 no solution
 </li>
 <li>
 choose
 </li>
-</var></cell>
-<cell>C. <var form="popup">
 <li>
 2 dimensional
 </li>
 <li>
 1 dimensional
-</li>
-<li>
-choose
-</li>
-<li>
-no solution
 </li>
 <li>
 0 dimensional
@@ -616,16 +616,16 @@ no solution
 0 dimensional
 </li>
 <li>
-1 dimensional
-</li>
-<li>
-2 dimensional
+no solution
 </li>
 <li>
 choose
 </li>
 <li>
-no solution
+1 dimensional
+</li>
+<li>
+2 dimensional
 </li>
 </var></cell>
 <cell>E. <var form="popup">
@@ -633,33 +633,33 @@ no solution
 0 dimensional
 </li>
 <li>
-1 dimensional
-</li>
-<li>
-2 dimensional
-</li>
-<li>
 no solution
 </li>
 <li>
 choose
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+2 dimensional
 </li>
 </var></cell>
 <cell>F. <var form="popup">
 <li>
-0 dimensional
-</li>
-<li>
-no solution
-</li>
-<li>
-choose
+2 dimensional
 </li>
 <li>
 1 dimensional
 </li>
 <li>
-2 dimensional
+choose
+</li>
+<li>
+no solution
+</li>
+<li>
+0 dimensional
 </li>
 </var></cell>
 </row>
@@ -677,50 +677,50 @@ choose
 <row halign="center" valign="middle">
 <cell>G. <var form="popup">
 <li>
-0 dimensional
+2 dimensional
 </li>
 <li>
 1 dimensional
-</li>
-<li>
-2 dimensional
 </li>
 <li>
 no solution
 </li>
 <li>
 choose
+</li>
+<li>
+0 dimensional
 </li>
 </var></cell>
 <cell>H. <var form="popup">
 <li>
-2 dimensional
-</li>
-<li>
-1 dimensional
-</li>
-<li>
-no solution
+0 dimensional
 </li>
 <li>
 choose
 </li>
 <li>
-0 dimensional
+no solution
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+2 dimensional
 </li>
 </var></cell>
 <cell>I. <var form="popup">
 <li>
-2 dimensional
-</li>
-<li>
-1 dimensional
+choose
 </li>
 <li>
 no solution
 </li>
 <li>
-choose
+2 dimensional
+</li>
+<li>
+1 dimensional
 </li>
 <li>
 <p>0 dimensional
