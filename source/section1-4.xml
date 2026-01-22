@@ -12,12 +12,24 @@
 		<title>Practice</title>
 		
 		<exercise label="pivots-count-1">
-			<webwork source="Contrib/Michigan/linalg/Library/TCNJ/TCNJ_RowReduction/problem13.pg" />
+			<webwork source="Library/TCNJ/TCNJ_RowReduction/problem13.pg" />
 		</exercise>
 
-		<!-- <exercise label="pivots-count-2">
-			<webwork source="Contrib/Michigan/linalg/Library/TCNJ/TCNJ_RowReduction/problem13.pg" />
-		</exercise> -->
+		<exercise label="pivots-count-2">
+			<webwork source="Library/TCNJ/TCNJ_RowReduction/problem14.pg" />
+		</exercise>
+
+		<exercise label="pivots-1">
+			<webwork source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_9.pg" />
+		</exercise>
+
+		<exercise label="pivots-2">
+			<webwork source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_12.pg" />
+		</exercise>
+
+		<exercise label="pivots-3">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_057.pg" />
+		</exercise>
 
 	</exercises>
 
