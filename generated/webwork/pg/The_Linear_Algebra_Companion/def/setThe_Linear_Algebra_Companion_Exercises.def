@@ -122,6 +122,22 @@ source_file = Library/ASU-topics/set119LinearSystems/p10.pg
 problem_id = 12
 problem_end
 problem_start
-source_file = Contrib/Michigan/linalg/Library/TCNJ/TCNJ_RowReduction/problem13.pg
+source_file = Library/TCNJ/TCNJ_RowReduction/problem13.pg
 problem_id = 1
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_RowReduction/problem14.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra1Systems/ur_la_1_9.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra1Systems/ur_la_1_12.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_057.pg
+problem_id = 5
 problem_end

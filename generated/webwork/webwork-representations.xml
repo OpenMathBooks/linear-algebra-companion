@@ -549,19 +549,19 @@ and, if it does, the dimension of the solution space.</p>
 <row halign="center" valign="middle">
 <cell>A. <var form="popup">
 <li>
-0 dimensional
-</li>
-<li>
-choose
-</li>
-<li>
-no solution
+2 dimensional
 </li>
 <li>
 1 dimensional
 </li>
 <li>
-2 dimensional
+no solution
+</li>
+<li>
+choose
+</li>
+<li>
+0 dimensional
 </li>
 </var></cell>
 <cell>B. <var form="popup">
@@ -572,10 +572,10 @@ no solution
 1 dimensional
 </li>
 <li>
-choose
+no solution
 </li>
 <li>
-no solution
+choose
 </li>
 <li>
 0 dimensional
@@ -586,16 +586,16 @@ no solution
 0 dimensional
 </li>
 <li>
-1 dimensional
-</li>
-<li>
-2 dimensional
+no solution
 </li>
 <li>
 choose
 </li>
 <li>
-no solution
+1 dimensional
+</li>
+<li>
+2 dimensional
 </li>
 </var></cell>
 </row>
@@ -616,50 +616,50 @@ no solution
 0 dimensional
 </li>
 <li>
-1 dimensional
-</li>
-<li>
-2 dimensional
-</li>
-<li>
 no solution
 </li>
 <li>
 choose
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+2 dimensional
 </li>
 </var></cell>
 <cell>E. <var form="popup">
 <li>
-0 dimensional
+no solution
 </li>
 <li>
-1 dimensional
+choose
 </li>
 <li>
 2 dimensional
 </li>
 <li>
-no solution
+1 dimensional
 </li>
 <li>
-choose
+0 dimensional
 </li>
 </var></cell>
 <cell>F. <var form="popup">
 <li>
-choose
-</li>
-<li>
-no solution
-</li>
-<li>
-2 dimensional
+0 dimensional
 </li>
 <li>
 1 dimensional
 </li>
 <li>
-0 dimensional
+2 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+choose
 </li>
 </var></cell>
 </row>
@@ -677,36 +677,36 @@ no solution
 <row halign="center" valign="middle">
 <cell>G. <var form="popup">
 <li>
-2 dimensional
+0 dimensional
 </li>
 <li>
 1 dimensional
 </li>
 <li>
-choose
+2 dimensional
 </li>
 <li>
 no solution
 </li>
 <li>
-0 dimensional
+choose
 </li>
 </var></cell>
 <cell>H. <var form="popup">
 <li>
-0 dimensional
-</li>
-<li>
 choose
 </li>
 <li>
 no solution
 </li>
 <li>
+2 dimensional
+</li>
+<li>
 1 dimensional
 </li>
 <li>
-2 dimensional
+0 dimensional
 </li>
 </var></cell>
 <cell>I. <var form="popup">
@@ -2293,139 +2293,270 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
     <pg source="Library/ASU-topics/set119LinearSystems/p10.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-30" ww-id="webwork-30">
-    <static seed="30" source="Contrib/Michigan/linalg/Library/TCNJ/TCNJ_RowReduction/problem13.pg">
+    <static seed="30" source="Library/TCNJ/TCNJ_RowReduction/problem13.pg">
       <statement><p>Determine how many pivots each of the following matrices have.</p>
-<p>1.</p>
-<tabular>
-<row>
-<cell>1</cell>
-<cell>0</cell>
-<cell>4</cell>
-</row>
-<row>
-<cell>0</cell>
-<cell>1</cell>
-<cell>4</cell>
-</row>
-<row>
-<cell>0</cell>
-<cell>0</cell>
-<cell>0</cell>
-</row>
-</tabular>
-<p><var form="buttons">
-<li>
-<p>One Pivot (leading 1)</p>
-</li>
-<li>
-<p>Two Pivots (leading 1s)</p>
-</li>
-<li>
-<p>Three Pivots (leading 1s)</p>
-</li>
-<li>
-<p>Four Pivots (leading 1s)</p>
-</li>
-</var></p>
-<p>2.</p>
-<tabular>
-<row>
-<cell>1</cell>
-<cell>0</cell>
-<cell>4</cell>
-</row>
-<row>
-<cell>0</cell>
-<cell>0</cell>
-<cell>0</cell>
-</row>
-<row>
-<cell>0</cell>
-<cell>0</cell>
-<cell>0</cell>
-</row>
-</tabular>
-<p><var form="buttons">
-<li>
-<p>One Pivot (leading 1)</p>
-</li>
-<li>
-<p>Two Pivots (leading 1s)</p>
-</li>
-<li>
-<p>Three Pivots (leading 1s)</p>
-</li>
-<li>
-<p>Four Pivots (leading 1s)</p>
-</li>
-</var></p>
-<p>3.</p>
-<tabular>
-<row>
-<cell>0</cell>
-<cell>1</cell>
-<cell>0</cell>
-<cell>6</cell>
-</row>
-<row>
-<cell>0</cell>
-<cell>0</cell>
-<cell>1</cell>
-<cell>10</cell>
-</row>
-</tabular>
-<p><var form="buttons">
-<li>
-<p>One Pivot (leading 1)</p>
-</li>
-<li>
-<p>Two Pivots (leading 1s)</p>
-</li>
-<li>
-<p>Three Pivots (leading 1s)</p>
-</li>
-<li>
-<p>Four Pivots (leading 1s)</p>
-</li>
-</var></p>
-<p>4.</p>
-<tabular>
-<row>
-<cell>1</cell>
-<cell>0</cell>
-<cell>0</cell>
-<cell>6</cell>
-</row>
-<row>
-<cell>0</cell>
-<cell>1</cell>
-<cell>0</cell>
-<cell>2</cell>
-</row>
-<row>
-<cell>0</cell>
-<cell>0</cell>
-<cell>1</cell>
-<cell>10</cell>
-</row>
-</tabular>
-<p><var form="buttons">
-<li>
-<p>One Pivot (leading 1)</p>
-</li>
-<li>
-<p>Two Pivots (leading 1s)</p>
-</li>
-<li>
-<p>Three Pivots (leading 1s)</p>
-</li>
-<li>
-<p>Four Pivots (leading 1s)</p>
-</li>
-</var></p>
+<p><OL TYPE="a"/></p>
+<p><LI>
+<ul form="popup" name="AnSwEr0001"><li>
+<p>Choose</p>
+</li><li>
+<p>One Pivot</p>
+</li><li>
+<p>Two Pivots</p>
+</li><li>
+<p>Three Pivots</p>
+</li><li>
+<p>Four Pivots</p>
+</li></ul> <m>\left[\begin{array}{ccc}
+1 \amp 0 \amp 4\cr
+0 \amp 1 \amp 4\cr
+0 \amp 0 \amp 0
+\end{array}\right]</m>
+<BR><BR>
+<LI>
+<ul form="popup" name="AnSwEr0002"><li>
+<p>Choose</p>
+</li><li>
+<p>One Pivot</p>
+</li><li>
+<p>Two Pivots</p>
+</li><li>
+<p>Three Pivots</p>
+</li><li>
+<p>Four Pivots</p>
+</li></ul> <m>\left[\begin{array}{ccc}
+1 \amp 0 \amp 4\cr
+0 \amp 0 \amp 0\cr
+0 \amp 0 \amp 0
+\end{array}\right]</m>
+<BR><BR>
+<LI>
+<ul form="popup" name="AnSwEr0003"><li>
+<p>Choose</p>
+</li><li>
+<p>One Pivot</p>
+</li><li>
+<p>Two Pivots</p>
+</li><li>
+<p>Three Pivots</p>
+</li><li>
+<p>Four Pivots</p>
+</li></ul> <m>\left[\begin{array}{cccc}
+0 \amp 1 \amp 0 \amp 6\cr
+0 \amp 0 \amp 1 \amp 10
+\end{array}\right]</m>
+<BR><BR>
+<LI>
+<ul form="popup" name="AnSwEr0004"><li>
+<p>Choose</p>
+</li><li>
+<p>One Pivot</p>
+</li><li>
+<p>Two Pivots</p>
+</li><li>
+<p>Three Pivots</p>
+</li><li>
+<p>Four Pivots</p>
+</li></ul> <m>\left[\begin{array}{cccc}
+1 \amp 0 \amp 0 \amp 6\cr
+0 \amp 1 \amp 0 \amp 2\cr
+0 \amp 0 \amp 1 \amp 10
+\end{array}\right]</m>
+</LI></BR></BR></LI></BR></BR></LI></BR></BR></LI></p>
 </statement>
+      <answer>
+        <p>
+          <m>\text{Two Pivots}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{One Pivot}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Two Pivots}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Three Pivots}</m>
+        </p>
+      </answer>
     </static>
-    <rendering-data sourceFilePath="Contrib/Michigan/linalg/Library/TCNJ/TCNJ_RowReduction/problem13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Contrib/Michigan/linalg/Library/TCNJ/TCNJ_RowReduction/problem13.pg"/>
+    <rendering-data sourceFilePath="Library/TCNJ/TCNJ_RowReduction/problem13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/TCNJ/TCNJ_RowReduction/problem13.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-31" ww-id="webwork-31">
+    <static seed="31" source="Library/TCNJ/TCNJ_RowReduction/problem14.pg">
+      <statement><p>How many free variables does each augmented matrix have?</p>
+<p><OL TYPE="a"/></p>
+<p><LI>
+<ul form="popup" name="AnSwEr0001"><li>
+<p>Choose</p>
+</li><li>
+<p>None</p>
+</li><li>
+<p>One</p>
+</li><li>
+<p>Two</p>
+</li><li>
+<p>Three</p>
+</li></ul> <m>\left\lbrack 
+\begin{array}{rr|r} 
+1 \amp  0 \amp  -5 \\ 
+0 \amp  1 \amp  8 \\ 
+0 \amp  0 \amp  0 
+\end{array}
+\right\rbrack</m>
+<BR><BR>
+<LI>
+<ul form="popup" name="AnSwEr0002"><li>
+<p>Choose</p>
+</li><li>
+<p>None</p>
+</li><li>
+<p>One</p>
+</li><li>
+<p>Two</p>
+</li><li>
+<p>Three</p>
+</li></ul> <m>\left\lbrack 
+\begin{array}{rrr|r} 
+1 \amp  3 \amp  9 \amp  6 \\
+0 \amp  0 \amp  0 \amp  0
+\end{array}
+\right\rbrack</m>
+<BR><BR>
+<LI>
+<ul form="popup" name="AnSwEr0003"><li>
+<p>Choose</p>
+</li><li>
+<p>None</p>
+</li><li>
+<p>One</p>
+</li><li>
+<p>Two</p>
+</li><li>
+<p>Three</p>
+</li></ul> <m>\left\lbrack 
+\begin{array}{rr|r} 
+1 \amp  10 \amp  9 \\
+0 \amp  0 \amp  0 \\
+0 \amp  0 \amp  0
+\end{array}
+\right\rbrack</m>
+<BR><BR>
+<LI>
+<ul form="popup" name="AnSwEr0004"><li>
+<p>Choose</p>
+</li><li>
+<p>None</p>
+</li><li>
+<p>One</p>
+</li><li>
+<p>Two</p>
+</li><li>
+<p>Three</p>
+</li></ul> <m>\left\lbrack 
+\begin{array}{rrrr|r} 
+1 \amp  0 \amp  0 \amp  3 \amp  -8 \\
+0 \amp  1 \amp  0 \amp  0 \amp  2 \\
+0 \amp  0 \amp  0 \amp  0 \amp  0 \\
+0 \amp  0 \amp  0 \amp  0 \amp  0 
+\end{array}
+\right\rbrack</m>
+</LI></BR></BR></LI></BR></BR></LI></BR></BR></LI></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{None}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Two}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{One}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Two}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/TCNJ/TCNJ_RowReduction/problem14.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/TCNJ/TCNJ_RowReduction/problem14.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-32" ww-id="webwork-32">
+    <static seed="32" source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_9.pg">
+      <statement><p>Determine the value of <m>h</m> such that the matrix is the augmented matrix of a linear system with
+infinitely many solutions.</p>
+<p><me>\left[ \begin{array} {rr}
+6 \amp  -8 \cr
+24 \amp  h  
+\end{array} \right| \left. \begin{array}{r}
+4 \cr
+16 
+\end{array} \right]</me></p>
+<p><m>h=</m> <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-8\cdot 4</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_9.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_9.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-33" ww-id="webwork-33">
+    <static seed="33" source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_12.pg">
+      <statement><p>Determine the value of <m>k</m> for which the system</p>
+<p><me>\left\lbrace
+\begin{array}{r@{}r@{}r@{}r@{}r}
+x    \amp  + y   \amp  + 4 z \amp  = \amp  0 \cr
+x    \amp  +2y   \amp   - 5 z \amp  = \amp  -1 \cr
+6 x \amp  +14 y \amp  + k z  \amp  = \amp  -7 
+\end{array} \right.</me></p>
+<p>has no solutions.</p>
+<p><m>k=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-48</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_12.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-34" ww-id="webwork-34">
+    <static seed="34" source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_057.pg">
+      <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-34-image-1.png" width="46%"/>
+<p>The figure above shows the plot of the points <m>(1,13)</m>, <m>(2,4)</m>, and <m>(3,11)</m>. Find a polynomial of degree 2 of the form <m>f(x) = a x^2 + b x + c</m> whose graph passes through these points.</p>
+<p><m>f(x) =</m> <fillin characters="25" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>8x^{2}-33x+38</m>
+        </p>
+      </answer>
+      <solution><p><alert>SOLUTION:</alert> 
+Apply <m>f(1) = 13</m> to obtain <me>a(1)^2 + b(1) + c = 13\Rightarrow a + b + c = 13.</me> From <m>f(2) = 4</m>, we have <me>a(2)^2 + b(2) + c = 4\Rightarrow 4a + 2c + c = 4.</me> And <me>f(3) = 11\Rightarrow a(3)^2 + b(3) + c = 11\Rightarrow 9a + 3b + c = 14.</me> Write these equations as an augmented matrix and solve. 
+<me>\begin{array}{ccc}
+\left[\begin{array}{rrrr} 1 \amp   1 \amp   1 \amp   13 \\ 4 \amp   2 \amp   1 \amp   4 \\ 9 \amp   3 \amp   1 \amp   11\end{array}\right] \amp  \overset{\begin{align*} -4 R_1 + R_2 \amp \Rightarrow R_2 \\ -9 R_1 + R_3 \amp \Rightarrow R_3 \end{align*}}{\sim} \amp  \left[\begin{array}{rrrr} 1 \amp   1 \amp   1 \amp   13 \\ 0 \amp   -2 \amp   -3 \amp   -48 \\ 0 \amp   -6 \amp   -8 \amp   -106\end{array}\right] \\
+\amp  \overset{-3 R_2 + R_3 \Rightarrow R_3}{\sim} \amp  \left[\begin{array}{rrrr} 1 \amp   1 \amp   1 \amp   13 \\ 0 \amp   -2 \amp   -3 \amp   -48 \\ 0 \amp   0 \amp   1 \amp   38\end{array}\right]
+\end{array}</me>
+Row 3 <m>\Rightarrow c = 38</m>. Row 2 <m>\Rightarrow -2 b - 3 (38) = -48 \Rightarrow b = -33</m>. Row 1 <m>\Rightarrow a + (-33) + (38) = 13 \Rightarrow a = 8</m>. Thus <m>f(x) = 8x^{2}-33x+38</m>.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_057.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_057.pg"/>
   </webwork-reps>
 </webwork-representations>
