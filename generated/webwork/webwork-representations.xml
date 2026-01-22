@@ -552,50 +552,50 @@ and, if it does, the dimension of the solution space.</p>
 0 dimensional
 </li>
 <li>
-no solution
-</li>
-<li>
 choose
 </li>
 <li>
-2 dimensional
+no solution
 </li>
 <li>
 1 dimensional
+</li>
+<li>
+2 dimensional
 </li>
 </var></cell>
 <cell>B. <var form="popup">
 <li>
-0 dimensional
+2 dimensional
 </li>
 <li>
 1 dimensional
-</li>
-<li>
-2 dimensional
 </li>
 <li>
 choose
 </li>
 <li>
 no solution
+</li>
+<li>
+0 dimensional
 </li>
 </var></cell>
 <cell>C. <var form="popup">
 <li>
-no solution
-</li>
-<li>
-choose
-</li>
-<li>
-2 dimensional
+0 dimensional
 </li>
 <li>
 1 dimensional
 </li>
 <li>
-0 dimensional
+2 dimensional
+</li>
+<li>
+choose
+</li>
+<li>
+no solution
 </li>
 </var></cell>
 </row>
@@ -616,16 +616,16 @@ choose
 0 dimensional
 </li>
 <li>
-no solution
-</li>
-<li>
-choose
-</li>
-<li>
 1 dimensional
 </li>
 <li>
 2 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+choose
 </li>
 </var></cell>
 <cell>E. <var form="popup">
@@ -633,30 +633,30 @@ choose
 0 dimensional
 </li>
 <li>
-no solution
-</li>
-<li>
-choose
-</li>
-<li>
 1 dimensional
 </li>
 <li>
 2 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+choose
 </li>
 </var></cell>
 <cell>F. <var form="popup">
 <li>
-2 dimensional
-</li>
-<li>
-1 dimensional
-</li>
-<li>
 choose
 </li>
 <li>
 no solution
+</li>
+<li>
+2 dimensional
+</li>
+<li>
+1 dimensional
 </li>
 <li>
 0 dimensional
@@ -683,10 +683,10 @@ no solution
 1 dimensional
 </li>
 <li>
-no solution
+choose
 </li>
 <li>
-choose
+no solution
 </li>
 <li>
 0 dimensional
@@ -711,10 +711,10 @@ no solution
 </var></cell>
 <cell>I. <var form="popup">
 <li>
-choose
+no solution
 </li>
 <li>
-no solution
+choose
 </li>
 <li>
 2 dimensional
@@ -2291,5 +2291,141 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
     </static>
     <rendering-data sourceFilePath="Library/ASU-topics/set119LinearSystems/p10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/ASU-topics/set119LinearSystems/p10.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-30" ww-id="webwork-30">
+    <static seed="30" source="Contrib/Michigan/linalg/Library/TCNJ/TCNJ_RowReduction/problem13.pg">
+      <statement><p>Determine how many pivots each of the following matrices have.</p>
+<p>1.</p>
+<tabular>
+<row>
+<cell>1</cell>
+<cell>0</cell>
+<cell>4</cell>
+</row>
+<row>
+<cell>0</cell>
+<cell>1</cell>
+<cell>4</cell>
+</row>
+<row>
+<cell>0</cell>
+<cell>0</cell>
+<cell>0</cell>
+</row>
+</tabular>
+<p><var form="buttons">
+<li>
+<p>One Pivot (leading 1)</p>
+</li>
+<li>
+<p>Two Pivots (leading 1s)</p>
+</li>
+<li>
+<p>Three Pivots (leading 1s)</p>
+</li>
+<li>
+<p>Four Pivots (leading 1s)</p>
+</li>
+</var></p>
+<p>2.</p>
+<tabular>
+<row>
+<cell>1</cell>
+<cell>0</cell>
+<cell>4</cell>
+</row>
+<row>
+<cell>0</cell>
+<cell>0</cell>
+<cell>0</cell>
+</row>
+<row>
+<cell>0</cell>
+<cell>0</cell>
+<cell>0</cell>
+</row>
+</tabular>
+<p><var form="buttons">
+<li>
+<p>One Pivot (leading 1)</p>
+</li>
+<li>
+<p>Two Pivots (leading 1s)</p>
+</li>
+<li>
+<p>Three Pivots (leading 1s)</p>
+</li>
+<li>
+<p>Four Pivots (leading 1s)</p>
+</li>
+</var></p>
+<p>3.</p>
+<tabular>
+<row>
+<cell>0</cell>
+<cell>1</cell>
+<cell>0</cell>
+<cell>6</cell>
+</row>
+<row>
+<cell>0</cell>
+<cell>0</cell>
+<cell>1</cell>
+<cell>10</cell>
+</row>
+</tabular>
+<p><var form="buttons">
+<li>
+<p>One Pivot (leading 1)</p>
+</li>
+<li>
+<p>Two Pivots (leading 1s)</p>
+</li>
+<li>
+<p>Three Pivots (leading 1s)</p>
+</li>
+<li>
+<p>Four Pivots (leading 1s)</p>
+</li>
+</var></p>
+<p>4.</p>
+<tabular>
+<row>
+<cell>1</cell>
+<cell>0</cell>
+<cell>0</cell>
+<cell>6</cell>
+</row>
+<row>
+<cell>0</cell>
+<cell>1</cell>
+<cell>0</cell>
+<cell>2</cell>
+</row>
+<row>
+<cell>0</cell>
+<cell>0</cell>
+<cell>1</cell>
+<cell>10</cell>
+</row>
+</tabular>
+<p><var form="buttons">
+<li>
+<p>One Pivot (leading 1)</p>
+</li>
+<li>
+<p>Two Pivots (leading 1s)</p>
+</li>
+<li>
+<p>Three Pivots (leading 1s)</p>
+</li>
+<li>
+<p>Four Pivots (leading 1s)</p>
+</li>
+</var></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Michigan/linalg/Library/TCNJ/TCNJ_RowReduction/problem13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Michigan/linalg/Library/TCNJ/TCNJ_RowReduction/problem13.pg"/>
   </webwork-reps>
 </webwork-representations>

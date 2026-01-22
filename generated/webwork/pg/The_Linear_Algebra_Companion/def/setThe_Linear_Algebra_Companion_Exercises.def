@@ -1,6 +1,6 @@
-openDate          = 01/16/2026 at 12:00am
-dueDate           = 07/16/2026 at 10:00pm
-answerDate        = 07/16/2026 at 10:00pm
+openDate          = 01/22/2026 at 12:00am
+dueDate           = 07/22/2026 at 10:00pm
+answerDate        = 07/22/2026 at 10:00pm
 paperHeaderFile   = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 screenHeaderFile  = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 description       = The Linear Algebra Companion
@@ -120,4 +120,8 @@ problem_end
 problem_start
 source_file = Library/ASU-topics/set119LinearSystems/p10.pg
 problem_id = 12
+problem_end
+problem_start
+source_file = Contrib/Michigan/linalg/Library/TCNJ/TCNJ_RowReduction/problem13.pg
+problem_id = 1
 problem_end
