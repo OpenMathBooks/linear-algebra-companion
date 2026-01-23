@@ -60,9 +60,29 @@
         <webwork source="Library/ASU-topics/set119LinearSystems/p23.pg" />
       </exercise>
       
-        <exercise label="find-sol-3-var-system">
-          <webwork source="Library/ASU-topics/set119LinearSystems/p10.pg" />
-        </exercise>
+      <exercise label="find-sol-3-var-system">
+        <webwork source="Library/ASU-topics/set119LinearSystems/p10.pg" />
+      </exercise>
+      
+      <exercise label="row-ops-1">
+        <webwork source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_01.pg" />
+      </exercise>
+      
+      <exercise label="row-ops-2">
+        <webwork source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_02.pg" />
+      </exercise>
+      
+      <exercise label="row-ops-3">
+        <webwork source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_03.pg" />
+      </exercise>
+      
+      <exercise label="row-ops-4">
+        <webwork source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_04.pg" />
+      </exercise>
+      
+      <exercise label="row-ops-5">
+        <webwork source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_05.pg" />
+      </exercise>
 
   </exercises>
 

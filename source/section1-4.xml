@@ -19,15 +19,29 @@
 			<webwork source="Library/TCNJ/TCNJ_RowReduction/problem14.pg" />
 		</exercise>
 
-		<exercise label="pivots-1">
+		<exercise label="pivots-find-h-1">
 			<webwork source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_9.pg" />
 		</exercise>
 
-		<exercise label="pivots-2">
-			<webwork source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_12.pg" />
+		
+		<exercise label="pivots-find-h-2">
+			<webwork source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_8.pg" />
 		</exercise>
 
-		<exercise label="pivots-3">
+		<exercise label="pivots-find-k-3x3">
+			<webwork source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_12.pg" />
+		</exercise>
+		
+		<exercise label="pivots-find-h-eqns">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_036.pg" />
+		</exercise>
+		
+		<exercise label="pivots-planes-consistent">
+			<webwork source="Library/Hope/Multi1/02-02-Linear-systems/Geometry_02/Geometry_02.pg" />
+		</exercise>
+				
+				
+		<exercise label="pivots-find-polynomial">
 			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_057.pg" />
 		</exercise>
 
