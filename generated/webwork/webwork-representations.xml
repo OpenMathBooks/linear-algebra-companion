@@ -549,36 +549,36 @@ and, if it does, the dimension of the solution space.</p>
 <row halign="center" valign="middle">
 <cell>A. <var form="popup">
 <li>
-2 dimensional
-</li>
-<li>
-1 dimensional
-</li>
-<li>
-no solution
+0 dimensional
 </li>
 <li>
 choose
 </li>
 <li>
-0 dimensional
+no solution
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+2 dimensional
 </li>
 </var></cell>
 <cell>B. <var form="popup">
 <li>
-2 dimensional
-</li>
-<li>
-1 dimensional
-</li>
-<li>
-no solution
+0 dimensional
 </li>
 <li>
 choose
 </li>
 <li>
-0 dimensional
+no solution
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+2 dimensional
 </li>
 </var></cell>
 <cell>C. <var form="popup">
@@ -586,16 +586,16 @@ choose
 0 dimensional
 </li>
 <li>
-no solution
+1 dimensional
+</li>
+<li>
+2 dimensional
 </li>
 <li>
 choose
 </li>
 <li>
-1 dimensional
-</li>
-<li>
-2 dimensional
+no solution
 </li>
 </var></cell>
 </row>
@@ -630,19 +630,19 @@ choose
 </var></cell>
 <cell>E. <var form="popup">
 <li>
-no solution
-</li>
-<li>
-choose
-</li>
-<li>
-2 dimensional
+0 dimensional
 </li>
 <li>
 1 dimensional
 </li>
 <li>
-0 dimensional
+2 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+choose
 </li>
 </var></cell>
 <cell>F. <var form="popup">
@@ -650,16 +650,16 @@ choose
 0 dimensional
 </li>
 <li>
-1 dimensional
-</li>
-<li>
-2 dimensional
-</li>
-<li>
 no solution
 </li>
 <li>
 choose
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+2 dimensional
 </li>
 </var></cell>
 </row>
@@ -694,36 +694,36 @@ choose
 </var></cell>
 <cell>H. <var form="popup">
 <li>
-choose
+0 dimensional
 </li>
 <li>
 no solution
 </li>
 <li>
-2 dimensional
+choose
 </li>
 <li>
 1 dimensional
 </li>
 <li>
-0 dimensional
+2 dimensional
 </li>
 </var></cell>
 <cell>I. <var form="popup">
 <li>
-no solution
-</li>
-<li>
-choose
-</li>
-<li>
-2 dimensional
+0 dimensional
 </li>
 <li>
 1 dimensional
 </li>
 <li>
-<p>0 dimensional
+2 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+<p>choose
 </p></li>
 </var></cell>
 </row>
@@ -2293,7 +2293,77 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
     <pg source="Library/ASU-topics/set119LinearSystems/p10.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-30" ww-id="webwork-30">
-    <static seed="30" source="Library/TCNJ/TCNJ_RowReduction/problem13.pg">
+    <static seed="30" source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_01.pg">
+      <statement><p>Give the result of applying the row operation <m>R_{1} \leftrightarrow R_{3}</m> to the given matrix.</p>
+<p><m>\left[\begin{array}{ccc}
+-2 \amp 2 \amp -3\cr
+4 \amp 3 \amp -5\cr
+2 \amp 5 \amp 3
+\end{array}\right] \mathop{\longrightarrow}^{R_{1} \leftrightarrow R_{3}}</m>
+<fillin cols="3" rows="3"/></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Hope/Multi1/02-03-Row-operations/Row_ops_01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_01.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-31" ww-id="webwork-31">
+    <static seed="31" source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_02.pg">
+      <statement><p>Give the result of applying the row operation <m>6 R_{1} \rightarrow R_{1}</m> to the given matrix.</p>
+<p><m>\left[\begin{array}{ccc}
+-1 \amp -2 \amp 2\cr
+1 \amp -2 \amp -4\cr
+-5 \amp -2 \amp -3
+\end{array}\right] \mathop{\longrightarrow}^{6 R_{1} \rightarrow R_{1}}</m>
+<fillin cols="3" rows="3"/></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Hope/Multi1/02-03-Row-operations/Row_ops_02.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_02.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-32" ww-id="webwork-32">
+    <static seed="32" source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_03.pg">
+      <statement><p>Give the result of applying the row operation <m>(1/7) R_{3} \rightarrow R_{3}</m> to the given matrix.</p>
+<p><m>\left[\begin{array}{ccc}
+5 \amp -4 \amp -2\cr
+3 \amp -3 \amp 1\cr
+2 \amp 3 \amp 1
+\end{array}\right] \mathop{\longrightarrow}^{(1/7) R_{3} \rightarrow R_{3}}</m>
+<fillin cols="3" rows="3"/></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Hope/Multi1/02-03-Row-operations/Row_ops_03.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_03.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-33" ww-id="webwork-33">
+    <static seed="33" source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_04.pg">
+      <statement><p>Give the result of applying the row operation <m>R_{2} + 4 R_{1}  \rightarrow R_{2}</m> to the given matrix.</p>
+<p><m>\left[\begin{array}{cccc}
+2 \amp 2 \amp -5 \amp -2\cr
+-2 \amp 4 \amp 4 \amp -4\cr
+-1 \amp 1 \amp 2 \amp -5
+\end{array}\right] \mathop{\longrightarrow}^{R_{2} + 4 R_{1}  \rightarrow R_{2}}</m>
+<fillin cols="4" rows="3"/></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Hope/Multi1/02-03-Row-operations/Row_ops_04.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_04.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-34" ww-id="webwork-34">
+    <static seed="34" source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_05.pg">
+      <statement><p>Give the result of applying the row operation <m>R_{2} - 8 R_{1}  \rightarrow R_{2}</m> to the given matrix.</p>
+<p><m>\left[\begin{array}{cccc}
+3 \amp -2 \amp 5 \amp 3\cr
+3 \amp -1 \amp -2 \amp -3\cr
+1 \amp -5 \amp 3 \amp 1
+\end{array}\right] \mathop{\longrightarrow}^{R_{2} - 8 R_{1}  \rightarrow R_{2}}</m>
+<fillin cols="4" rows="3"/></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Hope/Multi1/02-03-Row-operations/Row_ops_05.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Hope/Multi1/02-03-Row-operations/Row_ops_05.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-35" ww-id="webwork-35">
+    <static seed="35" source="Library/TCNJ/TCNJ_RowReduction/problem13.pg">
       <statement><p>Determine how many pivots each of the following matrices have.</p>
 <p><OL TYPE="a"/></p>
 <p><LI>
@@ -2308,8 +2378,8 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
 </li><li>
 <p>Four Pivots</p>
 </li></ul> <m>\left[\begin{array}{ccc}
-1 \amp 0 \amp 4\cr
-0 \amp 1 \amp 4\cr
+1 \amp 0 \amp -4\cr
+0 \amp 0 \amp 0\cr
 0 \amp 0 \amp 0
 \end{array}\right]</m>
 <BR><BR>
@@ -2324,10 +2394,11 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
 <p>Three Pivots</p>
 </li><li>
 <p>Four Pivots</p>
-</li></ul> <m>\left[\begin{array}{ccc}
-1 \amp 0 \amp 4\cr
-0 \amp 0 \amp 0\cr
-0 \amp 0 \amp 0
+</li></ul> <m>\left[\begin{array}{cccc}
+1 \amp 0 \amp -5 \amp 8\cr
+0 \amp 1 \amp -2 \amp 7\cr
+0 \amp 0 \amp 0 \amp 0\cr
+0 \amp 0 \amp 0 \amp 0
 \end{array}\right]</m>
 <BR><BR>
 <LI>
@@ -2342,8 +2413,9 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
 </li><li>
 <p>Four Pivots</p>
 </li></ul> <m>\left[\begin{array}{cccc}
+1 \amp 0 \amp 0 \amp -6\cr
 0 \amp 1 \amp 0 \amp 6\cr
-0 \amp 0 \amp 1 \amp 10
+0 \amp 0 \amp 1 \amp -6
 \end{array}\right]</m>
 <BR><BR>
 <LI>
@@ -2357,18 +2429,14 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
 <p>Three Pivots</p>
 </li><li>
 <p>Four Pivots</p>
-</li></ul> <m>\left[\begin{array}{cccc}
-1 \amp 0 \amp 0 \amp 6\cr
-0 \amp 1 \amp 0 \amp 2\cr
-0 \amp 0 \amp 1 \amp 10
+</li></ul> <m>\left[\begin{array}{ccccc}
+1 \amp 0 \amp 0 \amp 0 \amp 7\cr
+0 \amp 1 \amp 0 \amp 0 \amp -4\cr
+0 \amp 0 \amp 1 \amp 0 \amp 6\cr
+0 \amp 0 \amp 0 \amp 1 \amp 4
 \end{array}\right]</m>
 </LI></BR></BR></LI></BR></BR></LI></BR></BR></LI></p>
 </statement>
-      <answer>
-        <p>
-          <m>\text{Two Pivots}</m>
-        </p>
-      </answer>
       <answer>
         <p>
           <m>\text{One Pivot}</m>
@@ -2384,12 +2452,17 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
           <m>\text{Three Pivots}</m>
         </p>
       </answer>
+      <answer>
+        <p>
+          <m>\text{Four Pivots}</m>
+        </p>
+      </answer>
     </static>
     <rendering-data sourceFilePath="Library/TCNJ/TCNJ_RowReduction/problem13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/TCNJ/TCNJ_RowReduction/problem13.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-31" ww-id="webwork-31">
-    <static seed="31" source="Library/TCNJ/TCNJ_RowReduction/problem14.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-36" ww-id="webwork-36">
+    <static seed="36" source="Library/TCNJ/TCNJ_RowReduction/problem14.pg">
       <statement><p>How many free variables does each augmented matrix have?</p>
 <p><OL TYPE="a"/></p>
 <p><LI>
@@ -2404,10 +2477,9 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
 </li><li>
 <p>Three</p>
 </li></ul> <m>\left\lbrack 
-\begin{array}{rr|r} 
-1 \amp  0 \amp  -5 \\ 
-0 \amp  1 \amp  8 \\ 
-0 \amp  0 \amp  0 
+\begin{array}{rrr|r} 
+1 \amp  -5 \amp  4 \amp  -10 \\
+0 \amp  0 \amp  0 \amp  0
 \end{array}
 \right\rbrack</m>
 <BR><BR>
@@ -2423,9 +2495,10 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
 </li><li>
 <p>Three</p>
 </li></ul> <m>\left\lbrack 
-\begin{array}{rrr|r} 
-1 \amp  3 \amp  9 \amp  6 \\
-0 \amp  0 \amp  0 \amp  0
+\begin{array}{rr|r} 
+1 \amp  0 \amp  10 \\ 
+0 \amp  1 \amp  -8 \\ 
+0 \amp  0 \amp  0 
 \end{array}
 \right\rbrack</m>
 <BR><BR>
@@ -2442,7 +2515,7 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
 <p>Three</p>
 </li></ul> <m>\left\lbrack 
 \begin{array}{rr|r} 
-1 \amp  10 \amp  9 \\
+1 \amp  -9 \amp  -9 \\
 0 \amp  0 \amp  0 \\
 0 \amp  0 \amp  0
 \end{array}
@@ -2461,8 +2534,8 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
 <p>Three</p>
 </li></ul> <m>\left\lbrack 
 \begin{array}{rrrr|r} 
-1 \amp  0 \amp  0 \amp  3 \amp  -8 \\
-0 \amp  1 \amp  0 \amp  0 \amp  2 \\
+1 \amp  0 \amp  0 \amp  -10 \amp  -6 \\
+0 \amp  1 \amp  0 \amp  0 \amp  -6 \\
 0 \amp  0 \amp  0 \amp  0 \amp  0 \\
 0 \amp  0 \amp  0 \amp  0 \amp  0 
 \end{array}
@@ -2471,12 +2544,12 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
 </statement>
       <answer>
         <p>
-          <m>\text{None}</m>
+          <m>\text{Two}</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\text{Two}</m>
+          <m>\text{None}</m>
         </p>
       </answer>
       <answer>
@@ -2493,67 +2566,271 @@ enter a formula for <m>x</m> in terms of <m>z</m> in the answer blank for <m>x</
     <rendering-data sourceFilePath="Library/TCNJ/TCNJ_RowReduction/problem14.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/TCNJ/TCNJ_RowReduction/problem14.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-32" ww-id="webwork-32">
-    <static seed="32" source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_9.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-37" ww-id="webwork-37">
+    <static seed="37" source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_9.pg">
       <statement><p>Determine the value of <m>h</m> such that the matrix is the augmented matrix of a linear system with
 infinitely many solutions.</p>
 <p><me>\left[ \begin{array} {rr}
-6 \amp  -8 \cr
-24 \amp  h  
+3 \amp  -7 \cr
+6 \amp  h  
 \end{array} \right| \left. \begin{array}{r}
-4 \cr
-16 
+9 \cr
+18 
 \end{array} \right]</me></p>
 <p><m>h=</m> <fillin characters="10" name="AnSwEr0001"/></p>
 </statement>
       <answer>
         <p>
-          <m>-8\cdot 4</m>
+          <m>-7\cdot 2</m>
         </p>
       </answer>
     </static>
     <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_9.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_9.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-33" ww-id="webwork-33">
-    <static seed="33" source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_12.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-38" ww-id="webwork-38">
+    <static seed="38" source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_8.pg">
+      <statement><p>Determine the value of <m>h</m> such that the matrix is the augmented matrix of a consistent linear
+system.</p>
+<p><me>\left[ \begin{array} {rr}
+4 \amp  -4 \cr
+-16 \amp  16
+\end{array} \right| \left. \begin{array}{r}
+h \cr
+7
+\end{array} \right]</me></p>
+<p><m>h=</m> <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-7}{4}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_8.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_8.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-39" ww-id="webwork-39">
+    <static seed="39" source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_12.pg">
       <statement><p>Determine the value of <m>k</m> for which the system</p>
 <p><me>\left\lbrace
 \begin{array}{r@{}r@{}r@{}r@{}r}
-x    \amp  + y   \amp  + 4 z \amp  = \amp  0 \cr
-x    \amp  +2y   \amp   - 5 z \amp  = \amp  -1 \cr
-6 x \amp  +14 y \amp  + k z  \amp  = \amp  -7 
+x    \amp  + y   \amp  + 2 z \amp  = \amp  -1 \cr
+x    \amp  +2y   \amp   - 4 z \amp  = \amp  -2 \cr
+5 x \amp  +13 y \amp  + k z  \amp  = \amp  -12 
 \end{array} \right.</me></p>
 <p>has no solutions.</p>
 <p><m>k=</m> <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
       <answer>
         <p>
-          <m>-48</m>
+          <m>-38</m>
         </p>
       </answer>
     </static>
     <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/Rochester/setLinearAlgebra1Systems/ur_la_1_12.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-34" ww-id="webwork-34">
-    <static seed="34" source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_057.pg">
-      <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-34-image-1.png" width="46%"/>
-<p>The figure above shows the plot of the points <m>(1,13)</m>, <m>(2,4)</m>, and <m>(3,11)</m>. Find a polynomial of degree 2 of the form <m>f(x) = a x^2 + b x + c</m> whose graph passes through these points.</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-40" ww-id="webwork-40">
+    <static seed="40" source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_036.pg">
+      <statement><p>For what value(s) of <m>h</m> is the linear system consistent?</p>
+<p><me>\begin{array}{rcrcr}
+-9 x_1 \amp  - \amp  15 x_2 \amp  = \amp  h\\
+-3 x_1 \amp  - \amp  5 x_2 \amp  = \amp  -1
+\end{array}</me></p>
+<p><m>h</m> <ul form="popup" name="AnSwEr0001"><li>
+<p>select</p>
+</li><li>
+<p>=</p>
+</li><li>
+<p>≠</p>
+</li></ul> <fillin characters="15" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{=}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-3</m>
+        </p>
+      </answer>
+      <solution><p>From the the second equation, <m>-3 x_1 - 5 x_2= -1</m>, we obtain <m>x_1 =  -{\frac{5}{3}} x_2 + {\frac{1}{3}}</m>. Substitute into equation 1, <m>-9 \left(-{\frac{5}{3}} x_2 + {\frac{1}{3}}\right)  - 15 x_2 = h\Rightarrow -3 = h</m>. The system is consistent provided <m>h = -3</m>.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_036.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_036.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-41" ww-id="webwork-41">
+    <static seed="41" source="Library/Hope/Multi1/02-02-Linear-systems/Geometry_02/Geometry_02.pg">
+      <statement><p>Each graph below is the graph of a system of three linear equations 
+in three unknowns.  Determine which systems are consistent 
+and inconsistent.</p>
+<tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/webwork-41-image-1.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/webwork-41-image-2.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/webwork-41-image-3.png" width="33%"/>
+</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>A. <var form="popup">
+<li>
+inconsistent
+</li>
+<li>
+consistent
+</li>
+<li>
+choose
+</li>
+</var></cell>
+<cell>B. <var form="popup">
+<li>
+choose
+</li>
+<li>
+inconsistent
+</li>
+<li>
+consistent
+</li>
+</var></cell>
+<cell>C. <var form="popup">
+<li>
+consistent
+</li>
+<li>
+inconsistent
+</li>
+<li>
+choose
+</li>
+</var></cell>
+</row>
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/webwork-41-image-4.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/webwork-41-image-5.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/webwork-41-image-6.png" width="33%"/>
+</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>D. <var form="popup">
+<li>
+choose
+</li>
+<li>
+inconsistent
+</li>
+<li>
+consistent
+</li>
+</var></cell>
+<cell>E. <var form="popup">
+<li>
+choose
+</li>
+<li>
+consistent
+</li>
+<li>
+inconsistent
+</li>
+</var></cell>
+<cell>F. <var form="popup">
+<li>
+choose
+</li>
+<li>
+inconsistent
+</li>
+<li>
+consistent
+</li>
+</var></cell>
+</row>
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/webwork-41-image-7.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/webwork-41-image-8.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/webwork-41-image-9.png" width="33%"/>
+</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>G. <var form="popup">
+<li>
+choose
+</li>
+<li>
+consistent
+</li>
+<li>
+inconsistent
+</li>
+</var></cell>
+<cell>H. <var form="popup">
+<li>
+choose
+</li>
+<li>
+consistent
+</li>
+<li>
+inconsistent
+</li>
+</var></cell>
+<cell>I. <var form="popup">
+<li>
+consistent
+</li>
+<li>
+inconsistent
+</li>
+<li>
+<p>choose
+</p></li>
+</var></cell>
+</row>
+</tabular>
+<p>(Click on a graph to enlarge it.)</p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Hope/Multi1/02-02-Linear-systems/Geometry_02/Geometry_02.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Hope/Multi1/02-02-Linear-systems/Geometry_02/Geometry_02.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-42" ww-id="webwork-42">
+    <static seed="42" source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_057.pg">
+      <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-42-image-1.png" width="46%"/>
+<p>The figure above shows the plot of the points <m>(1,12)</m>, <m>(2,9)</m>, and <m>(3,16)</m>. Find a polynomial of degree 2 of the form <m>f(x) = a x^2 + b x + c</m> whose graph passes through these points.</p>
 <p><m>f(x) =</m> <fillin characters="25" name="AnSwEr0001"/></p>
 </statement>
       <answer>
         <p>
-          <m>8x^{2}-33x+38</m>
+          <m>5x^{2}-18x+25</m>
         </p>
       </answer>
       <solution><p><alert>SOLUTION:</alert> 
-Apply <m>f(1) = 13</m> to obtain <me>a(1)^2 + b(1) + c = 13\Rightarrow a + b + c = 13.</me> From <m>f(2) = 4</m>, we have <me>a(2)^2 + b(2) + c = 4\Rightarrow 4a + 2c + c = 4.</me> And <me>f(3) = 11\Rightarrow a(3)^2 + b(3) + c = 11\Rightarrow 9a + 3b + c = 14.</me> Write these equations as an augmented matrix and solve. 
+Apply <m>f(1) = 12</m> to obtain <me>a(1)^2 + b(1) + c = 12\Rightarrow a + b + c = 12.</me> From <m>f(2) = 9</m>, we have <me>a(2)^2 + b(2) + c = 9\Rightarrow 4a + 2c + c = 9.</me> And <me>f(3) = 16\Rightarrow a(3)^2 + b(3) + c = 16\Rightarrow 9a + 3b + c = 14.</me> Write these equations as an augmented matrix and solve. 
 <me>\begin{array}{ccc}
-\left[\begin{array}{rrrr} 1 \amp   1 \amp   1 \amp   13 \\ 4 \amp   2 \amp   1 \amp   4 \\ 9 \amp   3 \amp   1 \amp   11\end{array}\right] \amp  \overset{\begin{align*} -4 R_1 + R_2 \amp \Rightarrow R_2 \\ -9 R_1 + R_3 \amp \Rightarrow R_3 \end{align*}}{\sim} \amp  \left[\begin{array}{rrrr} 1 \amp   1 \amp   1 \amp   13 \\ 0 \amp   -2 \amp   -3 \amp   -48 \\ 0 \amp   -6 \amp   -8 \amp   -106\end{array}\right] \\
-\amp  \overset{-3 R_2 + R_3 \Rightarrow R_3}{\sim} \amp  \left[\begin{array}{rrrr} 1 \amp   1 \amp   1 \amp   13 \\ 0 \amp   -2 \amp   -3 \amp   -48 \\ 0 \amp   0 \amp   1 \amp   38\end{array}\right]
+\left[\begin{array}{rrrr} 1 \amp   1 \amp   1 \amp   12 \\ 4 \amp   2 \amp   1 \amp   9 \\ 9 \amp   3 \amp   1 \amp   16\end{array}\right] \amp  \overset{\begin{align*} -4 R_1 + R_2 \amp \Rightarrow R_2 \\ -9 R_1 + R_3 \amp \Rightarrow R_3 \end{align*}}{\sim} \amp  \left[\begin{array}{rrrr} 1 \amp   1 \amp   1 \amp   12 \\ 0 \amp   -2 \amp   -3 \amp   -39 \\ 0 \amp   -6 \amp   -8 \amp   -92\end{array}\right] \\
+\amp  \overset{-3 R_2 + R_3 \Rightarrow R_3}{\sim} \amp  \left[\begin{array}{rrrr} 1 \amp   1 \amp   1 \amp   12 \\ 0 \amp   -2 \amp   -3 \amp   -39 \\ 0 \amp   0 \amp   1 \amp   25\end{array}\right]
 \end{array}</me>
-Row 3 <m>\Rightarrow c = 38</m>. Row 2 <m>\Rightarrow -2 b - 3 (38) = -48 \Rightarrow b = -33</m>. Row 1 <m>\Rightarrow a + (-33) + (38) = 13 \Rightarrow a = 8</m>. Thus <m>f(x) = 8x^{2}-33x+38</m>.</p>
+Row 3 <m>\Rightarrow c = 25</m>. Row 2 <m>\Rightarrow -2 b - 3 (25) = -39 \Rightarrow b = -18</m>. Row 1 <m>\Rightarrow a + (-18) + (25) = 12 \Rightarrow a = 5</m>. Thus <m>f(x) = 5x^{2}-18x+25</m>.</p>
 </solution>
     </static>
     <rendering-data sourceFilePath="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_057.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

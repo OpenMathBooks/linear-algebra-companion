@@ -1,6 +1,6 @@
-openDate          = 01/22/2026 at 12:00am
-dueDate           = 07/22/2026 at 10:00pm
-answerDate        = 07/22/2026 at 10:00pm
+openDate          = 01/23/2026 at 12:00am
+dueDate           = 07/23/2026 at 10:00pm
+answerDate        = 07/23/2026 at 10:00pm
 paperHeaderFile   = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 screenHeaderFile  = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 description       = The Linear Algebra Companion
@@ -122,6 +122,26 @@ source_file = Library/ASU-topics/set119LinearSystems/p10.pg
 problem_id = 12
 problem_end
 problem_start
+source_file = Library/Hope/Multi1/02-03-Row-operations/Row_ops_01.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/02-03-Row-operations/Row_ops_02.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/02-03-Row-operations/Row_ops_03.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/02-03-Row-operations/Row_ops_04.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/02-03-Row-operations/Row_ops_05.pg
+problem_id = 17
+problem_end
+problem_start
 source_file = Library/TCNJ/TCNJ_RowReduction/problem13.pg
 problem_id = 1
 problem_end
@@ -134,10 +154,22 @@ source_file = Library/Rochester/setLinearAlgebra1Systems/ur_la_1_9.pg
 problem_id = 3
 problem_end
 problem_start
-source_file = Library/Rochester/setLinearAlgebra1Systems/ur_la_1_12.pg
+source_file = Library/Rochester/setLinearAlgebra1Systems/ur_la_1_8.pg
 problem_id = 4
 problem_end
 problem_start
-source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_057.pg
+source_file = Library/Rochester/setLinearAlgebra1Systems/ur_la_1_12.pg
 problem_id = 5
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_036.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/02-02-Linear-systems/Geometry_02/Geometry_02.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_057.pg
+problem_id = 8
 problem_end
