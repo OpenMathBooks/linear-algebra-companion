@@ -22,13 +22,8 @@
 			<webwork source="Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_10.pg" />
 		</exercise>
 		
-		<exercise label="vectors-lin-comb-4">
-			<webwork source="Library/TCNJ/TCNJ_MatrixEquations/problem6.pg" />
-		</exercise>
-		
-		<exercise label="vectors-lin-comb-5">
-			<webwork source="Library/Rochester/setLinearAlgebra3Matrices/ur_la_3_16.pg" />
-		</exercise>
+
+
 		
 	</exercises>
   
