@@ -1,6 +1,6 @@
-openDate          = 01/23/2026 at 12:00am
-dueDate           = 07/23/2026 at 10:00pm
-answerDate        = 07/23/2026 at 10:00pm
+openDate          = 01/29/2026 at 12:00am
+dueDate           = 07/29/2026 at 10:00pm
+answerDate        = 07/29/2026 at 10:00pm
 paperHeaderFile   = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 screenHeaderFile  = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 description       = The Linear Algebra Companion
@@ -172,4 +172,60 @@ problem_end
 problem_start
 source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_02_057.pg
 problem_id = 8
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.6.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra8VectorSpaces/ur_la_8_8.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/2_1_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_10.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra3Matrices/ur_la_3_15.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.7.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.24.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.12.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_01a.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_01b.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_03a.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_05a.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_06a.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_07a.pg
+problem_id = 14
 problem_end
