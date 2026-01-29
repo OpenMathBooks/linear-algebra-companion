@@ -10,9 +10,9 @@
   <exercises>
 		<title>Practice</title>
 		
-				<exercise label="matrices-lin-comb-1">
-					<webwork source="Library/TCNJ/TCNJ_MatrixEquations/problem6.pg" />
-				</exercise>
+		<exercise label="matrices-lin-comb-1">
+			<webwork source="Library/TCNJ/TCNJ_MatrixEquations/problem6.pg" />
+		</exercise>
 		
 		<exercise label="matrices-lin-comb-2">
 			<webwork source="Library/Rochester/setLinearAlgebra3Matrices/ur_la_3_16.pg" />

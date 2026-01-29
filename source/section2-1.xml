@@ -10,16 +10,60 @@
 	<exercises>
 		<title>Practice</title>
 		
+		<exercise label="vectors-lin-comb-0">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.6.pg" />
+		</exercise>
+		
 		<exercise label="vectors-lin-comb-1">
 			<webwork source="Library/Rochester/setLinearAlgebra8VectorSpaces/ur_la_8_8.pg" />
 		</exercise>
 		
-		<exercise label="vectors-lin-comb-2">
-			<webwork source="Library/Hope/Multi1/01-02-Vector-operations/Graphical_vector_ops_08.pg" />
+		<exercise label="vectors-lin-comb-graphical">
+			<webwork><xi:include href="wwpg/vectors-lin-comb-graphic.pg" parse="text"/></webwork>
 		</exercise>
 		
 		<exercise label="vectors-lin-comb-3">
 			<webwork source="Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_10.pg" />
+		</exercise>
+		
+		<exercise label="vectors-lin-comb-4">
+			<webwork source="Library/Rochester/setLinearAlgebra3Matrices/ur_la_3_15.pg" />
+		</exercise>
+		
+		<exercise label="vectors-lin-comb-5">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.7.pg" />
+		</exercise>
+		
+		<exercise label="vectors-lin-comb-6">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.24.pg" />
+		</exercise>
+		
+		<exercise label="vectors-lin-comb-7">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.12.pg" />
+		</exercise>
+		
+		<exercise label="vectors-lin-comb-8">
+			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_01a.pg" />
+		</exercise>
+		
+		<exercise label="vectors-lin-comb-9">
+			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_01b.pg" />
+		</exercise>
+		
+		<exercise label="vectors-lin-comb-10">
+			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_03a.pg" />
+		</exercise>
+		
+		<exercise label="vectors-lin-comb-11">
+			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_05a.pg" />
+		</exercise>
+		
+		<exercise label="vectors-lin-comb-12">
+			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_06a.pg" />
+		</exercise>
+		
+		<exercise label="vectors-lin-comb-13">
+			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_07a.pg" />
 		</exercise>
 		
 
