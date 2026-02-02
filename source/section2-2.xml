@@ -17,26 +17,15 @@
 		<exercise label="matrices-lin-comb-2">
 			<webwork source="Library/Rochester/setLinearAlgebra3Matrices/ur_la_3_16.pg" />
 		</exercise>
-<!-- added exercises will run to see they fit with section2.2 -->
-		<exercise label="label1">
+<!-- Exercises from MATH-204-ww set02.22.21.Sects2.2-2.3.def -->
+		<exercise label="matrices-lin-comb-3">
 			<webwork source="Library/TCNJ/TCNJ_MatrixEquations/problem11.pg" />
 		</exercise>
 
-		<exercise label="label2">
+		<exercise label="matrices-vec-lin-comb-1">
 			<webwork source="Library/TCNJ/TCNJ_MatrixEquations/problem5.pg" />
 		</exercise>
-		
-		<exercise label="label3">
-			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem10.pg" />
-		</exercise>
-
-		<exercise label="label4">
-			<webwork source="Library/TCNJ/TCNJ_MatrixEquations/problem1.pg" />
-		</exercise>
-
-		<exercise label="label5">
-			<webwork source="Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_8.pg" />
-		</exercise>
+		<!-- need to find ~6  more problems: linear combinations/matrix multiplication -->
 		
 	</exercises>
   
