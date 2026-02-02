@@ -25,8 +25,34 @@
 		<exercise label="matrices-vec-lin-comb-1">
 			<webwork source="Library/TCNJ/TCNJ_MatrixEquations/problem5.pg" />
 		</exercise>
-		<!-- need to find ~6  more problems: linear combinations/matrix multiplication -->
-		
+<!-- need to find ~6  more problems: linear combinations/matrix multiplication -->
+<!-- 2.2 Problems found by Andrew
+Place holder exercises for next 6
+
+		<exercise label="label_1">
+			<webwork source="source" />
+		</exercise>
+
+		<exercise label="label_2">
+			<webwork source="source" />
+		</exercise>
+
+		<exercise label="label_3">
+			<webwork source="source" />
+		</exercise>
+
+		<exercise label="label_4">
+			<webwork source="source" />
+		</exercise>
+
+		<exercise label="label_5">
+			<webwork source="source" />
+		</exercise>
+
+		<exercise label="label_6">
+			<webwork source="source" />
+		</exercise>-->
+				
 	</exercises>
   
 </section>
