@@ -25,32 +25,34 @@
 		<exercise label="matrices-vec-lin-comb-1">
 			<webwork source="Library/TCNJ/TCNJ_MatrixEquations/problem5.pg" />
 		</exercise>
-<!-- need to find ~6  more problems: linear combinations/matrix multiplication -->
-<!-- 2.2 Problems found by Andrew
-Place holder exercises for next 6
 
-		<exercise label="label_1">
-			<webwork source="source" />
+<!-- 2.2 Problems found by Andrew -->
+		<exercise label="matrix-mulitiply-1">
+			<webwork source="Library/ASU-topics/set119MatrixAlgebra/p15.pg" />
 		</exercise>
 
-		<exercise label="label_2">
-			<webwork source="source" />
+		<exercise label="matrix-dimension-1">
+			<webwork source="Library/ASU-topics/set119MatrixAlgebra/p32.pg" />
 		</exercise>
 
-		<exercise label="label_3">
-			<webwork source="source" />
+		<exercise label="matrix-identity-1">
+			<webwork source="Library/ASU-topics/set119MatrixAlgebra/p9.pg" />
 		</exercise>
 
-		<exercise label="label_4">
-			<webwork source="source" />
+		<exercise label="matrix-distribution">
+			<webwork source="Library/Hope/Multi1/02-01-Matrix-operations/Matrix_add_03.pg" />
 		</exercise>
 
-		<exercise label="label_5">
-			<webwork source="source" />
+		<exercise label="matrices-lin-comb-4">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.7.pg" />
 		</exercise>
 
-		<exercise label="label_6">
-			<webwork source="source" />
+		<exercise label="matrix-vector">
+			<webwork source="Library/MC/Sage/LinearAlg/Axb_span.pg" />
+		</exercise>
+		
+		<exercise label="matrices-lin-comb-4">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.13.pg" />
 		</exercise>-->
 				
 	</exercises>
