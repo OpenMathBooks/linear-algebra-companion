@@ -21,26 +21,24 @@
 		<exercise label="span-how-1">
 			<webwork source="Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_8.pg" />
 		</exercise>
-<!-- need to find ~7  more problems: span of a set of vectors -->
-<!-- 2.3 Problems found by Andrew
-Place holder exercises for next 7
-
-		<exercise label="label_1">
-			<webwork source="source" />
+<!-- 2.3 Problems found by Andrew -->
+		<exercise label="span-line-plane-2">
+			<webwork source="Contrib/MountAllison/2-3_Subspaces_Spans_and_Linear_Independence/determine_r3_span_3_vectors.pg" />
 		</exercise>
 
-		<exercise label="label_2">
-			<webwork source="source" />
+		<exercise label="span-line-1">
+			<webwork source="Contrib/MountAllison/2-3_Subspaces_Spans_and_Linear_Independence/find_x_r3_spans_line.pg" />
 		</exercise>
 
-		<exercise label="label_3">
-			<webwork source="source" />
+		<exercise label="span-condition-1">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.56.pg" />
 		</exercise>
 
-		<exercise label="label_4">
-			<webwork source="source" />
+		<exercise label="span-condition-2">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.57.pg" />
 		</exercise>
-
+<!-- There do not seem to be many "span specific" problems on WW. I could do 3 more problems similar to 6-7 but do not see many similar to the section exercises in https://understandinglinearalgebra.org/sec-span.html  -->
+<!-- Place holder exercises for next 3
 		<exercise label="label_5">
 			<webwork source="source" />
 		</exercise>
