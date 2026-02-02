@@ -39,21 +39,15 @@
 			<webwork source="Library/ASU-topics/set119MatrixAlgebra/p9.pg" />
 		</exercise>
 
-		<exercise label="matrix-distribution">
-			<webwork source="Library/Hope/Multi1/02-01-Matrix-operations/Matrix_add_03.pg" />
-		</exercise>
 
 		<exercise label="matrices-lin-comb-4">
 			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.7.pg" />
 		</exercise>
 
-		<exercise label="matrix-vector">
-			<webwork source="Library/MC/Sage/LinearAlg/Axb_span.pg" />
-		</exercise>
 		
 		<exercise label="matrices-lin-comb-5">
 			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.13.pg" />
-		</exercise>-->
+		</exercise>
 				
 	</exercises>
   
