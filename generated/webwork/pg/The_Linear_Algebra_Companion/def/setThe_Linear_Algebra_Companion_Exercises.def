@@ -1,6 +1,6 @@
-openDate          = 01/29/2026 at 12:00am
-dueDate           = 07/29/2026 at 10:00pm
-answerDate        = 07/29/2026 at 10:00pm
+openDate          = 02/02/2026 at 12:00am
+dueDate           = 08/02/2026 at 10:00pm
+answerDate        = 08/02/2026 at 10:00pm
 paperHeaderFile   = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 screenHeaderFile  = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 description       = The Linear Algebra Companion
@@ -228,4 +228,68 @@ problem_end
 problem_start
 source_file = Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_07a.pg
 problem_id = 14
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixEquations/problem6.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra3Matrices/ur_la_3_16.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixEquations/problem11.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixEquations/problem5.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/ASU-topics/set119MatrixAlgebra/p15.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/ASU-topics/set119MatrixAlgebra/p32.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/ASU-topics/set119MatrixAlgebra/p9.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.7.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.13.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_VectorEquations/problem10.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixEquations/problem1.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_8.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Contrib/MountAllison/2-3_Subspaces_Spans_and_Linear_Independence/determine_r3_span_3_vectors.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Contrib/MountAllison/2-3_Subspaces_Spans_and_Linear_Independence/find_x_r3_spans_line.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.56.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.57.pg
+problem_id = 7
 problem_end
