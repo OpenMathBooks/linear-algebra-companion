@@ -29,32 +29,53 @@
 		<exercise label="span-vs-lin-ind-1">
 			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem7.pg" />
 		</exercise>
-<!-- Need to find ~5  more problems: span of a set of vectors -->
-<!-- 2.4 Problems found by Andrew
-Place holder exercises for next 5
 
-		<exercise label="label_1">
-			<webwork source="source" />
+<!-- 2.4 Problems found by Andrew -->
+<!-- The following exercises are from WW: [Subject: Linear Algebra, Chapter: All Chapters, Keyword: Dependent not including Contrib] -->
+		<exercise label="lin-ind-5">
+			<webwork source="Library/Rochester/setAlgebra35SystemMatrices/sw7_3_23.pg" />
 		</exercise>
-
-		<exercise label="label_2">
-			<webwork source="source" />
-		</exercise>
-
-		<exercise label="label_3">
-			<webwork source="source" />
-		</exercise>
-
-		<exercise label="label_4">
-			<webwork source="source" />
-		</exercise>
-
-		<exercise label="label_5">
-			<webwork source="source" />
-		</exercise>
-		 -->
-
 		
+<!-- The following exercises are from WW: [Subject: Linear Algebra, Chapter: All Chapters, Keyword: Independent not including Contrib] -->
+		<exercise label="lin-ind-6">
+			<webwork source="Library/Rochester/setAlgebra35SystemMatrices/augmentedmatrix.pg" />
+		</exercise>
+
+<!-- 2.4 Problems found by Andrew -->
+<!-- The following exercises are from WW: [Problems from OPL Directory: TCNJ/TCNJ_LinearIndependence] -->
+
+		<exercise label="lin-ind-7">
+			<webwork source="Library/TCNJ/TCNJ_LinearIndependence/problem3.pg" />
+		</exercise>
+
+		<exercise label="lin-ind-8">
+			<webwork source="Library/TCNJ/TCNJ_LinearIndependence/problem5.pg" />
+		</exercise>
+
+<!-- The following exercises are from WW: [Problems from OPL Directory: TCNJ/TCNJ_SolutionSetsLinearSystems] -->
+		<exercise label="lin-ind-9">
+			<webwork source="Library/TCNJ/TCNJ_SolutionSetsLinearSystems/problem6.pg" />
+		</exercise>
+
+<!-- The following exercises are from WW: [Problems from OPL Directory: TCNJ/TCNJ_VectorEquations] -->
+		<exercise label="span-vs-lin-ind-2">
+			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem1.pg" />
+		</exercise>
+
+		<exercise label="span-vs-lin-ind-3">
+			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem5.pg" />
+		</exercise>
+				<!-- There is an additional problem like this in the same set - for R^3 - Problem 10 -->
+
+		<exercise label="span-vs-lin-ind-4">
+			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem6.pg" />
+		</exercise>
+
+		<exercise label="span-vs-lin-ind-5">
+			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem8.pg" />
+		</exercise>
+					<!-- There is an additional problem like this in the same set - for R^3 - Problem 9 -->
+
 	</exercises>
   
 </section>

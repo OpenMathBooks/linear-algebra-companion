@@ -46,11 +46,11 @@
 			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_2.pg" />
 		</exercise>
 
-		<exercise label="maxtrix-transformations-Rn4">
+		<exercise label="maxtrix-transformations-Rn5">
 			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_24.pg" />
 		</exercise>
 
-		<exercise label="maxtrix-transformations-Rn5">
+		<exercise label="maxtrix-transformations-Rn6">
 			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_5.pg" />
 		</exercise>
 		
@@ -62,7 +62,7 @@
 			<webwork source="Library/TCNJ/TCNJ_IntroLinearTransformations/problem14.pg" />
 		</exercise>
 		
-		<exercise label="maxtrix-transformations-Rn6">
+		<exercise label="maxtrix-transformations-Rn7">
 			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem8.pg" />
 		</exercise>
 		
