@@ -44,7 +44,7 @@
 			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_02.pg" />
 		</exercise>
 
-   <!-- The following exercise are from WW: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: Associated Matrices, not including Contrib] -->
+   <!-- The following exercises are from WW: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: Associated Matrices, not including Contrib] -->
 
 		<exercise label="linear-transformations-geometric_apply1">
 			<webwork source="Library/MC/Sage/LinearAlg/LinearTransformations.pg" />
@@ -54,10 +54,53 @@
 			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_13.pg" />
 		</exercise>
 
-		<exercise label="linear-transformations-geometric_find1_trig">
+		<!-- From WW 2.5-2.6 import -->
+		<exercise label="linear-transformations-geometric_type2"> 
+			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem10.pg" />
+		</exercise>
+
+
+		<exercise label="linear-transformations-geometric_find_trig1">
 			<webwork source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_Ch2_2_1.pg" />
 		</exercise>
+
+   <!-- The following exercises are from WW: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: Associated Matrices, not including Contrib] -->
+
+		<exercise label="linear-transformations-geometric_find_rotate1">
+			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_15.pg" />
+		</exercise>
+
+		<exercise label="linear-transformations-geometric_find_projection1">
+			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_20.pg" />
+		</exercise>
 		
+		<exercise label="linear-transformations-geometric_reflection1">
+			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_21.pg" />
+		</exercise>
+		
+		<exercise label="linear-transformations-geometric_find_rotate2">
+			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_23.pg" />
+		</exercise>
+		
+<!-- The following exercises are from WW: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: All Sections, not including Contrib] -->
+				
+		<exercise label="linear-transformations-geometric_reflection2">
+			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem5.pg" />
+		</exercise>
+				
+		<exercise label="linear-transformations-geometric_reflection3">
+			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem6.pg" />
+		</exercise>
+				
+		<exercise label="linear-transformations-geometric_reflection4">
+			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem7.pg" />
+		</exercise>
+		
+		
+		
+
+
+
 
 		
 	</exercises>

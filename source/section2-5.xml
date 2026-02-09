@@ -13,9 +13,10 @@
 		<exercise label="maxtrix-transformations-1">
 			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem11.pg" />
 		</exercise>
-
+		
+		<!-- The following exercise is from WW: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: Associated Matrices, not including Contrib] -->
 		<exercise label="maxtrix-transformations-2">
-			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem10.pg" />
+			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem12.pg" />
 		</exercise>
 
 		<exercise label="maxtrix-transformations-3">
@@ -29,31 +30,41 @@
 		<exercise label="maxtrix-transformations-Rn2">
 			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_4.pg" />
 		</exercise>
-<!-- Need to find ~5  more problems: matrix transformations -->
-<!-- 2.5 Problems found by Andrew
-Place holder exercises for next 5
 
-		<exercise label="label_1">
-			<webwork source="source" />
+<!-- 2.5 Problems found by Andrew -->
+<!-- The following exercises are from WW: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: All Sections, not including Contrib] -->
+
+		<exercise label="lin-trans-as_Matrix_multiplication">
+			<webwork source="Library/NAU/setLinearAlgebra/ABA.pg" />
 		</exercise>
 
-		<exercise label="label_2">
-			<webwork source="source" />
+		<exercise label="maxtrix-transformations-Rn3">
+			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_10.pg" />
 		</exercise>
 
-		<exercise label="label_3">
-			<webwork source="source" />
+		<exercise label="maxtrix-transformations-Rn4">
+			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_2.pg" />
 		</exercise>
 
-		<exercise label="label_4">
-			<webwork source="source" />
+		<exercise label="maxtrix-transformations-Rn4">
+			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_24.pg" />
 		</exercise>
 
-		<exercise label="label_5">
-			<webwork source="source" />
+		<exercise label="maxtrix-transformations-Rn5">
+			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_5.pg" />
 		</exercise>
-		 -->
+		
+		<exercise label="maxtrix-transformations-dimension1">
+			<webwork source="Library/TCNJ/TCNJ_IntroLinearTransformations/problem13.pg" />
+		</exercise>
 
+		<exercise label="maxtrix-transformations-dimension2">
+			<webwork source="Library/TCNJ/TCNJ_IntroLinearTransformations/problem14.pg" />
+		</exercise>
+		
+		<exercise label="maxtrix-transformations-Rn6">
+			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem8.pg" />
+		</exercise>
 		
 	</exercises>
   
