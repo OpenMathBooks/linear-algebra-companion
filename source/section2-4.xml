@@ -65,7 +65,7 @@
 		<exercise label="span-vs-lin-ind-3">
 			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem5.pg" />
 		</exercise>
-				<!-- There is an additional problem like this in the same set - for R^3 - Problem 10 -->
+				<!-- There is an additional problem like this in the same set - for R^3 - Problem 10 (currently in section 2.3)-->
 
 		<exercise label="span-vs-lin-ind-4">
 			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem6.pg" />
@@ -74,7 +74,7 @@
 		<exercise label="span-vs-lin-ind-5">
 			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem8.pg" />
 		</exercise>
-					<!-- There is an additional problem like this in the same set - for R^3 - Problem 9 -->
+					<!-- There is an additional problem like this in the same set - Problem 9 -->
 
 	</exercises>
   
