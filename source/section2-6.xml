@@ -9,49 +9,55 @@
 
   	<exercises>
 		<title>Practice</title>
-<!-- Need to find ~10  more problems: Geometry of matrix transformations -->
-<!-- 2.6 Problems found by Andrew
-Place holder exercises for next 5
-
-		<exercise label="label_1">
-			<webwork source="source" />
+    
+<!-- 2.6 Problems found by Andrew -->
+ <!-- The following exercise are from WW: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: Properties, not including Contrib] -->
+		<exercise label="linear-transformation-defined-linearFunction1">
+			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_01.pg" />
 		</exercise>
 
-		<exercise label="label_2">
-			<webwork source="source" />
+		<exercise label="linear-transformation-defined-quadraticFunction">
+			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_03.pg" />
 		</exercise>
 
-		<exercise label="label_3">
-			<webwork source="source" />
+		<exercise label="linear-transformation-defined-3variableVector">
+			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_06.pg" />
 		</exercise>
 
-		<exercise label="label_4">
-			<webwork source="source" />
+		<exercise label="linear-transformation-defined-polynomial1">
+			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_10.pg" />
 		</exercise>
 
-		<exercise label="label_5">
-			<webwork source="source" />
-		</exercise>
-		<exercise label="label_6">
-			<webwork source="source" />
+		<exercise label="linear-transformation-defined-polynomial2">
+			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_11.pg" />
 		</exercise>
 
-		<exercise label="label_7">
-			<webwork source="source" />
+		<exercise label="linear-transformation-defined-matrices1">
+			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_14.pg" />
 		</exercise>
 
-		<exercise label="label_8">
-			<webwork source="source" />
+		<exercise label="linear-transformation-geometric_defined1">
+			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_01.pg" />
 		</exercise>
 
-		<exercise label="label_9">
-			<webwork source="source" />
+		<exercise label="linear-transformation-geometric_defined2">
+			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_02.pg" />
 		</exercise>
 
-		<exercise label="label_10">
-			<webwork source="source" />
+   <!-- The following exercise are from WW: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: Associated Matrices, not including Contrib] -->
+
+		<exercise label="linear-transformations-geometric_apply1">
+			<webwork source="Library/MC/Sage/LinearAlg/LinearTransformations.pg" />
 		</exercise>
-		 -->
+
+		<exercise label="linear-transformations-geometric_type1">
+			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_13.pg" />
+		</exercise>
+
+		<exercise label="linear-transformations-geometric_find1_trig">
+			<webwork source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_Ch2_2_1.pg" />
+		</exercise>
+		
 
 		
 	</exercises>
