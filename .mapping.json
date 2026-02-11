@@ -1,1 +1,1 @@
-{"source/main.ptx": ["la-companion", "chap1", "sec-expect", "sec-finding-solutions", "sec-sage-introduction", "sec-pivots", "chap2", "sec-vectors-lin-combs", "sec-matrices-lin-combs", "sec-span", "backmatter", "app-sage-reference"]}
+{"source/main.ptx": ["la-companion", "chap1", "sec-expect", "sec-finding-solutions", "sec-sage-introduction", "sec-pivots", "chap2", "sec-vectors-lin-combs", "sec-matrices-lin-combs", "sec-span", "sec-linear-dep", "sec-linear-trans", "sec-transforms-geom", "backmatter", "app-sage-reference"]}

@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "What can we expect",
-  "body": " What can we expect   Practice     Find two numbers whose sum is -1 and whose difference is -7.  Your answer is:  The largest of the two numbers is:  The smallest of the two number is:                     A woman has 19 coins in her pocket, all of which are dimes and quarters. If the total value of the coins is $ 3.55, how many dimes and how many quarters does she have?  Your answer is:  Number of dimes equals  Number of quarters equals                      For the system of equations given below, determine whether each ordered pair is a solution of the system. Type Yes or No .  a) Is a solution? Answer:  b) Is a solution? Answer:                     Decide whether is a solution to the system of equations     Yes    No          If a point is a solution to a system of linear equations, it implies the point is on both lines.  To decide whether a given point is a solution to a system of equations or not, we need to know whether or not the point is on both lines.  Substituting the point into the first equation, we have:   This is true, so is on the line .  Next, we substitute into the second equation, and we have:   This is also true, so is on the line .  Since is on both lines, is a solution tp the system of equations.           Decide whether is a solution to the system of equations     Yes    No          If a point is a solution to a system of equations, it implies the point is on both lines.  To decide whether or not a given point is a solution to a system of linear equations, we need to know whether or not the point is on both lines.  Substituting the point into the first equation, we have:   This is true, so is on the line .  Next, we substitute into the second equation and we have:   This is false, so is not on the line .  Since is not on both lines, is not a solution to the system of equations.             Find the point of intersection of the lines in the figure, given that line , in red, has equation and line , in blue, has equation . =  =     (Click on graph to enlarge)                       Solve the following system of equations graphically:   Answer:                Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, the first equation is given in slope-intercept form. We can graph its -intercept, and then draw slope triangles.  The second line is horizontal.  See solution in the graph:   The solution to this system of equations is . B is the correct answer.           Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, both equations are given in slope-intercept form. We graph each line's -intercept, and then draw slope triangles. See the graph:   The solution to this system of equations is . Graph B is the correct answer.           Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, the first equation is given in slope-intercept form. We can use its -intercept and slope triangles immediately.  The second equation is given in standard form. To accurately graph it, we can rewrite it in slope-intercept form:   See solution in the graph:   The solution to this system of equations is . C is the correct answer.           Simply by looking at this system of equations, decide the number of solutions it has.     No solution    One solution    Infinitely many solutions          Notice that these two lines have the same slope, but different y-intercepts. This implies they are parallel lines, which do not intersect. This system of equations has no solution.           Simply by looking at this system of equations, decide the number of solutions it has.     No solution    One solution    Infinitely many solutions          Both lines are horizontal, and the equations are different. This implies they are parallel lines, which do not intersect. This system of equations has no solution.           Solve the system using substitution                          Solve the following system of equations, using whichever method you wish.     If there is one solution, enter it as an ordered pair.    If there is no solution, enter no solution . Spelling counts.    If there is an infinite number of solutions, enter infinite number of solutions . Spelling counts.            Let s solve the second equation for ; we divide both sides of the equation by , so .    We find by substituting this value of in to the first equation: , and solving for .    This gives .    The solution to the system is . It is left as an exercise to check. Please also note that you may have solved this problem a different way.             Each graph below is the graph of a system of three linear equations in three unknowns. Determine whether each system has a solution and, if it does, the dimension of the solution space.               A.  1 dimensional  2 dimensional  no solution  choose  0 dimensional   B.  0 dimensional  choose  no solution  1 dimensional  2 dimensional   C.  0 dimensional  1 dimensional  2 dimensional  choose  no solution                D.  0 dimensional  1 dimensional  2 dimensional  choose  no solution   E.  0 dimensional  choose  no solution  1 dimensional  2 dimensional   F.  2 dimensional  1 dimensional  no solution  choose  0 dimensional                G.  0 dimensional  choose  no solution  1 dimensional  2 dimensional   H.  no solution  choose  2 dimensional  1 dimensional  0 dimensional   I.  2 dimensional  1 dimensional  choose  no solution   0 dimensional     (Click on a graph to enlarge it.)           Determine which of the points , , and lie in the plane .  Answer:        , so lies on the plane  , so does not lie on the plane  , so does not lie on the plane           Determine which of the points , , and satisfy the linear system   Answer:        SOLUTION:  and , so satisfies the linear system  and , so does not satisfy the linear system  and , so does not satisfy the linear system         "
+  "body": " What can we expect   Practice     Find two numbers whose sum is -1 and whose difference is -7.  Your answer is:  The largest of the two numbers is:  The smallest of the two number is:                     A woman has 19 coins in her pocket, all of which are dimes and quarters. If the total value of the coins is $ 3.55, how many dimes and how many quarters does she have?  Your answer is:  Number of dimes equals  Number of quarters equals                      For the system of equations given below, determine whether each ordered pair is a solution of the system. Type Yes or No .  a) Is a solution? Answer:  b) Is a solution? Answer:                     Decide whether is a solution to the system of equations     Yes    No          If a point is a solution to a system of linear equations, it implies the point is on both lines.  To decide whether a given point is a solution to a system of equations or not, we need to know whether or not the point is on both lines.  Substituting the point into the first equation, we have:   This is true, so is on the line .  Next, we substitute into the second equation, and we have:   This is also true, so is on the line .  Since is on both lines, is a solution tp the system of equations.           Decide whether is a solution to the system of equations     Yes    No          If a point is a solution to a system of equations, it implies the point is on both lines.  To decide whether or not a given point is a solution to a system of linear equations, we need to know whether or not the point is on both lines.  Substituting the point into the first equation, we have:   This is true, so is on the line .  Next, we substitute into the second equation and we have:   This is false, so is not on the line .  Since is not on both lines, is not a solution to the system of equations.             Find the point of intersection of the lines in the figure, given that line , in red, has equation and line , in blue, has equation . =  =     (Click on graph to enlarge)                       Solve the following system of equations graphically:   Answer:                Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, the first equation is given in slope-intercept form. We can graph its -intercept, and then draw slope triangles.  The second line is horizontal.  See solution in the graph:   The solution to this system of equations is . B is the correct answer.           Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, both equations are given in slope-intercept form. We graph each line's -intercept, and then draw slope triangles. See the graph:   The solution to this system of equations is . Graph B is the correct answer.           Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, the first equation is given in slope-intercept form. We can use its -intercept and slope triangles immediately.  The second equation is given in standard form. To accurately graph it, we can rewrite it in slope-intercept form:   See solution in the graph:   The solution to this system of equations is . C is the correct answer.           Simply by looking at this system of equations, decide the number of solutions it has.     No solution    One solution    Infinitely many solutions          Notice that these two lines have the same slope, but different y-intercepts. This implies they are parallel lines, which do not intersect. This system of equations has no solution.           Simply by looking at this system of equations, decide the number of solutions it has.     No solution    One solution    Infinitely many solutions          Both lines are horizontal, and the equations are different. This implies they are parallel lines, which do not intersect. This system of equations has no solution.           Solve the system using substitution                          Solve the following system of equations, using whichever method you wish.     If there is one solution, enter it as an ordered pair.    If there is no solution, enter no solution . Spelling counts.    If there is an infinite number of solutions, enter infinite number of solutions . Spelling counts.            Let s solve the second equation for ; we divide both sides of the equation by , so .    We find by substituting this value of in to the first equation: , and solving for .    This gives .    The solution to the system is . It is left as an exercise to check. Please also note that you may have solved this problem a different way.             Each graph below is the graph of a system of three linear equations in three unknowns. Determine whether each system has a solution and, if it does, the dimension of the solution space.               A.  0 dimensional  no solution  choose  1 dimensional  2 dimensional   B.  0 dimensional  no solution  choose  1 dimensional  2 dimensional   C.  2 dimensional  1 dimensional  choose  no solution  0 dimensional                D.  no solution  choose  2 dimensional  1 dimensional  0 dimensional   E.  0 dimensional  1 dimensional  2 dimensional  choose  no solution   F.  0 dimensional  1 dimensional  2 dimensional  choose  no solution                G.  2 dimensional  1 dimensional  no solution  choose  0 dimensional   H.  0 dimensional  choose  no solution  1 dimensional  2 dimensional   I.  2 dimensional  1 dimensional  choose  no solution   0 dimensional     (Click on a graph to enlarge it.)           Determine which of the points , , and lie in the plane .  Answer:        , so lies on the plane  , so does not lie on the plane  , so does not lie on the plane           Determine which of the points , , and satisfy the linear system   Answer:        SOLUTION:  and , so satisfies the linear system  and , so does not satisfy the linear system  and , so does not satisfy the linear system         "
 },
 {
   "id": "system-word-problem-1",
@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.15",
   "title": "",
-  "body": "   Each graph below is the graph of a system of three linear equations in three unknowns. Determine whether each system has a solution and, if it does, the dimension of the solution space.               A.  1 dimensional  2 dimensional  no solution  choose  0 dimensional   B.  0 dimensional  choose  no solution  1 dimensional  2 dimensional   C.  0 dimensional  1 dimensional  2 dimensional  choose  no solution                D.  0 dimensional  1 dimensional  2 dimensional  choose  no solution   E.  0 dimensional  choose  no solution  1 dimensional  2 dimensional   F.  2 dimensional  1 dimensional  no solution  choose  0 dimensional                G.  0 dimensional  choose  no solution  1 dimensional  2 dimensional   H.  no solution  choose  2 dimensional  1 dimensional  0 dimensional   I.  2 dimensional  1 dimensional  choose  no solution   0 dimensional     (Click on a graph to enlarge it.)       "
+  "body": "   Each graph below is the graph of a system of three linear equations in three unknowns. Determine whether each system has a solution and, if it does, the dimension of the solution space.               A.  0 dimensional  no solution  choose  1 dimensional  2 dimensional   B.  0 dimensional  no solution  choose  1 dimensional  2 dimensional   C.  2 dimensional  1 dimensional  choose  no solution  0 dimensional                D.  no solution  choose  2 dimensional  1 dimensional  0 dimensional   E.  0 dimensional  1 dimensional  2 dimensional  choose  no solution   F.  0 dimensional  1 dimensional  2 dimensional  choose  no solution                G.  2 dimensional  1 dimensional  no solution  choose  0 dimensional   H.  0 dimensional  choose  no solution  1 dimensional  2 dimensional   I.  2 dimensional  1 dimensional  choose  no solution   0 dimensional     (Click on a graph to enlarge it.)       "
 },
 {
   "id": "system-3-check-1",
@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Finding solutions to linear systems",
-  "body": " Finding solutions to linear systems   Practice     Write the augmented matrix of the system                                                                                           Convert the augmented matrix   to the equivalent linear system. Use x1 and x2 to enter the variables and .                                          SOLUTION:            Enter T or F depending on whether the statement is true or false. (You must enter T or F -- True and False will not work.)    If the bottom row of a matrix in reduced row-echelon form contains all 0's to the left of the vertical bar and a nonzero entry to the right, then the system has no solution.    If the first and second row entries of an augmented matrix are 1,1,0, and 0,1,0, respectively, then the matrix is not in reduced row-echelon form.    If a matrix is in reduced-row echelon form, then the first nonzero entry in each row is a 1 and has 0's below it.             The reduced row-echelon forms of the augmented matrices of four systems are given below. How many solutions does each system have?        Unique solution    No solutions    Infinitely many solutions    None of the above         No solutions    Infinitely many solutions    Unique solution    None of the above         Infinitely many solutions    No solutions    Unique solution    None of the above         Infinitely many solutions    Unique solution    No solutions    None of the above               PTX:ERROR: WeBWorK problem Library\/ASU-topics\/set119LinearSystems\/p22.pg with seed 22 does not return valid XML It may not be PTX compatible Use -a to halt with returned content         How many free variables does each augmented matrix have?     Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three                                  How many determined (basic) variables does each augmented matrix have?     Choose   Zero   One   Two   Three   Four       Choose   Zero   One   Two   Three   Four       Choose   Zero   One   Two   Three   Four       Choose   Zero   One   Two   Three   Four                                  Solve the following system using augmented matrix methods:  (a) The initial matrix is:              (b) First, perform the Row Operation . The resulting matrix is:              (c) Next, perform the operation . The resulting matrix is:              (d) Finish simplifying the augmented matrix to reduced row echelon form. The reduced matrix is:              (e) How many solutions does the system have? If infinitely many, enter \"Infinity\".  (f) What are the solutions to the system?  If there are no solutions, write \"No Solution\" or \"None\" for each answer. If there are infinitely many solutions let and solve for in terms of .                                                                                                                                                      Solve the following system using augmented matrix methods:  (a) The initial matrix is:              (b) First, perform the Row Operation . The resulting matrix is:              (c) Next, perform the operation . The resulting matrix is:              (d) Finish simplifying the augmented matrix. The reduced matrix is:              (e) How many solutions does the system have? If infinitely many, enter \"Infinity\".  (f) What are the solutions to the system?  If there are no solutions, write \"No Solution\" or \"None\" for each answer. If there are infinitely many solutions let and solve for in terms of .                                                                                                                                                      Solve the following system using augmented matrix methods:  (a) The initial matrix is:                      (b) First, perform the Row Operation . The resulting matrix is:                      (c) Next, perform the operations   .  The resulting matrix is:                      (d) Finish simplifying the augmented matrix down to reduced row echelon form. The reduced matrix is:                      Remember: This matrix must be simplified all the way to reduced form.  (e) How many solutions does the system have? If infinitely many, enter \"Infinity\". If none, enter 0.  (f) What are the solutions of the system?        Note: In part (f), if there are no solutions, write \"No Solution\" or \"None\" in the answer blank after each equal sign. If there are infinitely many solutions, and the solution set describes a line (that is, if there is only one free variable), set and solve for the remaining variables in terms of . If there are infinitely many solutions, and the solution set describes a plane (that is, if the solution set has two free variables), set the variables and , and then solve for in terms of and .                                                                                                                                                                                                                                                                               Solve the system using matrices (row operations)                          Solve the system by finding the reduced row-echelon form of the augmented matrix.  reduced row-echelon form:                      How many solutions are there to this system?    None    Exactly 1    Exactly 2    Exactly 3    Infinitely many    None of the above    If there is one solution, give its coordinates in the answer spaces below.  If there are infinitely many solutions, enter z in the answer blank for , enter a formula for in terms of in the answer blank for and enter a formula for in terms of in the answer blank for .  If there are no solutions, leave the answer blanks for , and empty.                                                                      E                     Give the result of applying the row operation to the given matrix.             Give the result of applying the row operation to the given matrix.             Give the result of applying the row operation to the given matrix.             Give the result of applying the row operation to the given matrix.             Give the result of applying the row operation to the given matrix.           "
+  "body": " Finding solutions to linear systems   Practice     Write the augmented matrix of the system                                                                                           Convert the augmented matrix   to the equivalent linear system. Use x1 and x2 to enter the variables and .                                          SOLUTION:            Enter T or F depending on whether the statement is true or false. (You must enter T or F -- True and False will not work.)    If the bottom row of a matrix in reduced row-echelon form contains all 0's to the left of the vertical bar and a nonzero entry to the right, then the system has no solution.    If the first and second row entries of an augmented matrix are 1,1,0, and 0,1,0, respectively, then the matrix is not in reduced row-echelon form.    If a matrix is in reduced-row echelon form, then the first nonzero entry in each row is a 1 and has 0's below it.             The reduced row-echelon forms of the augmented matrices of four systems are given below. How many solutions does each system have?        Unique solution    No solutions    Infinitely many solutions    None of the above         No solutions    Infinitely many solutions    Unique solution    None of the above         Infinitely many solutions    No solutions    Unique solution    None of the above         Infinitely many solutions    Unique solution    No solutions    None of the above              The reduced row echelon form of a system of linear equations in and or in , and is given. For each system, determine whether it has a unique solution (in this case, find the solution), infinitely many solutions, or no solutions.  1.    Unique solution:    Infinitely many solutions    No solutions    Unique solution:    Unique solution:    None of the above    2.    No solutions    Infinitely many solutions    Unique solution:    Unique solution:    Unique solution:    None of the above    3.    Unique solution:    No solutions    Unique solution:    Infinitely many solutions    Unique solution:    None of the above    4.    Unique solution:    Unique solution:    Infinitely many solutions    No solutions    Unique solution:    None of the above             How many free variables does each augmented matrix have?     Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three                                  How many determined (basic) variables does each augmented matrix have?     Choose   Zero   One   Two   Three   Four       Choose   Zero   One   Two   Three   Four       Choose   Zero   One   Two   Three   Four       Choose   Zero   One   Two   Three   Four                                  Solve the following system using augmented matrix methods:  (a) The initial matrix is:              (b) First, perform the Row Operation . The resulting matrix is:              (c) Next, perform the operation . The resulting matrix is:              (d) Finish simplifying the augmented matrix to reduced row echelon form. The reduced matrix is:              (e) How many solutions does the system have? If infinitely many, enter \"Infinity\".  (f) What are the solutions to the system?  If there are no solutions, write \"No Solution\" or \"None\" for each answer. If there are infinitely many solutions let and solve for in terms of .                                                                                                                                                      Solve the following system using augmented matrix methods:  (a) The initial matrix is:              (b) First, perform the Row Operation . The resulting matrix is:              (c) Next, perform the operation . The resulting matrix is:              (d) Finish simplifying the augmented matrix. The reduced matrix is:              (e) How many solutions does the system have? If infinitely many, enter \"Infinity\".  (f) What are the solutions to the system?  If there are no solutions, write \"No Solution\" or \"None\" for each answer. If there are infinitely many solutions let and solve for in terms of .                                                                                                                                                      Solve the following system using augmented matrix methods:  (a) The initial matrix is:                      (b) First, perform the Row Operation . The resulting matrix is:                      (c) Next, perform the operations   .  The resulting matrix is:                      (d) Finish simplifying the augmented matrix down to reduced row echelon form. The reduced matrix is:                      Remember: This matrix must be simplified all the way to reduced form.  (e) How many solutions does the system have? If infinitely many, enter \"Infinity\". If none, enter 0.  (f) What are the solutions of the system?        Note: In part (f), if there are no solutions, write \"No Solution\" or \"None\" in the answer blank after each equal sign. If there are infinitely many solutions, and the solution set describes a line (that is, if there is only one free variable), set and solve for the remaining variables in terms of . If there are infinitely many solutions, and the solution set describes a plane (that is, if the solution set has two free variables), set the variables and , and then solve for in terms of and .                                                                                                                                                                                                                                                                               Solve the system using matrices (row operations)                          Solve the system by finding the reduced row-echelon form of the augmented matrix.  reduced row-echelon form:                      How many solutions are there to this system?    None    Exactly 1    Exactly 2    Exactly 3    Infinitely many    None of the above    If there is one solution, give its coordinates in the answer spaces below.  If there are infinitely many solutions, enter z in the answer blank for , enter a formula for in terms of in the answer blank for and enter a formula for in terms of in the answer blank for .  If there are no solutions, leave the answer blanks for , and empty.                                                                      E                     Give the result of applying the row operation to the given matrix.             Give the result of applying the row operation to the given matrix.             Give the result of applying the row operation to the given matrix.             Give the result of applying the row operation to the given matrix.             Give the result of applying the row operation to the given matrix.           "
 },
 {
   "id": "augmented-write-matrix-1",
@@ -214,7 +214,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5",
   "title": "",
-  "body": "    PTX:ERROR: WeBWorK problem Library\/ASU-topics\/set119LinearSystems\/p22.pg with seed 22 does not return valid XML It may not be PTX compatible Use -a to halt with returned content     "
+  "body": "   The reduced row echelon form of a system of linear equations in and or in , and is given. For each system, determine whether it has a unique solution (in this case, find the solution), infinitely many solutions, or no solutions.  1.    Unique solution:    Infinitely many solutions    No solutions    Unique solution:    Unique solution:    None of the above    2.    No solutions    Infinitely many solutions    Unique solution:    Unique solution:    Unique solution:    None of the above    3.    Unique solution:    No solutions    Unique solution:    Infinitely many solutions    Unique solution:    None of the above    4.    Unique solution:    Unique solution:    Infinitely many solutions    No solutions    Unique solution:    None of the above         "
 },
 {
   "id": "rref-free-vars",
@@ -340,7 +340,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Pivots and their influence on solution spaces",
-  "body": " Pivots and their influence on solution spaces   Practice     Determine how many pivots each of the following matrices have.     Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots                                  How many free variables does each augmented matrix have?     Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three                                  Determine the value of such that the matrix is the augmented matrix of a linear system with infinitely many solutions.                   Determine the value of such that the matrix is the augmented matrix of a consistent linear system.                   Determine the value of for which the system   has no solutions.                  For what value(s) of is the linear system consistent?     select   =   ≠               From the the second equation, , we obtain . Substitute into equation 1, . The system is consistent provided .           Each graph below is the graph of a system of three linear equations in three unknowns. Determine which systems are consistent and inconsistent.               A.  consistent  inconsistent  choose   B.  inconsistent  consistent  choose   C.  choose  consistent  inconsistent                D.  consistent  inconsistent  choose   E.  inconsistent  consistent  choose   F.  consistent  inconsistent  choose                G.  inconsistent  consistent  choose   H.  choose  consistent  inconsistent   I.  consistent  inconsistent   choose     (Click on a graph to enlarge it.)            The figure above shows the plot of the points , , and . Find a polynomial of degree 2 of the form whose graph passes through these points.          SOLUTION: Apply to obtain From , we have And Write these equations as an augmented matrix and solve. Row 3 . Row 2 . Row 1 . Thus .         "
+  "body": " Pivots and their influence on solution spaces   Practice     Determine how many pivots each of the following matrices have.     Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots                                  How many free variables does each augmented matrix have?     Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three                                  Determine the value of such that the matrix is the augmented matrix of a linear system with infinitely many solutions.                   Determine the value of such that the matrix is the augmented matrix of a consistent linear system.                   Determine the value of for which the system   has no solutions.                  For what value(s) of is the linear system consistent?     select   =   ≠               From the the second equation, , we obtain . Substitute into equation 1, . The system is consistent provided .           Each graph below is the graph of a system of three linear equations in three unknowns. Determine which systems are consistent and inconsistent.               A.  consistent  inconsistent  choose   B.  consistent  inconsistent  choose   C.  consistent  inconsistent  choose                D.  choose  inconsistent  consistent   E.  choose  consistent  inconsistent   F.  choose  inconsistent  consistent                G.  inconsistent  consistent  choose   H.  inconsistent  consistent  choose   I.  choose  inconsistent   consistent     (Click on a graph to enlarge it.)            The figure above shows the plot of the points , , and . Find a polynomial of degree 2 of the form whose graph passes through these points.          SOLUTION: Apply to obtain From , we have And Write these equations as an augmented matrix and solve. Row 3 . Row 2 . Row 1 . Thus .         "
 },
 {
   "id": "pivots-count-1",
@@ -403,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.4.7",
   "title": "",
-  "body": "   Each graph below is the graph of a system of three linear equations in three unknowns. Determine which systems are consistent and inconsistent.               A.  consistent  inconsistent  choose   B.  inconsistent  consistent  choose   C.  choose  consistent  inconsistent                D.  consistent  inconsistent  choose   E.  inconsistent  consistent  choose   F.  consistent  inconsistent  choose                G.  inconsistent  consistent  choose   H.  choose  consistent  inconsistent   I.  consistent  inconsistent   choose     (Click on a graph to enlarge it.)       "
+  "body": "   Each graph below is the graph of a system of three linear equations in three unknowns. Determine which systems are consistent and inconsistent.               A.  consistent  inconsistent  choose   B.  consistent  inconsistent  choose   C.  consistent  inconsistent  choose                D.  choose  inconsistent  consistent   E.  choose  consistent  inconsistent   F.  choose  inconsistent  consistent                G.  inconsistent  consistent  choose   H.  inconsistent  consistent  choose   I.  choose  inconsistent   consistent     (Click on a graph to enlarge it.)       "
 },
 {
   "id": "pivots-find-polynomial",
@@ -646,12 +646,12 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "The span of a set of vectors",
-  "body": " The span of a set of vectors   Practice      Let . For each of the following sets of vectors determine whether is a line, plane, or .       -2    -1    3    ,    4    2    -5    ,    -8    -4    11    ,    8    4    -9          -1    -2    -2    ,    0    0    0    ,    -2    -4    -4    ,    -3    -6    -6          1    -3    -2    ,    7    7    -7    ,    -7    -4    9    ,    0    3    2                Show that the vectors do not span by giving a vector not in their span.           Let  For what value of is in the plane spanned by and ?                   Determine whether the span of the following set of vectors is a line, a plane, or all of : .    a plane    all of    a line             Find a real number for which the set of vectors spans a line.  :                What conditions on a matrix insures that has a solution for all in ?  Select the best statement. (The best condition should work with any positive integer .)    The equation will have a solution for all in as long as the columns of span .    The equation will have a solution for all in as long as the columns of do not include the zero column.    There is no easy test to determine if the equation will have a solution for all in .    The equation will have a solution for all in as long as no column of is a scalar multiple of another column.    none of the above     in as long as the columns of span .          Assume spans .  Select the best statement.    always spans .    There is no easy way to determine if spans .    spans unless is the zero vector.    never spans .    spans unless is a scalar multiple of another vector in the set.    none of the above     is a subset of the span of , so always spans .          "
+  "body": " The span of a set of vectors   Practice      Let . For each of the following sets of vectors determine whether is a line, plane, or .       -2    -1    3    ,    4    2    -5    ,    -8    -4    11    ,    8    4    -9          -1    -2    -2    ,    0    0    0    ,    -2    -4    -4    ,    -3    -6    -6          1    -3    -2    ,    7    7    -7    ,    -7    -4    9    ,    0    3    2                Show that the vectors do not span by giving a vector not in their span.           Let  For what value of is in the plane spanned by and ?                  Let and .  Denote the columns of by , , , and let .   Determine if is in    Determine if is in    How many vectors are in ? (For infinitely many, enter -1)  How many vectors are in ? (For infinitely many, enter -1)    No    Yes                    What conditions on a matrix insures that has a solution for all in ?  Select the best statement. (The best condition should work with any positive integer .)    The equation will have a solution for all in as long as the columns of do not include the zero column.    The equation will have a solution for all in as long as the columns of span .    There is no easy test to determine if the equation will have a solution for all in .    The equation will have a solution for all in as long as no column of is a scalar multiple of another column.    none of the above     in as long as the columns of span .          Assume spans .  Select the best statement.    spans unless is a scalar multiple of another vector in the set.    spans unless is the zero vector.    There is no easy way to determine if spans .    never spans .    always spans .    none of the above     is a subset of the span of , so always spans .            Do the columns of the matrix span ?       9  18  55    -8  -15  -44    4  8  24          5  20  40    6  24  48    1  4  8          -4  -8  8  48    -5  -11  12  64    -9  -18  18  108          7  9    -5  -9    3  2                Do the columns of the matrix span ?       -9  -6    4  9          -9  -51  6    6  54  -9          9  -45    -6  30          -9  -36  -72    -5  -20  -40                 Let .  We want to determine if the columns of span .  To check this we add times the first row to the second. We conclude that    The columns of do span .    The columns of do not span .    We cannot tell if the columns of span .          Since we have a row of zeros, we conclude that the columns do not span .           Let .  We want to determine if the columns of span .  To check this we add times the first row to the second.  We then add times the first row to the third.  We then add times the new second row to the new third row.  We conclude that    The columns of do not span .    The columns of do span .    We cannot tell if the columns of span .                    Since we do not have a row of zeros, we conclude that the columns do span .           Let , and .  Which of the following statements are true about the span of ? Select all the true statements.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    All vectors in are in the span.    We cannot tell which vectors are in the span.     is a scalar multiple of so the span of the two vectors is the same as the span of the first vector. Thus to be in the span a vector has to be a scalar multiple of the first vector. But a vector obtained by multiplying the first vector by a scalar, then adding something to one of the components, is not in the span.          Let , and .  Select all of the vectors that are not in the span of .    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    All vectors in are in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    We cannot tell which vectors are in the span.     are not in the span. Thus if we take any vector in the span and change one coordinate, we get a vector not in the span.          Let , and .  The set will span unless .  (If there are no values of that make the set fail to span, enter \"NONE\". If the set fails to span for all values of enter \"ALL\".)        times the second row to the first shows us: The reduced matrix cannot have a row of zeros if the original vectors span. We conclude .           Suppose a matrix has columns that span .  Select the best statement.    Then the equation can have nontrivial solutions, but the shape of the matrix will not give us that information.    Then the equation must have nontrivial solutions.    Then the equation will have nontrivial solutions precisely when it is not square.    Then the equation cannot have nontrivial solutions.    Then the equation will have nontrivial solutions only if one column is a multiple of another column.    none of the above     , then the equation will have nontrivial solutions precisely when it is not square.            Let be vectors and suppose and .  Mark the statements below that must be true.    Span(x, z)= Span(y, w)    Span(y) = Span(w)    Span(y, w)= Span(z)    Span(x, y) = Span(x, w, z)             Let . For each of the following sets of vectors determine whether is a line or a plane.       10    9    1    ,    0    0    0    ,       -2    2    4    ,    4    -6    -9    ,       3    4    -4    ,    -9    -9    13    ,       3    3    -2    ,    -9    -9    6    ,              Let and . Find a vector  not in .             Find the value of for which   is in the set  .                   "
 },
 {
-  "id": "span-line-plane,R3",
+  "id": "ms-span-line-plane,R3",
   "level": "2",
-  "url": "sec-span.html#span-line-plane,R3",
+  "url": "sec-span.html#ms-span-line-plane,R3",
   "type": "Exercise",
   "number": "2.3.1",
   "title": "",
@@ -676,40 +676,580 @@ var ptx_lunr_docs = [
   "body": "   Let  For what value of is in the plane spanned by and ?              "
 },
 {
-  "id": "span-line-plane-2",
+  "id": "span-vs-elem-1",
   "level": "2",
-  "url": "sec-span.html#span-line-plane-2",
+  "url": "sec-span.html#span-vs-elem-1",
   "type": "Exercise",
   "number": "2.3.4",
   "title": "",
-  "body": "   Determine whether the span of the following set of vectors is a line, a plane, or all of : .    a plane    all of    a line         "
+  "body": "   Let and .  Denote the columns of by , , , and let .   Determine if is in    Determine if is in    How many vectors are in ? (For infinitely many, enter -1)  How many vectors are in ? (For infinitely many, enter -1)    No    Yes       "
 },
 {
-  "id": "span-line-1",
+  "id": "mc-span-condition-1",
   "level": "2",
-  "url": "sec-span.html#span-line-1",
+  "url": "sec-span.html#mc-span-condition-1",
   "type": "Exercise",
   "number": "2.3.5",
   "title": "",
-  "body": "   Find a real number for which the set of vectors spans a line.  :            "
+  "body": "   What conditions on a matrix insures that has a solution for all in ?  Select the best statement. (The best condition should work with any positive integer .)    The equation will have a solution for all in as long as the columns of do not include the zero column.    The equation will have a solution for all in as long as the columns of span .    There is no easy test to determine if the equation will have a solution for all in .    The equation will have a solution for all in as long as no column of is a scalar multiple of another column.    none of the above     in as long as the columns of span .      "
 },
 {
-  "id": "span-condition-1",
+  "id": "mc-span-condition-2",
   "level": "2",
-  "url": "sec-span.html#span-condition-1",
+  "url": "sec-span.html#mc-span-condition-2",
   "type": "Exercise",
   "number": "2.3.6",
   "title": "",
-  "body": "   What conditions on a matrix insures that has a solution for all in ?  Select the best statement. (The best condition should work with any positive integer .)    The equation will have a solution for all in as long as the columns of span .    The equation will have a solution for all in as long as the columns of do not include the zero column.    There is no easy test to determine if the equation will have a solution for all in .    The equation will have a solution for all in as long as no column of is a scalar multiple of another column.    none of the above     in as long as the columns of span .      "
+  "body": "   Assume spans .  Select the best statement.    spans unless is a scalar multiple of another vector in the set.    spans unless is the zero vector.    There is no easy way to determine if spans .    never spans .    always spans .    none of the above     is a subset of the span of , so always spans .      "
 },
 {
-  "id": "span-condition-2",
+  "id": "span_R3_1",
   "level": "2",
-  "url": "sec-span.html#span-condition-2",
+  "url": "sec-span.html#span_R3_1",
   "type": "Exercise",
   "number": "2.3.7",
   "title": "",
-  "body": "   Assume spans .  Select the best statement.    always spans .    There is no easy way to determine if spans .    spans unless is the zero vector.    never spans .    spans unless is a scalar multiple of another vector in the set.    none of the above     is a subset of the span of , so always spans .      "
+  "body": "   Do the columns of the matrix span ?       9  18  55    -8  -15  -44    4  8  24          5  20  40    6  24  48    1  4  8          -4  -8  8  48    -5  -11  12  64    -9  -18  18  108          7  9    -5  -9    3  2            "
+},
+{
+  "id": "span_R2_1",
+  "level": "2",
+  "url": "sec-span.html#span_R2_1",
+  "type": "Exercise",
+  "number": "2.3.8",
+  "title": "",
+  "body": "   Do the columns of the matrix span ?       -9  -6    4  9          -9  -51  6    6  54  -9          9  -45    -6  30          -9  -36  -72    -5  -20  -40            "
+},
+{
+  "id": "do-columns-span-R2_1",
+  "level": "2",
+  "url": "sec-span.html#do-columns-span-R2_1",
+  "type": "Exercise",
+  "number": "2.3.9",
+  "title": "",
+  "body": "   Let .  We want to determine if the columns of span .  To check this we add times the first row to the second. We conclude that    The columns of do span .    The columns of do not span .    We cannot tell if the columns of span .          Since we have a row of zeros, we conclude that the columns do not span .      "
+},
+{
+  "id": "do-columns-span-R3_1",
+  "level": "2",
+  "url": "sec-span.html#do-columns-span-R3_1",
+  "type": "Exercise",
+  "number": "2.3.10",
+  "title": "",
+  "body": "   Let .  We want to determine if the columns of span .  To check this we add times the first row to the second.  We then add times the first row to the third.  We then add times the new second row to the new third row.  We conclude that    The columns of do not span .    The columns of do span .    We cannot tell if the columns of span .                    Since we do not have a row of zeros, we conclude that the columns do span .      "
+},
+{
+  "id": "ms-in-span_1",
+  "level": "2",
+  "url": "sec-span.html#ms-in-span_1",
+  "type": "Exercise",
+  "number": "2.3.11",
+  "title": "",
+  "body": "   Let , and .  Which of the following statements are true about the span of ? Select all the true statements.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    All vectors in are in the span.    We cannot tell which vectors are in the span.     is a scalar multiple of so the span of the two vectors is the same as the span of the first vector. Thus to be in the span a vector has to be a scalar multiple of the first vector. But a vector obtained by multiplying the first vector by a scalar, then adding something to one of the components, is not in the span.      "
+},
+{
+  "id": "ms-in-span_2",
+  "level": "2",
+  "url": "sec-span.html#ms-in-span_2",
+  "type": "Exercise",
+  "number": "2.3.12",
+  "title": "",
+  "body": "   Let , and .  Select all of the vectors that are not in the span of .    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    All vectors in are in the span.    The vector is not in the span.    The vector is not in the span.    The vector is not in the span.    We cannot tell which vectors are in the span.     are not in the span. Thus if we take any vector in the span and change one coordinate, we get a vector not in the span.      "
+},
+{
+  "id": "will-span_1",
+  "level": "2",
+  "url": "sec-span.html#will-span_1",
+  "type": "Exercise",
+  "number": "2.3.13",
+  "title": "",
+  "body": "   Let , and .  The set will span unless .  (If there are no values of that make the set fail to span, enter \"NONE\". If the set fails to span for all values of enter \"ALL\".)        times the second row to the first shows us: The reduced matrix cannot have a row of zeros if the original vectors span. We conclude .      "
+},
+{
+  "id": "mc-span-condition-3",
+  "level": "2",
+  "url": "sec-span.html#mc-span-condition-3",
+  "type": "Exercise",
+  "number": "2.3.14",
+  "title": "",
+  "body": "   Suppose a matrix has columns that span .  Select the best statement.    Then the equation can have nontrivial solutions, but the shape of the matrix will not give us that information.    Then the equation must have nontrivial solutions.    Then the equation will have nontrivial solutions precisely when it is not square.    Then the equation cannot have nontrivial solutions.    Then the equation will have nontrivial solutions only if one column is a multiple of another column.    none of the above     , then the equation will have nontrivial solutions precisely when it is not square.      "
+},
+{
+  "id": "span-vs-lin-ind-2",
+  "level": "2",
+  "url": "sec-span.html#span-vs-lin-ind-2",
+  "type": "Exercise",
+  "number": "2.3.15",
+  "title": "",
+  "body": "   Let be vectors and suppose and .  Mark the statements below that must be true.    Span(x, z)= Span(y, w)    Span(y) = Span(w)    Span(y, w)= Span(z)    Span(x, y) = Span(x, w, z)         "
+},
+{
+  "id": "span-vs-lin-ind-3",
+  "level": "2",
+  "url": "sec-span.html#span-vs-lin-ind-3",
+  "type": "Exercise",
+  "number": "2.3.16",
+  "title": "",
+  "body": "   Let . For each of the following sets of vectors determine whether is a line or a plane.       10    9    1    ,    0    0    0    ,       -2    2    4    ,    4    -6    -9    ,       3    4    -4    ,    -9    -9    13    ,       3    3    -2    ,    -9    -9    6    ,         "
+},
+{
+  "id": "span-vs-lin-ind-4",
+  "level": "2",
+  "url": "sec-span.html#span-vs-lin-ind-4",
+  "type": "Exercise",
+  "number": "2.3.17",
+  "title": "",
+  "body": "   Let and . Find a vector  not in .         "
+},
+{
+  "id": "span-vs-lin-ind-5",
+  "level": "2",
+  "url": "sec-span.html#span-vs-lin-ind-5",
+  "type": "Exercise",
+  "number": "2.3.18",
+  "title": "",
+  "body": "   Find the value of for which   is in the set  .              "
+},
+{
+  "id": "sec-linear-dep",
+  "level": "1",
+  "url": "sec-linear-dep.html",
+  "type": "Section",
+  "number": "2.4",
+  "title": "Linear independence",
+  "body": " Linear independence   Practice      Let Describe all solutions of .       .           Determine which of the following sets of vectors are linearly independent and which are linearly dependent.       6    -9    4    -6    ,    -7    1    -5    1    ,    0    0    0    0    ,    9    -8    -4    1          -5    -1    2    -2    ,    10    2    -4    5    ,    -21    -4    8    -11          1    1    -4    -4    ,    -2    -2    8    7          4    -8    2    4    ,    4    2    1    2    ,    -6    -5    5    1    ,    -3    -3    4    4    ,    7    -4    -4    -2          -3    -5    4    -3    ,    6    10    -8    6          -1    -4    1    -3    ,    1    -2    -1    3    ,    1    16    -1    3                Let , , and  Are , and linearly dependent, or are they linearly independent?    Linearly independent    Linearly dependent    If they are linearly dependent, determine a non-trivial linear relation. Otherwise, if the vectors are linearly independent, enter 0's for the coefficients, since that relationship always holds.    .                     Are the vectors , and linearly independent?   Choose   linearly dependent   linearly independent   If they are linearly dependent, find scalars that are not all zero such that the equation below is true. If they are linearly independent, find the only scalars that will make the equation below true.        .                     Are the vectors , , and linearly independent?   Choose   linearly dependent   linearly independent   If they are linearly dependent, find scalars that are not all zero such that the equation below is true. If they are linearly independent, find the only scalars that will make the equation below true.          .                         Let , , and  Are , and linearly dependent, or are they linearly independent?    Linearly independent    Linearly dependent    If they are linearly dependent, determine a non-trivial linear relation. Otherwise, if the vectors are linearly independent, enter 0's for the coefficients, since that relationship always holds.    .                      Let Describe all solutions of .       .            Let be a linearly independent set of vectors.  Select the best statement.    could be a linearly independent or linearly dependent set of vectors depending on the vectors chosen.    is always a linearly independent set of vectors.    is also a linearly independent set of vectors unless is a scalar multiple another vector in the set.    is also a linearly independent set of vectors unless .    is always a linearly dependent set of vectors.    none of the above     is a linear combination of then is linearly dependent. Otherwise the set in linearly independent. could be a linearly independent or linearly dependent set of vectors depending on the vectors chosen.          Let be a linearly dependent set of vectors.  Select the best statement.    is a linearly independent set of vectors unless .    is a linearly independent set of vectors unless is a linear combination of other vectors in the set.    is always a linearly independent set of vectors.    could be a linearly independent or linearly dependent set of vectors depending on the vectors chosen.    is always a linearly dependent set of vectors.    none of the above     is always a linearly dependent set of vectors.          Let be a linearly independent set of vectors.  Select the best statement.    is never a linearly independent set of vectors.    could be a linearly independent or linearly dependent set of vectors depending on the vectors chosen.    is always a linearly independent set of vectors.    none of the above     is always a linearly independent set of vectors.          Let be a linearly dependent set of vectors.  Select the best statement.    could be a linearly dependent or linearly dependent set of vectors depending on the vector space chosen.    is never a linearly dependent set of vectors.    is a linearly dependent set of vectors unless one of is the zero vector.    could be a linearly dependent or linearly dependent set of vectors depending on the vectors chosen.    is always a linearly dependent set of vectors.    none of the above     could be a linearly dependent or linearly dependent set of vectors depending on the vectors chosen.          Let be a linear combination of .  Select the best statement.    is never a linearly independent set of vectors.    is a linearly dependent set of vectors unless one of is the zero vector.    is never a linearly dependent set of vectors.    could be a linearly dependent or linearly dependent set of vectors depending on the vector space chosen.    could be a linearly dependent or linearly dependent set of vectors depending on the vectors chosen.    is always a linearly independent set of vectors.    none of the above     , then \" is never a linearly independent set of vectors.\"          Let be a linear combination of .  Select the best statement.    is a linearly dependent set of vectors unless one of is the zero vector.    is always a linearly dependent set of vectors.    is never a linearly dependent set of vectors.    could be a linearly dependent or linearly dependent set of vectors depending on the vector space chosen.    could be a linearly dependent or linearly dependent set of vectors depending on the vectors chosen.    none of the above     , then  is always a linearly dependent set of vectors.          Assume is not a linear combination of .  Select the best statement.    could be a linearly independent or linearly dependent set of vectors depending on the vector space chosen.    could be a linearly independent or linearly dependent set of vectors depending on the vectors chosen.    is always a linearly independent set of vectors.    is a linearly independent set of vectors unless one of is the zero vector.    is never a linearly independent set of vectors.    none of the above     is the vector in that has a for the th component and a zero for the other components, then is linearly independent. If we replace the first vector with the zero vector, the set is linearly dependent. could be a linearly independent or linearly dependent set of vectors depending on the vectors chosen.        "
+},
+{
+  "id": "lin-ind-1",
+  "level": "2",
+  "url": "sec-linear-dep.html#lin-ind-1",
+  "type": "Exercise",
+  "number": "2.4.1",
+  "title": "",
+  "body": "   Let Describe all solutions of .       .       "
+},
+{
+  "id": "lin-ind-2",
+  "level": "2",
+  "url": "sec-linear-dep.html#lin-ind-2",
+  "type": "Exercise",
+  "number": "2.4.2",
+  "title": "",
+  "body": "   Determine which of the following sets of vectors are linearly independent and which are linearly dependent.       6    -9    4    -6    ,    -7    1    -5    1    ,    0    0    0    0    ,    9    -8    -4    1          -5    -1    2    -2    ,    10    2    -4    5    ,    -21    -4    8    -11          1    1    -4    -4    ,    -2    -2    8    7          4    -8    2    4    ,    4    2    1    2    ,    -6    -5    5    1    ,    -3    -3    4    4    ,    7    -4    -4    -2          -3    -5    4    -3    ,    6    10    -8    6          -1    -4    1    -3    ,    1    -2    -1    3    ,    1    16    -1    3            "
+},
+{
+  "id": "lin-ind-3",
+  "level": "2",
+  "url": "sec-linear-dep.html#lin-ind-3",
+  "type": "Exercise",
+  "number": "2.4.3",
+  "title": "",
+  "body": "   Let , , and  Are , and linearly dependent, or are they linearly independent?    Linearly independent    Linearly dependent    If they are linearly dependent, determine a non-trivial linear relation. Otherwise, if the vectors are linearly independent, enter 0's for the coefficients, since that relationship always holds.    .                 "
+},
+{
+  "id": "lin-ind-3b",
+  "level": "2",
+  "url": "sec-linear-dep.html#lin-ind-3b",
+  "type": "Exercise",
+  "number": "2.4.4",
+  "title": "",
+  "body": "   Are the vectors , and linearly independent?   Choose   linearly dependent   linearly independent   If they are linearly dependent, find scalars that are not all zero such that the equation below is true. If they are linearly independent, find the only scalars that will make the equation below true.        .                 "
+},
+{
+  "id": "lin-ind-4",
+  "level": "2",
+  "url": "sec-linear-dep.html#lin-ind-4",
+  "type": "Exercise",
+  "number": "2.4.5",
+  "title": "",
+  "body": "   Are the vectors , , and linearly independent?   Choose   linearly dependent   linearly independent   If they are linearly dependent, find scalars that are not all zero such that the equation below is true. If they are linearly independent, find the only scalars that will make the equation below true.          .                 "
+},
+{
+  "id": "lin-ind-8",
+  "level": "2",
+  "url": "sec-linear-dep.html#lin-ind-8",
+  "type": "Exercise",
+  "number": "2.4.6",
+  "title": "",
+  "body": "   Let , , and  Are , and linearly dependent, or are they linearly independent?    Linearly independent    Linearly dependent    If they are linearly dependent, determine a non-trivial linear relation. Otherwise, if the vectors are linearly independent, enter 0's for the coefficients, since that relationship always holds.    .                 "
+},
+{
+  "id": "lin-ind-9",
+  "level": "2",
+  "url": "sec-linear-dep.html#lin-ind-9",
+  "type": "Exercise",
+  "number": "2.4.7",
+  "title": "",
+  "body": "   Let Describe all solutions of .       .       "
+},
+{
+  "id": "mc-lin-ind-1",
+  "level": "2",
+  "url": "sec-linear-dep.html#mc-lin-ind-1",
+  "type": "Exercise",
+  "number": "2.4.8",
+  "title": "",
+  "body": "   Let be a linearly independent set of vectors.  Select the best statement.    could be a linearly independent or linearly dependent set of vectors depending on the vectors chosen.    is always a linearly independent set of vectors.    is also a linearly independent set of vectors unless is a scalar multiple another vector in the set.    is also a linearly independent set of vectors unless .    is always a linearly dependent set of vectors.    none of the above     is a linear combination of then is linearly dependent. Otherwise the set in linearly independent. could be a linearly independent or linearly dependent set of vectors depending on the vectors chosen.      "
+},
+{
+  "id": "mc-lin-ind-2",
+  "level": "2",
+  "url": "sec-linear-dep.html#mc-lin-ind-2",
+  "type": "Exercise",
+  "number": "2.4.9",
+  "title": "",
+  "body": "   Let be a linearly dependent set of vectors.  Select the best statement.    is a linearly independent set of vectors unless .    is a linearly independent set of vectors unless is a linear combination of other vectors in the set.    is always a linearly independent set of vectors.    could be a linearly independent or linearly dependent set of vectors depending on the vectors chosen.    is always a linearly dependent set of vectors.    none of the above     is always a linearly dependent set of vectors.      "
+},
+{
+  "id": "mc-lin-ind-3",
+  "level": "2",
+  "url": "sec-linear-dep.html#mc-lin-ind-3",
+  "type": "Exercise",
+  "number": "2.4.10",
+  "title": "",
+  "body": "   Let be a linearly independent set of vectors.  Select the best statement.    is never a linearly independent set of vectors.    could be a linearly independent or linearly dependent set of vectors depending on the vectors chosen.    is always a linearly independent set of vectors.    none of the above     is always a linearly independent set of vectors.      "
+},
+{
+  "id": "mc-lin-ind-4",
+  "level": "2",
+  "url": "sec-linear-dep.html#mc-lin-ind-4",
+  "type": "Exercise",
+  "number": "2.4.11",
+  "title": "",
+  "body": "   Let be a linearly dependent set of vectors.  Select the best statement.    could be a linearly dependent or linearly dependent set of vectors depending on the vector space chosen.    is never a linearly dependent set of vectors.    is a linearly dependent set of vectors unless one of is the zero vector.    could be a linearly dependent or linearly dependent set of vectors depending on the vectors chosen.    is always a linearly dependent set of vectors.    none of the above     could be a linearly dependent or linearly dependent set of vectors depending on the vectors chosen.      "
+},
+{
+  "id": "mc-lin-ind-5",
+  "level": "2",
+  "url": "sec-linear-dep.html#mc-lin-ind-5",
+  "type": "Exercise",
+  "number": "2.4.12",
+  "title": "",
+  "body": "   Let be a linear combination of .  Select the best statement.    is never a linearly independent set of vectors.    is a linearly dependent set of vectors unless one of is the zero vector.    is never a linearly dependent set of vectors.    could be a linearly dependent or linearly dependent set of vectors depending on the vector space chosen.    could be a linearly dependent or linearly dependent set of vectors depending on the vectors chosen.    is always a linearly independent set of vectors.    none of the above     , then \" is never a linearly independent set of vectors.\"      "
+},
+{
+  "id": "mc-lin-ind-6",
+  "level": "2",
+  "url": "sec-linear-dep.html#mc-lin-ind-6",
+  "type": "Exercise",
+  "number": "2.4.13",
+  "title": "",
+  "body": "   Let be a linear combination of .  Select the best statement.    is a linearly dependent set of vectors unless one of is the zero vector.    is always a linearly dependent set of vectors.    is never a linearly dependent set of vectors.    could be a linearly dependent or linearly dependent set of vectors depending on the vector space chosen.    could be a linearly dependent or linearly dependent set of vectors depending on the vectors chosen.    none of the above     , then  is always a linearly dependent set of vectors.      "
+},
+{
+  "id": "mc-lin-ind-7",
+  "level": "2",
+  "url": "sec-linear-dep.html#mc-lin-ind-7",
+  "type": "Exercise",
+  "number": "2.4.14",
+  "title": "",
+  "body": "   Assume is not a linear combination of .  Select the best statement.    could be a linearly independent or linearly dependent set of vectors depending on the vector space chosen.    could be a linearly independent or linearly dependent set of vectors depending on the vectors chosen.    is always a linearly independent set of vectors.    is a linearly independent set of vectors unless one of is the zero vector.    is never a linearly independent set of vectors.    none of the above     is the vector in that has a for the th component and a zero for the other components, then is linearly independent. If we replace the first vector with the zero vector, the set is linearly dependent. could be a linearly independent or linearly dependent set of vectors depending on the vectors chosen.      "
+},
+{
+  "id": "sec-linear-trans",
+  "level": "1",
+  "url": "sec-linear-trans.html",
+  "type": "Section",
+  "number": "2.5",
+  "title": "Matrix transformations",
+  "body": " Matrix transformations   Practice      Let be a linear transformation from to with associated matrix Let be a linear transformation from to with associated matrix Determine the matrix of the composition .              Let be a linear transformation from to with associated matrix Let be a linear transformation from to with associated matrix Determine the matrix of the composition .             Let be the linear transformation defined by  .  Find its associated matrix .   .           If is a linear transformation such that  then            If is a linear transformation such that then the standard matrix of is               Find a matrix such that , where .             Consider a linear transformation from to for which Find the matrix of .             If is a linear transformation such that then the standard matrix of is             Let Find the matrix of the linear transformation             If is a linear transformation such that then the standard matrix of is             Let be a matrix. What must and be if we define the linear transformation by as                         Let be a matrix. If the linear transformation from to is defined by , how many rows and columns does the matrix have?   ,                      Consider a linear transformation from to for which Find the matrix of .   .         "
+},
+{
+  "id": "maxtrix-transformations-1",
+  "level": "2",
+  "url": "sec-linear-trans.html#maxtrix-transformations-1",
+  "type": "Exercise",
+  "number": "2.5.1",
+  "title": "",
+  "body": "   Let be a linear transformation from to with associated matrix Let be a linear transformation from to with associated matrix Determine the matrix of the composition .         "
+},
+{
+  "id": "maxtrix-transformations-2",
+  "level": "2",
+  "url": "sec-linear-trans.html#maxtrix-transformations-2",
+  "type": "Exercise",
+  "number": "2.5.2",
+  "title": "",
+  "body": "   Let be a linear transformation from to with associated matrix Let be a linear transformation from to with associated matrix Determine the matrix of the composition .         "
+},
+{
+  "id": "maxtrix-transformations-3",
+  "level": "2",
+  "url": "sec-linear-trans.html#maxtrix-transformations-3",
+  "type": "Exercise",
+  "number": "2.5.3",
+  "title": "",
+  "body": "   Let be the linear transformation defined by  .  Find its associated matrix .   .       "
+},
+{
+  "id": "maxtrix-transformations-Rn1",
+  "level": "2",
+  "url": "sec-linear-trans.html#maxtrix-transformations-Rn1",
+  "type": "Exercise",
+  "number": "2.5.4",
+  "title": "",
+  "body": "   If is a linear transformation such that  then        "
+},
+{
+  "id": "maxtrix-transformations-Rn2",
+  "level": "2",
+  "url": "sec-linear-trans.html#maxtrix-transformations-Rn2",
+  "type": "Exercise",
+  "number": "2.5.5",
+  "title": "",
+  "body": "   If is a linear transformation such that then the standard matrix of is         "
+},
+{
+  "id": "lin-trans-as_Matrix_multiplication",
+  "level": "2",
+  "url": "sec-linear-trans.html#lin-trans-as_Matrix_multiplication",
+  "type": "Exercise",
+  "number": "2.5.6",
+  "title": "",
+  "body": "   Find a matrix such that , where .         "
+},
+{
+  "id": "maxtrix-transformations-Rn3",
+  "level": "2",
+  "url": "sec-linear-trans.html#maxtrix-transformations-Rn3",
+  "type": "Exercise",
+  "number": "2.5.7",
+  "title": "",
+  "body": "   Consider a linear transformation from to for which Find the matrix of .         "
+},
+{
+  "id": "maxtrix-transformations-Rn4",
+  "level": "2",
+  "url": "sec-linear-trans.html#maxtrix-transformations-Rn4",
+  "type": "Exercise",
+  "number": "2.5.8",
+  "title": "",
+  "body": "   If is a linear transformation such that then the standard matrix of is         "
+},
+{
+  "id": "maxtrix-transformations-Rn5",
+  "level": "2",
+  "url": "sec-linear-trans.html#maxtrix-transformations-Rn5",
+  "type": "Exercise",
+  "number": "2.5.9",
+  "title": "",
+  "body": "   Let Find the matrix of the linear transformation         "
+},
+{
+  "id": "maxtrix-transformations-Rn6",
+  "level": "2",
+  "url": "sec-linear-trans.html#maxtrix-transformations-Rn6",
+  "type": "Exercise",
+  "number": "2.5.10",
+  "title": "",
+  "body": "   If is a linear transformation such that then the standard matrix of is         "
+},
+{
+  "id": "maxtrix-transformations-dimension1",
+  "level": "2",
+  "url": "sec-linear-trans.html#maxtrix-transformations-dimension1",
+  "type": "Exercise",
+  "number": "2.5.11",
+  "title": "",
+  "body": "   Let be a matrix. What must and be if we define the linear transformation by as                     "
+},
+{
+  "id": "maxtrix-transformations-dimension2",
+  "level": "2",
+  "url": "sec-linear-trans.html#maxtrix-transformations-dimension2",
+  "type": "Exercise",
+  "number": "2.5.12",
+  "title": "",
+  "body": "   Let be a matrix. If the linear transformation from to is defined by , how many rows and columns does the matrix have?   ,                  "
+},
+{
+  "id": "maxtrix-transformations-Rn7",
+  "level": "2",
+  "url": "sec-linear-trans.html#maxtrix-transformations-Rn7",
+  "type": "Exercise",
+  "number": "2.5.13",
+  "title": "",
+  "body": "   Consider a linear transformation from to for which Find the matrix of .   .       "
+},
+{
+  "id": "sec-transforms-geom",
+  "level": "1",
+  "url": "sec-transforms-geom.html",
+  "type": "Section",
+  "number": "2.6",
+  "title": "The geometry of matrix transformations",
+  "body": " The geometry of matrix transformations   Practice       Let be defined by . Is a linear transformation?     .     .  Does for all ?  choose   Yes, they are equal   No, they are not equal      .      .  Does for all ?  choose   Yes, they are equal   No, they are not equal    Is a linear transformation?  choose   f is a linear transformation   f is not a linear transformation                                                Let be defined by . Is a linear transformation?     .     .  Does for all ?  choose   Yes, they are equal   No, they are not equal      .      .  Does for all ?  choose   Yes, they are equal   No, they are not equal    Is a linear transformation?  choose   f is a linear transformation   f is not a linear transformation                                                Let be defined by . Is a linear transformation?     .     .  Does for all ?  choose   Yes, they are equal   No, they are not equal      .      .  Does for all ?  choose   Yes, they are equal   No, they are not equal    Is a linear transformation?  choose   f is a linear transformation   f is not a linear transformation                                                Let denote the vector space of polynomials in the variable of degree or less with real coefficients. Let be defined by for all polynomials . Is a linear transformation?  Let and be any two polynomials in and .     . (Enter as , etc.)     .  Does for all ?  choose   Yes, they are equal   No, they are not equal      .      .  Does for all and all ?  choose   Yes, they are equal   No, they are not equal    Is a linear transformation?  choose   f is a linear transformation   f is not a linear transformation                                                Let denote the vector space of polynomials in the variable of degree or less with real coefficients. Let be a fixed polynomial of degree . Let be defined by for all polynomials . Is a linear transformation?  Let and be any two polynomials in and .     . (Enter as , etc.)     .  Does for all ?  choose   Yes, they are equal   No, they are not equal      .      .  Does for all and all ?  choose   Yes, they are equal   No, they are not equal    Is a linear transformation?  choose   f is a linear transformation   f is not a linear transformation                                                Let denote the vector space of matrices with real entries. Let be the function defined by for any . Is a linear transformation?  Let and be any two matrices in and let .     . (Enter as , etc.)     .  Does for all ?  choose   Yes, they are equal   No, they are not equal      .      .  Does for all and all ?  choose   Yes, they are equal   No, they are not equal    Is a linear transformation?  choose   f is a linear transformation   f is not a linear transformation                                 Suppose is a function and for .                Domain    Codomain      Does ?  choose   yes   no  Does ?  choose   yes   no     Answer the following questions to determine whether is a linear transformation. Enter your answers as coordinate vectors of the form <less\/>1,2>.         +    The function   choose   is definitely a linear transformation   may or may not be a linear transformation   cannot be a linear transformation  . Be sure you can explain your answer.                                             Suppose is a function and for .                Domain    Codomain      Does ?  choose   yes   no  Does ?  choose   yes   no     Answer the following questions to determine whether is a linear transformation. Enter your answers as coordinate vectors of the form <less\/>1,2>.         +    The function   choose   is definitely a linear transformation   may or may not be a linear transformation   cannot be a linear transformation  . Be sure you can explain your answer.                                              Below, two pentagons are shown. The goal is to choose the correct linear transformations and in the correct order so that the blue\/green pentagon is transformed to the red pentagon.  When you are comfortable with the coefficients that you have chosen, press the submit button below.   First consider performing one of the first four transformations. Consider how the final image relates to the original image with respect to the x and y axes.  Once you get the reflection transformations correct in the first step, consider one of the skew transformations as the second transformation.   The correct transformations first includes which is a reflection.  Then, which is a skew.  Finally, which is an expansion or contraction.  and the total transformation matrix is given by           Match each linear transformation with its matrix.                           Identity transformation  Dilation by a factor of 2  Reflection in the -axis  Projection onto the -axis  Reflection in the -axis   Projection onto the -axis               To every linear transformation from to , there is an associated matrix. Match the following linear transformations with their associated matrix.    Reflection about the line y=x    Reflection about the y-axis    Clockwise rotation by radians    The projection onto the x-axis given by T(x,y)=(x,0)    Reflection about the -axis    Counter-clockwise rotation by radians                        None of the above               The vector (red) has length , and makes an angle of with the -axis. The vector (blue) has length , and makes an angle of with the -axis.       Find the matrix which rotates and dilates vector into vector :              Find the matrix of the linear transformation from to that rotates any vector through an angle of in the clockwise direction.             Find the matrix of the orthogonal projection onto the line in that consists of all scalar multiples of the vector .             Find the matrix of the reflection in the line in that consists of all scalar multiples of the vector             Find the matrix of the rotation about the -axis through an angle of , clockwise as viewed from the positive -axis.              Let be the linear transformation that first reflects points through the -axis and then then reflects points through the line . Find the standard matrix for .   .           Let be the linear transformation that first rotates points clockwise through ( radians) and then reflects points through the line . Find the standard matrix for .   .           Let be the linear transformation that first projects points onto the -plane and then reflects around the line . Find the standard matrix for .   .         "
+},
+{
+  "id": "linear-transformation-defined-linearFunction1",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformation-defined-linearFunction1",
+  "type": "Exercise",
+  "number": "2.6.1",
+  "title": "",
+  "body": "   Let be defined by . Is a linear transformation?     .     .  Does for all ?  choose   Yes, they are equal   No, they are not equal      .      .  Does for all ?  choose   Yes, they are equal   No, they are not equal    Is a linear transformation?  choose   f is a linear transformation   f is not a linear transformation                                            "
+},
+{
+  "id": "linear-transformation-defined-quadraticFunction",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformation-defined-quadraticFunction",
+  "type": "Exercise",
+  "number": "2.6.2",
+  "title": "",
+  "body": "   Let be defined by . Is a linear transformation?     .     .  Does for all ?  choose   Yes, they are equal   No, they are not equal      .      .  Does for all ?  choose   Yes, they are equal   No, they are not equal    Is a linear transformation?  choose   f is a linear transformation   f is not a linear transformation                                            "
+},
+{
+  "id": "linear-transformation-defined-3variableVector",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformation-defined-3variableVector",
+  "type": "Exercise",
+  "number": "2.6.3",
+  "title": "",
+  "body": "   Let be defined by . Is a linear transformation?     .     .  Does for all ?  choose   Yes, they are equal   No, they are not equal      .      .  Does for all ?  choose   Yes, they are equal   No, they are not equal    Is a linear transformation?  choose   f is a linear transformation   f is not a linear transformation                                            "
+},
+{
+  "id": "linear-transformation-defined-polynomial1",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformation-defined-polynomial1",
+  "type": "Exercise",
+  "number": "2.6.4",
+  "title": "",
+  "body": "   Let denote the vector space of polynomials in the variable of degree or less with real coefficients. Let be defined by for all polynomials . Is a linear transformation?  Let and be any two polynomials in and .     . (Enter as , etc.)     .  Does for all ?  choose   Yes, they are equal   No, they are not equal      .      .  Does for all and all ?  choose   Yes, they are equal   No, they are not equal    Is a linear transformation?  choose   f is a linear transformation   f is not a linear transformation                                            "
+},
+{
+  "id": "linear-transformation-defined-polynomial2",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformation-defined-polynomial2",
+  "type": "Exercise",
+  "number": "2.6.5",
+  "title": "",
+  "body": "   Let denote the vector space of polynomials in the variable of degree or less with real coefficients. Let be a fixed polynomial of degree . Let be defined by for all polynomials . Is a linear transformation?  Let and be any two polynomials in and .     . (Enter as , etc.)     .  Does for all ?  choose   Yes, they are equal   No, they are not equal      .      .  Does for all and all ?  choose   Yes, they are equal   No, they are not equal    Is a linear transformation?  choose   f is a linear transformation   f is not a linear transformation                                            "
+},
+{
+  "id": "linear-transformation-defined-matrices1",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformation-defined-matrices1",
+  "type": "Exercise",
+  "number": "2.6.6",
+  "title": "",
+  "body": "   Let denote the vector space of matrices with real entries. Let be the function defined by for any . Is a linear transformation?  Let and be any two matrices in and let .     . (Enter as , etc.)     .  Does for all ?  choose   Yes, they are equal   No, they are not equal      .      .  Does for all and all ?  choose   Yes, they are equal   No, they are not equal    Is a linear transformation?  choose   f is a linear transformation   f is not a linear transformation                             "
+},
+{
+  "id": "linear-transformation-geometric_defined1",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformation-geometric_defined1",
+  "type": "Exercise",
+  "number": "2.6.7",
+  "title": "",
+  "body": "   Suppose is a function and for .                Domain    Codomain      Does ?  choose   yes   no  Does ?  choose   yes   no     Answer the following questions to determine whether is a linear transformation. Enter your answers as coordinate vectors of the form <less\/>1,2>.         +    The function   choose   is definitely a linear transformation   may or may not be a linear transformation   cannot be a linear transformation  . Be sure you can explain your answer.                                         "
+},
+{
+  "id": "linear-transformation-geometric_defined2",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformation-geometric_defined2",
+  "type": "Exercise",
+  "number": "2.6.8",
+  "title": "",
+  "body": "   Suppose is a function and for .                Domain    Codomain      Does ?  choose   yes   no  Does ?  choose   yes   no     Answer the following questions to determine whether is a linear transformation. Enter your answers as coordinate vectors of the form <less\/>1,2>.         +    The function   choose   is definitely a linear transformation   may or may not be a linear transformation   cannot be a linear transformation  . Be sure you can explain your answer.                                         "
+},
+{
+  "id": "linear-transformations-geometric_apply1",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformations-geometric_apply1",
+  "type": "Exercise",
+  "number": "2.6.9",
+  "title": "",
+  "body": "   Below, two pentagons are shown. The goal is to choose the correct linear transformations and in the correct order so that the blue\/green pentagon is transformed to the red pentagon.  When you are comfortable with the coefficients that you have chosen, press the submit button below.   First consider performing one of the first four transformations. Consider how the final image relates to the original image with respect to the x and y axes.  Once you get the reflection transformations correct in the first step, consider one of the skew transformations as the second transformation.   The correct transformations first includes which is a reflection.  Then, which is a skew.  Finally, which is an expansion or contraction.  and the total transformation matrix is given by       "
+},
+{
+  "id": "linear-transformations-geometric_type1",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformations-geometric_type1",
+  "type": "Exercise",
+  "number": "2.6.10",
+  "title": "",
+  "body": "   Match each linear transformation with its matrix.                           Identity transformation  Dilation by a factor of 2  Reflection in the -axis  Projection onto the -axis  Reflection in the -axis   Projection onto the -axis          "
+},
+{
+  "id": "linear-transformations-geometric_type2",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformations-geometric_type2",
+  "type": "Exercise",
+  "number": "2.6.11",
+  "title": "",
+  "body": "   To every linear transformation from to , there is an associated matrix. Match the following linear transformations with their associated matrix.    Reflection about the line y=x    Reflection about the y-axis    Clockwise rotation by radians    The projection onto the x-axis given by T(x,y)=(x,0)    Reflection about the -axis    Counter-clockwise rotation by radians                        None of the above         "
+},
+{
+  "id": "linear-transformations-geometric_find_trig1",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformations-geometric_find_trig1",
+  "type": "Exercise",
+  "number": "2.6.12",
+  "title": "",
+  "body": "     The vector (red) has length , and makes an angle of with the -axis. The vector (blue) has length , and makes an angle of with the -axis.       Find the matrix which rotates and dilates vector into vector :         "
+},
+{
+  "id": "linear-transformations-geometric_find_rotate1",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformations-geometric_find_rotate1",
+  "type": "Exercise",
+  "number": "2.6.13",
+  "title": "",
+  "body": "   Find the matrix of the linear transformation from to that rotates any vector through an angle of in the clockwise direction.         "
+},
+{
+  "id": "linear-transformations-geometric_find_projection1",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformations-geometric_find_projection1",
+  "type": "Exercise",
+  "number": "2.6.14",
+  "title": "",
+  "body": "   Find the matrix of the orthogonal projection onto the line in that consists of all scalar multiples of the vector .         "
+},
+{
+  "id": "linear-transformations-geometric_reflection1",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformations-geometric_reflection1",
+  "type": "Exercise",
+  "number": "2.6.15",
+  "title": "",
+  "body": "   Find the matrix of the reflection in the line in that consists of all scalar multiples of the vector         "
+},
+{
+  "id": "linear-transformations-geometric_find_rotate2",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformations-geometric_find_rotate2",
+  "type": "Exercise",
+  "number": "2.6.16",
+  "title": "",
+  "body": "   Find the matrix of the rotation about the -axis through an angle of , clockwise as viewed from the positive -axis.         "
+},
+{
+  "id": "linear-transformations-geometric_reflection2",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformations-geometric_reflection2",
+  "type": "Exercise",
+  "number": "2.6.17",
+  "title": "",
+  "body": "   Let be the linear transformation that first reflects points through the -axis and then then reflects points through the line . Find the standard matrix for .   .       "
+},
+{
+  "id": "linear-transformations-geometric_reflection3",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformations-geometric_reflection3",
+  "type": "Exercise",
+  "number": "2.6.18",
+  "title": "",
+  "body": "   Let be the linear transformation that first rotates points clockwise through ( radians) and then reflects points through the line . Find the standard matrix for .   .       "
+},
+{
+  "id": "linear-transformations-geometric_reflection4",
+  "level": "2",
+  "url": "sec-transforms-geom.html#linear-transformations-geometric_reflection4",
+  "type": "Exercise",
+  "number": "2.6.19",
+  "title": "",
+  "body": "   Let be the linear transformation that first projects points onto the -plane and then reflects around the line . Find the standard matrix for .   .       "
 },
 {
   "id": "app-sage-reference",

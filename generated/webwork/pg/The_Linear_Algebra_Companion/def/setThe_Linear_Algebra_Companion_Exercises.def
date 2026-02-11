@@ -1,6 +1,6 @@
-openDate          = 02/02/2026 at 12:00am
-dueDate           = 08/02/2026 at 10:00pm
-answerDate        = 08/02/2026 at 10:00pm
+openDate          = 02/11/2026 at 12:00am
+dueDate           = 08/11/2026 at 10:00pm
+answerDate        = 08/11/2026 at 10:00pm
 paperHeaderFile   = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 screenHeaderFile  = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 description       = The Linear Algebra Companion
@@ -278,18 +278,246 @@ source_file = Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_8.pg
 problem_id = 3
 problem_end
 problem_start
-source_file = Contrib/MountAllison/2-3_Subspaces_Spans_and_Linear_Independence/determine_r3_span_3_vectors.pg
+source_file = Library/TCNJ/TCNJ_VectorEquations/problem7.pg
 problem_id = 4
 problem_end
 problem_start
-source_file = Contrib/MountAllison/2-3_Subspaces_Spans_and_Linear_Independence/find_x_r3_spans_line.pg
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.56.pg
 problem_id = 5
 problem_end
 problem_start
-source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.56.pg
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.57.pg
 problem_id = 6
 problem_end
 problem_start
-source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.57.pg
+source_file = Library/TCNJ/TCNJ_MatrixEquations/problem3.pg
 problem_id = 7
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixEquations/problem8.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.21.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.25.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.35.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.37.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.39.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.55.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_VectorEquations/problem1.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_VectorEquations/problem5.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_VectorEquations/problem6.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_VectorEquations/problem8.pg
+problem_id = 18
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_SolutionSetsLinearSystems/problem7.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_LinearIndependence/problem11.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_1.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_1b.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_3.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_LinearIndependence/problem5.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_SolutionSetsLinearSystems/problem6.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.45.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.46.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.47.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.48.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.49.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.50.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.51.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem11.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem12.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem1.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_1.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_4.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/NAU/setLinearAlgebra/ABA.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_10.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_2.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_24.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_5.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_IntroLinearTransformations/problem13.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_IntroLinearTransformations/problem14.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem8.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_01.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_03.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_06.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_10.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_11.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_14.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_01.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_02.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/MC/Sage/LinearAlg/LinearTransformations.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_13.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem10.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra4InverseMatrix/ur_Ch2_2_1.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_15.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_20.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_21.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_23.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem5.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem6.pg
+problem_id = 18
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem7.pg
+problem_id = 19
 problem_end
