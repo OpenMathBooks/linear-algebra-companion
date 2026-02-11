@@ -22,6 +22,10 @@
 			<webwork source="Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_1.pg" />
 		</exercise>
 
+		<exercise label="lin-ind-3b">
+			<webwork source="Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_1b.pg" />
+		</exercise>
+
 		<exercise label="lin-ind-4">
 			<webwork source="Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_3.pg" />
 		</exercise>
@@ -47,26 +51,35 @@
 		</exercise>
 
 
+		<!-- LinearAlgebra/AbstractVectorSpaces/LinearIndependence -->
 
-		<!-- Move to previous section?  -->
-<!-- The following exercises are from WW: [Problems from OPL Directory: TCNJ/TCNJ_VectorEquations] -->
-		<exercise label="span-vs-lin-ind-2">
-			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem1.pg" />
+		<exercise label="mc-lin-ind-1">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.45.pg" />
 		</exercise>
 
-		<exercise label="span-vs-lin-ind-3">
-			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem5.pg" />
-		</exercise>
-				<!-- There is an additional problem like this in the same set - for R^3 - Problem 10 (currently in section 2.3)-->
-
-		<exercise label="span-vs-lin-ind-4">
-			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem6.pg" />
+		<exercise label="mc-lin-ind-2">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.46.pg" />
 		</exercise>
 
-		<exercise label="span-vs-lin-ind-5">
-			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem8.pg" />
+		<exercise label="mc-lin-ind-3">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.47.pg" />
 		</exercise>
-					<!-- There is an additional problem like this in the same set - Problem 9 -->
+
+		<exercise label="mc-lin-ind-4">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.48.pg" />
+		</exercise>
+
+		<exercise label="mc-lin-ind-5">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.49.pg" />
+		</exercise>
+
+		<exercise label="mc-lin-ind-6">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.50.pg" />
+		</exercise>
+
+		<exercise label="mc-lin-ind-7">
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.3.51.pg" />
+		</exercise>
 
 	</exercises>
   

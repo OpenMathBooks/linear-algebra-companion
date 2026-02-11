@@ -100,8 +100,29 @@
 			<!-- additional problems avaliable -->
 
 
+<!-- The following exercises are from WW: [Problems from OPL Directory: TCNJ/TCNJ_VectorEquations] -->
+		<exercise label="span-vs-lin-ind-2">
+			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem1.pg" />
+		</exercise>
 
+		<exercise label="span-vs-lin-ind-3">
+			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem5.pg" />
+		</exercise>
+				<!-- There is an additional problem like this in the same set - for R^3 - Problem 10 (currently in section 2.3)-->
 
+		<exercise label="span-vs-lin-ind-4">
+			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem6.pg" />
+		</exercise>
+
+		<exercise label="span-vs-lin-ind-5">
+			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem8.pg" />
+		</exercise>
+					<!-- There is an additional problem like this in the same set - Problem 9 -->
+
+					<!-- Broken apparently -->
+		<!-- <exercise label="span-graphical-1">
+			<webwork source="Library/Hope/Multi1/03-03-Span/Graphical_01/Graphical_01.pg" />
+		</exercise> -->
 		
 	</exercises>
   
