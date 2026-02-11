@@ -26,27 +26,16 @@
 			<webwork source="Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_3.pg" />
 		</exercise>
 
-		<exercise label="span-vs-lin-ind-1">
-			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem7.pg" />
-		</exercise>
 
-<!-- 2.4 Problems found by Andrew -->
-<!-- The following exercises are from WW: [Subject: Linear Algebra, Chapter: All Chapters, Keyword: Dependent not including Contrib] -->
-		<exercise label="lin-ind-5">
-			<webwork source="Library/Rochester/setAlgebra35SystemMatrices/sw7_3_23.pg" />
-		</exercise>
 		
-<!-- The following exercises are from WW: [Subject: Linear Algebra, Chapter: All Chapters, Keyword: Independent not including Contrib] -->
-		<exercise label="lin-ind-6">
-			<webwork source="Library/Rochester/setAlgebra35SystemMatrices/augmentedmatrix.pg" />
-		</exercise>
 
 <!-- 2.4 Problems found by Andrew -->
 <!-- The following exercises are from WW: [Problems from OPL Directory: TCNJ/TCNJ_LinearIndependence] -->
 
-		<exercise label="lin-ind-7">
+<!-- row vectors -->
+		<!-- <exercise label="lin-ind-7">
 			<webwork source="Library/TCNJ/TCNJ_LinearIndependence/problem3.pg" />
-		</exercise>
+		</exercise> -->
 
 		<exercise label="lin-ind-8">
 			<webwork source="Library/TCNJ/TCNJ_LinearIndependence/problem5.pg" />
@@ -57,6 +46,9 @@
 			<webwork source="Library/TCNJ/TCNJ_SolutionSetsLinearSystems/problem6.pg" />
 		</exercise>
 
+
+
+		<!-- Move to previous section?  -->
 <!-- The following exercises are from WW: [Problems from OPL Directory: TCNJ/TCNJ_VectorEquations] -->
 		<exercise label="span-vs-lin-ind-2">
 			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem1.pg" />

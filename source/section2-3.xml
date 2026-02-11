@@ -10,7 +10,7 @@
   	<exercises>
 		<title>Practice</title>
 <!-- Exercises from MATH-204-ww set02.22.21.Sects2.2-2.3.def -->
-		<exercise label="span-line-plane,R3">
+		<exercise label="ms-span-line-plane,R3">
 			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem10.pg" />
 		</exercise>
 
@@ -21,20 +21,37 @@
 		<exercise label="span-how-1">
 			<webwork source="Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_8.pg" />
 		</exercise>
+
+
+		<exercise label="span-vs-elem-1">
+			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem7.pg" />
+		</exercise>
 <!-- 2.3 Problems found by Andrew -->
-		<exercise label="span-line-plane-2">
-			<webwork source="Contrib/MountAllison/2-3_Subspaces_Spans_and_Linear_Independence/determine_r3_span_3_vectors.pg" />
-		</exercise>
 
-		<exercise label="span-line-1">
+<!-- Writes vectors as rows: -->
+<!-- <exercise label="span-line-plane-2">
+	<webwork source="Contrib/MountAllison/2-3_Subspaces_Spans_and_Linear_Independence/determine_r3_span_3_vectors.pg" />
+	</exercise> -->
+	
+	<!-- Writes vectors as rows: -->
+		<!-- <exercise label="span-line-1">
 			<webwork source="Contrib/MountAllison/2-3_Subspaces_Spans_and_Linear_Independence/find_x_r3_spans_line.pg" />
-		</exercise>
+		</exercise> -->
+		<!-- The following exercises are from WW: [Problems from Contrib: MountAllison/2-3_Subspaces_Spans_and_Linear_Independence] -->
+ <!-- They use row vectors -->
+		<!-- <exercise label="span-line-plane-3">
+			<webwork source="Contrib/MountAllison/2-3_Subspaces_Spans_and_Linear_Independence/determine_r2_span.pg" />
+		</exercise> -->
 
-		<exercise label="span-condition-1">
+		<!-- <exercise label="span-plane-1">
+			<webwork source="Contrib/MountAllison/2-3_Subspaces_Spans_and_Linear_Independence/find_x_r3_spans_plane.pg" />
+		</exercise> -->
+
+		<exercise label="mc-span-condition-1">
 			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.56.pg" />
 		</exercise>
 
-		<exercise label="span-condition-2">
+		<exercise label="mc-span-condition-2">
 			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.57.pg" />
 		</exercise>
 			<!-- additional problems avaliable; see WW [Problems from OPL Directory: Library/WHFreeman/Holt_linear_algebra]  -->
@@ -49,14 +66,7 @@
 			<webwork source="Library/TCNJ/TCNJ_MatrixEquations/problem8.pg" />
 		</exercise>
 
-<!-- The following exercises are from WW: [Problems from Contrib: MountAllison/2-3_Subspaces_Spans_and_Linear_Independence] -->
-		<exercise label="span-line-plane-3">
-			<webwork source="Contrib/MountAllison/2-3_Subspaces_Spans_and_Linear_Independence/determine_r2_span.pg" />
-		</exercise>
 
-		<exercise label="span-plane-1">
-			<webwork source="Contrib/MountAllison/2-3_Subspaces_Spans_and_Linear_Independence/find_x_r3_spans_plane.pg" />
-		</exercise>
 
 <!-- The following exercises are from WW: [Problems from OPL Directory: Library/WHFreeman/Holt_linear_algebra] 
  This resource has A LOT of problems, possibly all problems from Holt Linear Algebra Ch. 1-4-->
@@ -71,11 +81,11 @@
 		</exercise>
 			<!-- additional problems avaliable -->
 
-		<exercise label="in-span_1">
+		<exercise label="ms-in-span_1">
 			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.35.pg" />
 		</exercise>
 		
-		<exercise label="in-span_2">
+		<exercise label="ms-in-span_2">
 			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.37.pg" />
 		</exercise>
 		
@@ -84,7 +94,7 @@
 		</exercise>
 			<!-- additional problems avaliable -->
 		
-		<exercise label="span-condition-3">
+		<exercise label="mc-span-condition-3">
 			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.2.55.pg" />
 		</exercise>
 			<!-- additional problems avaliable -->
