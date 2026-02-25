@@ -549,53 +549,53 @@ and, if it does, the dimension of the solution space.</p>
 <row halign="center" valign="middle">
 <cell>A. <var form="popup">
 <li>
-0 dimensional
+choose
 </li>
 <li>
 no solution
 </li>
 <li>
-choose
+2 dimensional
+</li>
+<li>
+0 dimensional
 </li>
 <li>
 1 dimensional
-</li>
-<li>
-2 dimensional
 </li>
 </var></cell>
 <cell>B. <var form="popup">
 <li>
+1 dimensional
+</li>
+<li>
 0 dimensional
 </li>
 <li>
-no solution
+2 dimensional
 </li>
 <li>
 choose
 </li>
 <li>
-1 dimensional
-</li>
-<li>
-2 dimensional
+no solution
 </li>
 </var></cell>
 <cell>C. <var form="popup">
 <li>
-2 dimensional
+0 dimensional
 </li>
 <li>
 1 dimensional
 </li>
 <li>
-choose
-</li>
-<li>
 no solution
 </li>
 <li>
-0 dimensional
+choose
+</li>
+<li>
+2 dimensional
 </li>
 </var></cell>
 </row>
@@ -613,6 +613,12 @@ no solution
 <row halign="center" valign="middle">
 <cell>D. <var form="popup">
 <li>
+0 dimensional
+</li>
+<li>
+1 dimensional
+</li>
+<li>
 no solution
 </li>
 <li>
@@ -620,37 +626,31 @@ choose
 </li>
 <li>
 2 dimensional
-</li>
-<li>
-1 dimensional
-</li>
-<li>
-0 dimensional
 </li>
 </var></cell>
 <cell>E. <var form="popup">
 <li>
-0 dimensional
+1 dimensional
 </li>
 <li>
-1 dimensional
+0 dimensional
 </li>
 <li>
 2 dimensional
 </li>
 <li>
-choose
+no solution
 </li>
 <li>
-no solution
+choose
 </li>
 </var></cell>
 <cell>F. <var form="popup">
 <li>
-0 dimensional
+1 dimensional
 </li>
 <li>
-1 dimensional
+0 dimensional
 </li>
 <li>
 2 dimensional
@@ -680,13 +680,13 @@ no solution
 2 dimensional
 </li>
 <li>
-1 dimensional
+choose
 </li>
 <li>
 no solution
 </li>
 <li>
-choose
+1 dimensional
 </li>
 <li>
 0 dimensional
@@ -694,19 +694,19 @@ choose
 </var></cell>
 <cell>H. <var form="popup">
 <li>
+1 dimensional
+</li>
+<li>
 0 dimensional
+</li>
+<li>
+2 dimensional
 </li>
 <li>
 choose
 </li>
 <li>
 no solution
-</li>
-<li>
-1 dimensional
-</li>
-<li>
-2 dimensional
 </li>
 </var></cell>
 <cell>I. <var form="popup">
@@ -714,13 +714,13 @@ no solution
 2 dimensional
 </li>
 <li>
-1 dimensional
+no solution
 </li>
 <li>
 choose
 </li>
 <li>
-no solution
+1 dimensional
 </li>
 <li>
 <p>0 dimensional
@@ -2682,10 +2682,10 @@ and inconsistent.</p>
 <row halign="center" valign="middle">
 <cell>A. <var form="popup">
 <li>
-consistent
+inconsistent
 </li>
 <li>
-inconsistent
+consistent
 </li>
 <li>
 choose
@@ -2704,13 +2704,13 @@ choose
 </var></cell>
 <cell>C. <var form="popup">
 <li>
+choose
+</li>
+<li>
 consistent
 </li>
 <li>
 inconsistent
-</li>
-<li>
-choose
 </li>
 </var></cell>
 </row>
@@ -2728,13 +2728,13 @@ choose
 <row halign="center" valign="middle">
 <cell>D. <var form="popup">
 <li>
-choose
+consistent
 </li>
 <li>
 inconsistent
 </li>
 <li>
-consistent
+choose
 </li>
 </var></cell>
 <cell>E. <var form="popup">
@@ -2774,13 +2774,13 @@ consistent
 <row halign="center" valign="middle">
 <cell>G. <var form="popup">
 <li>
+choose
+</li>
+<li>
 inconsistent
 </li>
 <li>
 consistent
-</li>
-<li>
-choose
 </li>
 </var></cell>
 <cell>H. <var form="popup">
@@ -6453,314 +6453,17 @@ Find the matrix <m>A</m> of <m>T</m>.</p>
     <pg source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_03.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-113" ww-id="webwork-113">
-    <static seed="113" source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_06.pg">
-      <statement><p>Let <m>f : \mathbb{R} \to \mathbb{R}^3</m> be defined by <m>f(x) = \left\lt 8x,8x,-2x\right&gt;</m>.  Is <m>f</m> a linear transformation?</p>
-<p><OL TYPE="a"/></p>
-<p><LI>
-<m>f(x+y) =</m> <fillin characters="40" name="AnSwEr0001"/>.</LI></p>
-<p><m>f(x) + f(y) =</m> <fillin characters="20" name="AnSwEr0002"/> <m>+</m> <fillin characters="20" name="MuLtIaNsWeR_AnSwEr0002_1"/>.</p>
-<p>Does <m>f(x+y) = f(x) + f(y)</m> for all <m>x,y \in \mathbb{R}</m>? <ul form="popup" name="AnSwEr0003"><li>
-<p>choose</p>
-</li><li>
-<p>Yes, they are equal</p>
-</li><li>
-<p>No, they are not equal</p>
-</li></ul>
-<BR><BR>
-<LI>
-<m>f(c x) =</m> <fillin characters="40" name="AnSwEr0004"/>.</LI></BR></BR></p>
-<p><m>c(f(x)) =</m> <fillin characters="5" name="AnSwEr0005"/> <m>\Big(</m> <fillin characters="20" name="MuLtIaNsWeR_AnSwEr0005_1"/> <m>\Big)</m>.</p>
-<p>Does <m>f(cx) = c(f(x))</m> for all <m>c, x \in \mathbb{R}</m>? <ul form="popup" name="AnSwEr0006"><li>
-<p>choose</p>
-</li><li>
-<p>Yes, they are equal</p>
-</li><li>
-<p>No, they are not equal</p>
-</li></ul>
-<BR><BR>
-<LI> Is <m>f</m> a linear transformation? <ul form="popup" name="AnSwEr0007"><li>
-<p>choose</p>
-</li><li>
-<p>f is a linear transformation</p>
-</li><li>
-<p>f is not a linear transformation</p>
-</li></ul>
-</LI></BR></BR></p>
-</statement>
-      <answer>
-        <p>
-          <m>\left&lt;8\mathopen{}\left(x+y\right),8\mathopen{}\left(x+y\right),-2\mathopen{}\left(x+y\right)\right&gt;</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\left&lt;8x,8x,-2x\right&gt; + \left&lt;8y,8y,-2y\right&gt;</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\text{Yes, they are equal}</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\left&lt;8cx,8cx,-2cx\right&gt;</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>c ( \left&lt;8x,8x,-2x\right&gt; )</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\text{Yes, they are equal}</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\text{f is a linear transformation}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_06.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_06.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-114" ww-id="webwork-114">
-    <static seed="114" source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_10.pg">
-      <statement><p>Let <m>\mathcal{P}_n</m> denote the vector space of polynomials in the variable <m>x</m> of degree <m>n</m> or less with real coefficients.
-Let <m>f : \mathcal{P}_2 \to \mathcal{P}_3</m> be defined by <m>f(p(x)) = x p(x)</m> for all polynomials <m>p(x) \in \mathcal{P}_2</m>.  
-Is <m>f</m> a linear transformation?</p>
-<p>Let <m>p(x) = a_2 x^2 + a_1 x + a_0</m> and <m>q(x) = b_2 x^2 + b_1 x + b_0</m> be any two polynomials in <m>\mathcal{P}_2</m> and <m>c \in \mathbb{R}</m>.</p>
-<p><OL TYPE="a"/></p>
-<p><LI>
-<m>f(p(x)+q(x)) =</m> <fillin characters="50" name="AnSwEr0001"/>.  (Enter <m>a_2</m> as <m>\verb+a2+</m>, etc.)</LI></p>
-<p><m>f(p(x)) + f(q(x)) =</m> <fillin characters="25" name="AnSwEr0002"/> <m>+</m> <fillin characters="25" name="MuLtIaNsWeR_AnSwEr0002_1"/>.</p>
-<p>Does <m>f(p(x)+q(x)) = f(p(x)) + f(q(x))</m> for all <m>p(x), q(x) \in \mathcal{P}_2</m>? <ul form="popup" name="AnSwEr0003"><li>
-<p>choose</p>
-</li><li>
-<p>Yes, they are equal</p>
-</li><li>
-<p>No, they are not equal</p>
-</li></ul>
-<BR><BR>
-<LI>
-<m>f(c p(x)) =</m> <fillin characters="40" name="AnSwEr0004"/>.</LI></BR></BR></p>
-<p><m>c(f(p(x))) =</m> <fillin characters="5" name="AnSwEr0005"/> <m>\Big(</m> <fillin characters="20" name="MuLtIaNsWeR_AnSwEr0005_1"/> <m>\Big)</m>.</p>
-<p>Does <m>f(c p(x)) = c(f(p(x)))</m> for all <m>c \in \mathbb{R}</m> and all <m>p(x) \in \mathcal{P}_2</m>? <ul form="popup" name="AnSwEr0006"><li>
-<p>choose</p>
-</li><li>
-<p>Yes, they are equal</p>
-</li><li>
-<p>No, they are not equal</p>
-</li></ul>
-<BR><BR>
-<LI> Is <m>f</m> a linear transformation? <ul form="popup" name="AnSwEr0007"><li>
-<p>choose</p>
-</li><li>
-<p>f is a linear transformation</p>
-</li><li>
-<p>f is not a linear transformation</p>
-</li></ul>
-</LI></BR></BR></p>
-</statement>
-      <answer>
-        <p>
-          <m>\left(a_{2}+b_{2}\right)x^{3}+\left(a_{1}+b_{1}\right)x^{2}+\left(a_{0}+b_{0}\right)x</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>a_{2}x^{3}+a_{1}x^{2}+a_{0}x + b_{2}x^{3}+b_{1}x^{2}+b_{0}x</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\text{Yes, they are equal}</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>a_{2}cx^{3}+a_{1}cx^{2}+a_{0}cx</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>c \left( a_{2}x^{3}+a_{1}x^{2}+a_{0}x \right)</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\text{Yes, they are equal}</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\text{f is a linear transformation}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_10.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-115" ww-id="webwork-115">
-    <static seed="115" source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_11.pg">
-      <statement><p>Let <m>\mathcal{P}_n</m> denote the vector space of polynomials in the variable <m>x</m> of degree <m>n</m> or less with real coefficients.
-Let <m>r(x) \in \mathcal{P}_n</m> be a fixed polynomial of degree <m>n</m>.
-Let <m>f : \mathcal{P}_2 \to \mathcal{P}_{n+2}</m> be defined by <m>f(p(x)) = p(x) r(x)</m> for all polynomials <m>p(x) \in \mathcal{P}_2</m>.  
-Is <m>f</m> a linear transformation?</p>
-<p>Let <m>p(x) = a_2 x^2 + a_1 x + a_0</m> and <m>q(x) = b_2 x^2 + b_1 x + b_0</m> be any two polynomials in <m>\mathcal{P}_2</m> and <m>c \in \mathbb{R}</m>.</p>
-<p><OL TYPE="a"/></p>
-<p><LI>
-<m>f(p(x)+q(x)) =</m> <fillin characters="50" name="AnSwEr0001"/>.  (Enter <m>a_2</m> as <m>\verb+a2+</m>, etc.)</LI></p>
-<p><m>f(p(x)) + f(q(x)) =</m> <fillin characters="25" name="AnSwEr0002"/> <m>+</m> <fillin characters="25" name="MuLtIaNsWeR_AnSwEr0002_1"/>.</p>
-<p>Does <m>f(p(x)+q(x)) = f(p(x)) + f(q(x))</m> for all <m>p(x), q(x) \in \mathcal{P}_2</m>? <ul form="popup" name="AnSwEr0003"><li>
-<p>choose</p>
-</li><li>
-<p>Yes, they are equal</p>
-</li><li>
-<p>No, they are not equal</p>
-</li></ul>
-<BR><BR>
-<LI>
-<m>f(c p(x)) =</m> <fillin characters="40" name="AnSwEr0004"/>.</LI></BR></BR></p>
-<p><m>c(f(p(x))) =</m> <fillin characters="5" name="AnSwEr0005"/> <m>\Big(</m> <fillin characters="20" name="MuLtIaNsWeR_AnSwEr0005_1"/> <m>\Big)</m>.</p>
-<p>Does <m>f(c p(x)) = c(f(p(x)))</m> for all <m>c \in \mathbb{R}</m> and all <m>p(x) \in \mathcal{P}_2</m>? <ul form="popup" name="AnSwEr0006"><li>
-<p>choose</p>
-</li><li>
-<p>Yes, they are equal</p>
-</li><li>
-<p>No, they are not equal</p>
-</li></ul>
-<BR><BR>
-<LI> Is <m>f</m> a linear transformation? <ul form="popup" name="AnSwEr0007"><li>
-<p>choose</p>
-</li><li>
-<p>f is a linear transformation</p>
-</li><li>
-<p>f is not a linear transformation</p>
-</li></ul>
-</LI></BR></BR></p>
-</statement>
-      <answer>
-        <p>
-          <m>\left(a_{2}+b_{2}\right)r\mathopen{}\left(x\right)x^{2}+\left(a_{1}+b_{1}\right)r\mathopen{}\left(x\right)x+\left(a_{0}+b_{0}\right)r\mathopen{}\left(x\right)</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>a_{2}r\mathopen{}\left(x\right)x^{2}+a_{1}r\mathopen{}\left(x\right)x+a_{0}r\mathopen{}\left(x\right) + b_{2}r\mathopen{}\left(x\right)x^{2}+b_{1}r\mathopen{}\left(x\right)x+b_{0}r\mathopen{}\left(x\right)</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\text{Yes, they are equal}</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>a_{2}cr\mathopen{}\left(x\right)x^{2}+a_{1}cr\mathopen{}\left(x\right)x+a_{0}cr\mathopen{}\left(x\right)</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>c \left( a_{2}r\mathopen{}\left(x\right)x^{2}+a_{1}r\mathopen{}\left(x\right)x+a_{0}r\mathopen{}\left(x\right) \right)</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\text{Yes, they are equal}</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\text{f is a linear transformation}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_11.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_11.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-116" ww-id="webwork-116">
-    <static seed="116" source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_14.pg">
-      <statement><p>Let <m>M_{n,n}(\mathbb{R})</m> denote the vector space of <m>n \times n</m> matrices with real entries.
-Let <m>f : M_{2,2}(\mathbb{R}) \to M_{2,2}(\mathbb{R})</m> be the function defined by <m>f(A) = A^T</m> for any <m>A \in M_{2,2}(\mathbb{R})</m>.
-Is <m>f</m> a linear transformation?</p>
-<p>Let <m>A = \left[\begin{array}{cc}
-a_{11} \amp a_{12}\cr
-a_{21} \amp a_{22}\cr
-\end{array}\right]</m> and <m>B = \left[\begin{array}{cc}
-b_{11} \amp b_{12}\cr
-b_{21} \amp b_{22}\cr
-\end{array}\right]</m> be any two matrices in <m>M_{2,2}(\mathbb{R})</m> and let <m>c \in \mathbb{R}</m>.</p>
-<p><OL TYPE="a"/></p>
-<p><LI>
-<m>f(A+B) =</m> <fillin cols="2" rows="2"/>.  (Enter <m>a_{11}</m> as <m>\verb+a11+</m>, etc.)</LI></p>
-<p><m>f(A) + f(B) =</m> <fillin cols="2" rows="2"/> <m>+</m> <fillin cols="2" rows="2"/>.</p>
-<p>Does <m>f(A+B) = f(A) + f(B)</m> for all <m>A, B \in M_{2,2}(\mathbb{R})</m>? <ul form="popup" name="AnSwEr0003"><li>
-<p>choose</p>
-</li><li>
-<p>Yes, they are equal</p>
-</li><li>
-<p>No, they are not equal</p>
-</li></ul>
-<BR><BR>
-<LI>
-<m>f(c A) =</m> <fillin cols="2" rows="2"/>.</LI></BR></BR></p>
-<p><m>c(f(A)) =</m> <fillin characters="5" name="AnSwEr0005"/> <m>\Bigg(</m> <fillin cols="2" rows="2"/> <m>\Bigg)</m>.</p>
-<p>Does <m>f(c A) = c(f(A))</m> for all <m>c \in \mathbb{R}</m> and all <m>A \in M_{2,2}(\mathbb{R})</m>? <ul form="popup" name="AnSwEr0006"><li>
-<p>choose</p>
-</li><li>
-<p>Yes, they are equal</p>
-</li><li>
-<p>No, they are not equal</p>
-</li></ul>
-<BR><BR>
-<LI> Is <m>f</m> a linear transformation? <ul form="popup" name="AnSwEr0007"><li>
-<p>choose</p>
-</li><li>
-<p>f is a linear transformation</p>
-</li><li>
-<p>f is not a linear transformation</p>
-</li></ul>
-</LI></BR></BR></p>
-</statement>
-      <answer>
-        <p>
-          <m>\text{Yes, they are equal}</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>c \left( \left[\begin{array}{cc} a_{11} &amp;a_{21}\cr a_{12} &amp;a_{22}\cr \end{array}\right] \right)</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\text{Yes, they are equal}</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\text{f is a linear transformation}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_14.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_14.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-117" ww-id="webwork-117">
-    <static seed="117" source="Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_01.pg">
+    <static seed="113" source="Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_01.pg">
       <statement><p>Suppose <m>f : \mathbb{R}^2 \to \mathbb{R}^2</m> is a function and <m>f(\mathbf{a_n}) = \mathbf{b_n}</m> for <m>n = 1, 2, 3</m>.</p>
 <!-- PTX:WARNING: PGML wanted to center align here. -->
 <tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
 <row halign="center" valign="middle">
 <cell>
-<image pi:generated="webwork/images/webwork-117-image-1.png" width="33%"/>
+<image pi:generated="webwork/images/webwork-113-image-1.png" width="33%"/>
 </cell>
 <cell> <m>\Large \stackrel{f}{\to}</m> </cell>
 <cell>
-<image pi:generated="webwork/images/webwork-117-image-2.png" width="33%"/>
+<image pi:generated="webwork/images/webwork-113-image-2.png" width="33%"/>
 <p/></cell>
 </row>
 <row halign="center" valign="middle">
@@ -6821,17 +6524,17 @@ b_{21} \amp b_{22}\cr
       </answer>
       <answer>
         <p>
-          <m>\left&lt;3,2\right&gt;</m>
+          <m>\left&lt;-2,-4\right&gt;</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\left&lt;2,3\right&gt;</m>
+          <m>\left&lt;-1,-3\right&gt;</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\left&lt;1,-1\right&gt;</m>
+          <m>\left&lt;-1,-1\right&gt;</m>
         </p>
       </answer>
       <answer>
@@ -6843,18 +6546,18 @@ b_{21} \amp b_{22}\cr
     <rendering-data sourceFilePath="Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_01.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-118" ww-id="webwork-118">
-    <static seed="118" source="Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_02.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-114" ww-id="webwork-114">
+    <static seed="114" source="Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_02.pg">
       <statement><p>Suppose <m>f : \mathbb{R}^2 \to \mathbb{R}^2</m> is a function and <m>f(\mathbf{a_n}) = \mathbf{b_n}</m> for <m>n = 1, 2, 3</m>.</p>
 <!-- PTX:WARNING: PGML wanted to center align here. -->
 <tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
 <row halign="center" valign="middle">
 <cell>
-<image pi:generated="webwork/images/webwork-118-image-1.png" width="33%"/>
+<image pi:generated="webwork/images/webwork-114-image-1.png" width="33%"/>
 </cell>
 <cell> <m>\Large \stackrel{f}{\to}</m> </cell>
 <cell>
-<image pi:generated="webwork/images/webwork-118-image-2.png" width="33%"/>
+<image pi:generated="webwork/images/webwork-114-image-2.png" width="33%"/>
 <p/></cell>
 </row>
 <row halign="center" valign="middle">
@@ -6915,17 +6618,17 @@ b_{21} \amp b_{22}\cr
       </answer>
       <answer>
         <p>
-          <m>\left&lt;0,-1\right&gt;</m>
+          <m>\left&lt;2,0\right&gt;</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\left&lt;-3,-2\right&gt;</m>
+          <m>\left&lt;2,-2\right&gt;</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\left&lt;1,1\right&gt;</m>
+          <m>\left&lt;2,2\right&gt;</m>
         </p>
       </answer>
       <answer>
@@ -6937,39 +6640,8 @@ b_{21} \amp b_{22}\cr
     <rendering-data sourceFilePath="Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_02.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_02.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-119" ww-id="webwork-119">
-    <static seed="119" source="Library/MC/Sage/LinearAlg/LinearTransformations.pg">
-      <statement><p>Below, two pentagons are shown.  The goal is to choose the correct linear transformations and in the correct order so that the blue/green pentagon is transformed to the red pentagon.</p>
-<p>When you are comfortable with the coefficients that you have chosen, press
-the submit button below.</p>
-</statement>
-      <hint><p>First consider performing one of the first four transformations.  Consider how the final image relates to the original image with respect to the x and y axes.</p>
-<p>Once you get the reflection transformations correct in the first step, consider one of the skew transformations as the second transformation.</p>
-</hint>
-      <solution><p>The correct transformations first includes <me>A_1 = \left[\begin{array}{cc}
-1 \amp 0\cr
-0 \amp 1
-\end{array}\right]</me> which is a reflection.</p>
-<p>Then, <me>A_2 = \left[\begin{array}{cc}
-1 \amp 0\cr
-1.5 \amp 1
-\end{array}\right]</me> which is a skew.</p>
-<p>Finally, <me>A_3 = \left[\begin{array}{cc}
-1.25 \amp 0\cr
-0 \amp 1
-\end{array}\right]</me> which is an expansion or contraction.</p>
-<p>and the total transformation matrix is given by
-<me>A = \left[\begin{array}{cc}
-1.25 \amp 0\cr
-1.5 \amp 1
-\end{array}\right]</me></p>
-</solution>
-    </static>
-    <rendering-data sourceFilePath="Library/MC/Sage/LinearAlg/LinearTransformations.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/MC/Sage/LinearAlg/LinearTransformations.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-120" ww-id="webwork-120">
-    <static seed="120" source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_13.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-115" ww-id="webwork-115">
+    <static seed="115" source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_13.pg">
       <statement><p>Match each linear transformation with its matrix.</p>
 <tabular valign="top">
 <row>
@@ -6977,20 +6649,8 @@ the submit button below.</p>
 <ol>
 <li>
 <m>\left[\begin{array}{cc}
-2 \amp 0\cr
-0 \amp 2
-\end{array}\right]</m>
-</li>
-<li>
-<m>\left[\begin{array}{cc}
-0 \amp 0\cr
-0 \amp 1
-\end{array}\right]</m>
-</li>
-<li>
-<m>\left[\begin{array}{cc}
--1 \amp 0\cr
-0 \amp 1
+0.5 \amp 0\cr
+0 \amp 0.5
 \end{array}\right]</m>
 </li>
 <li>
@@ -7001,33 +6661,45 @@ the submit button below.</p>
 </li>
 <li>
 <m>\left[\begin{array}{cc}
-1 \amp 0\cr
+0 \amp 0\cr
 0 \amp 1
 \end{array}\right]</m>
 </li>
 <li>
 <m>\left[\begin{array}{cc}
-1 \amp 0\cr
-0 \amp 0
+0 \amp 1\cr
+-1 \amp 0
+\end{array}\right]</m>
+</li>
+<li>
+<m>\left[\begin{array}{cc}
+2 \amp 0\cr
+0 \amp 2
+\end{array}\right]</m>
+</li>
+<li>
+<m>\left[\begin{array}{cc}
+0 \amp 1\cr
+1 \amp 0
 \end{array}\right]</m>
 </li>
 </ol>
 </cell>
 <cell><ol label="A.">
 <li>
-Identity transformation
+Contraction by a factor of 2
 </li>
 <li>
-Dilation by a factor of 2
+Reflection in the line <m>y=x</m>
 </li>
 <li>
-Reflection in the <m>y</m>-axis
-</li>
-<li>
-Projection onto the <m>x</m>-axis
+Rotation through an angle of <m>90^\circ</m> in the clockwise direction
 </li>
 <li>
 Reflection in the <m>x</m>-axis
+</li>
+<li>
+Dilation by a factor of 2
 </li>
 <li>
 <p>Projection onto the <m>y</m>-axis
@@ -7040,19 +6712,19 @@ Reflection in the <m>x</m>-axis
     <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_13.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-121" ww-id="webwork-121">
-    <static seed="121" source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem10.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-116" ww-id="webwork-116">
+    <static seed="116" source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem10.pg">
       <statement><p>To every linear transformation <m>T</m> from <m>{\mathbb R}^2</m> to 
 <m>{\mathbb R}^2</m>, there is an associated <m>2 \times 2</m> matrix.  Match the following linear transformations with their associated matrix.</p>
 <p><ol>
-<li>
-<p>Reflection about the line y=x</p>
-</li>
 <li>
 <p>Reflection about the y-axis</p>
 </li>
 <li>
 <p>Clockwise rotation by <m>\pi/2</m> radians</p>
+</li>
+<li>
+<p>Counter-clockwise rotation by <m>\pi/2</m> radians</p>
 </li>
 <li>
 <p>The projection onto the x-axis given by T(x,y)=(x,0)</p>
@@ -7061,27 +6733,27 @@ Reflection in the <m>x</m>-axis
 <p>Reflection about the <m>x</m>-axis</p>
 </li>
 <li>
-<p>Counter-clockwise rotation by <m>\pi/2</m> radians</p>
+<p>Reflection about the line y=x</p>
 </li>
 </ol></p>
 <p><ol label="A.">
 <li>
-<p><m>\begin{pmatrix}-1\amp 0\\ 0\amp 1 \end{pmatrix}</m></p>
-</li>
-<li>
 <p><m>\begin{pmatrix}1\amp 0\\ 0\amp 0 \end{pmatrix}</m></p>
-</li>
-<li>
-<p><m>\begin{pmatrix}0\amp -1\\ 1\amp 0 \end{pmatrix}</m></p>
-</li>
-<li>
-<p><m>\begin{pmatrix}1\amp 0\\ 0\amp -1 \end{pmatrix}</m></p>
 </li>
 <li>
 <p><m>\begin{pmatrix}0\amp 1\\ -1\amp 0 \end{pmatrix}</m></p>
 </li>
 <li>
+<p><m>\begin{pmatrix}-1\amp 0\\ 0\amp 1 \end{pmatrix}</m></p>
+</li>
+<li>
 <p><m>\begin{pmatrix}0\amp 1\\ 1\amp 0 \end{pmatrix}</m></p>
+</li>
+<li>
+<p><m>\begin{pmatrix}1\amp 0\\ 0\amp -1 \end{pmatrix}</m></p>
+</li>
+<li>
+<p><m>\begin{pmatrix}0\amp -1\\ 1\amp 0 \end{pmatrix}</m></p>
 </li>
 <li>
 <p>None of the above</p>
@@ -7092,30 +6764,57 @@ Reflection in the <m>x</m>-axis
     <rendering-data sourceFilePath="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem10.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-122" ww-id="webwork-122">
-    <static seed="122" source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_Ch2_2_1.pg">
-      <statement><tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" valign="top">
-<row>
-<cell>The vector <m>\vec{A}</m> (red) has length <m>8.5</m>, and makes an angle of 
-  <m>4\pi/19</m> with the <m>x</m>-axis.
-The vector <m>\vec{B}</m> (blue) has length <m>6</m>, and makes an angle of 
-<m>7\pi/19</m> with the <m>x</m>-axis.  </cell>
-<cell>
-<image pi:generated="webwork/images/webwork-122-image-1.png" width="50%"/>
-<p/></cell>
-</row>
-</tabular>
-<p>Find the matrix which rotates and dilates vector <m>A</m> into vector <m>B</m>:</p>
-<p><table><tr valign="middle"><td align="center" nowrap="nowrap"><fillin cols="2" rows="2"/></td><td align="center" nowrap="nowrap"> <m>\left\lbrack\begin{array}{r} 8.5 \cos(4\pi/19) \\ 8.5 \sin(4\pi/19) \end{array}\right\rbrack = \left\lbrack\begin{array}{r} 6 \cos(7\pi/19) \\ 6 \sin(7\pi/19) \end{array}\right\rbrack</m></td></tr></table></p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-117" ww-id="webwork-117">
+    <static seed="117" source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_20.pg">
+      <statement><p><OL TYPE="a"/></p>
+<p><LI>
+Suppose <m>f : \mathbb{R}^{2} \to \mathbb{R}^{3}</m> is a linear transformation such that 
+<me>f \left( \begin{array}{c} 1 \\ 0 \end{array} \right)
+=
+\left( \begin{array}{r} -3 \\ 1 \\ 1 \end{array} \right),
+\ \ \ 
+f \left( \begin{array}{c} 0 \\ 1 \end{array} \right)
+=
+\left( \begin{array}{r} -1 \\ -2 \\ 1 \end{array} \right).</me>
+Then <m>\displaystyle f \left( \begin{array}{r} -7 \\ 4 \end{array} \right) =</m>
+<fillin rows="3"/>.</LI></p>
+<p><BR><BR>
+<LI> 
+Suppose <m>f : \mathbb{R}^{12} \to \mathbb{R}^{2}</m> is a linear transformation such that 
+<me>f \left( \begin{array}{c} {\vec{e}}_4 \end{array} \right)
+=
+\left( \begin{array}{r} 4 \\ -1 \end{array} \right),
+\ \ \ 
+f \left( \begin{array}{c} {\vec{e}}_7 \end{array} \right)
+=
+\left( \begin{array}{r} 1 \\ 2 \end{array} \right),
+\ \ \ 
+f \left( \begin{array}{c} {\vec{e}}_8 \end{array} \right)
+=
+\left( \begin{array}{r} 4 \\ 5 \end{array} \right).</me>
+Then <m>\displaystyle f ( 5 {\vec{e}}_4 + 6 {\vec{e}}_7 ) - f ( 2 {\vec{e}}_8 + 3 {\vec{e}}_7 )=</m>
+<fillin rows="2"/>.</LI></BR></BR></p>
+<p><BR><BR>
+<LI>
+Let <m>V</m> be a vector space and let <m>{\vec{v}}_1, {\vec{v}}_2, {\vec{v}}_3 \in V</m>.
+Suppose <m>T : V \to \mathbb{R}^{2}</m> is a linear transformation such that 
+<me>T({\vec{v}}_1) = \left( \begin{array}{r} -5 \\ -2 \end{array} \right),
+\ \ \
+T({\vec{v}}_2) = \left( \begin{array}{r} 3 \\ -3  \end{array} \right),
+\ \ \
+T({\vec{v}}_3) = \left( \begin{array}{r} -1 \\ 2  \end{array} \right).</me>
+Then <m>-2 T({\vec{v}}_1) + T(2 {\vec{v}}_2 + 6 {\vec{v}}_3) =</m>
+<fillin rows="2"/>.
+</LI></BR></BR></p>
 </statement>
     </static>
-    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_Ch2_2_1.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_Ch2_2_1.pg"/>
+    <rendering-data sourceFilePath="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_20.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_20.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-123" ww-id="webwork-123">
-    <static seed="123" source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_15.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-118" ww-id="webwork-118">
+    <static seed="118" source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_15.pg">
       <statement><p>Find the matrix <m>A</m> of the linear transformation <m>T</m> from <m>{\mathbb R}^2</m> to <m>{\mathbb R}^2</m> 
-that rotates any vector through an angle of <m>60 ^\circ</m> in the clockwise
+that rotates any vector through an angle of <m>30 ^\circ</m> in the counterclockwise
 direction.</p>
 <p><m>A=</m> <fillin cols="2" rows="2"/></p>
 </statement>
@@ -7123,11 +6822,34 @@ direction.</p>
     <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_15.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_15.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-124" ww-id="webwork-124">
-    <static seed="124" source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_20.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-119" ww-id="webwork-119">
+    <static seed="119" source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_21.pg">
+      <statement><p>Find the matrix <m>A</m> of the reflection in the line <m>L</m> in <m>{\mathbb R} ^2</m> that
+consists of all scalar multiples of the vector <m>\left[\begin{array}{c}
+2\cr
+5
+\end{array}\right] .</m></p>
+<p><m>A=</m> <fillin cols="2" rows="2"/></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_21.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-120" ww-id="webwork-120">
+    <static seed="120" source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_23.pg">
+      <statement><p>Find the matrix <m>A</m> of the rotation about the <m>x</m>-axis through an angle of <m>\displaystyle\frac{\pi}{2}</m>, clockwise as viewed
+from the positive <m>x</m>-axis.</p>
+<p><m>A=</m> <fillin cols="3" rows="3"/></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_23.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-121" ww-id="webwork-121">
+    <static seed="121" source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_20.pg">
       <statement><p>Find the matrix <m>A</m> of the orthogonal projection onto the line <m>L</m> in <m>{\mathbb R} ^2</m> that
 consists of all scalar multiples of the vector <m>\left[\begin{array}{c}
-5\cr
+3\cr
 1
 \end{array}\right]</m>.</p>
 <p><m>A =</m> <fillin cols="2" rows="2"/></p>
@@ -7136,31 +6858,8 @@ consists of all scalar multiples of the vector <m>\left[\begin{array}{c}
     <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_20.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_20.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-125" ww-id="webwork-125">
-    <static seed="125" source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_21.pg">
-      <statement><p>Find the matrix <m>A</m> of the reflection in the line <m>L</m> in <m>{\mathbb R} ^2</m> that
-consists of all scalar multiples of the vector <m>\left[\begin{array}{c}
-6\cr
-3
-\end{array}\right] .</m></p>
-<p><m>A=</m> <fillin cols="2" rows="2"/></p>
-</statement>
-    </static>
-    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_21.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-126" ww-id="webwork-126">
-    <static seed="126" source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_23.pg">
-      <statement><p>Find the matrix <m>A</m> of the rotation about the <m>z</m>-axis through an angle of <m>\displaystyle\frac{\pi}{2}</m>, clockwise as viewed
-from the positive <m>z</m>-axis.</p>
-<p><m>A=</m> <fillin cols="3" rows="3"/></p>
-</statement>
-    </static>
-    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_23.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-127" ww-id="webwork-127">
-    <static seed="127" source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem5.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-122" ww-id="webwork-122">
+    <static seed="122" source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem5.pg">
       <statement><p>Let <m>T: {\mathbb R}^2\rightarrow {\mathbb R}^2</m> be the linear transformation that first reflects points through the <m>x</m>-axis and then
 then reflects points through the line <m>y=-x</m>.  
 Find the standard matrix <m>A</m> for <m>T</m>.</p>
@@ -7170,11 +6869,11 @@ Find the standard matrix <m>A</m> for <m>T</m>.</p>
     <rendering-data sourceFilePath="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem5.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem5.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-128" ww-id="webwork-128">
-    <static seed="128" source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem6.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-123" ww-id="webwork-123">
+    <static seed="123" source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem6.pg">
       <statement><p>Let <m>T: {\mathbb R}^2\rightarrow {\mathbb R}^2</m> be the linear
-transformation that first rotates points clockwise through <m>45^\circ</m>
-(<m>\pi/4</m> radians) and then reflects points through the line <m>y=x</m>.
+transformation that first rotates points clockwise through <m>120^\circ</m>
+(<m>2\pi/3</m> radians) and then reflects points through the line <m>y=x</m>.
 Find the standard matrix <m>A</m> for <m>T</m>.</p>
 <p><m>A=</m> <fillin cols="2" rows="2"/>.</p>
 </statement>
@@ -7182,13 +6881,615 @@ Find the standard matrix <m>A</m> for <m>T</m>.</p>
     <rendering-data sourceFilePath="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem6.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem6.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-129" ww-id="webwork-129">
-    <static seed="129" source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem7.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-124" ww-id="webwork-124">
+    <static seed="124" source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem7.pg">
       <statement><p>Let <m>T: {\mathbb R}^3\rightarrow {\mathbb R}^2</m> be the linear transformation that first projects points onto the <m>yz</m>-plane and then reflects around the line <m>y=-z</m>. Find the standard matrix <m>A</m> for <m>T</m>.</p>
 <p><m>A=</m> <fillin cols="3" rows="2"/>.</p>
 </statement>
     </static>
     <rendering-data sourceFilePath="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem7.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem7.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-125" ww-id="webwork-125">
+    <static seed="125">
+      <statement><p>Let <m>f : \mathbb{R}^{2} \to \mathbb{R}^{3}</m> be the linear transformation determined by 
+<me>f
+\left( 
+\begin{bmatrix}
+1 \\ 0
+\end{bmatrix}
+\right)
+=</me></p>
+<p>\begin{bmatrix}
+4 \\ 
+4 \\ 
+-5 
+\end{bmatrix},
+\ \ \ \ \
+f
+\left( 
+\begin{bmatrix}
+0 \\ 1
+\end{bmatrix}
+\right)
+=
+\begin{bmatrix}
+2 \\ 
+-2 \\ 
+-3 
+\end{bmatrix}
+.</p>
+<p><OL TYPE="a"/></p>
+<p><LI>
+Find 
+<m>\displaystyle
+f
+\left( 
+\begin{bmatrix}
+9 \\ -7
+\end{bmatrix}
+\right)</m>.</LI></p>
+<p><m>\displaystyle
+f
+\left( 
+\begin{bmatrix}
+9 \\ -7
+\end{bmatrix}
+\right)
+ =</m> 
+<fillin rows="3"/>.</p>
+<p><BR><BR>
+<LI>
+Find the matrix of the linear transformation <m>f</m>.</LI></BR></BR></p>
+<p><m>\displaystyle
+f
+\left( 
+\begin{array}{c}
+x \\ y
+\end{array}
+\right)
+ =</m>
+<fillin cols="2" rows="3"/>
+<m>\displaystyle 
+\left\lbrack
+\begin{array}{c}
+x \\ y
+\end{array}
+\right\rbrack.</m></p>
+<p><BR><BR>
+<LI> 
+The linear transformation <m>f</m> is</LI></BR></BR></p>
+<p><ul form="buttons" name="AnSwEr0003">
+<li>
+<p>one-to-one</p>
+</li>
+<li>
+<p>onto</p>
+</li>
+<li>
+<p>bijective</p>
+</li>
+<li>
+<p>none of these</p>
+</li>
+</ul>
+</p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{one-to-one}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="The_Linear_Algebra_Companion/2_6_15.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## DBsubject(Linear algebra)
+## DBchapter(Linear transformations)
+## DBsection(One-to-one and onto)
+## Date(July 2013)
+## Institution(Hope College)
+## Author(Paul Pearson)
+## Level(3)
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "MatrixUnits.pl",
+  "VectorListCheckers.pl",
+  "parserRadioButtons.pl",
+  "unionLists.pl",
+  "PGcourse.pl"
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Matrix');
+
+do {
+
+foreach my $i (1..3) {
+  foreach my $j (1..2) {
+    $a[$i][$j] = non_zero_random(-5,5,1);
+  }
+}
+
+$A = Matrix([
+[ $a[1][1], $a[1][2] ],
+[ $a[2][1], $a[2][2] ],
+[ $a[3][1], $a[3][2] ],
+]);
+
+} until ( $a[1][1] * $a[2][2] != $a[1][2] * $a[2][1] );
+
+($m,$n) = $A->dimensions;
+
+$x = random(-1,1,2) * random(6,9,1);
+$y = random(-1,1,2) * random(6,9,1);
+
+
+$X = Matrix([
+[$x],
+[$y]
+]);
+
+$AX = $A * $X;
+
+$mc = RadioButtons(
+    [ "one-to-one", "onto", "bijective", "none of these" ],
+    "one-to-one",
+    last =>     [ "one-to-one", "onto", "bijective", "none of these" ],
+#    labels => [ "one-to-one", "onto", "bijective", "none of these" ], 
+);
+
+Context()->texStrings;
+BEGIN_TEXT
+Let \( f : \mathbb{R}^{$n} \to \mathbb{R}^{$m} \) be the linear transformation determined by 
+\[
+f
+\left( 
+\begin{bmatrix}
+1 \\ 0
+\end{bmatrix}
+\right)
+=
+
+\begin{bmatrix}
+$a[1][1] \\ 
+$a[2][1] \\ 
+$a[3][1] 
+\end{bmatrix},
+\ \ \ \ \
+f
+\left( 
+\begin{bmatrix}
+0 \\ 1
+\end{bmatrix}
+\right)
+=
+\begin{bmatrix}
+$a[1][2] \\ 
+$a[2][2] \\ 
+$a[3][2] 
+\end{bmatrix}
+.
+\]
+
+\{ BeginList('OL',type=>'a') \}
+
+$ITEM
+Find 
+\( \displaystyle
+f
+\left( 
+\begin{bmatrix}
+$x \\ $y
+\end{bmatrix}
+\right)
+\).
+$BR
+$BR
+\( \displaystyle
+f
+\left( 
+\begin{bmatrix}
+$x \\ $y
+\end{bmatrix}
+\right)
+ =
+\) 
+\{ $AX->ans_array(10) \}.
+
+$ITEMSEP
+$ITEM
+Find the matrix of the linear transformation \( f \).
+$BR
+$BR
+\( \displaystyle
+f
+\left( 
+\begin{array}{c}
+x \\ y
+\end{array}
+\right)
+ = \)
+\{ $A->ans_array(10) \}
+\( \displaystyle 
+\left\lbrack
+\begin{array}{c}
+x \\ y
+\end{array}
+\right\rbrack.
+\)
+
+$ITEMSEP
+$ITEM 
+The linear transformation \( f \) is 
+$BR
+\{ $mc->buttons() \}
+\{ EndList('OL') \}
+END_TEXT
+Context()->normalStrings;
+
+ANS( $AX->cmp() );
+
+ANS( $A->cmp() );
+
+ANS( $mc->cmp() );
+
+
+COMMENT('Always injective.');
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-126" ww-id="webwork-126">
+    <static seed="126">
+      <statement><p>Let <m>f : \mathbb{R}^{2} \to \mathbb{R}^{3}</m> be the linear transformation determined by 
+<me>f(\vec{e}_1)
+=
+\begin{bmatrix}
+-12 \\ 
+6 \\ 
+6 
+\end{bmatrix}
+,
+\ \ \ \ \
+f(\vec{e}_2)
+=</me></p>
+<p>\begin{bmatrix}
+16 \\ 
+-8 \\ 
+-8 
+\end{bmatrix}.</p>
+<p><OL TYPE="a"/></p>
+<p><LI> 
+Find 
+<m>\displaystyle
+f
+\left( 
+\begin{bmatrix}
+1 \\ -3
+\end{bmatrix}
+\right)</m>.</LI></p>
+<p><m>\displaystyle
+f
+\left( 
+\begin{bmatrix}
+1 \\ -3
+\end{bmatrix}
+\right)
+ =</m> 
+<fillin rows="3"/>.</p>
+<p><BR><BR>
+<LI> 
+Find the matrix of the linear transformation <m>f</m>.</LI></BR></BR></p>
+<p><m>\displaystyle
+f
+\left( 
+\begin{bmatrix}
+x \\ y
+\end{bmatrix}
+\right)
+ =</m>
+<fillin cols="2" rows="3"/>
+<m>\displaystyle 
+\begin{bmatrix}
+x \\ y
+\end{bmatrix}</m></p>
+<p><BR><BR>
+<LI>
+The linear transformation <m>f</m> is</LI></BR></BR></p>
+<p><ul form="buttons" name="AnSwEr0003">
+<li>
+<p>one-to-one</p>
+</li>
+<li>
+<p>onto</p>
+</li>
+<li>
+<p>bijective</p>
+</li>
+<li>
+<p>none of these</p>
+</li>
+</ul>
+</p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{none of these}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="The_Linear_Algebra_Companion/2_6_16.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## DBsubject(Linear algebra)
+## DBchapter(Linear transformations)
+## DBsection(One-to-one and onto)
+## Date(July 2013)
+## Institution(Hope College)
+## Author(Paul Pearson)
+## Level(3)
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "MatrixUnits.pl",
+  "VectorListCheckers.pl",
+  "parserRadioButtons.pl",
+  "unionLists.pl",
+  "PGcourse.pl"
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Matrix');
+
+$a1 = non_zero_random(-4,4,1);
+$a2 = non_zero_random(-4,4,1);
+$a3 = non_zero_random(-4,4,1);
+
+$s = random(-1,1,2) * random(2,5,1);
+$t = random(-1,1,2) * random(2,5,1);
+
+$a[1][1] = $s * $a1;
+$a[2][1] = $s * $a2;
+$a[3][1] = $s * $a3;
+
+$a[1][2] = $t * $a1;
+$a[2][2] = $t * $a2;
+$a[3][2] = $t * $a3;
+
+
+$A = Matrix([
+[ $a[1][1], $a[1][2] ],
+[ $a[2][1], $a[2][2] ],
+[ $a[3][1], $a[3][2] ],
+]);
+
+($m,$n) = $A->dimensions;
+
+$x = non_zero_random(-4,4,1);
+$y = non_zero_random(-4,4,1);
+
+$X = Matrix([
+[$x],
+[$y]
+]);
+
+$AX = $A * $X;
+
+$mc = RadioButtons(
+    [ "one-to-one", "onto", "bijective", "none of these" ],
+    "none of these",
+    last =>     [ "one-to-one", "onto", "bijective", "none of these" ],
+#    labels => [ "one-to-one", "onto", "bijective", "none of these" ], 
+);
+
+Context()->texStrings;
+BEGIN_TEXT
+Let \( f : \mathbb{R}^{$n} \to \mathbb{R}^{$m} \) be the linear transformation determined by 
+\[
+f(\vec{e}_1)
+=
+\begin{bmatrix}
+$a[1][1] \\ 
+$a[2][1] \\ 
+$a[3][1] 
+\end{bmatrix}
+,
+\ \ \ \ \
+f(\vec{e}_2)
+=
+
+\begin{bmatrix}
+$a[1][2] \\ 
+$a[2][2] \\ 
+$a[3][2] 
+\end{bmatrix}.
+\]
+
+\{ BeginList('OL',type=>'a') \}
+
+$ITEM 
+Find 
+\( \displaystyle
+f
+\left( 
+\begin{bmatrix}
+$x \\ $y
+\end{bmatrix}
+\right)
+\).
+$BR
+$BR
+\( \displaystyle
+f
+\left( 
+\begin{bmatrix}
+$x \\ $y
+\end{bmatrix}
+\right)
+ =
+\) 
+\{ $AX->ans_array(10) \}.
+
+$ITEMSEP
+$ITEM 
+Find the matrix of the linear transformation \( f \).
+$BR
+$BR
+\( \displaystyle
+f
+\left( 
+\begin{bmatrix}
+x \\ y
+\end{bmatrix}
+\right)
+ = \)
+\{ $A->ans_array(10) \}
+\( \displaystyle 
+\begin{bmatrix}
+x \\ y
+\end{bmatrix}
+\)
+
+$ITEMSEP
+$ITEM
+The linear transformation \( f \) is 
+$BR
+\{ $mc->buttons() \}
+\{ EndList('OL') \}
+END_TEXT
+Context()->normalStrings;
+
+ANS( $AX->cmp() );
+
+ANS( $A->cmp() );
+
+ANS( $mc->cmp() );
+
+
+COMMENT('Not one-to-one and not onto.');
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-127" ww-id="webwork-127">
+    <static seed="127" source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem13.pg">
+      <statement><p>Determine which of the following functions are one-to-one.</p>
+<p><var form="checkboxes">
+<li>
+<p><m>f:{\mathbb R} \rightarrow {\mathbb R}</m> defined by <m>f(x)=x^3.</m></p>
+</li>
+<li>
+<p><m>f:{\mathbb R} \rightarrow {\mathbb R}</m> defined by <m>f(x)=x^3 - x.</m></p>
+</li>
+<li>
+<p><m>f:{\mathbb R}^3 \rightarrow {\mathbb R}^3</m> defined by <m>f(x,y, z)=(x+y, y+z, x+z).</m></p>
+</li>
+<li>
+<p><m>f:{\mathbb R} \rightarrow {\mathbb R}</m> defined by <m>f(x)=x^2.</m></p>
+</li>
+<li>
+<p><m>f:{\mathbb R}^2 \rightarrow {\mathbb R}^2</m> defined by <m>f(x,y)=(x+y, 2x+2y).</m></p>
+</li>
+</var></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem13.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-128" ww-id="webwork-128">
+    <static seed="128" source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem17.pg">
+      <statement><p>Let <m>T</m> be an linear transformation
+from
+<m>{\mathbb R}^r</m> to
+<m>{\mathbb R}^s</m>.  
+Let <m>A</m> be the matrix associated to <m>T</m>.</p>
+<p>Fill in the correct answer
+for each of the following situations.</p>
+<p><ol>
+<li>
+<p>The row-echelon form of <m>A</m> has no column corresponding to a free variable.</p>
+</li>
+<li>
+<p>The row-echelon form of <m>A</m> has a column corresponding to a free variable.</p>
+</li>
+<li>
+<p>Two columns in the row-echelon form of <m>A</m> are not pivot columns.</p>
+</li>
+<li>
+<p>Every column in the row-echelon form of <m>A</m> is a pivot column.</p>
+</li>
+</ol>
+<ol label="A.">
+<li>
+<p>T is not one-to-one</p>
+</li>
+<li>
+<p>T is one-to-one</p>
+</li>
+<li>
+<p>There is not enough information to tell.</p>
+</li>
+</ol></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem17.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-129" ww-id="webwork-129">
+    <static seed="129" source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem26.pg">
+      <statement><p>Let <m>T</m> be an linear transformation
+from
+<m>{\mathbb R}^r</m> to
+<m>{\mathbb R}^s</m>.  
+Let <m>A</m> be the matrix associated to <m>T</m>.</p>
+<p>Fill in the correct answer
+for each of the following situations.</p>
+<p><ol>
+<li>
+<p>Two rows in the row-echelon form of <m>A</m> do not have pivots.</p>
+</li>
+<li>
+<p>The row-echelon form of <m>A</m> has a pivot in every column.</p>
+</li>
+<li>
+<p>Every row in the row-echelon form of <m>A</m> has a pivot.</p>
+</li>
+<li>
+<p>The row-echelon form of <m>A</m> has a row of zeros.</p>
+</li>
+</ol>
+<ol label="A.">
+<li>
+<p>T is onto</p>
+</li>
+<li>
+<p>T is not onto</p>
+</li>
+<li>
+<p>There is not enough information to tell.</p>
+</li>
+</ol></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem26.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem26.pg"/>
   </webwork-reps>
 </webwork-representations>

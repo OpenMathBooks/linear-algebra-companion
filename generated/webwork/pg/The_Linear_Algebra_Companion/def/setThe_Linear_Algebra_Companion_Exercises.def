@@ -1,6 +1,6 @@
-openDate          = 02/11/2026 at 12:00am
-dueDate           = 08/11/2026 at 10:00pm
-answerDate        = 08/11/2026 at 10:00pm
+openDate          = 02/25/2026 at 12:00am
+dueDate           = 08/25/2026 at 10:00pm
+answerDate        = 08/25/2026 at 10:00pm
 paperHeaderFile   = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 screenHeaderFile  = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 description       = The Linear Algebra Companion
@@ -454,70 +454,70 @@ source_file = Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_03.pg
 problem_id = 2
 problem_end
 problem_start
-source_file = Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_06.pg
+source_file = Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_01.pg
 problem_id = 3
 problem_end
 problem_start
-source_file = Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_10.pg
+source_file = Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_02.pg
 problem_id = 4
 problem_end
 problem_start
-source_file = Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_11.pg
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_13.pg
 problem_id = 5
 problem_end
 problem_start
-source_file = Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_14.pg
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem10.pg
 problem_id = 6
 problem_end
 problem_start
-source_file = Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_01.pg
+source_file = Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_20.pg
 problem_id = 7
 problem_end
 problem_start
-source_file = Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_02.pg
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_15.pg
 problem_id = 8
 problem_end
 problem_start
-source_file = Library/MC/Sage/LinearAlg/LinearTransformations.pg
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_21.pg
 problem_id = 9
 problem_end
 problem_start
-source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_13.pg
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_23.pg
 problem_id = 10
 problem_end
 problem_start
-source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem10.pg
+source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_20.pg
 problem_id = 11
 problem_end
 problem_start
-source_file = Library/Rochester/setLinearAlgebra4InverseMatrix/ur_Ch2_2_1.pg
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem5.pg
 problem_id = 12
 problem_end
 problem_start
-source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_15.pg
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem6.pg
 problem_id = 13
 problem_end
 problem_start
-source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_20.pg
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem7.pg
 problem_id = 14
 problem_end
 problem_start
-source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_21.pg
+source_file = The_Linear_Algebra_Companion/2_6_15.pg
 problem_id = 15
 problem_end
 problem_start
-source_file = Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_23.pg
+source_file = The_Linear_Algebra_Companion/2_6_16.pg
 problem_id = 16
 problem_end
 problem_start
-source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem5.pg
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem13.pg
 problem_id = 17
 problem_end
 problem_start
-source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem6.pg
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem17.pg
 problem_id = 18
 problem_end
 problem_start
-source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem7.pg
+source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem26.pg
 problem_id = 19
 problem_end
