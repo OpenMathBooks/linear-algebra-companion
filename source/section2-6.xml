@@ -20,21 +20,6 @@
 			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_03.pg" />
 		</exercise>
 
-		<exercise label="linear-transformation-defined-3variableVector">
-			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_06.pg" />
-		</exercise>
-
-		<exercise label="linear-transformation-defined-polynomial1">
-			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_10.pg" />
-		</exercise>
-
-		<exercise label="linear-transformation-defined-polynomial2">
-			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_11.pg" />
-		</exercise>
-
-		<exercise label="linear-transformation-defined-matrices1">
-			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_14.pg" />
-		</exercise>
 
 		<exercise label="linear-transformation-geometric_defined1">
 			<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Geom_lin_trans_01.pg" />
@@ -46,10 +31,6 @@
 
    <!-- The following exercises are from WW: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: Associated Matrices, not including Contrib] -->
 
-		<exercise label="linear-transformations-geometric_apply1">
-			<webwork source="Library/MC/Sage/LinearAlg/LinearTransformations.pg" />
-		</exercise>
-
 		<exercise label="linear-transformations-geometric_type1">
 			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_13.pg" />
 		</exercise>
@@ -60,9 +41,12 @@
 		</exercise>
 
 
-		<exercise label="linear-transformations-geometric_find_trig1">
-			<webwork source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_Ch2_2_1.pg" />
-		</exercise>
+<!-- Linear Transformations -> Linear Transformations -> Properties -->
+<exercise label="linear-transformation-elementary-vectors">
+	<webwork source="Library/Hope/Multi1/04-01-Linear-transformations/Lin_trans_20.pg" />
+</exercise>
+
+
 
    <!-- The following exercises are from WW: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: Associated Matrices, not including Contrib] -->
 
@@ -70,9 +54,6 @@
 			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_15.pg" />
 		</exercise>
 
-		<exercise label="linear-transformations-geometric_find_projection1">
-			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_20.pg" />
-		</exercise>
 		
 		<exercise label="linear-transformations-geometric_reflection1">
 			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_21.pg" />
@@ -82,6 +63,9 @@
 			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_23.pg" />
 		</exercise>
 		
+		<exercise label="linear-transformations-geometric_find_projection1">
+			<webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_20.pg" />
+		</exercise>
 <!-- The following exercises are from WW: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: All Sections, not including Contrib] -->
 				
 		<exercise label="linear-transformations-geometric_reflection2">
@@ -96,9 +80,32 @@
 			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem7.pg" />
 		</exercise>
 		
+		<!-- one-to-one and onto -->
 		
-		
+		<exercise label="maxtrix-transformations-inj-sur-bij1">
+			<webwork><xi:include href="wwpg/ker_im_07.pg" parse="text"/></webwork>
+			<!-- <webwork source="Library/Hope/Multi1/04-02-Kernel-image/Ker_im_07.pg" /> -->
+		</exercise>
 
+		<exercise label="maxtrix-transformations-onto-k">
+			<webwork><xi:include href="wwpg/ker_im_08.pg" parse="text"/></webwork>
+			<!-- <webwork source="Library/Rochester/setLinearAlgebra14TransfOfRn/ur_la_14_6.pg" /> -->
+		</exercise>
+
+		<exercise label="maxtrix-transformations-one-to-one-general-1">
+			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem13.pg" />
+		</exercise>
+
+		<exercise label="maxtrix-transformations-one-to-one-general-2">
+			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem17.pg" />
+		</exercise>
+
+		<exercise label="maxtrix-transformations-onto-general-1">
+			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem26.pg" />
+		</exercise>
+
+		
+		
 
 
 
