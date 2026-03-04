@@ -549,44 +549,41 @@ and, if it does, the dimension of the solution space.</p>
 <row halign="center" valign="middle">
 <cell>A. <var form="popup">
 <li>
+2 dimensional
+</li>
+<li>
 choose
 </li>
 <li>
 no solution
 </li>
 <li>
-2 dimensional
+1 dimensional
 </li>
 <li>
 0 dimensional
-</li>
-<li>
-1 dimensional
 </li>
 </var></cell>
 <cell>B. <var form="popup">
 <li>
-1 dimensional
+choose
 </li>
 <li>
-0 dimensional
+no solution
 </li>
 <li>
 2 dimensional
 </li>
 <li>
-choose
+0 dimensional
 </li>
 <li>
-no solution
+1 dimensional
 </li>
 </var></cell>
 <cell>C. <var form="popup">
 <li>
-0 dimensional
-</li>
-<li>
-1 dimensional
+2 dimensional
 </li>
 <li>
 no solution
@@ -595,7 +592,10 @@ no solution
 choose
 </li>
 <li>
-2 dimensional
+1 dimensional
+</li>
+<li>
+0 dimensional
 </li>
 </var></cell>
 </row>
@@ -613,10 +613,7 @@ choose
 <row halign="center" valign="middle">
 <cell>D. <var form="popup">
 <li>
-0 dimensional
-</li>
-<li>
-1 dimensional
+2 dimensional
 </li>
 <li>
 no solution
@@ -625,17 +622,14 @@ no solution
 choose
 </li>
 <li>
-2 dimensional
+1 dimensional
+</li>
+<li>
+0 dimensional
 </li>
 </var></cell>
 <cell>E. <var form="popup">
 <li>
-1 dimensional
-</li>
-<li>
-0 dimensional
-</li>
-<li>
 2 dimensional
 </li>
 <li>
@@ -643,23 +637,29 @@ no solution
 </li>
 <li>
 choose
+</li>
+<li>
+1 dimensional
+</li>
+<li>
+0 dimensional
 </li>
 </var></cell>
 <cell>F. <var form="popup">
 <li>
-1 dimensional
-</li>
-<li>
-0 dimensional
-</li>
-<li>
 2 dimensional
+</li>
+<li>
+no solution
 </li>
 <li>
 choose
 </li>
 <li>
-no solution
+1 dimensional
+</li>
+<li>
+0 dimensional
 </li>
 </var></cell>
 </row>
@@ -677,19 +677,19 @@ no solution
 <row halign="center" valign="middle">
 <cell>G. <var form="popup">
 <li>
-2 dimensional
-</li>
-<li>
 choose
 </li>
 <li>
 no solution
 </li>
 <li>
-1 dimensional
+2 dimensional
 </li>
 <li>
 0 dimensional
+</li>
+<li>
+1 dimensional
 </li>
 </var></cell>
 <cell>H. <var form="popup">
@@ -703,13 +703,19 @@ no solution
 2 dimensional
 </li>
 <li>
-choose
+no solution
 </li>
 <li>
-no solution
+choose
 </li>
 </var></cell>
 <cell>I. <var form="popup">
+<li>
+1 dimensional
+</li>
+<li>
+0 dimensional
+</li>
 <li>
 2 dimensional
 </li>
@@ -717,13 +723,7 @@ no solution
 no solution
 </li>
 <li>
-choose
-</li>
-<li>
-1 dimensional
-</li>
-<li>
-<p>0 dimensional
+<p>choose
 </p></li>
 </var></cell>
 </row>
@@ -2682,10 +2682,10 @@ and inconsistent.</p>
 <row halign="center" valign="middle">
 <cell>A. <var form="popup">
 <li>
-inconsistent
+consistent
 </li>
 <li>
-consistent
+inconsistent
 </li>
 <li>
 choose
@@ -2693,24 +2693,24 @@ choose
 </var></cell>
 <cell>B. <var form="popup">
 <li>
+choose
+</li>
+<li>
 consistent
 </li>
 <li>
 inconsistent
-</li>
-<li>
-choose
 </li>
 </var></cell>
 <cell>C. <var form="popup">
 <li>
-choose
-</li>
-<li>
 consistent
 </li>
 <li>
 inconsistent
+</li>
+<li>
+choose
 </li>
 </var></cell>
 </row>
@@ -2728,10 +2728,10 @@ inconsistent
 <row halign="center" valign="middle">
 <cell>D. <var form="popup">
 <li>
-consistent
+inconsistent
 </li>
 <li>
-inconsistent
+consistent
 </li>
 <li>
 choose
@@ -2739,13 +2739,13 @@ choose
 </var></cell>
 <cell>E. <var form="popup">
 <li>
-choose
-</li>
-<li>
 consistent
 </li>
 <li>
 inconsistent
+</li>
+<li>
+choose
 </li>
 </var></cell>
 <cell>F. <var form="popup">
@@ -2753,10 +2753,10 @@ inconsistent
 choose
 </li>
 <li>
-inconsistent
+consistent
 </li>
 <li>
-consistent
+inconsistent
 </li>
 </var></cell>
 </row>
@@ -2774,13 +2774,13 @@ consistent
 <row halign="center" valign="middle">
 <cell>G. <var form="popup">
 <li>
-choose
+consistent
 </li>
 <li>
 inconsistent
 </li>
 <li>
-consistent
+choose
 </li>
 </var></cell>
 <cell>H. <var form="popup">
@@ -2799,10 +2799,10 @@ choose
 choose
 </li>
 <li>
-inconsistent
+consistent
 </li>
 <li>
-<p>consistent
+<p>inconsistent
 </p></li>
 </var></cell>
 </row>
@@ -7491,5 +7491,258 @@ for each of the following situations.</p>
     </static>
     <rendering-data sourceFilePath="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem26.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem26.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-130" ww-id="webwork-130">
+    <static seed="130" source="Library/TCNJ/TCNJ_MatrixInverse/problem2.pg">
+      <statement><p>If <me>A = \left[\begin{array}{ccc}
+-1 \amp 2 \amp 5\cr
+5 \amp -11 \amp -33\cr
+1 \amp -2 \amp -6
+\end{array}\right],</me> 
+then</p>
+<p><m>A^{-1} =</m> <fillin cols="3" rows="3"/>.</p>
+<p>Given <m>\vec{b} = \left[\begin{array}{c}
+-2\cr
+-5\cr
+1
+\end{array}\right]</m>, solve <m>A\vec{x}=\vec{b}</m>.</p>
+<p><m>\vec{x}=</m> <fillin rows="3"/>.</p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/TCNJ/TCNJ_MatrixInverse/problem2.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/TCNJ/TCNJ_MatrixInverse/problem2.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-131" ww-id="webwork-131">
+    <static seed="131" source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_2.pg">
+      <statement><p>The matrix <m>\left[\begin{array}{cc}
+6 \amp 1\cr
+-2 \amp k\cr
+\end{array}\right]</m> is invertible if and only if <m>k\ne</m> <fillin characters="5" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{1\cdot \left(-2\right)}{6}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_2.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_2.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-132" ww-id="webwork-132">
+    <static seed="132" source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_Ch2_1_4.pg">
+      <statement><p>Are the following matrices invertible?</p>
+<p><ol>
+<li>
+<p><m>\left[\begin{array}{cc}
+-3 \amp 0\cr
+-4 \amp -4
+\end{array}\right]</m></p>
+</li>
+<li>
+<p><m>\left[\begin{array}{cc}
+-9 \amp 9\cr
+0 \amp 0
+\end{array}\right]</m></p>
+</li>
+<li>
+<p><m>\left[\begin{array}{cc}
+1 \amp -3\cr
+3 \amp 1
+\end{array}\right]</m></p>
+</li>
+<li>
+<p><m>\left[\begin{array}{cc}
+9 \amp 9\cr
+-9 \amp -9
+\end{array}\right]</m></p>
+</li>
+</ol></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_Ch2_1_4.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_Ch2_1_4.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-133" ww-id="webwork-133">
+    <static seed="133" source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_1.pg">
+      <statement><p>If <m>A = \left[\begin{array}{cc}
+4 \amp 7\cr
+-6 \amp -3
+\end{array}\right]</m>, then</p>
+<p><m>A^{-1} =</m> <fillin cols="2" rows="2"/>.</p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_1.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_1.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-134" ww-id="webwork-134">
+    <static seed="134" source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_3.pg">
+      <statement><p>If <m>A = \left[\begin{array}{ccc}
+1 \amp 6 \amp 2\cr
+0 \amp 1 \amp -9\cr
+0 \amp 0 \amp 1
+\end{array}\right]</m>, then</p>
+<p><m>A^{-1} =</m> <fillin cols="3" rows="3"/>.</p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_3.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_3.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-135" ww-id="webwork-135">
+    <static seed="135" source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_8.pg">
+      <statement><p>Select all statements below which are true for all invertible <m>n\times n</m> matrices <m>A</m> and <m>B</m></p>
+<p><var form="checkboxes">
+<li>
+<p><m>5 A</m> is invertible</p>
+</li>
+<li>
+<p><m>(A+A^{-1})^7 = A^7 + A^{-7}</m></p>
+</li>
+<li>
+<p><m>(A+B)^2 = A^2+B^2+2AB</m></p>
+</li>
+<li>
+<p><m>A+I_n</m> is invertible</p>
+</li>
+<li>
+<p><m>(I_n+A)(I_n+A^{-1})=2I_n+A+A^{-1}</m></p>
+</li>
+<li>
+<p><m>ABA^{-1}=B</m></p>
+</li>
+</var></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_8.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_8.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-136" ww-id="webwork-136">
+    <static seed="136" source="Library/TCNJ/TCNJ_MatrixInverse/problem1.pg">
+      <statement><p>If <me>A = \left[\begin{array}{cc}
+-9 \amp -6\cr
+4 \amp 7
+\end{array}\right],</me> 
+then</p>
+<p><m>A^{-1} =</m> <fillin cols="2" rows="2"/>.</p>
+<p>Given <m>\vec{b} = \left[\begin{array}{c}
+-4\cr
+3
+\end{array}\right]</m>, solve <m>A\vec{x}=\vec{b}</m>.</p>
+<p><m>\vec{x}=</m> <fillin rows="2"/>.</p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/TCNJ/TCNJ_MatrixInverse/problem1.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/TCNJ/TCNJ_MatrixInverse/problem1.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-137" ww-id="webwork-137">
+    <static seed="137" source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_2.pg">
+      <statement><p>Consider the basis <m>B</m> of <m>{\mathbb R}^2</m> consisting of vectors 
+<me>\left[\begin{array}{c}
+-5\cr
+-5
+\end{array}\right] \ \ \ \mbox{and} \ \ \ \left[\begin{array}{c}
+-1\cr
+-6
+\end{array}\right].</me>
+Find <m>\vec{x}</m> in <m>{\mathbb R}^2</m> whose coordinate vector relative to the basis <m>B</m> is</p>
+<p><m>[\vec{x}]_B = \left[\begin{array}{c}
+5\cr
+-6
+\end{array}\right]</m>.</p>
+<p><m>\vec{x} =</m> <fillin rows="2"/></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_2.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_2.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-138" ww-id="webwork-138">
+    <static seed="138" source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_3.pg">
+      <statement><p>The set
+<me>B= \left\lbrace \left[\begin{array}{c}
+-2\cr
+-9
+\end{array}\right], \left[\begin{array}{c}
+2\cr
+19
+\end{array}\right] \right\rbrace</me>
+is a basis for <m>{\mathbb R}^2</m>. 
+Find the coordinates of the vector <m>\vec{x}= \left[\begin{array}{c}
+6\cr
+27
+\end{array}\right]</m> relative to the basis <m>B</m>.</p>
+<p><m>[\vec{x}]_B =</m> <fillin rows="2"/></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_3.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_3.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-139" ww-id="webwork-139">
+    <static seed="139" source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_4.pg">
+      <statement><p>Find the coordinate vector of 
+<m>\vec{x} = \left[\begin{array}{c}
+2\cr
+-5\cr
+5
+\end{array}\right]</m>
+with respect to the basis
+<m>B= \left\lbrace \left[\begin{array}{c}
+1\cr
+4\cr
+7
+\end{array}\right], \left[\begin{array}{c}
+0\cr
+1\cr
+-4
+\end{array}\right], \left[\begin{array}{c}
+0\cr
+0\cr
+1
+\end{array}\right] \right\rbrace</m> for <m>{\mathbb R}^3</m>.</p>
+<p><m>[\vec{x}]_B =</m> <fillin rows="3"/></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_4.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_4.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-140" ww-id="webwork-140">
+    <static seed="140" source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_2.pg">
+      <statement><p>Consider the basis <m>B</m> of <m>{\mathbb R}^2</m> consisting of vectors 
+<me>\left[\begin{array}{c}
+-1\cr
+-2
+\end{array}\right] \ \ \ \mbox{and} \ \ \ \left[\begin{array}{c}
+-2\cr
+-6
+\end{array}\right].</me>
+Find <m>\vec{x}</m> in <m>{\mathbb R}^2</m> whose coordinate vector relative to the basis <m>B</m> is</p>
+<p><m>[\vec{x}]_B = \left[\begin{array}{c}
+-5\cr
+4
+\end{array}\right]</m>.</p>
+<p><m>\vec{x} =</m> <fillin rows="2"/></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_2.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_2.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-141" ww-id="webwork-141">
+    <static seed="141" source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_3.pg">
+      <statement><p>The set
+<me>B= \left\lbrace \left[\begin{array}{c}
+1\cr
+-9
+\end{array}\right], \left[\begin{array}{c}
+-3\cr
+28
+\end{array}\right] \right\rbrace</me>
+is a basis for <m>{\mathbb R}^2</m>. 
+Find the coordinates of the vector <m>\vec{x}= \left[\begin{array}{c}
+-6\cr
+57
+\end{array}\right]</m> relative to the basis <m>B</m>.</p>
+<p><m>[\vec{x}]_B =</m> <fillin rows="2"/></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_3.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_3.pg"/>
   </webwork-reps>
 </webwork-representations>

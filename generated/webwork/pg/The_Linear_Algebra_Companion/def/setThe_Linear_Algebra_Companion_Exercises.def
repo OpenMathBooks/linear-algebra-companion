@@ -1,6 +1,6 @@
-openDate          = 02/25/2026 at 12:00am
-dueDate           = 08/25/2026 at 10:00pm
-answerDate        = 08/25/2026 at 10:00pm
+openDate          = 03/04/2026 at 12:00am
+dueDate           = 09/04/2026 at 10:00pm
+answerDate        = 09/04/2026 at 10:00pm
 paperHeaderFile   = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 screenHeaderFile  = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 description       = The Linear Algebra Companion
@@ -520,4 +520,52 @@ problem_end
 problem_start
 source_file = Library/TCNJ/TCNJ_MatrixLinearTransformation/problem26.pg
 problem_id = 19
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixInverse/problem2.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra4InverseMatrix/ur_Ch2_1_4.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_1.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_3.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_8.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_MatrixInverse/problem1.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra10Bases/ur_la_10_2.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra10Bases/ur_la_10_3.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra10Bases/ur_la_10_4.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra10Bases/ur_la_10_2.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra10Bases/ur_la_10_3.pg
+problem_id = 5
 problem_end
