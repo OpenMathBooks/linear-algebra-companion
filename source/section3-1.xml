@@ -10,31 +10,36 @@
   	<exercises>
 		<title>Practice</title>
 	
-<!-- The following exercises are from WW-3.1-3.2-->
-
+<!-- Exercises from MATH-204-ww set03.01.21.Sects3.1-3.2def -->
 		<exercise label="Invertibility1">
 			<webwork source="Library/TCNJ/TCNJ_MatrixInverse/problem2.pg" />
 		</exercise>
 
-		
 		<exercise label="Invertibility2">
 			<webwork source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_2.pg" />
 		</exercise>
 
+<!-- Exercises found by Andrew that looked similar -->
+		<exercise label="IsInvertable1">
+			<webwork source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_Ch2_1_4.pg" />
+		</exercise>
+
+		<exercise label="FindInverse1">
+			<webwork source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_1.pg" />
+		</exercise>
+		
+		<exercise label="FindInverse2">
+			<webwork source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_3.pg" />
+		</exercise>
 		
 		<exercise label="Invertibility3">
-			<webwork source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_2.pg" />
+			<webwork source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_8.pg" />
 		</exercise>
-
 		
 		<exercise label="Invertibility4">
-			<webwork source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_3.pg" />
+			<webwork source="Library/TCNJ/TCNJ_MatrixInverse/problem1.pg" />
 		</exercise>
-
-		
-		<exercise label="Invertibility5">
-			<webwork source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_4.pg" />
-		</exercise>
+<!-- Need to find 3+ more problems -->
 
 	</exercises>
   
