@@ -7,8 +7,65 @@
     Invertibility
   </title>
 
-  <exercises><title>Practice</title>
-  </exercises>
+  	<exercises>
+		<title>Practice</title>
+    
+<!-- 3.1 Problems found by Andrew -->
+		<exercise label="label">
+			<webwork source="source" />
+		</exercise>
+
+		
+<!-- The following exercises are from WW-3.1-3.2-->
+
+		<exercise label="label1">
+			<webwork source="Library/TCNJ/TCNJ_MatrixInverse/problem2.pg" />
+		</exercise>
+
+		
+		<exercise label="label1">
+			<webwork source="Library/Rochester/setLinearAlgebra4InverseMatrix/ur_la_4_2.pg" />
+		</exercise>
+
+		
+		<exercise label="label1">
+			<webwork source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_2.pg" />
+		</exercise>
+
+		
+		<exercise label="label1">
+			<webwork source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_3.pg" />
+		</exercise>
+
+		
+		<exercise label="label1">
+			<webwork source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_4.pg" />
+		</exercise>
+
+<!-- The following exercises are from WW-3.1-3.2: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: All Sections, not including Contrib] -->
+
+<!--
+		<exercise label="label1">
+			<webwork source="source" />
+		</exercise>
+
+		
+		<exercise label="label1">
+			<webwork source="source" />
+		</exercise>
+
+		
+		<exercise label="label1">
+			<webwork source="source" />
+		</exercise>
+
+		
+		<exercise label="label1">
+			<webwork source="source" />
+		</exercise>
+-->
+		
+	</exercises>
   
 </section>
 
