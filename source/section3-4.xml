@@ -5,6 +5,54 @@
 
   <title> Determinants </title>
 
+  <exercises>
+		<title>Practice</title>
+<!-- Exercises from MATH-204-ww set03.29.21.Sects3.4-5.def -->
+		<exercise label="Determinants_1">
+			<webwork source="Library/TCNJ/TCNJ_Determinants/problem9.pg" />
+		</exercise>
+
+		<exercise label="Determinant_Properties_1">
+			<webwork source="Library/TCNJ/TCNJ_PropertiesDeterminants/problem4.pg" />
+		</exercise>
+
+<!-- Need to find 7+ more problems 
+ 
+		<exercise label="label1">
+			<webwork source="source1" />
+		</exercise> 
+
+		<exercise label="label2">
+			<webwork source="source2" />
+		</exercise>
+    
+		<exercise label="label3">
+			<webwork source="source3" />
+		</exercise>
+    
+		<exercise label="label4">
+			<webwork source="source4" />
+		</exercise>
+    
+		<exercise label="label5">
+			<webwork source="source5" />
+		</exercise>
+    
+		<exercise label="label6">
+			<webwork source="source6" />
+		</exercise>
+    
+		<exercise label="label7">
+			<webwork source="source7" />
+		</exercise>
+    
+		<exercise label="label8">
+			<webwork source="source8" />
+		</exercise>
+    
+    -->
+	</exercises>
+
 
 
 </section>
