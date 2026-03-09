@@ -16,41 +16,59 @@
 			<webwork source="Library/TCNJ/TCNJ_PropertiesDeterminants/problem4.pg" />
 		</exercise>
 
-<!-- Need to find 7+ more problems 
- 
-		<exercise label="label1">
-			<webwork source="source1" />
+<!-- Exercises found by Andrew that looked similar, chose a variety including properties, geometric vs. algebraic, and cofactor expansion  -->
+   		<exercise label="evaluate_determinant_1">
+			<webwork source="Library/ma112DB/set12/sw7_6_15.pg" />
 		</exercise> 
 
-		<exercise label="label2">
-			<webwork source="source2" />
+		<exercise label="Determinant_Properties_2">
+			<webwork source="Library/Mizzou/Matrix_Theory/HW_5/prob_1.pg" />
 		</exercise>
     
-		<exercise label="label3">
-			<webwork source="source3" />
+		<exercise label="Determinant_Properties_3">
+			<webwork source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_1.pg" />
 		</exercise>
     
-		<exercise label="label4">
-			<webwork source="source4" />
+		<exercise label="find_determinant_1">
+			<webwork source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_16.pg" />
 		</exercise>
     
-		<exercise label="label5">
-			<webwork source="source5" />
+		<exercise label="evaluate_determinant_2">
+			<webwork source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_20.pg" />
 		</exercise>
     
-		<exercise label="label6">
-			<webwork source="source6" />
+		<exercise label="Determinant_minorsCofactors_1">
+			<webwork source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_24.pg" />
 		</exercise>
     
-		<exercise label="label7">
-			<webwork source="source7" />
+		<exercise label="Determinant_minorsCofactors_2">
+			<webwork source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_6.pg" />
 		</exercise>
     
-		<exercise label="label8">
-			<webwork source="source8" />
+		<exercise label="Determinant_Properties_4">
+			<webwork source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_9.pg" />
 		</exercise>
     
-    -->
+		<exercise label="Determinant_Geometric_1">
+			<webwork source="Library/Rochester/setLinearAlgebra7AreaVolume/ur_la_7_4.pg" />
+		</exercise>
+    
+		<exercise label="Determinant_Geometric_2">
+			<webwork source="Library/SaintMichaels/LinearAlgebra/determinants/problem_1.pg" />
+		</exercise>
+    
+		<exercise label="Determinant_Geometric_3">
+			<webwork source="Library/TCNJ/TCNJ_Dets_CramersRule_Misc/problem4.pg" />
+		</exercise>
+    
+		<exercise label="Determinant_Dependence_1">
+			<webwork source="Library/TCNJ/TCNJ_PropertiesDeterminants/problem11.pg" />
+		</exercise>
+    
+		<exercise label="Determinant_Properties_5">
+			<webwork source="Library/TCNJ/TCNJ_PropertiesDeterminants/problem7.pg" />
+		</exercise>
+
 	</exercises>
 
 
