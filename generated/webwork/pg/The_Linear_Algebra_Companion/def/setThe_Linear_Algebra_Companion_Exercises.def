@@ -1,6 +1,6 @@
-openDate          = 03/04/2026 at 12:00am
-dueDate           = 09/04/2026 at 10:00pm
-answerDate        = 09/04/2026 at 10:00pm
+openDate          = 03/13/2026 at 12:00am
+dueDate           = 09/13/2026 at 10:00pm
+answerDate        = 09/13/2026 at 10:00pm
 paperHeaderFile   = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 screenHeaderFile  = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 description       = The Linear Algebra Companion
@@ -568,4 +568,52 @@ problem_end
 problem_start
 source_file = Library/Rochester/setLinearAlgebra10Bases/ur_la_10_3.pg
 problem_id = 5
+problem_end
+problem_start
+source_file = Library/maCalcDB/setAlgebra34Matrices/determinant_2x2.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Dartmouth/setMTWCh1S3/problem_1.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_11.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_Determinants/problem9.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_PropertiesDeterminants/problem4.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_17.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_18.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_19.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/ma112DB/set12/sw7_6_15.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_16.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_20.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_PropertiesDeterminants/problem7.pg
+problem_id = 12
 problem_end

@@ -549,53 +549,53 @@ and, if it does, the dimension of the solution space.</p>
 <row halign="center" valign="middle">
 <cell>A. <var form="popup">
 <li>
-2 dimensional
-</li>
-<li>
 choose
 </li>
 <li>
 no solution
 </li>
 <li>
-1 dimensional
+2 dimensional
 </li>
 <li>
 0 dimensional
+</li>
+<li>
+1 dimensional
 </li>
 </var></cell>
 <cell>B. <var form="popup">
 <li>
-choose
-</li>
-<li>
-no solution
-</li>
-<li>
-2 dimensional
+1 dimensional
 </li>
 <li>
 0 dimensional
 </li>
 <li>
-1 dimensional
+2 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+choose
 </li>
 </var></cell>
 <cell>C. <var form="popup">
 <li>
-2 dimensional
+1 dimensional
 </li>
 <li>
-no solution
+0 dimensional
+</li>
+<li>
+2 dimensional
 </li>
 <li>
 choose
 </li>
 <li>
-1 dimensional
-</li>
-<li>
-0 dimensional
+no solution
 </li>
 </var></cell>
 </row>
@@ -613,7 +613,10 @@ choose
 <row halign="center" valign="middle">
 <cell>D. <var form="popup">
 <li>
-2 dimensional
+0 dimensional
+</li>
+<li>
+1 dimensional
 </li>
 <li>
 no solution
@@ -622,32 +625,32 @@ no solution
 choose
 </li>
 <li>
-1 dimensional
-</li>
-<li>
-0 dimensional
+2 dimensional
 </li>
 </var></cell>
 <cell>E. <var form="popup">
 <li>
-2 dimensional
-</li>
-<li>
-no solution
-</li>
-<li>
-choose
+0 dimensional
 </li>
 <li>
 1 dimensional
 </li>
 <li>
-0 dimensional
+choose
+</li>
+<li>
+no solution
+</li>
+<li>
+2 dimensional
 </li>
 </var></cell>
 <cell>F. <var form="popup">
 <li>
-2 dimensional
+0 dimensional
+</li>
+<li>
+1 dimensional
 </li>
 <li>
 no solution
@@ -656,10 +659,7 @@ no solution
 choose
 </li>
 <li>
-1 dimensional
-</li>
-<li>
-0 dimensional
+2 dimensional
 </li>
 </var></cell>
 </row>
@@ -677,53 +677,53 @@ choose
 <row halign="center" valign="middle">
 <cell>G. <var form="popup">
 <li>
-choose
-</li>
-<li>
-no solution
-</li>
-<li>
-2 dimensional
+1 dimensional
 </li>
 <li>
 0 dimensional
 </li>
 <li>
-1 dimensional
+2 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+choose
 </li>
 </var></cell>
 <cell>H. <var form="popup">
 <li>
-1 dimensional
-</li>
-<li>
-0 dimensional
-</li>
-<li>
-2 dimensional
+choose
 </li>
 <li>
 no solution
 </li>
 <li>
-choose
+2 dimensional
+</li>
+<li>
+0 dimensional
+</li>
+<li>
+1 dimensional
 </li>
 </var></cell>
 <cell>I. <var form="popup">
 <li>
-1 dimensional
-</li>
-<li>
 0 dimensional
 </li>
 <li>
-2 dimensional
+1 dimensional
+</li>
+<li>
+choose
 </li>
 <li>
 no solution
 </li>
 <li>
-<p>choose
+<p>2 dimensional
 </p></li>
 </var></cell>
 </row>
@@ -2682,35 +2682,35 @@ and inconsistent.</p>
 <row halign="center" valign="middle">
 <cell>A. <var form="popup">
 <li>
-consistent
+choose
 </li>
 <li>
 inconsistent
 </li>
 <li>
-choose
+consistent
 </li>
 </var></cell>
 <cell>B. <var form="popup">
 <li>
-choose
-</li>
-<li>
 consistent
 </li>
 <li>
 inconsistent
+</li>
+<li>
+choose
 </li>
 </var></cell>
 <cell>C. <var form="popup">
 <li>
+choose
+</li>
+<li>
 consistent
 </li>
 <li>
 inconsistent
-</li>
-<li>
-choose
 </li>
 </var></cell>
 </row>
@@ -2739,13 +2739,13 @@ choose
 </var></cell>
 <cell>E. <var form="popup">
 <li>
-consistent
+choose
 </li>
 <li>
 inconsistent
 </li>
 <li>
-choose
+consistent
 </li>
 </var></cell>
 <cell>F. <var form="popup">
@@ -2785,10 +2785,10 @@ choose
 </var></cell>
 <cell>H. <var form="popup">
 <li>
-inconsistent
+consistent
 </li>
 <li>
-consistent
+inconsistent
 </li>
 <li>
 choose
@@ -2799,10 +2799,10 @@ choose
 choose
 </li>
 <li>
-consistent
+inconsistent
 </li>
 <li>
-<p>inconsistent
+<p>consistent
 </p></li>
 </var></cell>
 </row>
@@ -7744,5 +7744,354 @@ Find the coordinates of the vector <m>\vec{x}= \left[\begin{array}{c}
     </static>
     <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_3.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/Rochester/setLinearAlgebra10Bases/ur_la_10_3.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-142" ww-id="webwork-142">
+    <static seed="142" source="Library/maCalcDB/setAlgebra34Matrices/determinant_2x2.pg">
+      <statement><p>Given the matrix
+<me>A =
+\left[\begin{array}{rr}
+        3 \amp  3 \\
+        5 \amp  4 \\
+\end{array}\right]</me></p>
+<p>find its determinant;</p>
+<p>The determinant of <m>A</m> is <fillin characters="25" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-3</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/maCalcDB/setAlgebra34Matrices/determinant_2x2.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/maCalcDB/setAlgebra34Matrices/determinant_2x2.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-143" ww-id="webwork-143">
+    <static seed="143" source="Library/Dartmouth/setMTWCh1S3/problem_1.pg">
+      <statement><p>Compute the determinant of the following 3 X 3 matrix:</p>
+<p><me>\begin{bmatrix} 4\amp -1\amp -1\\
+                     1\amp -5\amp 5\\
+    -4\amp 1\amp -2 \end{bmatrix}</me></p>
+<p>The determinant is  <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>57</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Dartmouth/setMTWCh1S3/problem_1.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Dartmouth/setMTWCh1S3/problem_1.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-144" ww-id="webwork-144">
+    <static seed="144" source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_11.pg">
+      <statement><p>Find the determinant of the matrix <me>M = \left[\begin{array}{ccc}
+6 \amp -4 \amp -9\cr
+0 \amp -6 \amp 0\cr
+0 \amp 0 \amp 4
+\end{array}\right] .</me></p>
+<p><m>\det(M)=</m> <fillin characters="15" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>6\cdot \left(-6\right)\cdot 4</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_11.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_11.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-145" ww-id="webwork-145">
+    <static seed="145" source="Library/TCNJ/TCNJ_Determinants/problem9.pg">
+      <statement><p><table><tr valign="middle"><td align="center" nowrap="nowrap">If <m>A=</m></td><td align="center" nowrap="nowrap"/></tr></table></p>
+<tabular>
+<row>
+<cell>-8</cell>
+<cell>0</cell>
+<cell>0</cell>
+<cell>0</cell>
+<cell>0</cell>
+</row>
+<row>
+<cell>4</cell>
+<cell>-5</cell>
+<cell>0</cell>
+<cell>0</cell>
+<cell>0</cell>
+</row>
+<row>
+<cell>-9</cell>
+<cell>-9</cell>
+<cell>9</cell>
+<cell>0</cell>
+<cell>0</cell>
+</row>
+<row>
+<cell>-4</cell>
+<cell>-2</cell>
+<cell>8</cell>
+<cell>7</cell>
+<cell>0</cell>
+</row>
+<row>
+<cell>-9</cell>
+<cell>-9</cell>
+<cell>-5</cell>
+<cell>8</cell>
+<cell>-2</cell>
+</row>
+</tabular>
+<p/>
+<p><table><tr valign="middle"><td align="center" nowrap="nowrap">then <m>\det\,(A)= \ </m></td><td align="center" nowrap="nowrap"><fillin characters="10" name="AnSwEr0001"/></td></tr></table></p>
+</statement>
+      <answer>
+        <p>
+          <m>-5040</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/TCNJ/TCNJ_Determinants/problem9.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/TCNJ/TCNJ_Determinants/problem9.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-146" ww-id="webwork-146">
+    <static seed="146" source="Library/TCNJ/TCNJ_PropertiesDeterminants/problem4.pg">
+      <statement><p><table><tr valign="middle"><td align="center" nowrap="nowrap">Given <m>\ \det</m></td><td align="center" nowrap="nowrap"/></tr></table></p>
+<tabular>
+<row>
+<cell>a</cell>
+<cell>b</cell>
+<cell>c</cell>
+</row>
+<row>
+<cell>d</cell>
+<cell>e</cell>
+<cell>f</cell>
+</row>
+<row>
+<cell>g</cell>
+<cell>h</cell>
+<cell>i</cell>
+</row>
+</tabular>
+<p><td align="center" nowrap="nowrap"><m>=-4</m>, find the following determinants.</td></p>
+<p><table><tr valign="middle"><td align="center" nowrap="nowrap"><m>\ \det</m></td><td align="center" nowrap="nowrap"/></tr></table></p>
+<tabular>
+<row>
+<cell>g</cell>
+<cell>h</cell>
+<cell>i</cell>
+</row>
+<row>
+<cell>a</cell>
+<cell>b</cell>
+<cell>c</cell>
+</row>
+<row>
+<cell>d</cell>
+<cell>e</cell>
+<cell>f</cell>
+</row>
+</tabular>
+<p><td align="center" nowrap="nowrap"><m>= \ </m></td><td align="center" nowrap="nowrap"><fillin characters="5" name="AnSwEr0001"/></td></p>
+<p><table><tr valign="middle"><td align="center" nowrap="nowrap"><m>\ \det</m></td><td align="center" nowrap="nowrap"/></tr></table></p>
+<tabular>
+<row>
+<cell>a</cell>
+<cell>b</cell>
+<cell>c</cell>
+</row>
+<row>
+<cell>4d + a</cell>
+<cell>4e + b</cell>
+<cell>4f + c</cell>
+</row>
+<row>
+<cell>g</cell>
+<cell>h</cell>
+<cell>i</cell>
+</row>
+</tabular>
+<p><td align="center" nowrap="nowrap"><m>= \ </m></td><td align="center" nowrap="nowrap"><fillin characters="5" name="AnSwEr0002"/></td></p>
+<p><table><tr valign="middle"><td align="center" nowrap="nowrap"><m>\ \det</m></td><td align="center" nowrap="nowrap"/></tr></table></p>
+<tabular>
+<row>
+<cell>4d + a</cell>
+<cell>4e + b</cell>
+<cell>4f + c</cell>
+</row>
+<row>
+<cell>d</cell>
+<cell>e</cell>
+<cell>f</cell>
+</row>
+<row>
+<cell>g</cell>
+<cell>h</cell>
+<cell>i</cell>
+</row>
+</tabular>
+<p><td align="center" nowrap="nowrap"><m>= \ </m></td><td align="center" nowrap="nowrap"><fillin characters="5" name="AnSwEr0003"/></td></p>
+</statement>
+      <answer>
+        <p>
+          <m>-4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-16</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-4</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/TCNJ/TCNJ_PropertiesDeterminants/problem4.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/TCNJ/TCNJ_PropertiesDeterminants/problem4.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-147" ww-id="webwork-147">
+    <static seed="147" source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_17.pg">
+      <statement><p>If the determinant of a <m>3 \times 3</m> matrix <m>A</m> is <m>\det(A)=2</m>, and the matrix <m>B</m> is obtained from <m>A</m> by
+multiplying the second column by <m>3</m>, then</p>
+<p><m>\det(B)=</m> <fillin characters="10" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>6</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_17.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-148" ww-id="webwork-148">
+    <static seed="148" source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_18.pg">
+      <statement><p>If the determinant of a <m>4 \times 4</m> matrix <m>A</m> is <m>\det (A)=3</m>, and the matrix <m>C</m> is obtained from <m>A</m> by
+swapping the second and third columns, then</p>
+<p><m>\det(C)=</m> <fillin characters="10" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>-3</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_18.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_18.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-149" ww-id="webwork-149">
+    <static seed="149" source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_19.pg">
+      <statement><p>If the determinant of a <m>4 \times 4</m> matrix <m>A</m> is <m>\det(A)=4</m>, and the matrix <m>D</m> is obtained from <m>A</m> by
+adding <m>9</m> times the fourth row to the second, then</p>
+<p><m>\det(D)=</m> <fillin characters="10" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_19.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_19.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-150" ww-id="webwork-150">
+    <static seed="150" source="Library/ma112DB/set12/sw7_6_15.pg">
+      <statement><p>Given the matrix
+<me>\left[\begin{array}{rrr}
+        2 \amp  5 \amp  -1 \\
+        2 \amp  0    \amp  5 \\
+        0    \amp  1 \amp  3 \\
+\end{array}\right]</me></p>
+<p>(a) find its determinant;</p>
+<p>Your answer is : <fillin characters="25" name="AnSwEr0001"/></p>
+<p>(b) does the matrix have an inverse?</p>
+<p>Your answer is (input Yes or No) : <fillin characters="25" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-42</m>
+        </p>
+      </answer>
+      <answer>
+        <p>Yes</p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ma112DB/set12/sw7_6_15.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ma112DB/set12/sw7_6_15.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-151" ww-id="webwork-151">
+    <static seed="151" source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_16.pg">
+      <statement><p>Find the determinant of the <m>n \times n</m> matrix <m>A</m> with <m>7</m>'s on the diagonal, <m>1</m>'s above the diagonal, and
+<m>0</m>'s below the diagonal.</p>
+<p><m>\det(A)=</m> <fillin characters="15" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>7^{n}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_16.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_16.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-152" ww-id="webwork-152">
+    <static seed="152" source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_20.pg">
+      <statement><p>If <me>\det \left[\begin{array}{ccc}
+a \amp 1 \amp d\cr
+b \amp 1 \amp e\cr
+c \amp 1 \amp f\cr
+\end{array}\right] = 4, \ \ \ \ \mbox{and} \ \ \ \ \det \left[\begin{array}{ccc}
+a \amp 1 \amp d\cr
+b \amp 2 \amp e\cr
+c \amp 3 \amp f\cr
+\end{array}\right] = -3,</me> then</p>
+<p><m>\det \left[\begin{array}{ccc}
+a \amp 3 \amp d\cr
+b \amp 3 \amp e\cr
+c \amp 3 \amp f\cr
+\end{array}\right] =</m> <fillin characters="5" name="AnSwEr0001"/> and</p>
+<p><m>\det \left[\begin{array}{ccc}
+a \amp 0 \amp d\cr
+b \amp 3 \amp e\cr
+c \amp 6 \amp f\cr
+\end{array}\right] =</m> <fillin characters="5" name="AnSwEr0002"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>12</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-21</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_20.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setLinearAlgebra6Determinants/ur_la_6_20.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-153" ww-id="webwork-153">
+    <static seed="153" source="Library/TCNJ/TCNJ_PropertiesDeterminants/problem7.pg">
+      <statement><p><m>A</m> and <m>B</m> are <m>n\times n</m> matrices.</p>
+<p>Check the true statements below:</p>
+<p><var form="checkboxes">
+<li>
+<p><m>det (A + B) = det A + det B</m>.</p>
+</li>
+<li>
+<p>The determinant of <m>A</m> is the product of the pivots in any echelon form <m>U</m> of <m>A</m>, multiplied by <m>(-1)^{r}</m>, where <m>r</m> is the number of row interchanges made during row reduction from <m>A</m> to <m>U</m>.</p>
+</li>
+<li>
+<p>Adding a multiple of one row to another does not affect the determinant of a matrix.</p>
+</li>
+<li>
+<p>If the columns of <m>A</m> are linearly dependent, then <m>det A = 0</m>.</p>
+</li>
+</var></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/TCNJ/TCNJ_PropertiesDeterminants/problem7.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/TCNJ/TCNJ_PropertiesDeterminants/problem7.pg"/>
   </webwork-reps>
 </webwork-representations>
