@@ -9,6 +9,6 @@
   <xi:include href="./section3-2.xml" />
   <xi:include href="./section3-3.xml" />
   <xi:include href="./section3-4.xml" />
-  <!-- <xi:include href="./section3-5.xml" /> -->
+  <xi:include href="./section3-5.xml" />
   
 </chapter>

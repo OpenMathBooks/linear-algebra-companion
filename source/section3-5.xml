@@ -21,33 +21,33 @@
 		</exercise>
 
 <!-- Exercises found by Andrew that looked similar, most considering properties of subspaces, not a lot of determining/finding subpsaces  -->
-		<exercise label="Is_subspace_1">
+		<!-- <exercise label="Is_subspace_1">
 			<webwork source="Library/Rochester/setLinearAlgebra8VectorSpaces/ur_la_8_6.pg" />
-		</exercise> 
+		</exercise>  -->
 
-		<exercise label="Is_subspace_2">
+		<!-- <exercise label="Is_subspace_2">
 			<webwork source="Library/TCNJ/TCNJ_NullColumnSpaces/problem3.pg" />
-		</exercise>
+		</exercise> -->
     
-		<exercise label="Is_subspace_3">
+		<!-- <exercise label="Is_subspace_3">
 			<webwork source="Library/TCNJ/TCNJ_NullColumnSpaces/problem5.pg" />
-		</exercise>
+		</exercise> -->
     
-		<exercise label="Is_subspace_4">
+		<!-- <exercise label="Is_subspace_4">
 			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/4.1.11.pg" />
-		</exercise>
+		</exercise> -->
     
-		<exercise label="Is_subspace_5">
+		<!-- <exercise label="Is_subspace_5">
 			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/4.1.45.pg" />
-		</exercise>
+		</exercise> -->
     
-		<exercise label="Is_subspace_6">
+		<!-- <exercise label="Is_subspace_6">
 			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/4.1.50_58a.pg" />
-		</exercise>
+		</exercise> -->
     
-		<exercise label="Is_subspace_7">
+		<!-- <exercise label="Is_subspace_7">
 			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/4.1.51.pg" />
-		</exercise>
+		</exercise> -->
 
 	</exercises>
 
