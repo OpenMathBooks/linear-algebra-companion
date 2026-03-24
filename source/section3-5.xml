@@ -11,6 +11,41 @@
 		<exercise label="subspace-geometry-1">
 			<webwork><xi:include href="./wwpg/3-5-1.pg" parse="text"/></webwork>
 		</exercise>
+		<exercise label="subspace-find-basis-1">
+			<webwork><xi:include href="./wwpg/3-5-2.pg" parse="text"/></webwork>
+		</exercise>
+		<exercise label="subspace-find-basis-2">
+			<webwork><xi:include href="./wwpg/3-5-3.pg" parse="text"/></webwork>
+		</exercise>
+		<exercise label="subspace-find-basis-3">
+			<webwork><xi:include href="./wwpg/3-5-4.pg" parse="text"/></webwork>
+		</exercise>
+		<exercise label="subspace-find-basis-4">
+			<webwork><xi:include href="./wwpg/3-5-5.pg" parse="text"/></webwork>
+		</exercise>
+		<exercise label="subspace-find-colspace-basis-1">
+			<webwork><xi:include href="./wwpg/3-5-6.pg" parse="text"/></webwork>
+		</exercise>
+		<exercise label="subspace-find-colspace-basis-2">
+			<webwork><xi:include href="./wwpg/3-5-7.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="subspace-find-solspace-basis-1">
+			<webwork><xi:include href="./wwpg/3-5b-1.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="subspace-find-solspace-basis-2">
+			<webwork><xi:include href="./wwpg/3-5b-2.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="subspace-find-nulspace-basis-1">
+			<webwork><xi:include href="./wwpg/3-5b-3.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="subspace-find-nulspace-basis-2">
+			<webwork><xi:include href="./wwpg/3-5b-4.pg" parse="text"/></webwork>
+		</exercise>
+
 
 <!-- Exercises from MATH-204-ww set03.29.21.Sects3.4-5.def -->
 		<exercise label="Subspace_1">
@@ -24,35 +59,6 @@
 		<exercise label="Subspace_3">
 			<webwork source="Library/TCNJ/TCNJ_NullColumnSpaces/problem6.pg" />
 		</exercise>
-
-<!-- Exercises found by Andrew that looked similar, most considering properties of subspaces, not a lot of determining/finding subpsaces  -->
-		<!-- <exercise label="Is_subspace_1">
-			<webwork source="Library/Rochester/setLinearAlgebra8VectorSpaces/ur_la_8_6.pg" />
-		</exercise>  -->
-
-		<!-- <exercise label="Is_subspace_2">
-			<webwork source="Library/TCNJ/TCNJ_NullColumnSpaces/problem3.pg" />
-		</exercise> -->
-    
-		<!-- <exercise label="Is_subspace_3">
-			<webwork source="Library/TCNJ/TCNJ_NullColumnSpaces/problem5.pg" />
-		</exercise> -->
-    
-		<!-- <exercise label="Is_subspace_4">
-			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/4.1.11.pg" />
-		</exercise> -->
-    
-		<!-- <exercise label="Is_subspace_5">
-			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/4.1.45.pg" />
-		</exercise> -->
-    
-		<!-- <exercise label="Is_subspace_6">
-			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/4.1.50_58a.pg" />
-		</exercise> -->
-    
-		<!-- <exercise label="Is_subspace_7">
-			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/4.1.51.pg" />
-		</exercise> -->
 
 	</exercises>
 
