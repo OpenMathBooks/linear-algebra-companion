@@ -7,6 +7,11 @@
 
   <exercises>
 		<title>Practice</title>
+
+		<exercise label="subspace-geometry-1">
+			<webwork><xi:include href="./wwpg/3-5-1.pg" parse="text"/></webwork>
+		</exercise>
+
 <!-- Exercises from MATH-204-ww set03.29.21.Sects3.4-5.def -->
 		<exercise label="Subspace_1">
 			<webwork source="Library/Hope/Multi1/03-05-Basis-subspace/Basis_13_null_space.pg" />
