@@ -549,6 +549,12 @@ and, if it does, the dimension of the solution space.</p>
 <row halign="center" valign="middle">
 <cell>A. <var form="popup">
 <li>
+0 dimensional
+</li>
+<li>
+1 dimensional
+</li>
+<li>
 choose
 </li>
 <li>
@@ -556,46 +562,40 @@ no solution
 </li>
 <li>
 2 dimensional
-</li>
-<li>
-0 dimensional
-</li>
-<li>
-1 dimensional
 </li>
 </var></cell>
 <cell>B. <var form="popup">
 <li>
-1 dimensional
-</li>
-<li>
-0 dimensional
-</li>
-<li>
-2 dimensional
+choose
 </li>
 <li>
 no solution
 </li>
 <li>
-choose
+2 dimensional
+</li>
+<li>
+0 dimensional
+</li>
+<li>
+1 dimensional
 </li>
 </var></cell>
 <cell>C. <var form="popup">
 <li>
-1 dimensional
-</li>
-<li>
 0 dimensional
 </li>
 <li>
-2 dimensional
+1 dimensional
+</li>
+<li>
+no solution
 </li>
 <li>
 choose
 </li>
 <li>
-no solution
+2 dimensional
 </li>
 </var></cell>
 </row>
@@ -613,10 +613,7 @@ no solution
 <row halign="center" valign="middle">
 <cell>D. <var form="popup">
 <li>
-0 dimensional
-</li>
-<li>
-1 dimensional
+2 dimensional
 </li>
 <li>
 no solution
@@ -625,15 +622,15 @@ no solution
 choose
 </li>
 <li>
-2 dimensional
+1 dimensional
+</li>
+<li>
+0 dimensional
 </li>
 </var></cell>
 <cell>E. <var form="popup">
 <li>
-0 dimensional
-</li>
-<li>
-1 dimensional
+2 dimensional
 </li>
 <li>
 choose
@@ -642,7 +639,10 @@ choose
 no solution
 </li>
 <li>
-2 dimensional
+1 dimensional
+</li>
+<li>
+0 dimensional
 </li>
 </var></cell>
 <cell>F. <var form="popup">
@@ -653,10 +653,10 @@ no solution
 1 dimensional
 </li>
 <li>
-no solution
+choose
 </li>
 <li>
-choose
+no solution
 </li>
 <li>
 2 dimensional
@@ -677,36 +677,36 @@ choose
 <row halign="center" valign="middle">
 <cell>G. <var form="popup">
 <li>
-1 dimensional
-</li>
-<li>
-0 dimensional
-</li>
-<li>
 2 dimensional
+</li>
+<li>
+choose
 </li>
 <li>
 no solution
 </li>
 <li>
-choose
+1 dimensional
+</li>
+<li>
+0 dimensional
 </li>
 </var></cell>
 <cell>H. <var form="popup">
 <li>
-choose
-</li>
-<li>
-no solution
-</li>
-<li>
-2 dimensional
+1 dimensional
 </li>
 <li>
 0 dimensional
 </li>
 <li>
-1 dimensional
+2 dimensional
+</li>
+<li>
+no solution
+</li>
+<li>
+choose
 </li>
 </var></cell>
 <cell>I. <var form="popup">
@@ -2682,35 +2682,35 @@ and inconsistent.</p>
 <row halign="center" valign="middle">
 <cell>A. <var form="popup">
 <li>
-choose
-</li>
-<li>
 inconsistent
 </li>
 <li>
 consistent
+</li>
+<li>
+choose
 </li>
 </var></cell>
 <cell>B. <var form="popup">
 <li>
+choose
+</li>
+<li>
 consistent
 </li>
 <li>
 inconsistent
-</li>
-<li>
-choose
 </li>
 </var></cell>
 <cell>C. <var form="popup">
 <li>
-choose
-</li>
-<li>
 consistent
 </li>
 <li>
 inconsistent
+</li>
+<li>
+choose
 </li>
 </var></cell>
 </row>
@@ -2728,10 +2728,10 @@ inconsistent
 <row halign="center" valign="middle">
 <cell>D. <var form="popup">
 <li>
-inconsistent
+consistent
 </li>
 <li>
-consistent
+inconsistent
 </li>
 <li>
 choose
@@ -2750,13 +2750,13 @@ consistent
 </var></cell>
 <cell>F. <var form="popup">
 <li>
-choose
+inconsistent
 </li>
 <li>
 consistent
 </li>
 <li>
-inconsistent
+choose
 </li>
 </var></cell>
 </row>
@@ -2774,13 +2774,13 @@ inconsistent
 <row halign="center" valign="middle">
 <cell>G. <var form="popup">
 <li>
-consistent
+choose
 </li>
 <li>
 inconsistent
 </li>
 <li>
-choose
+consistent
 </li>
 </var></cell>
 <cell>H. <var form="popup">
@@ -8093,5 +8093,1980 @@ c \amp 6 \amp f\cr
     </static>
     <rendering-data sourceFilePath="Library/TCNJ/TCNJ_PropertiesDeterminants/problem7.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/TCNJ/TCNJ_PropertiesDeterminants/problem7.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-154" ww-id="webwork-154">
+    <static seed="154">
+      <statement><p>For each of the following sets of vectors, let 
+<m>W= \text{ span} \left\lbrace \vec{v_1}, \vec{v_2}, \vec{v_3}, \vec{v_4} \right\rbrace</m>.
+Is the subspace <m>W</m> a line, plane, or <m>{\mathbb R}^3</m>?</p>
+<p><ol>
+<li>
+<p><table><tr valign="middle"><td align="center" nowrap="nowrap"><m>\vec{v_1} =</m></td><td align="center" nowrap="nowrap"/></tr></table></p>
+<tabular>
+<row>
+<cell>2</cell>
+</row>
+<row>
+<cell>-2</cell>
+</row>
+<row>
+<cell>3</cell>
+</row>
+</tabular>
+<p><td align="center" nowrap="nowrap">, </td><td align="center" nowrap="nowrap"><m>\vec{v_2} =</m></td><td align="center" nowrap="nowrap"/></p>
+<tabular>
+<row>
+<cell>-7</cell>
+</row>
+<row>
+<cell>-5</cell>
+</row>
+<row>
+<cell>7</cell>
+</row>
+</tabular>
+<p><td align="center" nowrap="nowrap">, </td><td align="center" nowrap="nowrap"><m>\vec{v_3} =</m></td><td align="center" nowrap="nowrap"/></p>
+<tabular>
+<row>
+<cell>-17</cell>
+</row>
+<row>
+<cell>-6</cell>
+</row>
+<row>
+<cell>8</cell>
+</row>
+</tabular>
+<p><td align="center" nowrap="nowrap">, </td><td align="center" nowrap="nowrap"><m>\vec{v_4} =</m></td><td align="center" nowrap="nowrap"/></p>
+<tabular>
+<row>
+<cell>0</cell>
+</row>
+<row>
+<cell>-2</cell>
+</row>
+<row>
+<cell>-2</cell>
+</row>
+</tabular>
+<p/>
+</li>
+<li>
+<p><table><tr valign="middle"><td align="center" nowrap="nowrap"><m>\vec{v_1} =</m></td><td align="center" nowrap="nowrap"/></tr></table></p>
+<tabular>
+<row>
+<cell>3</cell>
+</row>
+<row>
+<cell>2</cell>
+</row>
+<row>
+<cell>2</cell>
+</row>
+</tabular>
+<p><td align="center" nowrap="nowrap">, </td><td align="center" nowrap="nowrap"><m>\vec{v_2} =</m></td><td align="center" nowrap="nowrap"/></p>
+<tabular>
+<row>
+<cell>-6</cell>
+</row>
+<row>
+<cell>-4</cell>
+</row>
+<row>
+<cell>-3</cell>
+</row>
+</tabular>
+<p><td align="center" nowrap="nowrap">, </td><td align="center" nowrap="nowrap"><m>\vec{v_3} =</m></td><td align="center" nowrap="nowrap"/></p>
+<tabular>
+<row>
+<cell>9</cell>
+</row>
+<row>
+<cell>6</cell>
+</row>
+<row>
+<cell>4</cell>
+</row>
+</tabular>
+<p><td align="center" nowrap="nowrap">, </td><td align="center" nowrap="nowrap"><m>\vec{v_4} =</m></td><td align="center" nowrap="nowrap"/></p>
+<tabular>
+<row>
+<cell>18</cell>
+</row>
+<row>
+<cell>12</cell>
+</row>
+<row>
+<cell>8</cell>
+</row>
+</tabular>
+<p/>
+</li>
+<li>
+<p><table><tr valign="middle"><td align="center" nowrap="nowrap"><m>\vec{v_1} =</m></td><td align="center" nowrap="nowrap"/></tr></table></p>
+<tabular>
+<row>
+<cell>-3</cell>
+</row>
+<row>
+<cell>3</cell>
+</row>
+<row>
+<cell>3</cell>
+</row>
+</tabular>
+<p><td align="center" nowrap="nowrap">, </td><td align="center" nowrap="nowrap"><m>\vec{v_2} =</m></td><td align="center" nowrap="nowrap"/></p>
+<tabular>
+<row>
+<cell>0</cell>
+</row>
+<row>
+<cell>0</cell>
+</row>
+<row>
+<cell>0</cell>
+</row>
+</tabular>
+<p><td align="center" nowrap="nowrap">, </td><td align="center" nowrap="nowrap"><m>\vec{v_3} =</m></td><td align="center" nowrap="nowrap"/></p>
+<tabular>
+<row>
+<cell>6</cell>
+</row>
+<row>
+<cell>-6</cell>
+</row>
+<row>
+<cell>-6</cell>
+</row>
+</tabular>
+<p><td align="center" nowrap="nowrap">, </td><td align="center" nowrap="nowrap"><m>\vec{v_4} =</m></td><td align="center" nowrap="nowrap"/></p>
+<tabular>
+<row>
+<cell>-9</cell>
+</row>
+<row>
+<cell>9</cell>
+</row>
+<row>
+<cell>9</cell>
+</row>
+</tabular>
+<p/>
+</li>
+</ol></p>
+</statement>
+    </static>
+    <rendering-data problemSource="The_Linear_Algebra_Companion/3_5_1.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## Tagged by tda2d
+
+## DBsubject(Linear algebra)
+## DBchapter(Euclidean spaces)
+## DBsection(Span)
+## Institution(TCNJ)
+## Level(3)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('Jeffrey Holt')
+## EditionText1('1')
+## Section1('2.2')
+## Problem1('')
+## KEYWORDS('vector' 'linear' 'combination' 'span')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+loadMacros(
+  "PGstandard.pl",
+  "PGchoicemacros.pl",
+  "PGgraphmacros.pl",
+  "PGmatrixmacros.pl",
+  "PGcourse.pl"
+);
+ 
+TEXT(beginproblem());    
+# Do not show which answers are incorrect.
+$showPartialCorrectAnswers = 0;
+
+foreach $i (1..3) { 
+	$a1[$i] = non_zero_random(-3,3,1);
+        $a2[$i] = (0);
+}
+$m = non_zero_random(-2,2,1);
+$n = random(3,4,1)*random(-1,1,2);
+foreach $i (1..3) { 
+        $a3[$i] = $m*$a1[$i];
+        $a4[$i] = $n*$a1[$i];
+}
+
+foreach $i (1..3) {
+        $b1[$i] = non_zero_random(-3,3,1);
+}
+$o = random(2,4,1)*random(-1,1,2);
+$p = random(-1,1,2);
+foreach $i (1..2) {
+        $b2[$i] = $o*$b1[$i];
+}
+$b2[3] = $o*$b1[3]+$p;
+$q = non_zero_random(-2,2,1);
+$r = non_zero_random(-2,2,1);
+$s = non_zero_random(-2,2,1);
+$t = random(3,4,1)*random(-1,1,2);
+foreach $i (1..3) {
+        $b3[$i] = $q*$b1[$i]+$r*$b2[$i];
+        $b4[$i] = $s*$b1[$i]+$t*$b2[$i];
+}
+
+foreach $i (1..3) {
+        $c1[$i] = non_zero_random(-3,3,1);
+        $c2[$i] = random(5,7,2)*random(-1,1,2);
+}
+$c2[3] += 1 unless (
+	$c1[2]*$c2[3] - $c1[3]*$c2[2]
+);
+$e = non_zero_random(-2,2,1);
+$f = non_zero_random(-2,2,1);
+$g = random(-1,1,2);
+foreach $i (2..3) {
+        $c3[$i] = $e*$c1[$i]+$f*$c2[$i];
+        $c4[$i] = non_zero_random(-3,3,1);
+}
+$c3[1] = $e*$c1[1]+$f*$c2[1]+$g;
+$c4[1] = 0;
+
+# Make a new checkbox multiple choice
+$tf = new_pop_up_select_list();
+$tf->ra_pop_up_list(["?"=>"Select an Answer", "Line" => "Line",
+                        "Plane" => "Plane", "R^3" => "R^3"]);
+# $cmc now "contains" the checkbox multiple choice object.
+
+# Insert some  questions and matching answers in the q/a list
+
+$tf -> qa ( mbox( '\(\vec{v_1} = \)',display_matrix([[$a1[1]], [$a1[2]], [$a1[3]]]), ', ', 
+	 '\(\vec{v_2} = \)',display_matrix([[$a2[1]], [$a2[2]], [$a2[3]]]), ', ', 
+         '\(\vec{v_3} = \)',display_matrix([[$a3[1]], [$a3[2]], [$a3[3]]]), ', ', 
+	 '\(\vec{v_4} = \)',display_matrix([[$a4[1]], [$a4[2]], [$a4[3]]]), ),
+"Line",            
+mbox( '\(\vec{v_1} = \)',display_matrix([[$b1[1]], [$b1[2]], [$b1[3]]]), ', ', 
+	 '\(\vec{v_2} = \)',display_matrix([[$b2[1]], [$b2[2]], [$b2[3]]]), ', ', 
+         '\(\vec{v_3} = \)',display_matrix([[$b3[1]], [$b3[2]], [$b3[3]]]), ', ', 
+	 '\(\vec{v_4} = \)',display_matrix([[$b4[1]], [$b4[2]], [$b4[3]]]), ),
+"Plane",
+mbox( '\(\vec{v_1} = \)',display_matrix([[$c1[1]], [$c1[2]], [$c1[3]]]), ', ', 
+	 '\(\vec{v_2} = \)',display_matrix([[$c2[1]], [$c2[2]], [$c2[3]]]), ', ', 
+         '\(\vec{v_3} = \)',display_matrix([[$c3[1]], [$c3[2]], [$c3[3]]]), ', ', 
+	 '\(\vec{v_4} = \)',display_matrix([[$c4[1]], [$c4[2]], [$c4[3]]]), ),
+"R^3",
+                       
+);
+
+$tf->choose(3);
+
+# Insert some incorrect answers
+
+# Print the text using $mc->print_q for the questions and
+# $mc->print_a to print the answers.
+BEGIN_TEXT
+
+For each of the following sets of vectors, let 
+\(W= \text{ span} \left\lbrace \vec{v_1}, \vec{v_2}, \vec{v_3}, \vec{v_4} \right\rbrace\).
+Is the subspace \(W\) a line, plane, or \( {\mathbb R}^3\)?
+$BR
+$BR
+
+ \{ $tf -> print_q \}
+
+END_TEXT
+
+# Enter the correct answers to be checked against the answers to the students.
+ANS(str_cmp( $tf->ra_correct_ans )   ) ;
+
+ENDDOCUMENT();]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-155" ww-id="webwork-155">
+    <static seed="155">
+      <statement><p>Let <m>W</m> be the subspace of <m>{\mathbb R}^3</m> spanned by the following three vectors.</p>
+<p><me>\left[\begin{array}{c}
+-2\cr
+-1\cr
+3
+\end{array}\right], \ \ \ \ 
+\left[\begin{array}{c}
+-4\cr
+0\cr
+3
+\end{array}\right], \ \ \ \
+\left[\begin{array}{c}
+0\cr
+-2\cr
+3
+\end{array}\right].</me></p>
+<p>It turns out that <m>W</m> is a plane.  Find a subset of those vectors that form a basis for <m>W</m>.</p>
+<p><m>\Bigg\lbrace</m> 
+<fillin rows="3"/>, 
+<fillin rows="3"/> 
+<m>\Bigg\rbrace.</m></p>
+</statement>
+    </static>
+    <rendering-data problemSource="The_Linear_Algebra_Companion/3_5_2.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## Tagged by cmd6a 4/29/06
+
+## DBsubject(Linear algebra)
+## DBchapter(Euclidean spaces)
+## DBsection(Basis and dimension)
+## Date(July 2013)
+## Institution(Rochester and Hope College)
+## Author(Paul Pearson)
+## MLT(basis_from_dependent_set)
+## MO(1)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('Jeffrey Holt')
+## EditionText1('1')
+## Section1('4.2')
+## Problem1('')
+
+DOCUMENT();
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "parserMultiAnswer.pl",
+  "MatrixCheckers.pl",
+  "PGcourse.pl"
+);
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Matrix');
+
+foreach $i (1..3) { 
+	$u[$i] = non_zero_random(-3,3,1);
+	$v[$i] = non_zero_random(-3,3,1);
+}
+
+$tag = random(1,3,1);
+$v[$tag] = 0;
+
+$m = non_zero_random(-2,2,1);
+$n = non_zero_random(-2,2,1);
+
+foreach $i (1..3) { 
+        $w[$i] = $m*$u[$i] + $n*$v[$i];
+}
+
+$U = Matrix([[$u[1]], [$u[2]], [$u[3]]]);
+$W = Matrix([[$w[1]], [$w[2]], [$w[3]]]);
+$V = Matrix([[$v[1]], [$v[2]], [$v[3]]]);
+
+$basis1 = $U;
+$basis2 = $V;
+
+$multians = MultiAnswer($basis1, $basis2)->with(
+  singleResult => 1,
+  separator => ',',
+  tex_separator => ',',
+  allowBlankAnswers=>0,
+  checker => ~~&basis_checker_columns,
+);
+
+
+Context()->texStrings;
+BEGIN_TEXT
+Let \(W\) be the subspace of \( {\mathbb R}^3\) spanned by the following three vectors.
+$BR
+
+\[ 
+$U, \ \ \ \ 
+$W, \ \ \ \
+$V. 
+\]
+
+It turns out that \(W\) is a plane.  Find a subset of those vectors that form a basis for \(W\).
+
+
+$PAR
+$BCENTER
+\(\Bigg\lbrace\) 
+\{ $multians->ans_array \}, 
+\{ $multians->ans_array \} 
+\(\Bigg\rbrace.\)
+$ECENTER
+END_TEXT
+Context()->normalStrings;
+
+ANS($multians->cmp);
+;
+
+ENDDOCUMENT();]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-156" ww-id="webwork-156">
+    <static seed="156">
+      <statement><p>Let <m>W</m> be the subspace of <m>{\mathbb R}^4</m> spanned by the following vectors.</p>
+<p><me>\left[\begin{array}{c}
+6\cr
+-6\cr
+-4\cr
+-9
+\end{array}\right], \ \ \ \ 
+\left[\begin{array}{c}
+1\cr
+-6\cr
+-2\cr
+-8
+\end{array}\right], \ \ \ \
+\left[\begin{array}{c}
+-2\cr
+3\cr
+2\cr
+3
+\end{array}\right], \ \ \ \ 
+\left[\begin{array}{c}
+3\cr
+0\cr
+-2\cr
+2
+\end{array}\right].</me>
+A subset of those vectors that form a basis for <m>W</m> is</p>
+<p><m>\Bigg\lbrace</m> 
+<fillin rows="4"/>, 
+<fillin rows="4"/>, 
+<fillin rows="4"/> 
+<m>\Bigg\rbrace.</m></p>
+</statement>
+    </static>
+    <rendering-data problemSource="The_Linear_Algebra_Companion/3_5_3.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## Tagged by cmd6a 4/29/06
+
+## DBsubject(Linear algebra)
+## DBchapter(Euclidean spaces)
+## DBsection(Basis and dimension)
+## Date(July 2013)
+## Institution(Rochester and Hope College)
+## Author(Paul Pearson)
+## MLT(basis_from_dependent_set)
+## MO(1)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('Jeffrey Holt')
+## EditionText1('1')
+## Section1('4.2')
+## Problem1('')
+
+DOCUMENT();
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "parserMultiAnswer.pl",
+  "MatrixCheckers.pl",
+  "PGchoicemacros.pl",
+  "PGcourse.pl"
+);
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Matrix');
+
+foreach $i (1..4) { 
+	$a[1][$i] = non_zero_random(-3,3,1);
+	$a[2][$i] = non_zero_random(-3,3,1);
+	$a[5][$i] = non_zero_random(-3,3,1);
+}
+
+$tag1 = random(1,3,1);
+$tag2 = random($tag1+1,4,1);
+
+$a[2][$tag1] = 0;
+$a[5][$tag1] = 0;
+$a[5][$tag2] = 0;
+
+$m = non_zero_random(-2,2,1);
+$n = non_zero_random(-1,1,1);
+$p = random(-1,1,1);
+
+$s = non_zero_random(-2,2,1);
+$t = non_zero_random(-1,1,1);
+
+foreach $i (1..4) { 
+	$a[4][$i] = $m*$a[1][$i] + $n*$a[2][$i] + $p*$a[5][$i];
+	$a[3][$i] = $s*$a[1][$i] + $t*$a[5][$i];
+}
+
+@slice = NchooseK(4,4); 
+
+foreach $i (1..4) {
+	foreach $j (1..4) { 
+		$v[$i][$j] = $a[$slice[$i-1]+1][$j];
+	}
+}
+
+$V1 = Matrix([[$v[1][1]], [$v[1][2]], [$v[1][3]], [$v[1][4]]]);
+$V2 = Matrix([[$v[2][1]], [$v[2][2]], [$v[2][3]], [$v[2][4]]]);
+$V3 = Matrix([[$v[3][1]], [$v[3][2]], [$v[3][3]], [$v[3][4]]]);
+$V4 = Matrix([[$v[4][1]], [$v[4][2]], [$v[4][3]], [$v[4][4]]]);
+
+
+
+$basis1 = Matrix([ [$a[1][1]], [$a[1][2]], [$a[1][3]], [$a[1][4]] ]);
+$basis2 = Matrix([ [$a[2][1]], [$a[2][2]], [$a[2][3]], [$a[2][4]] ]);
+$basis3 = Matrix([ [$a[5][1]], [$a[5][2]], [$a[5][3]], [$a[5][4]] ]);
+
+
+$multians = MultiAnswer($basis1, $basis2, $basis3)->with(
+  singleResult => 1,
+  separator => ',',
+  tex_separator => ',',
+  allowBlankAnswers=>0,
+  checker => ~~&basis_checker_columns,
+);
+
+
+Context()->texStrings;
+BEGIN_TEXT
+
+Let \(W\) be the subspace of \( {\mathbb R}^4\) spanned by the following vectors.
+$BR
+
+\[ 
+$V1, \ \ \ \ 
+$V2, \ \ \ \
+$V3, \ \ \ \ 
+$V4.
+\]
+A subset of those vectors that form a basis for \(W\) is
+$BR
+$BR
+$BCENTER
+\(\Bigg\lbrace\) 
+\{ $multians->ans_array \}, 
+\{ $multians->ans_array \}, 
+\{ $multians->ans_array \} 
+\(\Bigg\rbrace.\)
+$ECENTER
+END_TEXT
+Context()->normalStrings;
+
+ANS($multians->cmp);
+;
+
+ENDDOCUMENT();]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-157" ww-id="webwork-157">
+    <static seed="157">
+      <statement><p>Let <m>W</m> be the subspace of <m>{\mathbb R}^4</m> spanned by the following vectors.</p>
+<p><me>\left[\begin{array}{c}
+-2\cr
+2\cr
+0\cr
+-1
+\end{array}\right], \ \ \ \ 
+\left[\begin{array}{c}
+-7\cr
+7\cr
+3\cr
+-5
+\end{array}\right], \ \ \ \
+\left[\begin{array}{c}
+-1\cr
+1\cr
+3\cr
+-2
+\end{array}\right], \ \ \ \ 
+\left[\begin{array}{c}
+1\cr
+-1\cr
+-9\cr
+5
+\end{array}\right].</me>
+A subset of those vectors that form a basis for <m>W</m> is</p>
+<p><m>\Bigg\lbrace</m> 
+<fillin rows="4"/>, 
+<fillin rows="4"/> 
+<m>\Bigg\rbrace.</m></p>
+</statement>
+    </static>
+    <rendering-data problemSource="The_Linear_Algebra_Companion/3_5_4.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## Tagged by cmd6a 4/29/06
+
+## DBsubject(Linear algebra)
+## DBchapter(Euclidean spaces)
+## DBsection(Basis and dimension)
+## Date(July 2013)
+## Institution(Rochester and Hope College)
+## Author(Paul Pearson)
+## MLT(basis_from_dependent_set)
+## MLTleader(1)
+## MO(1)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('Jeffrey Holt')
+## EditionText1('1')
+## Section1('4.2')
+## Problem1('')
+
+DOCUMENT();
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "parserMultiAnswer.pl",
+  "MatrixCheckers.pl",
+  "PGchoicemacros.pl",
+  "PGcourse.pl"
+);
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Matrix');
+
+foreach $i (1..4) { 
+	$a[1][$i] = non_zero_random(-3,3,1);
+	$a[2][$i] = non_zero_random(-3,3,1);
+}
+
+$tag = random(1,4,1);
+$a[2][$tag] = 0;
+
+$m = random(1,3,1);
+$n = random(1,3,1);
+
+foreach $i (1..4) { 
+        $a[3][$i] = $a[1][$i] + $m*$a[2][$i];
+	$a[4][$i] = $a[2][$i] - $n*$a[1][$i];
+}
+
+@slice = NchooseK(4,4); 
+
+foreach $i (1..4) {
+	foreach $j (1..4) { 
+		$v[$i][$j] = $a[$slice[$i-1]+1][$j];
+	}
+}
+
+$V1 = Matrix([[$v[1][1]], [$v[1][2]], [$v[1][3]], [$v[1][4]]]);
+$V2 = Matrix([[$v[2][1]], [$v[2][2]], [$v[2][3]], [$v[2][4]]]);
+$V3 = Matrix([[$v[3][1]], [$v[3][2]], [$v[3][3]], [$v[3][4]]]);
+$V4 = Matrix([[$v[4][1]], [$v[4][2]], [$v[4][3]], [$v[4][4]]]);
+
+
+
+$basis1 = Matrix([ [$a[1][1]], [$a[1][2]], [$a[1][3]], [$a[1][4]] ]);
+$basis2 = Matrix([ [$a[2][1]], [$a[2][2]], [$a[2][3]], [$a[2][4]] ]);
+
+
+$multians = MultiAnswer($basis1, $basis2)->with(
+  singleResult => 1,
+  separator => ',',
+  tex_separator => ',',
+  allowBlankAnswers=>0,
+  checker => ~~&basis_checker_columns,
+);
+
+
+Context()->texStrings;
+BEGIN_TEXT
+
+Let \(W\) be the subspace of \( {\mathbb R}^4\) spanned by the following vectors.
+$BR 
+\[ 
+$V1, \ \ \ \ 
+$V2, \ \ \ \
+$V3, \ \ \ \ 
+$V4.
+\]
+A subset of those vectors that form a basis for \(W\) is
+$BR
+$BR
+$BCENTER
+\(\Bigg\lbrace\) 
+\{ $multians->ans_array \}, 
+\{ $multians->ans_array \} 
+\(\Bigg\rbrace.\)
+$ECENTER
+END_TEXT
+Context()->normalStrings;
+
+ANS($multians->cmp);
+;
+
+ENDDOCUMENT();]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-158" ww-id="webwork-158">
+    <static seed="158">
+      <statement><p>Let <m>W</m> be the subspace of <m>{\mathbb R}^5</m> spanned by the following vectors.</p>
+<p><me>\left[\begin{array}{c}
+-1\cr
+1\cr
+3\cr
+-2\cr
+-1
+\end{array}\right], \left[\begin{array}{c}
+-2\cr
+5\cr
+12\cr
+-7\cr
+-5
+\end{array}\right], \left[\begin{array}{c}
+-1\cr
+4\cr
+9\cr
+-5\cr
+-4
+\end{array}\right], \left[\begin{array}{c}
+1\cr
+2\cr
+4\cr
+-1\cr
+-2
+\end{array}\right], \left[\begin{array}{c}
+-2\cr
+-4\cr
+-8\cr
+2\cr
+4
+\end{array}\right]</me></p>
+<p>A subset of those vectors that form a basis for <m>W</m> is</p>
+<p>Basis:
+<m>\Bigg\lbrace</m>
+<fillin rows="5"/>, 
+<fillin rows="5"/>, 
+<fillin rows="5"/>
+<m>\Bigg\rbrace.</m></p>
+</statement>
+    </static>
+    <rendering-data problemSource="The_Linear_Algebra_Companion/3_5_5.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## Tagged by cmd6a 4/29/06
+
+## DBsubject(Linear algebra)
+## DBchapter(Euclidean spaces)
+## DBsection(Basis and dimension)
+## Date(July 2013)
+## Institution(Rochester and Hope College)
+## Author(Paul Pearson)
+## MLT(basis_from_dependent_set)
+## MO(1)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('Jeffrey Holt')
+## EditionText1('1')
+## Section1('4.2')
+## Problem1('')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "parserMultiAnswer.pl",
+  "MatrixCheckers.pl",
+  "PGcourse.pl"
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Matrix');
+Context()->flags->set(
+  tolerance => 0.001,
+  tolType => "absolute",
+);
+
+# 5 vectors in R^5,
+# dim subspace = k, 3 or 4.
+
+$k = random(3,4,1);
+$k=3;
+
+# first create a 4 by 4 matrix of rank k
+# then will add one column and one row that are linear combinations of the first two columns/rows
+
+$p = random(-2,2,1);
+$q = random(-2,2,1);
+$r = random(-2,2,1);
+$s = random(-2,2,1);
+
+$a[1][1] = random(-4,4,1);
+$a[1][2] = random(-3,3,2);
+$a[2][1] = random(-3,3,2);
+$a[2][2] = random(-4,4,2);
+        
+$a[1][3] = $p*$a[1][1] + $q*$a[1][2];
+$a[2][3] = $p*$a[2][1] + $q*$a[2][2];
+        
+$a[3][1] = $r*$a[1][1] + $s*$a[2][1];
+$a[3][2] = $r*$a[1][2] + $s*$a[2][2];
+$a[3][3] = $r*$a[1][3] + $s*$a[2][3] + 1;
+
+$t = random(-2,2,1);
+$u = random(-2,2,1);
+$v = random(-2,2,1);
+if ($v == $p) { $v=$v+1; }
+$w = random(-2,2,1);
+
+$a[4][1] = $t*$a[1][1] + $u*$a[2][1];
+$a[4][2] = $t*$a[1][2] + $u*$a[2][2];
+$a[4][3] = $t*$a[1][3] + $u*$a[2][3];
+
+foreach $i (1..4) {
+$a[$i][4] = $v*$a[$i][1] + $w*$a[$i][2];
+}
+
+if ($k == 4) {
+$a[4][4] = $a[4][4] + 1;
+}
+
+$x = random(-2,2,1);
+$y = random(-2,2,1);
+
+foreach $i (1..4) {
+$a[5][$i] = $x*$a[1][$i] + $y*$a[2][$i];
+}
+
+$z = random(-2,2,1);
+
+foreach $i (1..5) {
+$a[$i][5] = $z*$a[$i][3];
+}
+
+
+# generators
+$gen1 = Matrix([[$a[1][1]], [$a[2][1]], [$a[3][1]], [$a[4][1]], [$a[5][1]]]);
+$gen2 = Matrix([[$a[1][4]], [$a[2][4]], [$a[3][4]], [$a[4][4]], [$a[5][4]]]);
+$gen3 = Matrix([[$a[1][2]], [$a[2][2]], [$a[3][2]], [$a[4][2]], [$a[5][2]]]);
+$gen4 = Matrix([[$a[1][3]], [$a[2][3]], [$a[3][3]], [$a[4][3]], [$a[5][3]]]);
+$gen5 = Matrix([[$a[1][5]], [$a[2][5]], [$a[3][5]], [$a[4][5]], [$a[5][5]]]);
+
+# basis vectors
+$basis1 = $gen1;
+$basis2 = $gen3;
+$basis3 = $gen4;
+$basis4 = $gen2;
+
+
+#####################
+if ($k == 3) {
+
+$multians = MultiAnswer($basis1, $basis2, $basis3)->with(
+  singleResult => 1,
+  separator => ',',
+  tex_separator => ',',
+  allowBlankAnswers=>0,
+  checker => ~~&basis_checker_columns,
+);
+
+Context()->texStrings;
+BEGIN_TEXT
+Let \(W\) be the subspace of \( {\mathbb R}^5\) spanned by the following vectors.
+$BR 
+\[
+$gen1, $gen2, $gen3, $gen4, $gen5
+\]
+$BR
+A subset of those vectors that form a basis for \(W\) is
+$BR
+$BR
+Basis:
+\(\Bigg\lbrace\)
+\{ $multians->ans_array \}, 
+\{ $multians->ans_array \}, 
+\{ $multians->ans_array \}
+\(\Bigg\rbrace.\)
+END_TEXT
+Context()->normalStrings;
+
+ANS( $multians->cmp() );
+
+
+########################
+} else { # k = 4
+
+
+$multians = MultiAnswer($basis1, $basis2, $basis3, $basis4)->with(
+  singleResult => 1,
+  separator => ',',
+  tex_separator => ',',
+  allowBlankAnswers=>0,
+  checker => ~~&basis_checker_columns,
+);
+
+Context()->texStrings;
+BEGIN_TEXT
+Find a basis for the subspace of \( \mathbb{R}^5 \) spanned by the following vectors.
+\[
+\left\lbrace $gen1, $gen2, $gen3, $gen4, $gen5 \right\rbrace
+\]
+$BR
+$BR
+Basis:
+\(\Bigg\lbrace\)
+\{ $multians->ans_array \}, 
+\{ $multians->ans_array \}, 
+\{ $multians->ans_array \}, 
+\{ $multians->ans_array \}
+\(\Bigg\rbrace.\)
+END_TEXT
+Context()->normalStrings;
+
+ANS( $multians->cmp() );
+
+
+
+
+########################
+} # end if
+
+
+
+;
+
+ENDDOCUMENT();]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-159" ww-id="webwork-159">
+    <static seed="159">
+      <statement><p>Find a basis for the column space of 
+<me>A=\left[\begin{array}{cccc}
+0 \amp 4 \amp -3 \amp 3\cr
+1 \amp 0 \amp 3 \amp -4\cr
+-2 \amp -8 \amp 0 \amp 2
+\end{array}\right].</me>
+Basis = 
+<m>\Bigg\lbrace</m> 
+<fillin rows="3"/>, 
+<fillin rows="3"/> 
+<m>\Bigg\rbrace.</m></p>
+</statement>
+    </static>
+    <rendering-data problemSource="The_Linear_Algebra_Companion/3_5_6.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## Tagged by cmd6a 4/29/06
+
+## DBsubject(Linear algebra)
+## DBchapter(Euclidean spaces)
+## DBsection(Row, column, and null spaces)
+## Date(July 2013)
+## Institution(Rochester and Hope College)
+## Author(Paul Pearson)
+## MLT(basis_col_space)
+## MLTleader(1)
+## MO(1)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('Jeffrey Holt')
+## EditionText1('1')
+## Section1('4.3')
+## Problem1('')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "parserMultiAnswer.pl",
+  "MatrixCheckers.pl",
+  "PGchoicemacros.pl",
+  "PGcourse.pl"
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Matrix');
+
+$a[1][1] = 0;
+$a[2][1] = non_zero_random(-4,4,1);
+
+foreach $i (2..4) {
+$a[1][$i] = non_zero_random(-4,4,1);
+$a[2][$i] = random(-4,4,1);
+}
+
+$k = random(-2,2,1);
+$l = random(-2,2,1);
+
+foreach $i (1..4) {
+$a[3][$i] = $k*$a[1][$i] + $l*$a[2][$i];
+}
+
+
+$image1 = Matrix([ [$a[1][1]], [$a[2][1]], [$a[3][1]] ]);
+$image2 = Matrix([ [$a[1][2]], [$a[2][2]], [$a[3][2]] ]);
+
+@slice = NchooseK(4,4);
+
+@cols = (
+[$a[1][1], $a[2][1], $a[3][1]],
+[$a[1][2], $a[2][2], $a[3][2]],
+[$a[1][3], $a[2][3], $a[3][3]],
+[$a[1][4], $a[2][4], $a[3][4]],
+);
+
+$A = Matrix(@cols[@slice])->transpose;
+
+
+$image_multians = MultiAnswer($image1, $image2)->with(
+  singleResult => 1,
+  separator => ',',
+  tex_separator => ',',
+  allowBlankAnswers=>0,
+  checker => ~~&basis_checker_columns,
+);
+
+
+Context()->texStrings;
+BEGIN_TEXT
+Find a basis for the column space of 
+\[A=$A.\]
+Basis = 
+\(\Bigg\lbrace\) 
+\{ $image_multians->ans_array \}, 
+\{ $image_multians->ans_array \} 
+\(\Bigg\rbrace.\)
+END_TEXT
+Context()->normalStrings;
+
+ANS( $image_multians->cmp() );
+
+;
+
+ENDDOCUMENT();]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-160" ww-id="webwork-160">
+    <static seed="160">
+      <statement><p>Find a basis for the column space of 
+<me>A=\left[\begin{array}{ccccc}
+2 \amp 3 \amp 1 \amp 0 \amp -1\cr
+0 \amp 3 \amp 1 \amp 2 \amp 1\cr
+2 \amp 3 \amp 1 \amp 0 \amp 0\cr
+4 \amp 9 \amp 3 \amp 2 \amp -1
+\end{array}\right].</me>
+Basis = 
+<m>\Bigg\lbrace</m> 
+<fillin rows="4"/>, 
+<fillin rows="4"/>, 
+<fillin rows="4"/> 
+<m>\Bigg\rbrace.</m></p>
+</statement>
+    </static>
+    <rendering-data problemSource="The_Linear_Algebra_Companion/3_5_7.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## Tagged by cmd6a 4/29/06
+
+## DBsubject(Linear algebra)
+## DBchapter(Euclidean spaces)
+## DBsection(Row, column, and null spaces)
+## Date(July 2013)
+## Institution(Rochester and Hope College)
+## Author(Paul Pearson)
+## MLT(basis_col_space)
+## MO(1)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('Jeffrey Holt')
+## EditionText1('1')
+## Section1('4.3')
+## Problem1('')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "parserMultiAnswer.pl",
+  "MatrixCheckers.pl",
+  "PGchoicemacros.pl",
+  "PGcourse.pl"
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Matrix');
+
+
+$a[1][1] = 0;
+$a[2][1] = non_zero_random(-4,4,1);
+
+foreach $i (2..5) {
+$a[1][$i] = non_zero_random(-4,4,1);
+$a[2][$i] = random(-4,4,1);
+}
+
+$k = random(-2,2,1);
+$l = random(-2,2,1);
+
+foreach $i (1..5) {
+$a[3][$i] = $k*$a[1][$i] + $l*$a[2][$i];
+}
+
+$a[3][3] = $a[3][3] + 1;
+
+$m = random(-2,2,1);
+$n = random(-1,1,1);
+$p = random(-1,1,1);
+
+foreach $i (1..5) {
+        $a[4][$i] = $m*$a[1][$i] + $n*$a[2][$i] + $p*$a[3][$i];
+}
+
+
+
+$image1 = Matrix([ [$a[1][1]], [$a[2][1]], [$a[3][1]], [$a[4][1]] ]);
+$image2 = Matrix([ [$a[1][2]], [$a[2][2]], [$a[3][2]], [$a[4][2]] ]);
+$image3 = Matrix([ [$a[1][3]], [$a[2][3]], [$a[3][3]], [$a[4][3]] ]);
+
+
+@slice = NchooseK(5,5);
+
+@cols = (
+[$a[1][1], $a[2][1], $a[3][1], $a[4][1]],
+[$a[1][2], $a[2][2], $a[3][2], $a[4][2]],
+[$a[1][3], $a[2][3], $a[3][3], $a[4][3]],
+[$a[1][4], $a[2][4], $a[3][4], $a[4][4]],
+[$a[1][5], $a[2][5], $a[3][5], $a[4][5]],
+);
+
+$A = Matrix(@cols[@slice])->transpose;
+
+
+$image_multians = MultiAnswer($image1, $image2, $image3)->with(
+  singleResult => 1,
+  separator => ',',
+  tex_separator => ',',
+  allowBlankAnswers=>0,
+  checker => ~~&basis_checker_columns,
+);
+
+Context()->texStrings;
+BEGIN_TEXT
+Find a basis for the column space of 
+\[A=$A.\]
+Basis = 
+\(\Bigg\lbrace\) 
+\{ $image_multians->ans_array \}, 
+\{ $image_multians->ans_array \}, 
+\{ $image_multians->ans_array \} 
+\(\Bigg\rbrace.\)
+END_TEXT
+Context()->normalStrings;
+
+ANS( $image_multians->cmp() );
+
+;
+
+ENDDOCUMENT();]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-161" ww-id="webwork-161">
+    <static seed="161">
+      <statement><p>Consider the matrix <m>A=\left[\begin{array}{ccc}
+6 \amp -12 \amp -5\cr
+6 \amp 3 \amp 5
+\end{array}\right].</m></p>
+<p>A basis for the solution space of the homogeneous system <m>A\vec{x}=\vec{0}</m> is</p>
+<p><m>\Bigg\lbrace</m> 
+<fillin rows="3"/> 
+<m>\Bigg\rbrace.</m></p>
+</statement>
+    </static>
+    <rendering-data problemSource="The_Linear_Algebra_Companion/3_5_8.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## Tagged by cmd6a 4/29/06
+
+## DBsubject(Linear algebra)
+## DBchapter(Linear transformations)
+## DBsection(Kernel and image)
+## Date(July 2013)
+## Institution(Rochester and Hope College)
+## Author(Paul Pearson)
+## MLT(basis_kernel_and_image)
+## Level(3)
+## MO(1)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('Jeffrey Holt')
+## EditionText1('1')
+## Section1('4.2')
+## Problem1('')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "parserMultiAnswer.pl",
+  "MatrixCheckers.pl",
+  "PGcourse.pl"
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Matrix');
+
+$a = random(-3,3,2);
+$b = non_zero_random(-4,4,2);
+$c = non_zero_random(-4,4,1);
+$d = random(-3,3,2);
+
+$k = non_zero_random(-3,3,1);
+$l = non_zero_random(-3,3,1);
+$m = non_zero_random(-2,2,1);
+$n = random(-2,2,1);
+
+$a11 = $k*$a;
+$a12 = $l*$b;
+$a13 = $m*$a + $n*$b;
+$a21 = $k*$c;
+$a22 = $l*$d;
+$a23 = $m*$c + $n*$d;
+
+$ml = $m*$l;
+$kn = $k*$n;
+$mkl = - $k*$l;
+
+$A = Matrix([[$a11, $a12, $a13], [$a21, $a22, $a23]]);
+
+
+$kernel = Matrix([[$ml], [$kn], [$mkl]]);
+$image1 = Matrix([[1], [0]]);
+$image2 = Matrix([[0], [1]]);
+
+$image_multians = MultiAnswer($image1, $image2)->with(
+  singleResult => 1,
+  separator => ',',
+  tex_separator => ',',
+  allowBlankAnswers=>0,
+  checker => ~~&basis_checker_columns,
+);
+
+
+
+Context()->texStrings;
+BEGIN_TEXT
+Consider the matrix \(A=$A.\)
+$BR
+$BR
+A basis for the solution space of the homogeneous system \(A\vec{x}=\vec{0}\) is 
+
+
+$BCENTER
+\(\Bigg\lbrace\) 
+\{ $kernel->ans_array \} 
+\(\Bigg\rbrace.\)
+$ECENTER
+
+END_TEXT
+Context()->normalStrings;
+
+ANS( $kernel->cmp( checker=> ~~&basis_checker_one_column ) );
+
+
+
+;
+
+ENDDOCUMENT();]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-162" ww-id="webwork-162">
+    <static seed="162">
+      <statement><p>Consider the matrix <m>A=\left[\begin{array}{cccc}
+-3 \amp -2 \amp 2 \amp -4\cr
+-3 \amp -3 \amp 2 \amp -6\cr
+3 \amp 2 \amp -2 \amp 4\cr
+-6 \amp -5 \amp 4 \amp -10
+\end{array}\right].</m></p>
+<p>A basis for the solution space of the homogeneous system <m>A\vec{x}=\vec{0}</m> is</p>
+<p><m>\Bigg\lbrace</m> 
+<fillin rows="4"/>, 
+<fillin rows="4"/> 
+<m>\Bigg\rbrace.</m></p>
+</statement>
+    </static>
+    <rendering-data problemSource="The_Linear_Algebra_Companion/3_5_9.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## Tagged by cmd6a 4/29/06
+
+## DBsubject(Linear algebra)
+## DBchapter(Linear transformations)
+## DBsection(Kernel and image)
+## Date(July 2013)
+## Institution(Rochester and Hope College)
+## Author(Paul Pearson)
+## MLT(basis_kernel)
+## Level(3)
+## MO(1)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('Jeffrey Holt')
+## EditionText1('1')
+## Section1('4.2')
+## Problem1('')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "parserMultiAnswer.pl",
+  "MatrixCheckers.pl",
+  "PGcourse.pl"
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Matrix');
+
+do {
+
+$a = random(-3,3,2);
+$b = non_zero_random(-4,4,2);
+$c = non_zero_random(-2,2,1);
+$d = random(-3,3,2);
+
+$k = non_zero_random(-3,3,1);
+$l = non_zero_random(-3,3,1);
+$m = non_zero_random(-2,2,1);
+$n = random(-2,2,1);
+
+$p = random(-1,1,1);
+$q = random(-1,1,1);
+
+$r = random(-1,1,1);
+$s = random(-1,1,1);
+
+$a11 = $k*$a;
+$a12 = $l*$b;
+$a13 = $m*$a + $n*$b;
+$a14 = $n*$a - $m*$b;
+
+$a21 = $k*$c;
+$a22 = $l*$d;
+$a23 = $m*$c + $n*$d;
+$a24 = $n*$c - $m*$d;
+
+$a31 = $p*$a11 + $q*$a21;
+$a32 = $p*$a12 + $q*$a22;
+$a33 = $p*$a13 + $q*$a23;
+$a34 = $p*$a14 + $q*$a24;
+
+$a41 = $r*$a11 + $s*$a21;
+$a42 = $r*$a12 + $s*$a22;
+$a43 = $r*$a13 + $s*$a23;
+$a44 = $r*$a14 + $s*$a24;
+
+$ml = $m*$l;
+$kn = $k*$n;
+$nl = $n*$l;
+
+$mkl = - $k * $l;
+$mkm = - $k * $m;
+ 
+} until ($a41 != 0 or $a42 != 0 or $a43 !=0 or $a44 != 0);
+
+
+$A = Matrix([
+[$a11, $a12, $a13, $a14], 
+[$a21, $a22, $a23, $a24],
+[$a31, $a32, $a33, $a34],
+[$a41, $a42, $a43, $a44],
+]);
+
+
+$kernel1 = Matrix([[$ml], [$kn], [$mkl], [0]]);
+$kernel2 = Matrix([[$nl], [$mkm], [0], [$mkl]]);
+
+$kernel_multians = MultiAnswer($kernel1, $kernel2)->with(
+  singleResult => 1,
+  separator => ',',
+  tex_separator => ',',
+  allowBlankAnswers=>0,
+  checker => ~~&basis_checker_columns,
+);
+
+
+Context()->texStrings;
+BEGIN_TEXT
+Consider the matrix \(A=$A.\)
+$BR
+$BR
+
+A basis for the solution space of the homogeneous system \(A\vec{x}=\vec{0}\) is
+$BR
+
+$BCENTER
+\(\Bigg\lbrace\) 
+\{ $kernel_multians->ans_array \}, 
+\{ $kernel_multians->ans_array \} 
+\(\Bigg\rbrace.\)
+$ECENTER
+
+END_TEXT
+
+Context()->normalStrings;
+
+ANS( $kernel_multians->cmp() );
+
+;
+
+ENDDOCUMENT();]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-163" ww-id="webwork-163">
+    <static seed="163">
+      <statement><p>Find a basis for the null space of matrix 
+A = <m>\left[\begin{array}{ccccc}
+1 \amp 0 \amp -4 \amp 3 \amp -1\cr
+0 \amp 1 \amp 0 \amp 3 \amp 0\cr
+0 \amp 0 \amp 0 \amp 1 \amp 4
+\end{array}\right]</m>:</p>
+<p><m>\Bigg {</m><fillin rows="5"/>, <fillin rows="5"/> 
+<m>\Bigg }</m></p>
+</statement>
+      <solution><alert>SOLUTION:</alert> 
+
+
+<m>A</m> already is row-reduced, though perhaps not in echelon form. Its pivots are in the first, second and fourth columns, so the third and fifth variables are free; call them <m>s_1</m> and <m>s_2</m>. Solving for the other variables one finds that the general solution to the equation <m>A{\bf x}= {\bf 0}</m> has the form  
+
+
+
+<me>{\bf x} = s_1 \left[\begin{array}{c}4\\0\\1\\0\\0\\\end{array}\right] + s_2 \left[\begin{array}{c}13\\12\\0\\-4\\1\\\end{array}\right]</me>
+
+
+
+so  
+
+
+
+<me>\Bigg { \left[\begin{array}{c}4\\0\\1\\0\\0\\\end{array}\right], \left[\begin{array}{c}13\\12\\0\\-4\\1\\\end{array}\right] \Bigg }</me>
+is a basis for the nullspace. 
+
+
+</solution>
+    </static>
+    <rendering-data problemSource="The_Linear_Algebra_Companion/3_5_10.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+# DESCRIPTION
+# Problem from Holt Linear Algebra
+# WeBWorK problem written by Richard Bayne, <rbayne@howard.edu>
+# ENDDESCRIPTION
+
+## Tagged by reb 06/3/13
+
+## DBsubject(Linear algebra)
+## DBchapter(Euclidean spaces)
+## DBsection(Row, column, and null spaces)
+## Institution(Howard University)
+## Author(Richard Bayne)
+## Level(4)
+## MO(1)
+## MLT(basis_null_space)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('Jeffrey Holt')
+## EditionText1('1')
+## Section1('.')
+## Problem1('32')
+## KEYWORDS('linear algebra', 'subspaces', 'basis', 'nullity')
+
+## Textbook tags
+## \{ textbook_ref_exact("Holt Linear Algebra", "4.2","32a") \}
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "MatrixReduce.pl",
+  "parserMultiAnswer.pl",
+  "PGcourse.pl"
+);
+
+Context("Matrix");
+
+$c11 = 1;
+$c21 = 0;
+$c31 = 0;
+$c12 = 0;
+$c22 = 1;
+$c32 = 0;
+$c13 = random(-4,-2,1);
+$c23 = 0;
+$c33 = 0;
+$c14 = random(2,5,1);
+$c24 = random(1,3,1);
+$c34 = 1;
+$c15 = random(-1,1,1);
+$c25 = 0;
+$c35 = random(2,4,1);
+
+#$mC = new Matrix(3,5);
+#$mC->assign(1,1,$c11);
+#$mC->assign(1,2,$c12);
+#$mC->assign(1,3,$c13);
+#$mC->assign(1,4,$c14);
+#$mC->assign(1,5,$c15);
+#$mC->assign(2,1,$c21);
+#$mC->assign(2,2,$c22);
+#$mC->assign(2,3,$c23);
+#$mC->assign(2,4,$c24);
+#$mC->assign(2,5,$c25);
+#$mC->assign(3,1,$c31);
+#$mC->assign(3,2,$c32);
+#$mC->assign(3,3,$c33);
+#$mC->assign(3,4,$c34);
+#$mC->assign(3,5,$c35);
+
+$mc=Matrix([
+  [$c11,$c12,$c13,$c14,$c15],
+  [$c21,$c22,$c23,$c24,$c25],
+  [$c31,$c32,$c33,$c34,$c35]
+]);
+
+$mctrans=$mc->transpose;
+
+#$ans1 = -$c13;
+#$ans2 = 0;
+#$ans3 = 1;
+#$ans4 = 0;
+#$ans5 = 0; 
+#$ans6 = -$c15 + $c35*$c14;
+#$ans7 = -$c25 + $c35*$c24;
+#$ans8 =  0;
+#$ans9 = -$c35;
+#$ans10 = 1;
+
+$V1 = ColumnVector(-$c13,0,1,0,0);
+$V2 = ColumnVector(-$c15 + $c35*$c14, -$c25 + $c35*$c24, 0, -$c35, 1);
+
+$multians = MultiAnswer($V1,$V2)->with(
+  singleResult=>1,
+  checker => sub {
+    my ($correct, $student, $self)=@_;
+    my ($cor1,$cor2)=@{$correct};
+    my ($stu1,$stu2)=@{$student};
+    #make row vectors
+    $cor1 = Vector($cor1);
+    $cor2 = Vector($cor2);
+    $stu1 = Vector($stu1);
+    $stu2 = Vector($stu2);
+    my $stu = Matrix([
+     [@{$stu1->{data}}],
+     [@{$stu2->{data}}]
+    ]);
+    my $cor = Matrix([
+     [@{$cor1->{data}}],
+     [@{$cor2->{data}}]
+    ]);
+    my $redStu = rref($stu);
+    my $redCor = rref($cor);
+    if ($redStu->row(2)->isZero){
+      Value::Error("Basis vectors must be linearly independent.");
+      return 0;
+    }
+    if ( ($redCor - $redStu)->isZero ){
+      return 1;
+    }
+    else {
+      return 0;
+    }
+  }
+);
+
+TEXT(beginproblem());
+Context()->texStrings;
+BEGIN_TEXT
+Find a basis for the null space of matrix 
+A = \($mc\):
+$BR
+$BR
+$BCENTER
+\(\Bigg $LBRACE\)\{$multians->ans_array\}, \{$multians->ans_array\} 
+\(\Bigg $RBRACE\)
+$ECENTER
+$BR
+
+END_TEXT
+Context()->normalStrings;
+
+ANS($multians->cmp());
+
+Context()->texStrings;
+
+SOLUTION(EV3(<<'END_SOLUTION'));
+${BBOLD}SOLUTION:${EBOLD} $PAR
+\(A\) already is row-reduced, though perhaps not in echelon form. Its pivots are in the first, second and fourth columns, so the third and fifth variables are free; call them \(s_1\) and \(s_2\). Solving for the other variables one finds that the general solution to the equation \(A{\bf x}= {\bf 0}\) has the form  
+$PAR
+\[ {\bf x} = s_1 $V1 + s_2 $V2 \]
+$PAR
+so  
+$PAR
+\[ \Bigg $LBRACE $V1, $V2 \Bigg $RBRACE \]
+is a basis for the nullspace. 
+END_SOLUTION
+Context()->normalStrings;
+
+ENDDOCUMENT();]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-164" ww-id="webwork-164">
+    <static seed="164">
+      <statement><p>Find a basis for the null space of <m>A=\left[\begin{array}{cccc}
+-4 \amp -6 \amp -4 \amp 4\cr
+2 \amp 3 \amp 2 \amp -2
+\end{array}\right]</m>:</p>
+<p><m>\Bigg\lbrace</m> 
+<fillin rows="4"/>, 
+<fillin rows="4"/>, 
+<fillin rows="4"/> 
+<m>\Bigg\rbrace.</m></p>
+</statement>
+    </static>
+    <rendering-data problemSource="The_Linear_Algebra_Companion/3_5_11.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## Tagged by cmd6a 4/29/06
+
+## DBsubject(Linear algebra)
+## DBchapter(Euclidean spaces)
+## DBsection(Row, column, and null spaces)
+## Date(July 2013)
+## Institution(Rochester and Hope College)
+## Author(Paul Pearson)
+## MLT(basis_null_space)
+## MLTleader(1)
+## Level(3)
+## MO(1)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('Jeffrey Holt')
+## EditionText1('1')
+## Section1('4.2')
+## Problem1('')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "parserMultiAnswer.pl",
+  "MatrixCheckers.pl",
+  "PGcourse.pl"
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Matrix');
+
+$a = random(-3,3,1);
+$b = non_zero_random(-3,3,1);
+$c = non_zero_random(-2,2,1);
+$d = non_zero_random(-3,3,1);
+
+$k = random(-3,3,1);
+$l = non_zero_random(-3,3,1);
+
+$a11 = $k*$a;
+$a12 = $k*$b;
+$a13 = $k*$c;
+$a14 = $k*$d;
+
+$a21 = $l*$a;
+$a22 = $l*$b;
+$a23 = $l*$c;
+$a24 = $l*$d;
+
+$nb = - $b;
+
+
+$A = Matrix([
+[$a11, $a12, $a13, $a14], 
+[$a21, $a22, $a23, $a24],
+]);
+
+
+$kernel1 = Matrix([[$nb], [$a], [0], [0]]);
+$kernel2 = Matrix([[0], [$c], [$nb], [0]]);
+$kernel3 = Matrix([[0], [$d], [0], [$nb]]);
+
+
+$kernel_multians = MultiAnswer($kernel1, $kernel2, $kernel3)->with(
+  singleResult => 1,
+  separator => ',',
+  tex_separator => ',',
+  allowBlankAnswers=>0,
+  checker => ~~&basis_checker_columns,
+);
+
+
+Context()->texStrings;
+BEGIN_TEXT
+Find a basis for the null space of \(A=$A\):
+$BR
+$BR
+
+$BCENTER
+\(\Bigg\lbrace\) 
+\{ $kernel_multians->ans_array \}, 
+\{ $kernel_multians->ans_array \}, 
+\{ $kernel_multians->ans_array \} 
+\(\Bigg\rbrace.\)
+$ECENTER
+
+END_TEXT
+Context()->normalStrings;
+
+ANS( $kernel_multians->cmp() );
+
+;
+
+ENDDOCUMENT();]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-165" ww-id="webwork-165">
+    <static seed="165" source="Library/Hope/Multi1/03-05-Basis-subspace/Basis_13_null_space.pg">
+      <statement><p>Let 
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<m>\displaystyle{ A = {\left[\begin{array}{cccc}
+6 \amp -6 \amp -3 \amp -9\cr
+-6 \amp 6 \amp 3 \amp 9
+\end{array}\right]}. }</m></p>
+<p><ol label="a.">
+<li>
+<p>A basis for the null space of <m>A</m> is
+<m>\big\lbrace</m>
+<fillin characters="30" name="AnSwEr0001"/>
+<m>\big\rbrace.</m>  You should be able to explain and justify your answer.  Enter a coordinate vector, such as \( \verb+&lt;1,2&gt;+ \) or \( \verb+&lt;1,2,3,4&gt;+ \), or a comma separated list of coordinate vectors, such as \( \verb+&lt;1,2&gt;,&lt;3,4&gt;+ \) or  \( \verb+&lt;1,2,3,4&gt;,&lt;5,6,7,8&gt;+ \).</p>
+</li>
+<li>
+<p>The dimension of the null space of <m>A</m> is <fillin characters="5" name="AnSwEr0002"/> because (select all correct answers -- there may be more than one correct answer): <var form="checkboxes">
+<li>
+<p>Three of the four columns in <m>\mathrm{rref}(A)</m> do not have a pivot.</p>
+</li>
+<li>
+<p><m>\mathrm{rref}(A)</m> has one free variable column.</p>
+</li>
+<li>
+<p><m>\mathrm{rref}(A)</m> has three free variable columns.</p>
+</li>
+<li>
+<p><m>\mathrm{rref}(A)</m> has a pivot in every row.</p>
+</li>
+<li>
+<p><m>\mathrm{rref}(A)</m> is the identity matrix.</p>
+</li>
+<li>
+<p>The basis we found for the null space of <m>A</m> has three vectors.</p>
+</li>
+<li>
+<p>Two of the four columns in <m>\mathrm{rref}(A)</m> have pivots.</p>
+</li>
+</var></p>
+</li>
+<li>
+<p>The null space of <m>A</m> is a subspace of <fillin characters="5" name="AnSwEr0003"/> because <ul form="popup" name="AnSwEr0004"><li>
+<p>choose</p>
+</li><li>
+<p>A has 4 columns</p>
+</li><li>
+<p>A has 2 rows</p>
+</li></ul>.</p>
+</li>
+<li>
+<p>The geometry of the null space of <m>A</m> is <ul form="popup" name="AnSwEr0005"><li>
+<p>choose</p>
+</li><li>
+<p>R</p>
+</li><li>
+<p>R^2</p>
+</li><li>
+<p>R^3</p>
+</li><li>
+<p>R^4</p>
+</li><li>
+<p>the origin inside R^4</p>
+</li><li>
+<p>a 1-dimensional line through the origin inside R^4</p>
+</li><li>
+<p>a 1-dimensional line through the origin inside R^2</p>
+</li><li>
+<p>a 2-dimensional plane through the origin inside R^4</p>
+</li><li>
+<p>a 3-dimensional subspace of R^4</p>
+</li></ul>.</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left&lt;-2,-2,0,0\right&gt;, \left&lt;0,1,-2,0\right&gt;, \left&lt;0,3,0,-2\right&gt;</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{3}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>ACF</p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\verb!R^4!}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{A has 4 columns}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Hope/Multi1/03-05-Basis-subspace/Basis_13_null_space.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Hope/Multi1/03-05-Basis-subspace/Basis_13_null_space.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-166" ww-id="webwork-166">
+    <static seed="166" source="Library/Hope/Multi1/03-05-Basis-subspace/Basis_18_column_space.pg">
+      <statement><p>Let 
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<m>\displaystyle{ A = {\left[\begin{array}{cccc}
+-1 \amp 0 \amp -1 \amp -3\cr
+4 \amp -1 \amp -3 \amp 2\cr
+-6 \amp 1 \amp 1 \amp -8
+\end{array}\right]}. }</m></p>
+<p><ol label="a.">
+<li>
+<p>A basis for the column space of <m>A</m> is
+<m>\big\lbrace</m>
+<fillin characters="30" name="AnSwEr0001"/>
+<m>\big\rbrace.</m>  You should be able to explain and justify your answer.  Enter a coordinate vector, such as \( \verb+&lt;1,2,3&gt;+ \) or \( \verb+&lt;1,2,3,4&gt;+ \), or a comma separated list of coordinate vectors, such as \( \verb+&lt;1,2,3&gt;,&lt;4,5,6&gt;+ \) or \( \verb+&lt;1,2,3,4&gt;,&lt;5,6,7,8&gt;+ \).</p>
+</li>
+<li>
+<p>The dimension of the column space of <m>A</m> is <fillin characters="5" name="AnSwEr0002"/> because (select all correct answers -- there may be more than one correct answer): <var form="checkboxes">
+<li>
+<p>Three of the four columns in <m>\mathrm{rref}(A)</m> do not have pivots.</p>
+</li>
+<li>
+<p><m>\mathrm{rref}(A)</m> is the identity matrix.</p>
+</li>
+<li>
+<p>Three of the four columns in <m>\mathrm{rref}(A)</m> have pivots.</p>
+</li>
+<li>
+<p>The basis we found for the column space of <m>A</m> has two vectors.</p>
+</li>
+<li>
+<p><m>\mathrm{rref}(A)</m> has a pivot in every row.</p>
+</li>
+<li>
+<p>Two of the four columns in <m>\mathrm{rref}(A)</m> have pivots.</p>
+</li>
+<li>
+<p><m>\mathrm{rref}(A)</m> has a pivot in every column.</p>
+</li>
+</var></p>
+</li>
+<li>
+<p>The column space of <m>A</m> is a subspace of <fillin characters="5" name="AnSwEr0003"/> because <ul form="popup" name="AnSwEr0004"><li>
+<p>choose</p>
+</li><li>
+<p>each column vector in A is a vector in R^3</p>
+</li><li>
+<p>A has 4 columns</p>
+</li></ul>.</p>
+</li>
+<li>
+<p>The geometry of the geometry of the column space of <m>A</m> is <ul form="popup" name="AnSwEr0005"><li>
+<p>choose</p>
+</li><li>
+<p>R</p>
+</li><li>
+<p>R^2</p>
+</li><li>
+<p>R^3</p>
+</li><li>
+<p>R^4</p>
+</li><li>
+<p>the origin inside R^3</p>
+</li><li>
+<p>a 1-dimensional line through the origin inside R^3</p>
+</li><li>
+<p>a 2-dimensional plane through the origin inside R^3</p>
+</li><li>
+<p>a 1-dimensional line through the origin inside R^4</p>
+</li><li>
+<p>a 2-dimensional plane through the origin inside R^4</p>
+</li><li>
+<p>a 3-dimensional subspace of R^4</p>
+</li></ul>.</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left&lt;0,-1,1\right&gt;, \left&lt;-1,4,-6\right&gt;</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{2}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>DF</p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\verb!R^3!}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\verb!each column vector in A is a vector in R^3!}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Hope/Multi1/03-05-Basis-subspace/Basis_18_column_space.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Hope/Multi1/03-05-Basis-subspace/Basis_18_column_space.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-167" ww-id="webwork-167">
+    <static seed="167" source="Library/TCNJ/TCNJ_NullColumnSpaces/problem6.pg">
+      <statement><p>Let <m>W</m> be the set of all vectors of the form
+<me>\begin{bmatrix}
+5s-5r+4t \\
+5t-\left(r+3s\right) \\
+4r-2s+3t \\
+2r+s+5t
+\end{bmatrix}</me>
+with <m>r</m>, <m>s</m> and <m>t</m> real.
+Find a matrix <m>A</m> such that <m>W=\text{Col}(A)</m>.</p>
+<p><m>A=</m> <fillin cols="3" rows="4"/>.</p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/TCNJ/TCNJ_NullColumnSpaces/problem6.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/TCNJ/TCNJ_NullColumnSpaces/problem6.pg"/>
   </webwork-reps>
 </webwork-representations>

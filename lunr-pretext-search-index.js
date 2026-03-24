@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "What can we expect",
-  "body": " What can we expect   Practice     Find two numbers whose sum is -1 and whose difference is -7.  Your answer is:  The largest of the two numbers is:  The smallest of the two number is:                     A woman has 19 coins in her pocket, all of which are dimes and quarters. If the total value of the coins is $ 3.55, how many dimes and how many quarters does she have?  Your answer is:  Number of dimes equals  Number of quarters equals                      For the system of equations given below, determine whether each ordered pair is a solution of the system. Type Yes or No .  a) Is a solution? Answer:  b) Is a solution? Answer:                     Decide whether is a solution to the system of equations     Yes    No          If a point is a solution to a system of linear equations, it implies the point is on both lines.  To decide whether a given point is a solution to a system of equations or not, we need to know whether or not the point is on both lines.  Substituting the point into the first equation, we have:   This is true, so is on the line .  Next, we substitute into the second equation, and we have:   This is also true, so is on the line .  Since is on both lines, is a solution tp the system of equations.           Decide whether is a solution to the system of equations     Yes    No          If a point is a solution to a system of equations, it implies the point is on both lines.  To decide whether or not a given point is a solution to a system of linear equations, we need to know whether or not the point is on both lines.  Substituting the point into the first equation, we have:   This is true, so is on the line .  Next, we substitute into the second equation and we have:   This is false, so is not on the line .  Since is not on both lines, is not a solution to the system of equations.             Find the point of intersection of the lines in the figure, given that line , in red, has equation and line , in blue, has equation . =  =     (Click on graph to enlarge)                       Solve the following system of equations graphically:   Answer:                Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, the first equation is given in slope-intercept form. We can graph its -intercept, and then draw slope triangles.  The second line is horizontal.  See solution in the graph:   The solution to this system of equations is . B is the correct answer.           Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, both equations are given in slope-intercept form. We graph each line's -intercept, and then draw slope triangles. See the graph:   The solution to this system of equations is . Graph B is the correct answer.           Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, the first equation is given in slope-intercept form. We can use its -intercept and slope triangles immediately.  The second equation is given in standard form. To accurately graph it, we can rewrite it in slope-intercept form:   See solution in the graph:   The solution to this system of equations is . C is the correct answer.           Simply by looking at this system of equations, decide the number of solutions it has.     No solution    One solution    Infinitely many solutions          Notice that these two lines have the same slope, but different y-intercepts. This implies they are parallel lines, which do not intersect. This system of equations has no solution.           Simply by looking at this system of equations, decide the number of solutions it has.     No solution    One solution    Infinitely many solutions          Both lines are horizontal, and the equations are different. This implies they are parallel lines, which do not intersect. This system of equations has no solution.           Solve the system using substitution                          Solve the following system of equations, using whichever method you wish.     If there is one solution, enter it as an ordered pair.    If there is no solution, enter no solution . Spelling counts.    If there is an infinite number of solutions, enter infinite number of solutions . Spelling counts.            Let s solve the second equation for ; we divide both sides of the equation by , so .    We find by substituting this value of in to the first equation: , and solving for .    This gives .    The solution to the system is . It is left as an exercise to check. Please also note that you may have solved this problem a different way.             Each graph below is the graph of a system of three linear equations in three unknowns. Determine whether each system has a solution and, if it does, the dimension of the solution space.               A.  choose  no solution  2 dimensional  0 dimensional  1 dimensional   B.  1 dimensional  0 dimensional  2 dimensional  no solution  choose   C.  1 dimensional  0 dimensional  2 dimensional  choose  no solution                D.  0 dimensional  1 dimensional  no solution  choose  2 dimensional   E.  0 dimensional  1 dimensional  choose  no solution  2 dimensional   F.  0 dimensional  1 dimensional  no solution  choose  2 dimensional                G.  1 dimensional  0 dimensional  2 dimensional  no solution  choose   H.  choose  no solution  2 dimensional  0 dimensional  1 dimensional   I.  0 dimensional  1 dimensional  choose  no solution   2 dimensional     (Click on a graph to enlarge it.)           Determine which of the points , , and lie in the plane .  Answer:        , so lies on the plane  , so does not lie on the plane  , so does not lie on the plane           Determine which of the points , , and satisfy the linear system   Answer:        SOLUTION:  and , so satisfies the linear system  and , so does not satisfy the linear system  and , so does not satisfy the linear system         "
+  "body": " What can we expect   Practice     Find two numbers whose sum is -1 and whose difference is -7.  Your answer is:  The largest of the two numbers is:  The smallest of the two number is:                     A woman has 19 coins in her pocket, all of which are dimes and quarters. If the total value of the coins is $ 3.55, how many dimes and how many quarters does she have?  Your answer is:  Number of dimes equals  Number of quarters equals                      For the system of equations given below, determine whether each ordered pair is a solution of the system. Type Yes or No .  a) Is a solution? Answer:  b) Is a solution? Answer:                     Decide whether is a solution to the system of equations     Yes    No          If a point is a solution to a system of linear equations, it implies the point is on both lines.  To decide whether a given point is a solution to a system of equations or not, we need to know whether or not the point is on both lines.  Substituting the point into the first equation, we have:   This is true, so is on the line .  Next, we substitute into the second equation, and we have:   This is also true, so is on the line .  Since is on both lines, is a solution tp the system of equations.           Decide whether is a solution to the system of equations     Yes    No          If a point is a solution to a system of equations, it implies the point is on both lines.  To decide whether or not a given point is a solution to a system of linear equations, we need to know whether or not the point is on both lines.  Substituting the point into the first equation, we have:   This is true, so is on the line .  Next, we substitute into the second equation and we have:   This is false, so is not on the line .  Since is not on both lines, is not a solution to the system of equations.             Find the point of intersection of the lines in the figure, given that line , in red, has equation and line , in blue, has equation . =  =     (Click on graph to enlarge)                       Solve the following system of equations graphically:   Answer:                Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, the first equation is given in slope-intercept form. We can graph its -intercept, and then draw slope triangles.  The second line is horizontal.  See solution in the graph:   The solution to this system of equations is . B is the correct answer.           Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, both equations are given in slope-intercept form. We graph each line's -intercept, and then draw slope triangles. See the graph:   The solution to this system of equations is . Graph B is the correct answer.           Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, the first equation is given in slope-intercept form. We can use its -intercept and slope triangles immediately.  The second equation is given in standard form. To accurately graph it, we can rewrite it in slope-intercept form:   See solution in the graph:   The solution to this system of equations is . C is the correct answer.           Simply by looking at this system of equations, decide the number of solutions it has.     No solution    One solution    Infinitely many solutions          Notice that these two lines have the same slope, but different y-intercepts. This implies they are parallel lines, which do not intersect. This system of equations has no solution.           Simply by looking at this system of equations, decide the number of solutions it has.     No solution    One solution    Infinitely many solutions          Both lines are horizontal, and the equations are different. This implies they are parallel lines, which do not intersect. This system of equations has no solution.           Solve the system using substitution                          Solve the following system of equations, using whichever method you wish.     If there is one solution, enter it as an ordered pair.    If there is no solution, enter no solution . Spelling counts.    If there is an infinite number of solutions, enter infinite number of solutions . Spelling counts.            Let s solve the second equation for ; we divide both sides of the equation by , so .    We find by substituting this value of in to the first equation: , and solving for .    This gives .    The solution to the system is . It is left as an exercise to check. Please also note that you may have solved this problem a different way.             Each graph below is the graph of a system of three linear equations in three unknowns. Determine whether each system has a solution and, if it does, the dimension of the solution space.               A.  0 dimensional  1 dimensional  choose  no solution  2 dimensional   B.  choose  no solution  2 dimensional  0 dimensional  1 dimensional   C.  0 dimensional  1 dimensional  no solution  choose  2 dimensional                D.  2 dimensional  no solution  choose  1 dimensional  0 dimensional   E.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   F.  0 dimensional  1 dimensional  choose  no solution  2 dimensional                G.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   H.  1 dimensional  0 dimensional  2 dimensional  no solution  choose   I.  0 dimensional  1 dimensional  choose  no solution   2 dimensional     (Click on a graph to enlarge it.)           Determine which of the points , , and lie in the plane .  Answer:        , so lies on the plane  , so does not lie on the plane  , so does not lie on the plane           Determine which of the points , , and satisfy the linear system   Answer:        SOLUTION:  and , so satisfies the linear system  and , so does not satisfy the linear system  and , so does not satisfy the linear system         "
 },
 {
   "id": "system-word-problem-1",
@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.15",
   "title": "",
-  "body": "   Each graph below is the graph of a system of three linear equations in three unknowns. Determine whether each system has a solution and, if it does, the dimension of the solution space.               A.  choose  no solution  2 dimensional  0 dimensional  1 dimensional   B.  1 dimensional  0 dimensional  2 dimensional  no solution  choose   C.  1 dimensional  0 dimensional  2 dimensional  choose  no solution                D.  0 dimensional  1 dimensional  no solution  choose  2 dimensional   E.  0 dimensional  1 dimensional  choose  no solution  2 dimensional   F.  0 dimensional  1 dimensional  no solution  choose  2 dimensional                G.  1 dimensional  0 dimensional  2 dimensional  no solution  choose   H.  choose  no solution  2 dimensional  0 dimensional  1 dimensional   I.  0 dimensional  1 dimensional  choose  no solution   2 dimensional     (Click on a graph to enlarge it.)       "
+  "body": "   Each graph below is the graph of a system of three linear equations in three unknowns. Determine whether each system has a solution and, if it does, the dimension of the solution space.               A.  0 dimensional  1 dimensional  choose  no solution  2 dimensional   B.  choose  no solution  2 dimensional  0 dimensional  1 dimensional   C.  0 dimensional  1 dimensional  no solution  choose  2 dimensional                D.  2 dimensional  no solution  choose  1 dimensional  0 dimensional   E.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   F.  0 dimensional  1 dimensional  choose  no solution  2 dimensional                G.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   H.  1 dimensional  0 dimensional  2 dimensional  no solution  choose   I.  0 dimensional  1 dimensional  choose  no solution   2 dimensional     (Click on a graph to enlarge it.)       "
 },
 {
   "id": "system-3-check-1",
@@ -340,7 +340,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Pivots and their influence on solution spaces",
-  "body": " Pivots and their influence on solution spaces   Practice     Determine how many pivots each of the following matrices have.     Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots                                  How many free variables does each augmented matrix have?     Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three                                  Determine the value of such that the matrix is the augmented matrix of a linear system with infinitely many solutions.                   Determine the value of such that the matrix is the augmented matrix of a consistent linear system.                   Determine the value of for which the system   has no solutions.                  For what value(s) of is the linear system consistent?     select   =   ≠               From the the second equation, , we obtain . Substitute into equation 1, . The system is consistent provided .           Each graph below is the graph of a system of three linear equations in three unknowns. Determine which systems are consistent and inconsistent.               A.  choose  inconsistent  consistent   B.  consistent  inconsistent  choose   C.  choose  consistent  inconsistent                D.  inconsistent  consistent  choose   E.  choose  inconsistent  consistent   F.  choose  consistent  inconsistent                G.  consistent  inconsistent  choose   H.  consistent  inconsistent  choose   I.  choose  inconsistent   consistent     (Click on a graph to enlarge it.)            The figure above shows the plot of the points , , and . Find a polynomial of degree 2 of the form whose graph passes through these points.          SOLUTION: Apply to obtain From , we have And Write these equations as an augmented matrix and solve. Row 3 . Row 2 . Row 1 . Thus .         "
+  "body": " Pivots and their influence on solution spaces   Practice     Determine how many pivots each of the following matrices have.     Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots                                  How many free variables does each augmented matrix have?     Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three                                  Determine the value of such that the matrix is the augmented matrix of a linear system with infinitely many solutions.                   Determine the value of such that the matrix is the augmented matrix of a consistent linear system.                   Determine the value of for which the system   has no solutions.                  For what value(s) of is the linear system consistent?     select   =   ≠               From the the second equation, , we obtain . Substitute into equation 1, . The system is consistent provided .           Each graph below is the graph of a system of three linear equations in three unknowns. Determine which systems are consistent and inconsistent.               A.  inconsistent  consistent  choose   B.  choose  consistent  inconsistent   C.  consistent  inconsistent  choose                D.  consistent  inconsistent  choose   E.  choose  inconsistent  consistent   F.  inconsistent  consistent  choose                G.  choose  inconsistent  consistent   H.  consistent  inconsistent  choose   I.  choose  inconsistent   consistent     (Click on a graph to enlarge it.)            The figure above shows the plot of the points , , and . Find a polynomial of degree 2 of the form whose graph passes through these points.          SOLUTION: Apply to obtain From , we have And Write these equations as an augmented matrix and solve. Row 3 . Row 2 . Row 1 . Thus .         "
 },
 {
   "id": "pivots-count-1",
@@ -403,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.4.7",
   "title": "",
-  "body": "   Each graph below is the graph of a system of three linear equations in three unknowns. Determine which systems are consistent and inconsistent.               A.  choose  inconsistent  consistent   B.  consistent  inconsistent  choose   C.  choose  consistent  inconsistent                D.  inconsistent  consistent  choose   E.  choose  inconsistent  consistent   F.  choose  consistent  inconsistent                G.  consistent  inconsistent  choose   H.  consistent  inconsistent  choose   I.  choose  inconsistent   consistent     (Click on a graph to enlarge it.)       "
+  "body": "   Each graph below is the graph of a system of three linear equations in three unknowns. Determine which systems are consistent and inconsistent.               A.  inconsistent  consistent  choose   B.  choose  consistent  inconsistent   C.  consistent  inconsistent  choose                D.  consistent  inconsistent  choose   E.  choose  inconsistent  consistent   F.  inconsistent  consistent  choose                G.  choose  inconsistent  consistent   H.  consistent  inconsistent  choose   I.  choose  inconsistent   consistent     (Click on a graph to enlarge it.)       "
 },
 {
   "id": "pivots-find-polynomial",
@@ -1502,6 +1502,141 @@ var ptx_lunr_docs = [
   "number": "3.4.12",
   "title": "",
   "body": "   and are matrices.  Check the true statements below:    .    The determinant of is the product of the pivots in any echelon form of , multiplied by , where is the number of row interchanges made during row reduction from to .    Adding a multiple of one row to another does not affect the determinant of a matrix.    If the columns of are linearly dependent, then .         "
+},
+{
+  "id": "sec-subspaces",
+  "level": "1",
+  "url": "sec-subspaces.html",
+  "type": "Section",
+  "number": "3.5",
+  "title": "Subspaces",
+  "body": " Subspaces   Practice     For each of the following sets of vectors, let . Is the subspace a line, plane, or ?       2    -2    3    ,    -7    -5    7    ,    -17    -6    8    ,    0    -2    -2          3    2    2    ,    -6    -4    -3    ,    9    6    4    ,    18    12    8          -3    3    3    ,    0    0    0    ,    6    -6    -6    ,    -9    9    9                Let be the subspace of spanned by the following three vectors.   It turns out that is a plane. Find a subset of those vectors that form a basis for .   ,            Let be the subspace of spanned by the following vectors.  A subset of those vectors that form a basis for is   , ,            Let be the subspace of spanned by the following vectors.  A subset of those vectors that form a basis for is   ,            Let be the subspace of spanned by the following vectors.   A subset of those vectors that form a basis for is  Basis:  , ,            Find a basis for the column space of Basis =  ,            Find a basis for the column space of Basis =  , ,            Consider the matrix  A basis for the solution space of the homogeneous system is              Consider the matrix  A basis for the solution space of the homogeneous system is   ,            Find a basis for the null space of matrix A = :  ,    SOLUTION:  already is row-reduced, though perhaps not in echelon form. Its pivots are in the first, second and fourth columns, so the third and fifth variables are free; call them and . Solving for the other variables one finds that the general solution to the equation has the form so is a basis for the nullspace.          Find a basis for the null space of :   , ,             Let     A basis for the null space of is   You should be able to explain and justify your answer. Enter a coordinate vector, such as \\( \\verb+<1,2>+ \\) or \\( \\verb+<1,2,3,4>+ \\), or a comma separated list of coordinate vectors, such as \\( \\verb+<1,2>,<3,4>+ \\) or \\( \\verb+<1,2,3,4>,<5,6,7,8>+ \\).    The dimension of the null space of is because (select all correct answers -- there may be more than one correct answer):   Three of the four columns in do not have a pivot.    has one free variable column.    has three free variable columns.    has a pivot in every row.    is the identity matrix.    The basis we found for the null space of has three vectors.    Two of the four columns in have pivots.      The null space of is a subspace of because  choose   A has 4 columns   A has 2 rows  .    The geometry of the null space of is  choose   R   R^2   R^3   R^4   the origin inside R^4   a 1-dimensional line through the origin inside R^4   a 1-dimensional line through the origin inside R^2   a 2-dimensional plane through the origin inside R^4   a 3-dimensional subspace of R^4  .                ACF                     Let     A basis for the column space of is   You should be able to explain and justify your answer. Enter a coordinate vector, such as \\( \\verb+<1,2,3>+ \\) or \\( \\verb+<1,2,3,4>+ \\), or a comma separated list of coordinate vectors, such as \\( \\verb+<1,2,3>,<4,5,6>+ \\) or \\( \\verb+<1,2,3,4>,<5,6,7,8>+ \\).    The dimension of the column space of is because (select all correct answers -- there may be more than one correct answer):   Three of the four columns in do not have pivots.    is the identity matrix.    Three of the four columns in have pivots.    The basis we found for the column space of has two vectors.    has a pivot in every row.    Two of the four columns in have pivots.    has a pivot in every column.      The column space of is a subspace of because  choose   each column vector in A is a vector in R^3   A has 4 columns  .    The geometry of the geometry of the column space of is  choose   R   R^2   R^3   R^4   the origin inside R^3   a 1-dimensional line through the origin inside R^3   a 2-dimensional plane through the origin inside R^3   a 1-dimensional line through the origin inside R^4   a 2-dimensional plane through the origin inside R^4   a 3-dimensional subspace of R^4  .                DF                     Let be the set of all vectors of the form with , and real. Find a matrix such that .   .         "
+},
+{
+  "id": "subspace-geometry-1",
+  "level": "2",
+  "url": "sec-subspaces.html#subspace-geometry-1",
+  "type": "Exercise",
+  "number": "3.5.1",
+  "title": "",
+  "body": "   For each of the following sets of vectors, let . Is the subspace a line, plane, or ?       2    -2    3    ,    -7    -5    7    ,    -17    -6    8    ,    0    -2    -2          3    2    2    ,    -6    -4    -3    ,    9    6    4    ,    18    12    8          -3    3    3    ,    0    0    0    ,    6    -6    -6    ,    -9    9    9            "
+},
+{
+  "id": "subspace-find-basis-1",
+  "level": "2",
+  "url": "sec-subspaces.html#subspace-find-basis-1",
+  "type": "Exercise",
+  "number": "3.5.2",
+  "title": "",
+  "body": "   Let be the subspace of spanned by the following three vectors.   It turns out that is a plane. Find a subset of those vectors that form a basis for .   ,        "
+},
+{
+  "id": "subspace-find-basis-2",
+  "level": "2",
+  "url": "sec-subspaces.html#subspace-find-basis-2",
+  "type": "Exercise",
+  "number": "3.5.3",
+  "title": "",
+  "body": "   Let be the subspace of spanned by the following vectors.  A subset of those vectors that form a basis for is   , ,        "
+},
+{
+  "id": "subspace-find-basis-3",
+  "level": "2",
+  "url": "sec-subspaces.html#subspace-find-basis-3",
+  "type": "Exercise",
+  "number": "3.5.4",
+  "title": "",
+  "body": "   Let be the subspace of spanned by the following vectors.  A subset of those vectors that form a basis for is   ,        "
+},
+{
+  "id": "subspace-find-basis-4",
+  "level": "2",
+  "url": "sec-subspaces.html#subspace-find-basis-4",
+  "type": "Exercise",
+  "number": "3.5.5",
+  "title": "",
+  "body": "   Let be the subspace of spanned by the following vectors.   A subset of those vectors that form a basis for is  Basis:  , ,        "
+},
+{
+  "id": "subspace-find-colspace-basis-1",
+  "level": "2",
+  "url": "sec-subspaces.html#subspace-find-colspace-basis-1",
+  "type": "Exercise",
+  "number": "3.5.6",
+  "title": "",
+  "body": "   Find a basis for the column space of Basis =  ,        "
+},
+{
+  "id": "subspace-find-colspace-basis-2",
+  "level": "2",
+  "url": "sec-subspaces.html#subspace-find-colspace-basis-2",
+  "type": "Exercise",
+  "number": "3.5.7",
+  "title": "",
+  "body": "   Find a basis for the column space of Basis =  , ,        "
+},
+{
+  "id": "subspace-find-solspace-basis-1",
+  "level": "2",
+  "url": "sec-subspaces.html#subspace-find-solspace-basis-1",
+  "type": "Exercise",
+  "number": "3.5.8",
+  "title": "",
+  "body": "   Consider the matrix  A basis for the solution space of the homogeneous system is          "
+},
+{
+  "id": "subspace-find-solspace-basis-2",
+  "level": "2",
+  "url": "sec-subspaces.html#subspace-find-solspace-basis-2",
+  "type": "Exercise",
+  "number": "3.5.9",
+  "title": "",
+  "body": "   Consider the matrix  A basis for the solution space of the homogeneous system is   ,        "
+},
+{
+  "id": "subspace-find-nulspace-basis-1",
+  "level": "2",
+  "url": "sec-subspaces.html#subspace-find-nulspace-basis-1",
+  "type": "Exercise",
+  "number": "3.5.10",
+  "title": "",
+  "body": "   Find a basis for the null space of matrix A = :  ,    SOLUTION:  already is row-reduced, though perhaps not in echelon form. Its pivots are in the first, second and fourth columns, so the third and fifth variables are free; call them and . Solving for the other variables one finds that the general solution to the equation has the form so is a basis for the nullspace.      "
+},
+{
+  "id": "subspace-find-nulspace-basis-2",
+  "level": "2",
+  "url": "sec-subspaces.html#subspace-find-nulspace-basis-2",
+  "type": "Exercise",
+  "number": "3.5.11",
+  "title": "",
+  "body": "   Find a basis for the null space of :   , ,        "
+},
+{
+  "id": "Subspace_1",
+  "level": "2",
+  "url": "sec-subspaces.html#Subspace_1",
+  "type": "Exercise",
+  "number": "3.5.12",
+  "title": "",
+  "body": "   Let     A basis for the null space of is   You should be able to explain and justify your answer. Enter a coordinate vector, such as \\( \\verb+<1,2>+ \\) or \\( \\verb+<1,2,3,4>+ \\), or a comma separated list of coordinate vectors, such as \\( \\verb+<1,2>,<3,4>+ \\) or \\( \\verb+<1,2,3,4>,<5,6,7,8>+ \\).    The dimension of the null space of is because (select all correct answers -- there may be more than one correct answer):   Three of the four columns in do not have a pivot.    has one free variable column.    has three free variable columns.    has a pivot in every row.    is the identity matrix.    The basis we found for the null space of has three vectors.    Two of the four columns in have pivots.      The null space of is a subspace of because  choose   A has 4 columns   A has 2 rows  .    The geometry of the null space of is  choose   R   R^2   R^3   R^4   the origin inside R^4   a 1-dimensional line through the origin inside R^4   a 1-dimensional line through the origin inside R^2   a 2-dimensional plane through the origin inside R^4   a 3-dimensional subspace of R^4  .                ACF                 "
+},
+{
+  "id": "Subspace_2",
+  "level": "2",
+  "url": "sec-subspaces.html#Subspace_2",
+  "type": "Exercise",
+  "number": "3.5.13",
+  "title": "",
+  "body": "   Let     A basis for the column space of is   You should be able to explain and justify your answer. Enter a coordinate vector, such as \\( \\verb+<1,2,3>+ \\) or \\( \\verb+<1,2,3,4>+ \\), or a comma separated list of coordinate vectors, such as \\( \\verb+<1,2,3>,<4,5,6>+ \\) or \\( \\verb+<1,2,3,4>,<5,6,7,8>+ \\).    The dimension of the column space of is because (select all correct answers -- there may be more than one correct answer):   Three of the four columns in do not have pivots.    is the identity matrix.    Three of the four columns in have pivots.    The basis we found for the column space of has two vectors.    has a pivot in every row.    Two of the four columns in have pivots.    has a pivot in every column.      The column space of is a subspace of because  choose   each column vector in A is a vector in R^3   A has 4 columns  .    The geometry of the geometry of the column space of is  choose   R   R^2   R^3   R^4   the origin inside R^3   a 1-dimensional line through the origin inside R^3   a 2-dimensional plane through the origin inside R^3   a 1-dimensional line through the origin inside R^4   a 2-dimensional plane through the origin inside R^4   a 3-dimensional subspace of R^4  .                DF                 "
+},
+{
+  "id": "Subspace_3",
+  "level": "2",
+  "url": "sec-subspaces.html#Subspace_3",
+  "type": "Exercise",
+  "number": "3.5.14",
+  "title": "",
+  "body": "   Let be the set of all vectors of the form with , and real. Find a matrix such that .   .       "
 },
 {
   "id": "app-sage-reference",

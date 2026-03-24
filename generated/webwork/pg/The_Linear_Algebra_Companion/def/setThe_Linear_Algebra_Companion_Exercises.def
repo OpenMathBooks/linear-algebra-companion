@@ -1,6 +1,6 @@
-openDate          = 03/13/2026 at 12:00am
-dueDate           = 09/13/2026 at 10:00pm
-answerDate        = 09/13/2026 at 10:00pm
+openDate          = 03/24/2026 at 12:00am
+dueDate           = 09/24/2026 at 10:00pm
+answerDate        = 09/24/2026 at 10:00pm
 paperHeaderFile   = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 screenHeaderFile  = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 description       = The Linear Algebra Companion
@@ -616,4 +616,60 @@ problem_end
 problem_start
 source_file = Library/TCNJ/TCNJ_PropertiesDeterminants/problem7.pg
 problem_id = 12
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/3_5_1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/3_5_2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/3_5_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/3_5_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/3_5_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/3_5_6.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/3_5_7.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/3_5_8.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/3_5_9.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/3_5_10.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/3_5_11.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/03-05-Basis-subspace/Basis_13_null_space.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/Hope/Multi1/03-05-Basis-subspace/Basis_18_column_space.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_NullColumnSpaces/problem6.pg
+problem_id = 14
 problem_end
