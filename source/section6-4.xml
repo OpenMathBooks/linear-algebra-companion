@@ -4,7 +4,24 @@
 	 xmlns:xi="http://www.w3.org/2001/XInclude">
   <title> Finding orthogonal bases  </title>
 
- 
+
+<exercises>
+   <!-- Exercises from 6.4 - Edfinity -->
+		<title>Practice</title>
+
+		<exercise label="Gram-Schmidt-find-orthonormalBasis-1">
+			<webwork><xi:include href="./wwpg/6-4-1.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="Gram-Schmidt-find-orthonormalBasis-2">
+			<webwork><xi:include href="./wwpg/6-4-2.pg" parse="text"/></webwork>
+		</exercise>    
+    
+		<exercise label="Gram-Schmidt-find-orthonormalBasis-3">
+			<webwork><xi:include href="./wwpg/6-4-3.pg" parse="text"/></webwork>
+		</exercise>
+    		    
+	</exercises> 
   
 </section>
 
