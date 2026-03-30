@@ -5,7 +5,31 @@
 
   <title> Diagonalization, similarity, and powers of a matrix </title>
 
+<exercises>
+   <!-- Exercises from 4.3 - Edfinity -->
+		<title>Practice</title>
 
+		<exercise label="SAGE-find-invertable-1">
+			<webwork><xi:include href="./wwpg/4-3-1.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="SAGE-find-invertable-2">
+			<webwork><xi:include href="./wwpg/4-3-2.pg" parse="text"/></webwork>
+		</exercise>    
+    
+		<exercise label="SAGE-find-eigenvalues-1">
+			<webwork><xi:include href="./wwpg/4-3-3.pg" parse="text"/></webwork>
+		</exercise>
+    
+		<exercise label="diagonalize-1">
+			<webwork><xi:include href="./wwpg/4-3-4.pg" parse="text"/></webwork>
+		</exercise>
+	    
+		<exercise label="SAGE-diagonal-1">
+			<webwork><xi:include href="./wwpg/4-3-5.pg" parse="text"/></webwork>
+		</exercise>		
+
+	</exercises>
 
 </section>
 
