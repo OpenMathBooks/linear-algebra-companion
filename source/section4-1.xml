@@ -26,10 +26,7 @@
 	    
 		<exercise label="eigen-linear-combination-1">
 			<webwork><xi:include href="./wwpg/4-1-5.pg" parse="text"/></webwork>
-		</exercise>
-			
-		
-		
+		</exercise>		
 
 	</exercises>
 </section>
