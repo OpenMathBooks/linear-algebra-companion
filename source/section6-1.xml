@@ -4,5 +4,35 @@
 	 xmlns:xi="http://www.w3.org/2001/XInclude">
   <title> The dot product  </title>
 
+
+<exercises>
+   <!-- Exercises from 6.1 - Edfinity -->
+		<title>Practice</title>
+
+		<exercise label="find-dotproduct-1">
+			<webwork><xi:include href="./wwpg/6-1-1.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="find-dotproduct-2">
+			<webwork><xi:include href="./wwpg/6-1-2.pg" parse="text"/></webwork>
+		</exercise>    
+    
+		<exercise label="find-orthogonal-1">
+			<webwork><xi:include href="./wwpg/6-1-3.pg" parse="text"/></webwork>
+		</exercise>
+    
+		<exercise label="find-orthogonal-2">
+			<webwork><xi:include href="./wwpg/6-1-4.pg" parse="text"/></webwork>
+		</exercise>
+    
+		<exercise label="determine-orthogonality-1">
+			<webwork><xi:include href="./wwpg/6-1-5.pg" parse="text"/></webwork>
+		</exercise>
+	    
+		<exercise label="determine-orthoganality-2">
+			<webwork><xi:include href="./wwpg/6-1-6.pg" parse="text"/></webwork>
+		</exercise>		
+
+	</exercises>
   
 </section>
