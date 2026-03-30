@@ -4,6 +4,18 @@
 	 xmlns:xi="http://www.w3.org/2001/XInclude">
   <title> Dynamical systems </title>
 
+<exercises>
+   <!-- Exercises from 4.4 - Edfinity -->
+		<title>Practice</title>
 
+		<exercise label="dynamical-system-1">
+			<webwork><xi:include href="./wwpg/4-4-1.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="dynamical-system-2">
+			<webwork><xi:include href="./wwpg/4-4-2.pg" parse="text"/></webwork>
+		</exercise>    
+    
+	</exercises>
 
 </section>

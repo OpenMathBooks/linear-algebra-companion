@@ -1,0 +1,152 @@
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## DBsubject(Linear algebra)
+## DBchapter(Eigenvalues and eigenvectors)
+## DBsection(Applications)
+## Date(May 2017)
+## Institution(Simpson College)
+## Author(Murphy Waggoner)
+## Level(3)
+## MO(1)
+
+
+DOCUMENT();
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"MatrixUnits.pl",
+"parserMultiAnswer.pl",
+"parserPopUp.pl",
+"PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+
+Context('Matrix');
+
+
+
+
+$lambda1 = non_zero_random(-2,2,0.4);
+do {$lambda2 = non_zero_random(-2.5,2.5,0.25)}
+ until ($lambda1 != $lambda2);
+do {$lambda3 = non_zero_random(0,2.5,0.2)}
+ until ($lambda1 != $lambda3 && $lambda2 != $lambda3 && max($lambda1, $lambda2, $lambda3) > 1);
+
+$v11 = non_zero_random(-2,2,1);
+$v12 = Compute("-$v11");
+$v13 = Compute("0");
+$v21 = Compute("0");
+$v22 = non_zero_random(-2,2,1);
+$v23 = Compute("$v22");
+$v31 = Compute("0");
+$v32 = non_zero_random(-2,2,1);
+$v33 = Compute("$v32+1");
+$v1 = Matrix([["$v11"], ["$v12"],["$v13"]]);
+$v2 = Matrix([["$v21"], ["$v22"],["$v23"]]);
+$v3 = Matrix([["$v31"], ["$v32"],["$v33"]]);
+
+$x01 = random(1,5,1);
+$x02 = random(1,5,1);
+$x03 = random(1,5,1);
+$x0 = Matrix([[$x01], [$x02],[$x03]]);
+
+$c1 = Compute("$x01/$v11");
+$c3 = Compute("$x03 - $x02 + $c1*$v12");
+$c2 = Compute("($x03 - $c3*$v33)/($v23)");
+
+$k = random(2,5,1);
+
+$xk = Matrix("($c1*($lambda1)^($k)) * $v1 + ($c2*($lambda2)^($k))*$v2
++ $c3*$lambda3^{$k}*$v3");
+
+if (abs($lambda1)>abs($lambda2) && abs($lambda1) >abs($lambda3)) 
+{
+      $longvec = Matrix("$v1");
+      $longeigen = Compute("$lambda1");
+      $longc = Compute("$c1");
+}
+elsif  ( abs($lambda2) >abs($lambda3))
+{
+      $longvec = Matrix("$v2");
+      $longeigen = Compute("$lambda2");
+      $longc = Compute("$c2");
+}
+else 
+{
+      $longvec = Matrix("$v3");
+      $longeigen = Compute("$lambda3");
+      $longc = Compute("$c3");
+};
+
+
+
+
+Context()->texStrings;
+BEGIN_TEXT
+Consider the dynamical system 
+\(\vec{x}_0,\vec{x}_1,\vec{x}_2,\vec{x}_3,\ldots\) 
+defined by \[\vec{x}_{k+1} = M\vec{x}_k\]
+where \(M\) is a \(3 \times 3\) matrix with eigenvalues 
+\(\lambda_1 = $lambda1, \lambda_2 = $lambda2, \text{ and  } \lambda_3 = $lambda3\) 
+and corresponding eigenvectors \[\vec{v}_1 = $v1, \vec{v}_2= $v2, \text{ and } \vec{v}_3= $v3.\]
+
+$HR
+(a) Suppose the initial state is \(\vec{x}_0 = $x0\).
+Write \(\vec{x}_0\) as a linear combination of the eigenvectors of \(M\):  
+
+$BR
+\(\vec{x}_0 = \)\{ans_rule(5)\} \(\vec{v_1} + \)\{ans_rule(5)\}\( \vec{v_2} + \)\{ans_rule(5)\}\( \vec{v_3}\)
+
+$HR
+(b)  Write \(\vec{x}_k\) as a linear combination of \(\vec{v}_1\), \(\vec{v}_2\), and \(\vec{v}_3\):
+$BR
+
+ \(\vec{x}_k = \)
+\{ans_rule(5)\} \(\big(\) \{ans_rule(5)\}\(\big)^k \ \vec{v}_1+ \)
+\{ans_rule(5)\} \(\big(\) \{ans_rule(5)\}\(\big)^k \ \vec{v}_2+ \)
+\{ans_rule(5)\} \(\big(\) \{ans_rule(5)\}\(\big)^k \ \vec{v}_3\)
+
+$HR
+(c) Find an exact formula for \(\vec{x}_{$k} = \):
+    $BR
+    
+   \{$xk->ans_array(20)\}
+$HR
+(d) What happens in the long run?  For large \(k\), \(\vec{x}_{k} \approx \)
+\{ans_rule(5)\}  \(\big(\) \{ans_rule(5)\}\(\big)^k\ \) \{$longvec->ans_array()\}
+END_TEXT
+
+
+Context()->normalStrings;
+
+
+ANS(Compute("$c1")->cmp());
+ANS(Compute("$c2")->cmp());
+ANS(Compute("$c3")->cmp());
+
+ANS(Compute("$c1")->cmp());
+ANS(Compute("$lambda1")->cmp());
+
+ANS(Compute("$c2")->cmp());
+ANS(Compute("$lambda2")->cmp());
+ANS(Compute("$c3")->cmp());
+ANS(Compute("$lambda3")->cmp());
+
+ANS($xk->cmp());
+
+ANS(Compute("$longc")->cmp());
+
+ANS(Compute("$longeigen")->cmp());
+
+ANS($longvec->cmp());
+
+
+
+
+ENDDOCUMENT();
