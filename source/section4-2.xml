@@ -5,6 +5,53 @@
 
   <title> Finding eigenvalues and eigenvectors </title>
 
- 
+
+<exercises>
+   <!-- Exercises from 4.2a - Edfinity -->
+		<title>Practice</title>
+
+		<exercise label="find-characteristic-1">
+			<webwork><xi:include href="./wwpg/4-2-1.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="find-eigenvalues-1">
+			<webwork><xi:include href="./wwpg/4-2-2.pg" parse="text"/></webwork>
+		</exercise>    
+    
+		<exercise label="verify-eigenvalue-1">
+			<webwork><xi:include href="./wwpg/4-2-3.pg" parse="text"/></webwork>
+		</exercise>
+    
+		<exercise label="find-characteristic-2">
+			<webwork><xi:include href="./wwpg/4-2-4.pg" parse="text"/></webwork>
+		</exercise>
+	    
+		<exercise label="find-eigenvalues-2">
+			<webwork><xi:include href="./wwpg/4-2-5.pg" parse="text"/></webwork>
+		</exercise>		
+
+ <!-- Exercises from 4.2b - Edfinity -->
+	<exercise label="find-eigenvalueANDvector-1">
+			<webwork><xi:include href="./wwpg/4-2b-1.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="find-eigenvalueANDvector-2">
+			<webwork><xi:include href="./wwpg/4-2b-2.pg" parse="text"/></webwork>
+		</exercise>    
+    
+		<exercise label="find-eigenvalueANDvector-3">
+			<webwork><xi:include href="./wwpg/4-2b-3.pg" parse="text"/></webwork>
+		</exercise>
+    
+		<exercise label="find-eigenvalueANDvector-4">
+			<webwork><xi:include href="./wwpg/4-2b-4.pg" parse="text"/></webwork>
+		</exercise>
+	    
+		<exercise label="eigenspace-basis-1">
+			<webwork><xi:include href="./wwpg/4-2b-5.pg" parse="text"/></webwork>
+		</exercise>		
+
+	</exercises>
+	
 
 </section>
