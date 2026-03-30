@@ -4,6 +4,31 @@
 	 xmlns:xi="http://www.w3.org/2001/XInclude">
   <title> Orthogonal bases and projections  </title>
 
+<exercises>
+   <!-- Exercises from 6.3B - Edfinity -->
+		<title>Practice</title>
+
+		<exercise label="find-orthogonalProjection-1">
+			<webwork><xi:include href="./wwpg/6-3-1.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="find-orthogonalProjection-2">
+			<webwork><xi:include href="./wwpg/6-3-2.pg" parse="text"/></webwork>
+		</exercise>    
+    
+		<exercise label="find-orthogonalProjection-3">
+			<webwork><xi:include href="./wwpg/6-3-3.pg" parse="text"/></webwork>
+		</exercise>
+    
+		<exercise label="find-orthogonalProjection-4">
+			<webwork><xi:include href="./wwpg/6-3-4.pg" parse="text"/></webwork>
+		</exercise>
+    
+		<exercise label="find-closest-point-1">
+			<webwork><xi:include href="./wwpg/6-3-5.pg" parse="text"/></webwork>
+		</exercise>
+		    
+	</exercises>
  
 	      
 </section>
