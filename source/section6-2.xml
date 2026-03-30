@@ -5,5 +5,53 @@
   <title> Orthogonal complements and the matrix transpose </title>
 
  
+<exercises>
+   <!-- Exercises from 6.2A-6.3A - Edfinity -->
+		<title>Practice</title>
+
+		<exercise label="matrix-transpose-1">
+			<webwork><xi:include href="./wwpg/6-2-1.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="matrix-transpose-2">
+			<webwork><xi:include href="./wwpg/6-2-2.pg" parse="text"/></webwork>
+		</exercise>    
+    
+		<exercise label="matrix-transpose-3">
+			<webwork><xi:include href="./wwpg/6-2-3.pg" parse="text"/></webwork>
+		</exercise>
+    
+		<exercise label="matrix-transpose-4">
+			<webwork><xi:include href="./wwpg/6-2-4.pg" parse="text"/></webwork>
+		</exercise>
+    
+		<exercise label="matrix-transpose-5">
+			<webwork><xi:include href="./wwpg/6-2-5.pg" parse="text"/></webwork>
+		</exercise>
+	    
+  <!-- Exercises from 6.2B - Edfinity -->
+
+		<exercise label="orthogonal-complement-1">
+			<webwork><xi:include href="./wwpg/6-2b-1.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="orthogonal-complement-2">
+			<webwork><xi:include href="./wwpg/6-2b-2.pg" parse="text"/></webwork>
+		</exercise>    
+    
+		<exercise label="orthogonal-complement-3">
+			<webwork><xi:include href="./wwpg/6-2b-3.pg" parse="text"/></webwork>
+		</exercise>
+    
+		<exercise label="find-orthogonal-vector-1">
+			<webwork><xi:include href="./wwpg/6-2b-4.pg" parse="text"/></webwork>
+		</exercise>
+    
+		<exercise label="find-orthogonal-vector-2">
+			<webwork><xi:include href="./wwpg/6-2b-5.pg" parse="text"/></webwork>
+		</exercise>
+	    
+	</exercises>
+  
 
 </section>
