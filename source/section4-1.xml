@@ -5,6 +5,32 @@
 
   <title> An introduction to eigenvalues and eigenvectors </title>
 
+<exercises>
+		<title>Practice</title>
 
+		<exercise label="determine-eigenvalues-1">
+			<webwork><xi:include href="./wwpg/4-1-1.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="determine-eigenvalues-2">
+			<webwork><xi:include href="./wwpg/4-1-2.pg" parse="text"/></webwork>
+		</exercise>    
+    
+		<exercise label="verify-eigenvector-1">
+			<webwork><xi:include href="./wwpg/4-1-3.pg" parse="text"/></webwork>
+		</exercise>
+    
+		<exercise label="determine-vector-1">
+			<webwork><xi:include href="./wwpg/4-1-4.pg" parse="text"/></webwork>
+		</exercise>
+	    
+		<exercise label="eigen-linear-combination-1">
+			<webwork><xi:include href="./wwpg/4-1-5.pg" parse="text"/></webwork>
+		</exercise>
+			
+		
+		
+
+	</exercises>
 </section>
 
