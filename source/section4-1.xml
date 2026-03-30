@@ -28,6 +28,26 @@
 			<webwork><xi:include href="./wwpg/4-1-5.pg" parse="text"/></webwork>
 		</exercise>		
 
+<!-- Exercises from MATH-204-ww set04.05.21.Secs4.1-4.2.def -->
+		<exercise label="MATH-204-eigenvalue-intro-1">
+			<webwork source="Library/TCNJ/TCNJ_Eigenvalues/problem3.pg" />
+		</exercise>
+
+		<exercise label="MATH-204-eigenvalue-intro-2">
+			<webwork source="Library/Rochester/setLinearAlgebra11Eigenvalues/ur_la_11_26.pg" />
+		</exercise>
+
+		<exercise label="MATH-204-eigenvalue-intro-3">
+			<webwork source="Library/Rochester/setLinearAlgebra11Eigenvalues/ur_la_11_27.pg" />
+		</exercise>
+
+		<exercise label="MATH-204-eigenvalue-intro-4">
+			<webwork source="Library/Rochester/setLinearAlgebra11Eigenvalues/ur_la_11_2.pg" />
+		</exercise>
+
+		<exercise label="MATH-204-eigenvalue-intro-5">
+			<webwork source="Library/TCNJ/TCNJ_Eigenvalues/problem10.pg" />
+		</exercise>
 	</exercises>
 	
 </section>

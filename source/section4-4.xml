@@ -15,6 +15,19 @@
 		<exercise label="dynamical-system-2">
 			<webwork><xi:include href="./wwpg/4-4-2.pg" parse="text"/></webwork>
 		</exercise>    
+
+  <!-- Exercises from MATH-204-ww set04.19.21.Secs4.3-4.4.def -->
+		<exercise label="Simpson-dynamical-system-1">
+			<webwork source="Library/Simpson/SC_Lay5.6DisDynSystem7.pg" />
+		</exercise>
+
+		<exercise label="Simpson-dynamical-system-2">
+			<webwork source="Library/Simpson/SC_Lay5.6DisDynSystem8.pg" />
+		</exercise>
+
+		<exercise label="Simpson-dynamical-system-3">
+			<webwork source="Library/Simpson/SC_Lay5.6DisDynSystem4.pg" />
+		</exercise>  
     
 	</exercises>
 

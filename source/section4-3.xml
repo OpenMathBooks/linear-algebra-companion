@@ -29,6 +29,21 @@
 			<webwork><xi:include href="./wwpg/4-3-5.pg" parse="text"/></webwork>
 		</exercise>		
 
+
+	  <!-- Exercises from MATH-204-ww set04.12.21.Secs4.2-4.3.def -->
+		<exercise label="diagonalize-2">
+			<webwork source="Library/Rochester/setLinearAlgebra12Diagonalization/ur_la_12_4.pg" />
+		</exercise>
+
+	  <!-- Exercises from MATH-204-ww set04.19.21.Secs4.3-4.4.def -->
+		<exercise label="diagonalize-3">
+			<webwork source="Library/TCNJ/TCNJ_Diagonalization/problem5.pg" />
+		</exercise>
+
+		<exercise label="diagonalize-4">
+			<webwork source="Library/TCNJ/TCNJ_Eigenvalues/problem14.pg" />
+		</exercise>
+
 	</exercises>
 
 </section>
