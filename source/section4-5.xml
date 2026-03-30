@@ -4,5 +4,28 @@
 	 xmlns:xi="http://www.w3.org/2001/XInclude">
   <title> Markov chains and Google's PageRank algorithm  </title>
 
+  
+<exercises>
+   <!-- Exercises from 4.5 - Edfinity -->
+		<title>Practice</title>
+
+		<exercise label="markov-chains-1">
+			<webwork><xi:include href="./wwpg/4-5-1.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="determine-stochastic-1">
+			<webwork><xi:include href="./wwpg/4-5-2.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="markov-chains-2">
+			<webwork><xi:include href="./wwpg/4-5-3.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="find-steadystate--1">
+			<webwork><xi:include href="./wwpg/4-5-4.pg" parse="text"/></webwork>
+		</exercise>
+
+	</exercises>
+
 
 </section>
