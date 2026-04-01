@@ -1,0 +1,171 @@
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+
+## DBsubject(Linear algebra)
+## DBchapter(Matrix factorizations)
+## DBsection(Diagonalization)
+## Date(6/29/2014)
+## Institution(NAU)
+## Author(Nandor Sieben)
+## Level(4)
+## MO(1)
+## KEYWORDS('linear algebra','recurrence')
+
+DOCUMENT();
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "parserMultiAnswer.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl"
+);
+
+$showPartialCorrectAnswers = 1;
+TEXT(beginproblem()); 
+
+Context('Matrix');
+Context()->variables->add(n=>"Real");
+
+{
+$la=non_zero_random(-9,9,1);
+$mu=non_zero_random(-9,9,1);
+$di=4*$la+$mu*$mu;
+redo if ($di <=0);
+$th=round(sqrt($di));
+redo if ($th*$th != $di);
+$eig1=0.5*($mu-$th);
+$eig2=0.5*($mu+$th);
+redo if (abs($eig1) > 9 );
+redo if (abs($eig2) > 9 );
+$P=Matrix([[$eig2,$eig1],[-$la,-$la]]);
+$D=Matrix([[$eig1,0],[0,$eig2]]);
+$dt = $P->det();
+}
+
+$Pinv=Compute("[[-($la/$dt),-($eig1/$dt)],[$la/$dt,$eig2/$dt]]");
+$PR=Matrix($P*$D*$Pinv);
+$mat = Matrix([[0,1],[$la,$mu]]);
+$pow=5;
+$powinc=$pow+1;
+$d11=Compute("($eig1)^$pow");
+$d22=Compute("($eig2)^$pow");
+$Dton = Compute("[[$d11,0],[0,$d22]]");
+$matton = $P*$Dton*$Pinv;
+
+$a1=non_zero_random(-2,2,1);
+$a2=non_zero_random(-2,2,1);
+$a=Matrix([[$a1],[$a2]]);
+
+$a3=$la*$a1+$mu*$a2;
+
+$aninc=($matton*$a)->element(1,1);
+
+
+$I = Matrix([[1,0],[0,1]]);
+
+$multians2 = MultiAnswer($D, $P)->with(
+singleResult => 1,
+checker => sub {
+my ( $correct, $student, $self ) = @_;
+my @s = @{$student};
+my @c = @{$correct};
+$sD = Matrix($s[0]); 
+$sP = Matrix($s[1]);
+return 0 if ($sD != $sP->inverse*$mat*$sP); 
+return 0 if ($sD->element(1,2)!=0); 
+return 0 if ($sD->element(2,1)!=0);
+return 1;
+}
+);
+
+sub mycheck {
+  my ($correct, $student, $ansHash) = @_;
+  $sPinv=Matrix($student);
+  return 0 if ($sP*$sPinv != $I);
+  return 1;
+}
+
+
+Context()->texStrings;
+# $dt M= \( $mat \) P=\( $P \) D= \( $D \) Pinv=\( $Pinv \) PR=\( $PR \)
+BEGIN_TEXT
+Consider the sequence defined recursively by \(a_0=$a1\), \(a_1=$a2\), 
+and \(a_{n}=$la a_{n-2}+$mu a_{n-1}\) for \( n \ge 2\). 
+$BR
+For example, you can check that \(a_2= $la a_{0}+$mu a_{1}= $a3\).
+$BR
+Sometimes it is useful to have an explicit formula for \( a_n \).
+$BR
+$HR
+$BR
+First, find a matrix that satisfies
+\( 
+ M 
+\left[ 
+\begin{array}{c}
+a_{n-2}  \\
+a_{n-1} 
+\end{array} 
+\right] 
+=
+\left[ 
+\begin{array}{c}
+a_{n-1}  \\
+a_n 
+\end{array} 
+\right]
+\).  
+$BR
+$BR
+Answer:  \(
+M=\) \{ $mat->ans_array(5)  \}
+
+$BR
+$HR
+$BR
+Now use SAGE to find a diagonal matrix \( D \) and an invertible matrix \( P \) such that \( M = P D P^{-1} \).
+$BR
+$BR
+Answer:
+\( D  = \) \{ $multians2->ans_array(3) \}
+$BR
+\( P  = \) \{ $multians2->ans_array(3) \}
+$BR
+$HR
+$BR
+Next, use SAGE to find \( P^{-1} \).
+$BR
+Answer:  \( P^{-1}  = \) \{ $Pinv->ans_array(3) \}
+$BR
+$HR
+$BR
+Note that
+\( 
+\left[ 
+\begin{array}{c}
+a_n  \\
+a_{n+1} 
+\end{array} 
+\right] = M ^ { n } 
+\left[ 
+\begin{array}{c}
+a_0  \\
+a_1 
+\end{array} 
+\right] 
+\).
+We can use the diagonalization to find an explicit formula for \(a_n\).
+
+
+END_TEXT
+Context()->normalStrings;
+
+ANS( $mat->cmp() );
+ANS( $multians2->cmp() );
+ANS( $Pinv->cmp( checker=>~~&mycheck ) );
+
+;
+
+ENDDOCUMENT();

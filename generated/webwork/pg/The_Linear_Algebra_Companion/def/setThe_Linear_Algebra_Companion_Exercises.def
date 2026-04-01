@@ -1,6 +1,6 @@
-openDate          = 03/24/2026 at 12:00am
-dueDate           = 09/24/2026 at 10:00pm
-answerDate        = 09/24/2026 at 10:00pm
+openDate          = 04/01/2026 at 12:00am
+dueDate           = 10/01/2026 at 10:00pm
+answerDate        = 10/01/2026 at 10:00pm
 paperHeaderFile   = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 screenHeaderFile  = The_Linear_Algebra_Companion/header/The_Linear_Algebra_Companion_Exercises.pg
 description       = The Linear Algebra Companion
@@ -672,4 +672,264 @@ problem_end
 problem_start
 source_file = Library/TCNJ/TCNJ_NullColumnSpaces/problem6.pg
 problem_id = 14
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_1_1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_1_2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_1_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_1_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_1_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_Eigenvalues/problem3.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra11Eigenvalues/ur_la_11_26.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra11Eigenvalues/ur_la_11_27.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra11Eigenvalues/ur_la_11_2.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_Eigenvalues/problem10.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_2_1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_2_2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_2_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_2_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_2_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_2_6.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_2_7.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_2_8.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_2_9.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_2_10.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra11Eigenvalues/ur_la_11_30.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/METU-NCC/Linear_Algebra/3x3-2d_eig.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra11Eigenvalues/ur_la_11_7.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra11Eigenvalues/ur_la_11_11.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_3_1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_3_2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_3_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_3_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_3_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Rochester/setLinearAlgebra12Diagonalization/ur_la_12_4.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_Diagonalization/problem5.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/TCNJ/TCNJ_Eigenvalues/problem14.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_4_1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_4_2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Simpson/SC_Lay5.6DisDynSystem7.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Simpson/SC_Lay5.6DisDynSystem8.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Simpson/SC_Lay5.6DisDynSystem4.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_5_1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_5_2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_5_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/4_5_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_1_1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_1_2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_1_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_1_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_1_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_1_6.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_2_1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_2_2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_2_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_2_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_2_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_2_6.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_2_7.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_2_8.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_2_9.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_2_10.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_3_1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_3_2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_3_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_3_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_3_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_4_1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_4_2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = The_Linear_Algebra_Companion/5_4_3.pg
+problem_id = 3
 problem_end

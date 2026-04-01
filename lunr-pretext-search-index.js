@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "What can we expect",
-  "body": " What can we expect   Practice     Find two numbers whose sum is -1 and whose difference is -7.  Your answer is:  The largest of the two numbers is:  The smallest of the two number is:                     A woman has 19 coins in her pocket, all of which are dimes and quarters. If the total value of the coins is $ 3.55, how many dimes and how many quarters does she have?  Your answer is:  Number of dimes equals  Number of quarters equals                      For the system of equations given below, determine whether each ordered pair is a solution of the system. Type Yes or No .  a) Is a solution? Answer:  b) Is a solution? Answer:                     Decide whether is a solution to the system of equations     Yes    No          If a point is a solution to a system of linear equations, it implies the point is on both lines.  To decide whether a given point is a solution to a system of equations or not, we need to know whether or not the point is on both lines.  Substituting the point into the first equation, we have:   This is true, so is on the line .  Next, we substitute into the second equation, and we have:   This is also true, so is on the line .  Since is on both lines, is a solution tp the system of equations.           Decide whether is a solution to the system of equations     Yes    No          If a point is a solution to a system of equations, it implies the point is on both lines.  To decide whether or not a given point is a solution to a system of linear equations, we need to know whether or not the point is on both lines.  Substituting the point into the first equation, we have:   This is true, so is on the line .  Next, we substitute into the second equation and we have:   This is false, so is not on the line .  Since is not on both lines, is not a solution to the system of equations.             Find the point of intersection of the lines in the figure, given that line , in red, has equation and line , in blue, has equation . =  =     (Click on graph to enlarge)                       Solve the following system of equations graphically:   Answer:                Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, the first equation is given in slope-intercept form. We can graph its -intercept, and then draw slope triangles.  The second line is horizontal.  See solution in the graph:   The solution to this system of equations is . B is the correct answer.           Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, both equations are given in slope-intercept form. We graph each line's -intercept, and then draw slope triangles. See the graph:   The solution to this system of equations is . Graph B is the correct answer.           Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, the first equation is given in slope-intercept form. We can use its -intercept and slope triangles immediately.  The second equation is given in standard form. To accurately graph it, we can rewrite it in slope-intercept form:   See solution in the graph:   The solution to this system of equations is . C is the correct answer.           Simply by looking at this system of equations, decide the number of solutions it has.     No solution    One solution    Infinitely many solutions          Notice that these two lines have the same slope, but different y-intercepts. This implies they are parallel lines, which do not intersect. This system of equations has no solution.           Simply by looking at this system of equations, decide the number of solutions it has.     No solution    One solution    Infinitely many solutions          Both lines are horizontal, and the equations are different. This implies they are parallel lines, which do not intersect. This system of equations has no solution.           Solve the system using substitution                          Solve the following system of equations, using whichever method you wish.     If there is one solution, enter it as an ordered pair.    If there is no solution, enter no solution . Spelling counts.    If there is an infinite number of solutions, enter infinite number of solutions . Spelling counts.            Let s solve the second equation for ; we divide both sides of the equation by , so .    We find by substituting this value of in to the first equation: , and solving for .    This gives .    The solution to the system is . It is left as an exercise to check. Please also note that you may have solved this problem a different way.             Each graph below is the graph of a system of three linear equations in three unknowns. Determine whether each system has a solution and, if it does, the dimension of the solution space.               A.  0 dimensional  1 dimensional  choose  no solution  2 dimensional   B.  choose  no solution  2 dimensional  0 dimensional  1 dimensional   C.  0 dimensional  1 dimensional  no solution  choose  2 dimensional                D.  2 dimensional  no solution  choose  1 dimensional  0 dimensional   E.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   F.  0 dimensional  1 dimensional  choose  no solution  2 dimensional                G.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   H.  1 dimensional  0 dimensional  2 dimensional  no solution  choose   I.  0 dimensional  1 dimensional  choose  no solution   2 dimensional     (Click on a graph to enlarge it.)           Determine which of the points , , and lie in the plane .  Answer:        , so lies on the plane  , so does not lie on the plane  , so does not lie on the plane           Determine which of the points , , and satisfy the linear system   Answer:        SOLUTION:  and , so satisfies the linear system  and , so does not satisfy the linear system  and , so does not satisfy the linear system         "
+  "body": " What can we expect   Practice     Find two numbers whose sum is -1 and whose difference is -7.  Your answer is:  The largest of the two numbers is:  The smallest of the two number is:                     A woman has 19 coins in her pocket, all of which are dimes and quarters. If the total value of the coins is $ 3.55, how many dimes and how many quarters does she have?  Your answer is:  Number of dimes equals  Number of quarters equals                      For the system of equations given below, determine whether each ordered pair is a solution of the system. Type Yes or No .  a) Is a solution? Answer:  b) Is a solution? Answer:                     Decide whether is a solution to the system of equations     Yes    No          If a point is a solution to a system of linear equations, it implies the point is on both lines.  To decide whether a given point is a solution to a system of equations or not, we need to know whether or not the point is on both lines.  Substituting the point into the first equation, we have:   This is true, so is on the line .  Next, we substitute into the second equation, and we have:   This is also true, so is on the line .  Since is on both lines, is a solution tp the system of equations.           Decide whether is a solution to the system of equations     Yes    No          If a point is a solution to a system of equations, it implies the point is on both lines.  To decide whether or not a given point is a solution to a system of linear equations, we need to know whether or not the point is on both lines.  Substituting the point into the first equation, we have:   This is true, so is on the line .  Next, we substitute into the second equation and we have:   This is false, so is not on the line .  Since is not on both lines, is not a solution to the system of equations.             Find the point of intersection of the lines in the figure, given that line , in red, has equation and line , in blue, has equation . =  =     (Click on graph to enlarge)                       Solve the following system of equations graphically:   Answer:                Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, the first equation is given in slope-intercept form. We can graph its -intercept, and then draw slope triangles.  The second line is horizontal.  See solution in the graph:   The solution to this system of equations is . B is the correct answer.           Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, both equations are given in slope-intercept form. We graph each line's -intercept, and then draw slope triangles. See the graph:   The solution to this system of equations is . Graph B is the correct answer.           Solve the system of equations by graphing. Choose the graph that represents the two given line equations, and then enter the solution.   The correct graph is graph   A    B    C    D    The solution of this system, written as an ordered pair, is .                               To solve a system of linear equations by graphing, one way is to first graph each line's -intercept, and then draw slope triangles until we find the intersection. If we use a method where we connect two points using a straightedge, slight inaccuracies in the placement of the straightedge can lead to very inaccurate solutions.  For this problem, the first equation is given in slope-intercept form. We can use its -intercept and slope triangles immediately.  The second equation is given in standard form. To accurately graph it, we can rewrite it in slope-intercept form:   See solution in the graph:   The solution to this system of equations is . C is the correct answer.           Simply by looking at this system of equations, decide the number of solutions it has.     No solution    One solution    Infinitely many solutions          Notice that these two lines have the same slope, but different y-intercepts. This implies they are parallel lines, which do not intersect. This system of equations has no solution.           Simply by looking at this system of equations, decide the number of solutions it has.     No solution    One solution    Infinitely many solutions          Both lines are horizontal, and the equations are different. This implies they are parallel lines, which do not intersect. This system of equations has no solution.           Solve the system using substitution                          Solve the following system of equations, using whichever method you wish.     If there is one solution, enter it as an ordered pair.    If there is no solution, enter no solution . Spelling counts.    If there is an infinite number of solutions, enter infinite number of solutions . Spelling counts.            Let s solve the second equation for ; we divide both sides of the equation by , so .    We find by substituting this value of in to the first equation: , and solving for .    This gives .    The solution to the system is . It is left as an exercise to check. Please also note that you may have solved this problem a different way.             Each graph below is the graph of a system of three linear equations in three unknowns. Determine whether each system has a solution and, if it does, the dimension of the solution space.               A.  1 dimensional  0 dimensional  2 dimensional  no solution  choose   B.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   C.  no solution  choose  2 dimensional  0 dimensional  1 dimensional                D.  1 dimensional  0 dimensional  2 dimensional  choose  no solution   E.  0 dimensional  1 dimensional  choose  no solution  2 dimensional   F.  choose  no solution  2 dimensional  0 dimensional  1 dimensional                G.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   H.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   I.  0 dimensional  1 dimensional  no solution  choose   2 dimensional     (Click on a graph to enlarge it.)           Determine which of the points , , and lie in the plane .  Answer:        , so lies on the plane  , so does not lie on the plane  , so does not lie on the plane           Determine which of the points , , and satisfy the linear system   Answer:        SOLUTION:  and , so satisfies the linear system  and , so does not satisfy the linear system  and , so does not satisfy the linear system         "
 },
 {
   "id": "system-word-problem-1",
@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.15",
   "title": "",
-  "body": "   Each graph below is the graph of a system of three linear equations in three unknowns. Determine whether each system has a solution and, if it does, the dimension of the solution space.               A.  0 dimensional  1 dimensional  choose  no solution  2 dimensional   B.  choose  no solution  2 dimensional  0 dimensional  1 dimensional   C.  0 dimensional  1 dimensional  no solution  choose  2 dimensional                D.  2 dimensional  no solution  choose  1 dimensional  0 dimensional   E.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   F.  0 dimensional  1 dimensional  choose  no solution  2 dimensional                G.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   H.  1 dimensional  0 dimensional  2 dimensional  no solution  choose   I.  0 dimensional  1 dimensional  choose  no solution   2 dimensional     (Click on a graph to enlarge it.)       "
+  "body": "   Each graph below is the graph of a system of three linear equations in three unknowns. Determine whether each system has a solution and, if it does, the dimension of the solution space.               A.  1 dimensional  0 dimensional  2 dimensional  no solution  choose   B.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   C.  no solution  choose  2 dimensional  0 dimensional  1 dimensional                D.  1 dimensional  0 dimensional  2 dimensional  choose  no solution   E.  0 dimensional  1 dimensional  choose  no solution  2 dimensional   F.  choose  no solution  2 dimensional  0 dimensional  1 dimensional                G.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   H.  2 dimensional  choose  no solution  1 dimensional  0 dimensional   I.  0 dimensional  1 dimensional  no solution  choose   2 dimensional     (Click on a graph to enlarge it.)       "
 },
 {
   "id": "system-3-check-1",
@@ -340,7 +340,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Pivots and their influence on solution spaces",
-  "body": " Pivots and their influence on solution spaces   Practice     Determine how many pivots each of the following matrices have.     Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots                                  How many free variables does each augmented matrix have?     Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three                                  Determine the value of such that the matrix is the augmented matrix of a linear system with infinitely many solutions.                   Determine the value of such that the matrix is the augmented matrix of a consistent linear system.                   Determine the value of for which the system   has no solutions.                  For what value(s) of is the linear system consistent?     select   =   ≠               From the the second equation, , we obtain . Substitute into equation 1, . The system is consistent provided .           Each graph below is the graph of a system of three linear equations in three unknowns. Determine which systems are consistent and inconsistent.               A.  inconsistent  consistent  choose   B.  choose  consistent  inconsistent   C.  consistent  inconsistent  choose                D.  consistent  inconsistent  choose   E.  choose  inconsistent  consistent   F.  inconsistent  consistent  choose                G.  choose  inconsistent  consistent   H.  consistent  inconsistent  choose   I.  choose  inconsistent   consistent     (Click on a graph to enlarge it.)            The figure above shows the plot of the points , , and . Find a polynomial of degree 2 of the form whose graph passes through these points.          SOLUTION: Apply to obtain From , we have And Write these equations as an augmented matrix and solve. Row 3 . Row 2 . Row 1 . Thus .         "
+  "body": " Pivots and their influence on solution spaces   Practice     Determine how many pivots each of the following matrices have.     Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots       Choose   One Pivot   Two Pivots   Three Pivots   Four Pivots                                  How many free variables does each augmented matrix have?     Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three       Choose   None   One   Two   Three                                  Determine the value of such that the matrix is the augmented matrix of a linear system with infinitely many solutions.                   Determine the value of such that the matrix is the augmented matrix of a consistent linear system.                   Determine the value of for which the system   has no solutions.                  For what value(s) of is the linear system consistent?     select   =   ≠               From the the second equation, , we obtain . Substitute into equation 1, . The system is consistent provided .           Each graph below is the graph of a system of three linear equations in three unknowns. Determine which systems are consistent and inconsistent.               A.  choose  consistent  inconsistent   B.  inconsistent  consistent  choose   C.  choose  inconsistent  consistent                D.  choose  inconsistent  consistent   E.  choose  inconsistent  consistent   F.  choose  consistent  inconsistent                G.  consistent  inconsistent  choose   H.  choose  consistent  inconsistent   I.  choose  inconsistent   consistent     (Click on a graph to enlarge it.)            The figure above shows the plot of the points , , and . Find a polynomial of degree 2 of the form whose graph passes through these points.          SOLUTION: Apply to obtain From , we have And Write these equations as an augmented matrix and solve. Row 3 . Row 2 . Row 1 . Thus .         "
 },
 {
   "id": "pivots-count-1",
@@ -403,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.4.7",
   "title": "",
-  "body": "   Each graph below is the graph of a system of three linear equations in three unknowns. Determine which systems are consistent and inconsistent.               A.  inconsistent  consistent  choose   B.  choose  consistent  inconsistent   C.  consistent  inconsistent  choose                D.  consistent  inconsistent  choose   E.  choose  inconsistent  consistent   F.  inconsistent  consistent  choose                G.  choose  inconsistent  consistent   H.  consistent  inconsistent  choose   I.  choose  inconsistent   consistent     (Click on a graph to enlarge it.)       "
+  "body": "   Each graph below is the graph of a system of three linear equations in three unknowns. Determine which systems are consistent and inconsistent.               A.  choose  consistent  inconsistent   B.  inconsistent  consistent  choose   C.  choose  inconsistent  consistent                D.  choose  inconsistent  consistent   E.  choose  inconsistent  consistent   F.  choose  consistent  inconsistent                G.  consistent  inconsistent  choose   H.  choose  consistent  inconsistent   I.  choose  inconsistent   consistent     (Click on a graph to enlarge it.)       "
 },
 {
   "id": "pivots-find-polynomial",
@@ -1637,6 +1637,681 @@ var ptx_lunr_docs = [
   "number": "3.5.14",
   "title": "",
   "body": "   Let be the set of all vectors of the form with , and real. Find a matrix such that .   .       "
+},
+{
+  "id": "sec-eigen-intro",
+  "level": "1",
+  "url": "sec-eigen-intro.html",
+  "type": "Section",
+  "number": "4.1",
+  "title": "An introduction to eigenvalues and eigenvectors",
+  "body": " An introduction to eigenvalues and eigenvectors   Practice     Given that and are eigenvectors of the matrix determine the corresponding eigenvalues.   .   .                     Find the eigenvalues of , given that  and its eigenvectors are and .  The corresponding eigenvalues are , , and .                          Determine if is an eigenvector of the matrix .       2  0  0    6  3  -8    3  4  -9    ,    4    2    -3          -1  -3  -6    12  2  -6    -6  -3  -1    ,    1    -1    1          -1  -1  2    10  0  8    5  1  2    ,    -1    2    1                If and are eigenvectors of a matrix corresponding to the eigenvalues and , respectively,  then   and            Let be eigenvectors of the matrix which correspond to the eigenvalues , , and , respectively, and let  Express as a linear combination of , , and , and find .        .                             Find the eigenvalues of , given that  and its eigenvectors are and .  The corresponding eigenvalues are , , and .                          If and are eigenvectors of a matrix corresponding to the eigenvalues and , respectively,  then   and            Let be eigenvectors of the matrix which correspond to the eigenvalues , , and , respectively, and let  Express as a linear combination of , , and , and find .        .                            Find the characteristic polynomial of the matrix   .                The matrix has eigenvalues and . Find its eigenvectors.  The eigenvalue has associated eigenvector .  The eigenvalue has associated eigenvector .         "
+},
+{
+  "id": "determine-eigenvalues-1",
+  "level": "2",
+  "url": "sec-eigen-intro.html#determine-eigenvalues-1",
+  "type": "Exercise",
+  "number": "4.1.1",
+  "title": "",
+  "body": "   Given that and are eigenvectors of the matrix determine the corresponding eigenvalues.   .   .                 "
+},
+{
+  "id": "determine-eigenvalues-2",
+  "level": "2",
+  "url": "sec-eigen-intro.html#determine-eigenvalues-2",
+  "type": "Exercise",
+  "number": "4.1.2",
+  "title": "",
+  "body": "   Find the eigenvalues of , given that  and its eigenvectors are and .  The corresponding eigenvalues are , , and .                      "
+},
+{
+  "id": "verify-eigenvector-1",
+  "level": "2",
+  "url": "sec-eigen-intro.html#verify-eigenvector-1",
+  "type": "Exercise",
+  "number": "4.1.3",
+  "title": "",
+  "body": "   Determine if is an eigenvector of the matrix .       2  0  0    6  3  -8    3  4  -9    ,    4    2    -3          -1  -3  -6    12  2  -6    -6  -3  -1    ,    1    -1    1          -1  -1  2    10  0  8    5  1  2    ,    -1    2    1            "
+},
+{
+  "id": "determine-vector-1",
+  "level": "2",
+  "url": "sec-eigen-intro.html#determine-vector-1",
+  "type": "Exercise",
+  "number": "4.1.4",
+  "title": "",
+  "body": "   If and are eigenvectors of a matrix corresponding to the eigenvalues and , respectively,  then   and        "
+},
+{
+  "id": "eigen-linear-combination-1",
+  "level": "2",
+  "url": "sec-eigen-intro.html#eigen-linear-combination-1",
+  "type": "Exercise",
+  "number": "4.1.5",
+  "title": "",
+  "body": "   Let be eigenvectors of the matrix which correspond to the eigenvalues , , and , respectively, and let  Express as a linear combination of , , and , and find .        .                        "
+},
+{
+  "id": "eigenvalue-intro-M204-1",
+  "level": "2",
+  "url": "sec-eigen-intro.html#eigenvalue-intro-M204-1",
+  "type": "Exercise",
+  "number": "4.1.6",
+  "title": "",
+  "body": "   Find the eigenvalues of , given that  and its eigenvectors are and .  The corresponding eigenvalues are , , and .                      "
+},
+{
+  "id": "eigenvalue-intro-M204-2",
+  "level": "2",
+  "url": "sec-eigen-intro.html#eigenvalue-intro-M204-2",
+  "type": "Exercise",
+  "number": "4.1.7",
+  "title": "",
+  "body": "   If and are eigenvectors of a matrix corresponding to the eigenvalues and , respectively,  then   and        "
+},
+{
+  "id": "eigenvalue-intro-M204-3",
+  "level": "2",
+  "url": "sec-eigen-intro.html#eigenvalue-intro-M204-3",
+  "type": "Exercise",
+  "number": "4.1.8",
+  "title": "",
+  "body": "   Let be eigenvectors of the matrix which correspond to the eigenvalues , , and , respectively, and let  Express as a linear combination of , , and , and find .        .                        "
+},
+{
+  "id": "eigenvalue-intro-M204-4",
+  "level": "2",
+  "url": "sec-eigen-intro.html#eigenvalue-intro-M204-4",
+  "type": "Exercise",
+  "number": "4.1.9",
+  "title": "",
+  "body": "   Find the characteristic polynomial of the matrix   .            "
+},
+{
+  "id": "eigenvalue-intro-M204-5",
+  "level": "2",
+  "url": "sec-eigen-intro.html#eigenvalue-intro-M204-5",
+  "type": "Exercise",
+  "number": "4.1.10",
+  "title": "",
+  "body": "   The matrix has eigenvalues and . Find its eigenvectors.  The eigenvalue has associated eigenvector .  The eigenvalue has associated eigenvector .       "
+},
+{
+  "id": "sec-eigen-find",
+  "level": "1",
+  "url": "sec-eigen-find.html",
+  "type": "Section",
+  "number": "4.2",
+  "title": "Finding eigenvalues and eigenvectors",
+  "body": " Finding eigenvalues and eigenvectors    Practice     Find the characteristic polynomial of the matrix  We usually use the variable but for this problem you should use the variable instead.   .                Find the eigenvalues of the matrix The eigenvalues are .  (Enter your answers as a comma separated list. The list you enter should have repeated items if there are eigenvalues with multiplicity greater than one.)                Determine if is an eigenvalue of the matrix by calculating the determinant of the matrix .       -16  9    -42  23    ,       15  18    -12  -15    ,       -14  -6    30  13    ,             Find the characteristic polynomial of the matrix  We usually use the variable but for this problem you should use the variable instead.   .                Find the three distinct real eigenvalues of the matrix The eigenvalues are . (Enter your answers as a comma separated list.)                 Find the eigenvalues of the matrix  and find an corresponding eigenvector for each eigenvalue.   ,            and   ,                          Find the eigenvalues of the matrix and a corresponding eigenvector for each eigenvalue. Scale the eigenvector, if necessary, to have integer entries (no fractions).  The smaller eigenvalue is and has eigenvector  .  The larger eigenvalue is and has eigenvector  .                     The following matrix has eigenvalues , , and . Find an eigenvector corresponding to each eigenvalue.  The eigenvalue has an eigenvector .  The eigenvalue has an eigenvector .  The eigenvalue has an eigenvector .           Find the eigenvalues and eigenvectors of the matrix   ,               and   ,               and   ,                             Find a basis of the eigenspace associated with the eigenvalue of the matrix A basis for this eigenspace is   ,             Give an example of a matrix with no real eigenvalues.           The matrix has eigenvalue with an eigenspace of dimension 2.  Find a basis for the -eigenspace:             ,              (The eigenvalues of are .)                The matrix has two distinct eigenvalues with .  The smaller eigenvalue  has multiplicity and the dimension of the corresponding eigenspace is .  The larger eigenvalue  has multiplicity and the dimension of the corresponding eigenspace is .  Is the matrix diagonalizable?  choose   diagonalizable   not diagonalizable                                               Find a matrix such that are eigenvectors of with eigenvalues and , respectively.           "
+},
+{
+  "id": "find-characteristic-1",
+  "level": "2",
+  "url": "sec-eigen-find.html#find-characteristic-1",
+  "type": "Exercise",
+  "number": "4.2.1",
+  "title": "",
+  "body": "   Find the characteristic polynomial of the matrix  We usually use the variable but for this problem you should use the variable instead.   .            "
+},
+{
+  "id": "find-eigenvalues-1",
+  "level": "2",
+  "url": "sec-eigen-find.html#find-eigenvalues-1",
+  "type": "Exercise",
+  "number": "4.2.2",
+  "title": "",
+  "body": "   Find the eigenvalues of the matrix The eigenvalues are .  (Enter your answers as a comma separated list. The list you enter should have repeated items if there are eigenvalues with multiplicity greater than one.)            "
+},
+{
+  "id": "verify-eigenvalue-1",
+  "level": "2",
+  "url": "sec-eigen-find.html#verify-eigenvalue-1",
+  "type": "Exercise",
+  "number": "4.2.3",
+  "title": "",
+  "body": "   Determine if is an eigenvalue of the matrix by calculating the determinant of the matrix .       -16  9    -42  23    ,       15  18    -12  -15    ,       -14  -6    30  13    ,         "
+},
+{
+  "id": "find-characteristic-2",
+  "level": "2",
+  "url": "sec-eigen-find.html#find-characteristic-2",
+  "type": "Exercise",
+  "number": "4.2.4",
+  "title": "",
+  "body": "   Find the characteristic polynomial of the matrix  We usually use the variable but for this problem you should use the variable instead.   .            "
+},
+{
+  "id": "find-eigenvalues-2",
+  "level": "2",
+  "url": "sec-eigen-find.html#find-eigenvalues-2",
+  "type": "Exercise",
+  "number": "4.2.5",
+  "title": "",
+  "body": "   Find the three distinct real eigenvalues of the matrix The eigenvalues are . (Enter your answers as a comma separated list.)            "
+},
+{
+  "id": "find-eigenvalueANDvector-1",
+  "level": "2",
+  "url": "sec-eigen-find.html#find-eigenvalueANDvector-1",
+  "type": "Exercise",
+  "number": "4.2.6",
+  "title": "",
+  "body": "   Find the eigenvalues of the matrix  and find an corresponding eigenvector for each eigenvalue.   ,            and   ,                      "
+},
+{
+  "id": "find-eigenvalueANDvector-2",
+  "level": "2",
+  "url": "sec-eigen-find.html#find-eigenvalueANDvector-2",
+  "type": "Exercise",
+  "number": "4.2.7",
+  "title": "",
+  "body": "   Find the eigenvalues of the matrix and a corresponding eigenvector for each eigenvalue. Scale the eigenvector, if necessary, to have integer entries (no fractions).  The smaller eigenvalue is and has eigenvector  .  The larger eigenvalue is and has eigenvector  .                 "
+},
+{
+  "id": "find-eigenvalueANDvector-3",
+  "level": "2",
+  "url": "sec-eigen-find.html#find-eigenvalueANDvector-3",
+  "type": "Exercise",
+  "number": "4.2.8",
+  "title": "",
+  "body": "   The following matrix has eigenvalues , , and . Find an eigenvector corresponding to each eigenvalue.  The eigenvalue has an eigenvector .  The eigenvalue has an eigenvector .  The eigenvalue has an eigenvector .       "
+},
+{
+  "id": "find-eigenvalueANDvector-4",
+  "level": "2",
+  "url": "sec-eigen-find.html#find-eigenvalueANDvector-4",
+  "type": "Exercise",
+  "number": "4.2.9",
+  "title": "",
+  "body": "   Find the eigenvalues and eigenvectors of the matrix   ,               and   ,               and   ,                         "
+},
+{
+  "id": "eigenspace-basis-1",
+  "level": "2",
+  "url": "sec-eigen-find.html#eigenspace-basis-1",
+  "type": "Exercise",
+  "number": "4.2.10",
+  "title": "",
+  "body": "   Find a basis of the eigenspace associated with the eigenvalue of the matrix A basis for this eigenspace is   ,        "
+},
+{
+  "id": "eigenvalues-M204-1",
+  "level": "2",
+  "url": "sec-eigen-find.html#eigenvalues-M204-1",
+  "type": "Exercise",
+  "number": "4.2.11",
+  "title": "",
+  "body": "   Give an example of a matrix with no real eigenvalues.       "
+},
+{
+  "id": "eigenvalues-M204-2",
+  "level": "2",
+  "url": "sec-eigen-find.html#eigenvalues-M204-2",
+  "type": "Exercise",
+  "number": "4.2.12",
+  "title": "",
+  "body": "   The matrix has eigenvalue with an eigenspace of dimension 2.  Find a basis for the -eigenspace:             ,              (The eigenvalues of are .)            "
+},
+{
+  "id": "eigenvalues-M204-3",
+  "level": "2",
+  "url": "sec-eigen-find.html#eigenvalues-M204-3",
+  "type": "Exercise",
+  "number": "4.2.13",
+  "title": "",
+  "body": "   The matrix has two distinct eigenvalues with .  The smaller eigenvalue  has multiplicity and the dimension of the corresponding eigenspace is .  The larger eigenvalue  has multiplicity and the dimension of the corresponding eigenspace is .  Is the matrix diagonalizable?  choose   diagonalizable   not diagonalizable                                           "
+},
+{
+  "id": "eigenvalues-M204-4",
+  "level": "2",
+  "url": "sec-eigen-find.html#eigenvalues-M204-4",
+  "type": "Exercise",
+  "number": "4.2.14",
+  "title": "",
+  "body": "   Find a matrix such that are eigenvectors of with eigenvalues and , respectively.         "
+},
+{
+  "id": "sec-eigen-diag",
+  "level": "1",
+  "url": "sec-eigen-diag.html",
+  "type": "Section",
+  "number": "4.3",
+  "title": "Diagonalization, similarity, and powers of a matrix",
+  "body": " Diagonalization, similarity, and powers of a matrix    Practice     For the matrix , use SAGE to find an invertible matrix and a diagonal matrix such that or, equivalently, .               For each matrix , use SAGE to find an invertible matrix and a diagonal matrix such that or, equivalently, .  (a)                         0  0    0   0    0  0      (b)                         0  0    0   0    0  0                 Solution: First, find the eigenvalues of by solving the equation   for . Second, find an eigenvector basis for . For this, find a basis for each eigenspace and then put together these eigenvectors. Last, construct and . Specifically, is the square matrix whose columns are the eigenvector basis elements and is the diagonal matrix whose first diagonal entry is the eigenvalue corresponding to the first column of , etc. This way we get that  (a)  (b)           If is an eigenvalue of the matrix , we say its , denoted mult , is the exponent on the factor in the characteristic polynomial for . In order to have an eigenbasis of , we need for each eigenvalue of .  The matrix has two distinct eigenvalues with .  Use SAGE to calculate the eigenvalues with their multiplicity and the eigenvectors to determine the dimension of the corresponding eigenspaces.  The smaller eigenvalue  has multiplicity and the dimension of the corresponding eigenspace is .  The larger eigenvalue  has multiplicity and the dimension of the corresponding eigenspace is .  Is the matrix diagonalizable?  choose   diagonalizable   not diagonalizable                                               Consider the matrix Diagonalize to find a formula for the entries of , where is a positive integer.             Consider the sequence defined recursively by , , and for .  For example, you can check that .  Sometimes it is useful to have an explicit formula for .  First, find a matrix that satisfies .  Answer:   Now use SAGE to find a diagonal matrix and an invertible matrix such that .  Answer:     Next, use SAGE to find .  Answer:   Note that . We can use the diagonalization to find an explicit formula for .            Let Find an invertible matrix and a diagonal matrix such that .                Let .  Find and such that . ,     0  0    0   0    0  0     .           Given that the matrix has eigenvalues with corresponding eigenvector and with corresponding eigenvector , find .           "
+},
+{
+  "id": "find-invertable-SAGE-1",
+  "level": "2",
+  "url": "sec-eigen-diag.html#find-invertable-SAGE-1",
+  "type": "Exercise",
+  "number": "4.3.1",
+  "title": "",
+  "body": "   For the matrix , use SAGE to find an invertible matrix and a diagonal matrix such that or, equivalently, .           "
+},
+{
+  "id": "find-invertable-SAGE-2",
+  "level": "2",
+  "url": "sec-eigen-diag.html#find-invertable-SAGE-2",
+  "type": "Exercise",
+  "number": "4.3.2",
+  "title": "",
+  "body": "   For each matrix , use SAGE to find an invertible matrix and a diagonal matrix such that or, equivalently, .  (a)                         0  0    0   0    0  0      (b)                         0  0    0   0    0  0                 Solution: First, find the eigenvalues of by solving the equation   for . Second, find an eigenvector basis for . For this, find a basis for each eigenspace and then put together these eigenvectors. Last, construct and . Specifically, is the square matrix whose columns are the eigenvector basis elements and is the diagonal matrix whose first diagonal entry is the eigenvalue corresponding to the first column of , etc. This way we get that  (a)  (b)       "
+},
+{
+  "id": "find-eigenvalues-SAGE-1",
+  "level": "2",
+  "url": "sec-eigen-diag.html#find-eigenvalues-SAGE-1",
+  "type": "Exercise",
+  "number": "4.3.3",
+  "title": "",
+  "body": "   If is an eigenvalue of the matrix , we say its , denoted mult , is the exponent on the factor in the characteristic polynomial for . In order to have an eigenbasis of , we need for each eigenvalue of .  The matrix has two distinct eigenvalues with .  Use SAGE to calculate the eigenvalues with their multiplicity and the eigenvectors to determine the dimension of the corresponding eigenspaces.  The smaller eigenvalue  has multiplicity and the dimension of the corresponding eigenspace is .  The larger eigenvalue  has multiplicity and the dimension of the corresponding eigenspace is .  Is the matrix diagonalizable?  choose   diagonalizable   not diagonalizable                                           "
+},
+{
+  "id": "diagonalize-1",
+  "level": "2",
+  "url": "sec-eigen-diag.html#diagonalize-1",
+  "type": "Exercise",
+  "number": "4.3.4",
+  "title": "",
+  "body": "   Consider the matrix Diagonalize to find a formula for the entries of , where is a positive integer.         "
+},
+{
+  "id": "diagonal-SAGE-1",
+  "level": "2",
+  "url": "sec-eigen-diag.html#diagonal-SAGE-1",
+  "type": "Exercise",
+  "number": "4.3.5",
+  "title": "",
+  "body": "   Consider the sequence defined recursively by , , and for .  For example, you can check that .  Sometimes it is useful to have an explicit formula for .  First, find a matrix that satisfies .  Answer:   Now use SAGE to find a diagonal matrix and an invertible matrix such that .  Answer:     Next, use SAGE to find .  Answer:   Note that . We can use the diagonalization to find an explicit formula for .       "
+},
+{
+  "id": "diagonalize-2",
+  "level": "2",
+  "url": "sec-eigen-diag.html#diagonalize-2",
+  "type": "Exercise",
+  "number": "4.3.6",
+  "title": "",
+  "body": "   Let Find an invertible matrix and a diagonal matrix such that .           "
+},
+{
+  "id": "diagonalize-3",
+  "level": "2",
+  "url": "sec-eigen-diag.html#diagonalize-3",
+  "type": "Exercise",
+  "number": "4.3.7",
+  "title": "",
+  "body": "   Let .  Find and such that . ,     0  0    0   0    0  0     .       "
+},
+{
+  "id": "diagonalize-4",
+  "level": "2",
+  "url": "sec-eigen-diag.html#diagonalize-4",
+  "type": "Exercise",
+  "number": "4.3.8",
+  "title": "",
+  "body": "   Given that the matrix has eigenvalues with corresponding eigenvector and with corresponding eigenvector , find .         "
+},
+{
+  "id": "sec-dynamical",
+  "level": "1",
+  "url": "sec-dynamical.html",
+  "type": "Section",
+  "number": "4.4",
+  "title": "Dynamical systems",
+  "body": " Dynamical systems    Practice     Consider the dynamical system defined by where is a matrix with eigenvalues and corresponding eigenvectors  (a) Suppose the initial state is . Write as a linear combination of the eigenvectors of :    (b) Write as a linear combination of and .        (c) Find an exact formula for :  (d) What happens in the long run? For large ,                                                       Consider the dynamical system defined by where is a matrix with eigenvalues and corresponding eigenvectors  (a) Suppose the initial state is . Write as a linear combination of the eigenvectors of :    (b) Write as a linear combination of , , and :            (c) Find an exact formula for :  (d) What happens in the long run? For large ,                                                                       Let be a matrix with eigenvalues with corresponding eigenvectors  Consider the difference equation with initial condition .  Write the initial condition as a linear combination of the eigenvectors of .  That is, write    In general,       Specifically,   For large ,                                          Let be a matrix with eigenvalues with corresponding eigenvectors  Consider the difference equation  with initial condition .  Write the initial condition as a linear combination of the eigenvectors of .  That is, write    In general,       Specifically,   For large ,                                          Let be a matrix with eigenvalues with corresponding eigenvectors  Consider the difference equation  with initial condition .  Write the initial condition as a linear combination of the eigenvectors of .  That is, write    In general,           Specifically,   For large ,                                                                    "
+},
+{
+  "id": "dynamical-system-1",
+  "level": "2",
+  "url": "sec-dynamical.html#dynamical-system-1",
+  "type": "Exercise",
+  "number": "4.4.1",
+  "title": "",
+  "body": "   Consider the dynamical system defined by where is a matrix with eigenvalues and corresponding eigenvectors  (a) Suppose the initial state is . Write as a linear combination of the eigenvectors of :    (b) Write as a linear combination of and .        (c) Find an exact formula for :  (d) What happens in the long run? For large ,                                                   "
+},
+{
+  "id": "dynamical-system-2",
+  "level": "2",
+  "url": "sec-dynamical.html#dynamical-system-2",
+  "type": "Exercise",
+  "number": "4.4.2",
+  "title": "",
+  "body": "   Consider the dynamical system defined by where is a matrix with eigenvalues and corresponding eigenvectors  (a) Suppose the initial state is . Write as a linear combination of the eigenvectors of :    (b) Write as a linear combination of , , and :            (c) Find an exact formula for :  (d) What happens in the long run? For large ,                                                                  "
+},
+{
+  "id": "dynamical-system-Lay-1",
+  "level": "2",
+  "url": "sec-dynamical.html#dynamical-system-Lay-1",
+  "type": "Exercise",
+  "number": "4.4.3",
+  "title": "",
+  "body": "   Let be a matrix with eigenvalues with corresponding eigenvectors  Consider the difference equation with initial condition .  Write the initial condition as a linear combination of the eigenvectors of .  That is, write    In general,       Specifically,   For large ,                                      "
+},
+{
+  "id": "dynamical-system-Lay-2",
+  "level": "2",
+  "url": "sec-dynamical.html#dynamical-system-Lay-2",
+  "type": "Exercise",
+  "number": "4.4.4",
+  "title": "",
+  "body": "   Let be a matrix with eigenvalues with corresponding eigenvectors  Consider the difference equation  with initial condition .  Write the initial condition as a linear combination of the eigenvectors of .  That is, write    In general,       Specifically,   For large ,                                      "
+},
+{
+  "id": "dynamical-system-Lay-3",
+  "level": "2",
+  "url": "sec-dynamical.html#dynamical-system-Lay-3",
+  "type": "Exercise",
+  "number": "4.4.5",
+  "title": "",
+  "body": "   Let be a matrix with eigenvalues with corresponding eigenvectors  Consider the difference equation  with initial condition .  Write the initial condition as a linear combination of the eigenvectors of .  That is, write    In general,           Specifically,   For large ,                                                                  "
+},
+{
+  "id": "sec-stochastic",
+  "level": "1",
+  "url": "sec-stochastic.html",
+  "type": "Section",
+  "number": "4.5",
+  "title": "Markov chains and Google’s PageRank algorithm",
+  "body": " Markov chains and Google's PageRank algorithm    Practice     Consider a species of bird that can be split into three age groupings: those aged 0-1 years, those aged 1-2 years, and those aged 2-3 years. The population is observed once a year. Given that the Leslie matrix is equal to and the initial population distribution is of the first age group, of the second age group, and of the oldest age group, answer the following questions.  The initial population vector is  .  How many birds aged 1-2 years are there after 10 years?  How many birds aged 0-1 years are there after 20 years?  How many birds are there after 30 years?  Calculate the dominant eigenvalue of the Leslie matrix good to 3 decimal places.   What is the long-term growth rate of this population of birds as a percent? growth rate = (The growth rate is the percentage of growth over\/under 100%. For example, 1.02 is 102% so enter 2 and 0.98 is 98% so enter -2.)  Are the birds thriving, static, or going extinct?  going extinct   static   thriving                                          Determine if                   is a stochastic matrix.   True   False         SOLUTION: The answer is false since the third column does not sum to one.           In an office complex of 1010 employees, on any given day some are at work and the rest are absent. It is known that if an employee is at work today, there is an 85% chance that she will be at work tomorrow, and if the employee is absent today, there is a 52% chance that she will be absent tomorrow. Suppose that today there are 838 employees at work.  ( a ) Find the transition matrix for this scenario. (Assume the components of the state vector are listed in this order: [number at work, number absent]).  ( b ) Predict the number that will be at work five days from now. (Your answer should be an integer.)  ( c ) Find the steady-state vector and use it to find the limit distribution of employees (meaning the entries of your vector should add to 1010.) Note: the components need not be integers.        SOLUTION:  (a)  (b) , so the 770 employees will be at work five days from now.  (c)           Find all steady-state vectors for the given stochastic matrix.    Reminder: the entries of your vector should sum to 1.   SOLUTION: Solve by row-reducing the augmented matrix and we obtain Setting the column sum of equal to one, we need and so         "
+},
+{
+  "id": "markov-chains-1",
+  "level": "2",
+  "url": "sec-stochastic.html#markov-chains-1",
+  "type": "Exercise",
+  "number": "4.5.1",
+  "title": "",
+  "body": "   Consider a species of bird that can be split into three age groupings: those aged 0-1 years, those aged 1-2 years, and those aged 2-3 years. The population is observed once a year. Given that the Leslie matrix is equal to and the initial population distribution is of the first age group, of the second age group, and of the oldest age group, answer the following questions.  The initial population vector is  .  How many birds aged 1-2 years are there after 10 years?  How many birds aged 0-1 years are there after 20 years?  How many birds are there after 30 years?  Calculate the dominant eigenvalue of the Leslie matrix good to 3 decimal places.   What is the long-term growth rate of this population of birds as a percent? growth rate = (The growth rate is the percentage of growth over\/under 100%. For example, 1.02 is 102% so enter 2 and 0.98 is 98% so enter -2.)  Are the birds thriving, static, or going extinct?  going extinct   static   thriving                                      "
+},
+{
+  "id": "determine-stochastic-1",
+  "level": "2",
+  "url": "sec-stochastic.html#determine-stochastic-1",
+  "type": "Exercise",
+  "number": "4.5.2",
+  "title": "",
+  "body": "   Determine if                   is a stochastic matrix.   True   False         SOLUTION: The answer is false since the third column does not sum to one.       "
+},
+{
+  "id": "markov-chains-2",
+  "level": "2",
+  "url": "sec-stochastic.html#markov-chains-2",
+  "type": "Exercise",
+  "number": "4.5.3",
+  "title": "",
+  "body": "   In an office complex of 1010 employees, on any given day some are at work and the rest are absent. It is known that if an employee is at work today, there is an 85% chance that she will be at work tomorrow, and if the employee is absent today, there is a 52% chance that she will be absent tomorrow. Suppose that today there are 838 employees at work.  ( a ) Find the transition matrix for this scenario. (Assume the components of the state vector are listed in this order: [number at work, number absent]).  ( b ) Predict the number that will be at work five days from now. (Your answer should be an integer.)  ( c ) Find the steady-state vector and use it to find the limit distribution of employees (meaning the entries of your vector should add to 1010.) Note: the components need not be integers.        SOLUTION:  (a)  (b) , so the 770 employees will be at work five days from now.  (c)       "
+},
+{
+  "id": "find-steadystate--1",
+  "level": "2",
+  "url": "sec-stochastic.html#find-steadystate--1",
+  "type": "Exercise",
+  "number": "4.5.4",
+  "title": "",
+  "body": "   Find all steady-state vectors for the given stochastic matrix.    Reminder: the entries of your vector should sum to 1.   SOLUTION: Solve by row-reducing the augmented matrix and we obtain Setting the column sum of equal to one, we need and so       "
+},
+{
+  "id": "sec-dot-product",
+  "level": "1",
+  "url": "sec-dot-product.html",
+  "type": "Section",
+  "number": "5.1",
+  "title": "The dot product",
+  "body": " The dot product    Practice     Find the dot product of   .                Find the dot product of   .                Find the value of for which the vectors are orthogonal.   .                Find a non-zero vector perpendicular to the vector             From the list below, select the vector that is NOT orthogonal (perpendicular) to the vector:   Hint: We do not know the value of the angle , but we do know that .                                 Determine whether the given vectors are orthogonal , parallel , or neither .   choose one   Orthogonal   Parallel   Neither   1.  . and .   choose one   Orthogonal   Parallel   Neither   2.  . and .   choose one   Orthogonal   Parallel   Neither   3.  . and .                        "
+},
+{
+  "id": "find-dotproduct-1",
+  "level": "2",
+  "url": "sec-dot-product.html#find-dotproduct-1",
+  "type": "Exercise",
+  "number": "5.1.1",
+  "title": "",
+  "body": "   Find the dot product of   .            "
+},
+{
+  "id": "find-dotproduct-2",
+  "level": "2",
+  "url": "sec-dot-product.html#find-dotproduct-2",
+  "type": "Exercise",
+  "number": "5.1.2",
+  "title": "",
+  "body": "   Find the dot product of   .            "
+},
+{
+  "id": "find-orthogonal-1",
+  "level": "2",
+  "url": "sec-dot-product.html#find-orthogonal-1",
+  "type": "Exercise",
+  "number": "5.1.3",
+  "title": "",
+  "body": "   Find the value of for which the vectors are orthogonal.   .            "
+},
+{
+  "id": "find-orthogonal-2",
+  "level": "2",
+  "url": "sec-dot-product.html#find-orthogonal-2",
+  "type": "Exercise",
+  "number": "5.1.4",
+  "title": "",
+  "body": "   Find a non-zero vector perpendicular to the vector         "
+},
+{
+  "id": "determine-orthogonality-1",
+  "level": "2",
+  "url": "sec-dot-product.html#determine-orthogonality-1",
+  "type": "Exercise",
+  "number": "5.1.5",
+  "title": "",
+  "body": "   From the list below, select the vector that is NOT orthogonal (perpendicular) to the vector:   Hint: We do not know the value of the angle , but we do know that .                             "
+},
+{
+  "id": "determine-orthoganality-2",
+  "level": "2",
+  "url": "sec-dot-product.html#determine-orthoganality-2",
+  "type": "Exercise",
+  "number": "5.1.6",
+  "title": "",
+  "body": "   Determine whether the given vectors are orthogonal , parallel , or neither .   choose one   Orthogonal   Parallel   Neither   1.  . and .   choose one   Orthogonal   Parallel   Neither   2.  . and .   choose one   Orthogonal   Parallel   Neither   3.  . and .                      "
+},
+{
+  "id": "sec-transpose",
+  "level": "1",
+  "url": "sec-transpose.html",
+  "type": "Section",
+  "number": "5.2",
+  "title": "Orthogonal complements and the matrix transpose",
+  "body": " Orthogonal complements and the matrix transpose    Practice     If , then   .           If , then   .           Let Compute the following.               Let be a 2 by 7 matrix. Then is a by matrix.                     If then   and   .            Let be the column space of the matrix . Is the vector in the orthogonal complement ?       -4    9    7          -1    -6    -9          -1    -1    1                Let be the line through parallel to the vector  Find a basis for the orthogonal complement .  , ,           Let be the span of and . Find a basis for the orthogonal complement .  Basis:  ,            Find a non-zero vector perpendicular to the vectors             Find two linearly independent vectors perpendicular to the vector  ,         "
+},
+{
+  "id": "matrix-transpose-1",
+  "level": "2",
+  "url": "sec-transpose.html#matrix-transpose-1",
+  "type": "Exercise",
+  "number": "5.2.1",
+  "title": "",
+  "body": "   If , then   .       "
+},
+{
+  "id": "matrix-transpose-2",
+  "level": "2",
+  "url": "sec-transpose.html#matrix-transpose-2",
+  "type": "Exercise",
+  "number": "5.2.2",
+  "title": "",
+  "body": "   If , then   .       "
+},
+{
+  "id": "matrix-transpose-3",
+  "level": "2",
+  "url": "sec-transpose.html#matrix-transpose-3",
+  "type": "Exercise",
+  "number": "5.2.3",
+  "title": "",
+  "body": "   Let Compute the following.           "
+},
+{
+  "id": "matrix-transpose-4",
+  "level": "2",
+  "url": "sec-transpose.html#matrix-transpose-4",
+  "type": "Exercise",
+  "number": "5.2.4",
+  "title": "",
+  "body": "   Let be a 2 by 7 matrix. Then is a by matrix.                 "
+},
+{
+  "id": "matrix-transpose-5",
+  "level": "2",
+  "url": "sec-transpose.html#matrix-transpose-5",
+  "type": "Exercise",
+  "number": "5.2.5",
+  "title": "",
+  "body": "   If then   and   .       "
+},
+{
+  "id": "orthogonal-complement-1",
+  "level": "2",
+  "url": "sec-transpose.html#orthogonal-complement-1",
+  "type": "Exercise",
+  "number": "5.2.6",
+  "title": "",
+  "body": "   Let be the column space of the matrix . Is the vector in the orthogonal complement ?       -4    9    7          -1    -6    -9          -1    -1    1            "
+},
+{
+  "id": "orthogonal-complement-2",
+  "level": "2",
+  "url": "sec-transpose.html#orthogonal-complement-2",
+  "type": "Exercise",
+  "number": "5.2.7",
+  "title": "",
+  "body": "   Let be the line through parallel to the vector  Find a basis for the orthogonal complement .  , ,       "
+},
+{
+  "id": "orthogonal-complement-3",
+  "level": "2",
+  "url": "sec-transpose.html#orthogonal-complement-3",
+  "type": "Exercise",
+  "number": "5.2.8",
+  "title": "",
+  "body": "   Let be the span of and . Find a basis for the orthogonal complement .  Basis:  ,        "
+},
+{
+  "id": "find-orthogonal-vector-1",
+  "level": "2",
+  "url": "sec-transpose.html#find-orthogonal-vector-1",
+  "type": "Exercise",
+  "number": "5.2.9",
+  "title": "",
+  "body": "   Find a non-zero vector perpendicular to the vectors         "
+},
+{
+  "id": "find-orthogonal-vector-2",
+  "level": "2",
+  "url": "sec-transpose.html#find-orthogonal-vector-2",
+  "type": "Exercise",
+  "number": "5.2.10",
+  "title": "",
+  "body": "   Find two linearly independent vectors perpendicular to the vector  ,       "
+},
+{
+  "id": "sec-orthogonal-bases",
+  "level": "1",
+  "url": "sec-orthogonal-bases.html",
+  "type": "Section",
+  "number": "5.3",
+  "title": "Orthogonal bases and projections",
+  "body": " Orthogonal bases and projections    Practice     Compute the orthogonal projection of onto the line through and the origin.   .           Let be the line in that consists of all scalar multiples of the vector Find the orthogonal projection of the vector onto .             Given    5    2    4    , find the coordinates for the projection of into the subspace spanned by    -5    -2    2    and    -4    -3    -13    . Note that and are orthogonal.                          Find the orthogonal projection of onto the subspace of spanned by             Given , find the closest point to in the subspace spanned by and .         "
+},
+{
+  "id": "find-orthogonalProjection-1",
+  "level": "2",
+  "url": "sec-orthogonal-bases.html#find-orthogonalProjection-1",
+  "type": "Exercise",
+  "number": "5.3.1",
+  "title": "",
+  "body": "   Compute the orthogonal projection of onto the line through and the origin.   .       "
+},
+{
+  "id": "find-orthogonalProjection-2",
+  "level": "2",
+  "url": "sec-orthogonal-bases.html#find-orthogonalProjection-2",
+  "type": "Exercise",
+  "number": "5.3.2",
+  "title": "",
+  "body": "   Let be the line in that consists of all scalar multiples of the vector Find the orthogonal projection of the vector onto .         "
+},
+{
+  "id": "find-orthogonalProjection-3",
+  "level": "2",
+  "url": "sec-orthogonal-bases.html#find-orthogonalProjection-3",
+  "type": "Exercise",
+  "number": "5.3.3",
+  "title": "",
+  "body": "   Given    5    2    4    , find the coordinates for the projection of into the subspace spanned by    -5    -2    2    and    -4    -3    -13    . Note that and are orthogonal.                      "
+},
+{
+  "id": "find-orthogonalProjection-4",
+  "level": "2",
+  "url": "sec-orthogonal-bases.html#find-orthogonalProjection-4",
+  "type": "Exercise",
+  "number": "5.3.4",
+  "title": "",
+  "body": "   Find the orthogonal projection of onto the subspace of spanned by         "
+},
+{
+  "id": "find-closest-point-1",
+  "level": "2",
+  "url": "sec-orthogonal-bases.html#find-closest-point-1",
+  "type": "Exercise",
+  "number": "5.3.5",
+  "title": "",
+  "body": "   Given , find the closest point to in the subspace spanned by and .       "
+},
+{
+  "id": "sec-gram-schmidt",
+  "level": "1",
+  "url": "sec-gram-schmidt.html",
+  "type": "Section",
+  "number": "5.4",
+  "title": "Finding orthogonal bases",
+  "body": " Finding orthogonal bases    Practice     Let Use the Gram-Schmidt process to determine an orthonormal basis for the subspace of spanned by and .   ,            Let Use the Gram-Schmidt process to determine an orthonormal basis for the subspace of spanned by and .   ,            Let Use the Gram-Schmidt process to determine an orthonormal basis for the subspace of spanned by , , and .   , ,          "
+},
+{
+  "id": "Gram-Schmidt-find-orthonormalBasis-1",
+  "level": "2",
+  "url": "sec-gram-schmidt.html#Gram-Schmidt-find-orthonormalBasis-1",
+  "type": "Exercise",
+  "number": "5.4.1",
+  "title": "",
+  "body": "   Let Use the Gram-Schmidt process to determine an orthonormal basis for the subspace of spanned by and .   ,        "
+},
+{
+  "id": "Gram-Schmidt-find-orthonormalBasis-2",
+  "level": "2",
+  "url": "sec-gram-schmidt.html#Gram-Schmidt-find-orthonormalBasis-2",
+  "type": "Exercise",
+  "number": "5.4.2",
+  "title": "",
+  "body": "   Let Use the Gram-Schmidt process to determine an orthonormal basis for the subspace of spanned by and .   ,        "
+},
+{
+  "id": "Gram-Schmidt-find-orthonormalBasis-3",
+  "level": "2",
+  "url": "sec-gram-schmidt.html#Gram-Schmidt-find-orthonormalBasis-3",
+  "type": "Exercise",
+  "number": "5.4.3",
+  "title": "",
+  "body": "   Let Use the Gram-Schmidt process to determine an orthonormal basis for the subspace of spanned by , , and .   , ,        "
+},
+{
+  "id": "sec-least-squares",
+  "level": "1",
+  "url": "sec-least-squares.html",
+  "type": "Section",
+  "number": "5.5",
+  "title": "Orthogonal least squares",
+  "body": " Orthogonal least squares  "
 },
 {
   "id": "app-sage-reference",
