@@ -53,19 +53,19 @@
 
 		
 	<!-- Exercises from MATH-204-ww set04.12.21.Secs4.2-4.3.def -->
-		<exercise label="MATH-204-eigenvalues-1">
+		<exercise label="eigenvalues-M204-1">
 			<webwork source="Library/Rochester/setLinearAlgebra11Eigenvalues/ur_la_11_30.pg" />
 		</exercise>
 
-		<exercise label="MATH-204-eigenvalues-2">
+		<exercise label="eigenvalues-M204-2">
 			<webwork source="Library/METU-NCC/Linear_Algebra/3x3-2d_eig.pg" />
 		</exercise>
 		
-		<exercise label="MATH-204-eigenvalues-3">
+		<exercise label="eigenvalues-M204-3">
 			<webwork source="Library/Rochester/setLinearAlgebra11Eigenvalues/ur_la_11_7.pg" />
 		</exercise>
 		
-		<exercise label="MATH-204-eigenvalues-4">
+		<exercise label="eigenvalues-M204-4">
 			<webwork source="Library/Rochester/setLinearAlgebra11Eigenvalues/ur_la_11_11.pg" />
 		</exercise>
 

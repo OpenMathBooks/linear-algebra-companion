@@ -9,15 +9,15 @@
    <!-- Exercises from 4.3 - Edfinity -->
 		<title>Practice</title>
 
-		<exercise label="SAGE-find-invertable-1">
+		<exercise label="find-invertable-SAGE-1">
 			<webwork><xi:include href="./wwpg/4-3-1.pg" parse="text"/></webwork>
 		</exercise>
 
-		<exercise label="SAGE-find-invertable-2">
+		<exercise label="find-invertable-SAGE-2">
 			<webwork><xi:include href="./wwpg/4-3-2.pg" parse="text"/></webwork>
 		</exercise>    
     
-		<exercise label="SAGE-find-eigenvalues-1">
+		<exercise label="find-eigenvalues-SAGE-1">
 			<webwork><xi:include href="./wwpg/4-3-3.pg" parse="text"/></webwork>
 		</exercise>
     
@@ -25,7 +25,7 @@
 			<webwork><xi:include href="./wwpg/4-3-4.pg" parse="text"/></webwork>
 		</exercise>
 	    
-		<exercise label="SAGE-diagonal-1">
+		<exercise label="diagonal-SAGE-1">
 			<webwork><xi:include href="./wwpg/4-3-5.pg" parse="text"/></webwork>
 		</exercise>		
 
