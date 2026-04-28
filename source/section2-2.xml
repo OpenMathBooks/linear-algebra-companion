@@ -31,6 +31,37 @@
 			<webwork><xi:include href="./wwpg/2-2a-5.pg" parse="text"/></webwork>
 		</exercise>
 
+<!-- Exercises from 2.2b - Edfinity -->
+	  <exercise label="matrix-products_1">
+			<webwork><xi:include href="./wwpg/2-2b-1.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="matrix-products_2">
+			<webwork><xi:include href="./wwpg/2-2b-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="matrix-products_3">
+			<webwork><xi:include href="./wwpg/2-2b-3.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="matrix-products_4">
+			<webwork><xi:include href="./wwpg/2-2b-4.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="matrix-products_5">
+			<webwork><xi:include href="./wwpg/2-2b-5.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="matrix-products_5">
+			<webwork><xi:include href="./wwpg/2-2b-6.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="matrix-products_7">
+			<webwork><xi:include href="./wwpg/2-2b-7.pg" parse="text"/></webwork>
+		</exercise>
+
+
+
     <!-- Exercises added previously from WW database --> 			
 		<exercise label="matrices-lin-comb-1">
 			<webwork source="Library/TCNJ/TCNJ_MatrixEquations/problem6.pg" />
