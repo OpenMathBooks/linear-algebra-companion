@@ -9,6 +9,34 @@
 
   	<exercises>
 		<title>Practice</title>
+
+<!-- Exercises from 2.3a - Edfinity -->
+	  <exercise label="is-span_1">
+			<webwork><xi:include href="./wwpg/2-3a-1.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="is-span_2">
+			<webwork><xi:include href="./wwpg/2-3a-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="show-span_1">
+			<webwork><xi:include href="./wwpg/2-3a-3.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="vector-notSpan_1">
+			<webwork><xi:include href="./wwpg/2-3a-4.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="span-size_1">
+			<webwork><xi:include href="./wwpg/2-3a-5.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="span-lin-comb_1">
+			<webwork><xi:include href="./wwpg/2-3a-6.pg" parse="text"/></webwork>
+		</exercise>
+		
+
+
 <!-- Exercises from MATH-204-ww set02.22.21.Sects2.2-2.3.def -->
 		<exercise label="ms-span-line-plane,R3">
 			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem10.pg" />

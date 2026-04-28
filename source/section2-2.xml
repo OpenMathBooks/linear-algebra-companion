@@ -52,7 +52,7 @@
 			<webwork><xi:include href="./wwpg/2-2b-5.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="matrix-products_5">
+	  <exercise label="matrix-products_6">
 			<webwork><xi:include href="./wwpg/2-2b-6.pg" parse="text"/></webwork>
 		</exercise>
 
