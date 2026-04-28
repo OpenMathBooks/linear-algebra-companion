@@ -39,7 +39,27 @@
 	  <exercise label="vector-start_1">
 			<webwork><xi:include href="./wwpg/2-1a-7.pg" parse="text"/></webwork>
 		</exercise>
+	
+	<!-- Exercises from 2.1b - Edfinity -->
+	  <exercise label="vector-linear-combination_1">
+			<webwork><xi:include href="./wwpg/2-1b-1.pg" parse="text"/></webwork>
+		</exercise>
 
+	  <exercise label="vector-linear-combination_2">
+			<webwork><xi:include href="./wwpg/2-1b-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="vector-linear-combination_3">
+			<webwork><xi:include href="./wwpg/2-1b-3.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="geometry-linear-combination_1">
+			<webwork><xi:include href="./wwpg/2-1b-4.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="vector-linear-combination_4">
+			<webwork><xi:include href="./wwpg/2-1b-5.pg" parse="text"/></webwork>
+		</exercise>
 
     <!-- Exercises added previously from WW database --> 		
 		<exercise label="vectors-lin-comb-0">

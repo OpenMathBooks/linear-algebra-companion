@@ -1,0 +1,108 @@
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+DOCUMENT();
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "MatrixUnits.pl",
+  "parserMultiAnswer.pl",
+  "PGcourse.pl"
+);
+
+$showPartialCorrectAnswers = 0;
+$refreshCachedImages = 1;
+TEXT(beginproblem()); 
+
+# Generating a matrix where there is NO solution
+do {
+
+$A = Matrix([
+[non_zero_random(-5,5,1),non_zero_random(-5,5,1),non_zero_random(-5,5,1)],
+[non_zero_random(-5,5,1),non_zero_random(-5,5,1),non_zero_random(-5,5,1)],
+[non_zero_random(-5,5,1),non_zero_random(-5,5,1),non_zero_random(-5,5,1)],
+]);
+
+} until ($A->det != 0);
+
+foreach my $i (1..3) {
+  foreach my $j (1..3) {
+    $a[$i][$j] = $A->element($i,$j);
+  }
+}
+$p1[0] = Matrix([[$a[1][1]],[$a[2][1]],[$a[3][1]]]);
+$p2[0] = Matrix([[$a[1][2]],[$a[2][2]],[$a[3][2]]]);
+
+$q[0] = Matrix([[$a[1][3]],[$a[2][3]],[$a[3][3]]]);
+
+
+# Generating a matrix where there IS a solution
+# I manually controlled 3rd row to create determinant 0 matrix
+do {
+
+$B = Matrix([
+[non_zero_random(-5,5,1),non_zero_random(-5,5,1),non_zero_random(-5,5,1)],
+[non_zero_random(-5,5,1),non_zero_random(-5,5,1),non_zero_random(-5,5,1)],
+[non_zero_random(-5,5,1),non_zero_random(-5,5,1),non_zero_random(-5,5,1)],
+]);
+
+} until ($B->det != 0);
+
+foreach my $i (1..2) {
+  foreach my $j (1..3) {
+    $b[$i][$j] = $B->element($i,$j);
+  }
+}
+
+  foreach my $j (1..3){
+$b[3][$j]= $b[1][$j]+2*$b[2][$j];
+}
+
+$p1[1] = Matrix([[$b[1][1]],[$b[2][1]],[$b[3][1]]]);
+$p2[1] = Matrix([[$b[1][2]],[$b[2][2]],[$b[3][2]]]);
+
+$q[1] = Matrix([[$b[1][3]],[$b[2][3]],[$b[3][3]]]);
+
+# Setting up literal text answers yes or no.
+Context()->strings->add(no=>{});
+Context()->strings->add(yes=>{});
+$ansno = "no";
+$ansyes = "yes";
+
+# Mixing up the order for yes/no
+$k0 = random(0,1);
+$k1 = Compute(1-$k0);
+
+if ( $k0 == 0 ) {
+    $ans1 = $ansno, $ans2=$ansyes;
+} else {
+    $ans1 = $ansyes, $ans2=$ansno;
+}
+
+
+Context()->texStrings;
+BEGIN_TEXT
+Use SAGE to help you answer this question.  To answer the question, either type yes or no in the box.
+
+$BR
+$HR
+$BR
+
+Can \($q[$k0] \) be written as a linear combination of \( $p1[$k0] \) and \( $p2[$k0] \)? \{ ans_rule(10) \}
+
+$BR
+$HR
+$BR
+
+Can \( $q[$k1] \) be written as a linear combination of \( $p1[$k1] \) and \( $p2[$k1] \)? \{ ans_rule(10) \}
+
+END_TEXT
+Context()->normalStrings;
+
+ANS(Compute("$ans1")->cmp);
+ANS(Compute("$ans2")->cmp);
+
+ENDDOCUMENT();
+
+

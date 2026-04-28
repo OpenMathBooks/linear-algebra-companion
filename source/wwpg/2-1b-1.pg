@@ -1,0 +1,62 @@
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+## Tagged by cmd6a 4/29/06
+
+## DBsubject(Linear algebra)
+## DBchapter(Euclidean spaces)
+## DBsection(Linear combinations)
+## Date(July 2013)
+## Institution(Rochester and Hope College)
+## Author(Paul Pearson)
+## Level(3)
+## MO(1)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('Jeffrey Holt')
+## EditionText1('1')
+## Section1('2.1')
+## Problem1('')
+
+DOCUMENT();
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGcourse.pl"
+);
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Matrix');
+
+$u1 = non_zero_random(-6,6,2);
+$u2 = random(-5,5,2);
+$v1 = random(-5,5,2);
+$v2 = random(-6,6,1);
+
+$ans1 = non_zero_random(-6,6,1);
+$ans2 = non_zero_random(-6,6,1);
+if (abs($ans1)==1) { $ans2 = random(2,6,1) * random(-1,1,2); } 
+
+$b1 = $ans1 * $u1 + $ans2 * $v1;
+$b2 = $ans1 * $u2 + $ans2 * $v2;
+
+$b = Matrix([[$b1], [$b2]]);
+$u = Matrix([[$u1], [$u2]]);
+$v = Matrix([[$v1], [$v2]]);
+
+Context()->texStrings;
+BEGIN_TEXT
+Express the vector \(\vec{b}= $b\) as a linear combination of \(\vec{u}= $u\) and \(\vec{v}=$v\).
+$BR
+Use SAGE to help you answer this question.
+$BR
+\( \vec{b} = \) \{ans_rule(5)\} \(\vec{u}+\) \{ans_rule(5)\} \(\vec{v}\). $BR
+$BR 
+END_TEXT
+Context()->normalStrings;
+
+ANS(Compute("$ans1")->cmp);
+ANS(Compute("$ans2")->cmp);
+;
+ENDDOCUMENT();
