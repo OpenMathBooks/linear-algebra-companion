@@ -1,0 +1,80 @@
+## DESCRIPTION
+## Linear Algebra
+## ENDDESCRIPTION
+
+
+## DBsubject(Linear algebra)
+## DBchapter(Euclidean spaces)
+## DBsection(Basis and dimension)
+## Date(July 2013)
+## Institution(Hope College)
+## Author(Paul Pearson)
+## Level(3)
+## KEYWORDS('linear algebra','vector space','subspaces')
+
+DOCUMENT();
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "MatrixUnits.pl",
+  "MatrixReduce.pl",
+  "parserPopUp.pl",
+  "PGcourse.pl",
+    "parserRadioButtons.pl",
+);
+Context("Numeric");
+
+$radio = RadioButtons(
+  [ " No solution", " Exactly one solution"," Infinitely many solutions"],
+  " Exactly one solution" # correct answer
+);
+
+$showPartialCorrectAnswers = 0;
+$refreshCachedImages = 1;
+TEXT(beginproblem()); 
+
+Context('Fraction');
+Context('Fraction')->parens->set("[" => {formMatrix => 1});
+
+$U = GL3Z();
+$U = apply_fraction_to_matrix_entries($U);
+
+$A = Matrix([
+[3,-1,-2],
+[3,2,-2],
+[3,-3,-2],
+]);
+$A = apply_fraction_to_matrix_entries($A);
+
+foreach my $i (1..3) {
+  $a[$i] = $A->column($i);
+}
+
+$Ared = rref($A);
+
+$C = $U * $A;
+foreach my $i (1..4) {
+  $c[$i] = $C->column($i);
+}
+$Cred = rref($C);
+
+Context()->texStrings;
+BEGIN_TEXT
+Use SAGE to find the reduced row echelon form of the matrix \[ C = $C. \]
+
+$BR
+\( \mathrm{rref}(C) = \) \{ $Cred->ans_array(5) \}
+$BR
+
+If \(C\) is the augmented matrix of a system of linear equations, 
+how many solutions does the corresponding system have?
+$BR
+\{ $radio->buttons() \}
+
+END_TEXT
+Context()->normalStrings;
+
+ANS($Cred->cmp);
+ANS( $radio->cmp() );
+
+ENDDOCUMENT();

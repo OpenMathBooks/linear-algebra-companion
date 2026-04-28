@@ -7,8 +7,26 @@
     Computation with Sage
   </title>
 
-	<p>
-		There are currently no exercises for this section.
-	</p>
+<exercises xml:id="computations-with-SAGE">
+		<title>Practice</title>		
+<!-- Exercises from 1.3 - Edfinity problem 1 non-WW-->
+	  <!-- <exercise label="sage-computation_1">
+			<webwork><xi:include href="./wwpg/1-3-1.pg" parse="text"/></webwork>
+		</exercise> -->
+
+	  <exercise label="sage-computation_2">
+			<webwork><xi:include href="./wwpg/1-3-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="sage-computation_3">
+			<webwork><xi:include href="./wwpg/1-3-3.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="sage-computation_4">
+			<webwork><xi:include href="./wwpg/1-3-4.pg" parse="text"/></webwork>
+		</exercise>
+
+	</exercises>
+
 </section>
 
