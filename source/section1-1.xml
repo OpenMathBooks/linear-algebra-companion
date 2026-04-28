@@ -36,28 +36,28 @@
 		</exercise>
 
 <!-- Exercises from 1.1b - Edfinity -->
-	  <exercise label="row-operation_1">
-			<webwork><xi:include href="./wwpg/1-1a-1.pg" parse="text"/></webwork>
+	  <exercise label="graphical-solutions_1">
+			<webwork><xi:include href="./wwpg/1-1b-1.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="row-operation_2">
-			<webwork><xi:include href="./wwpg/1-1a-2.pg" parse="text"/></webwork>
+	  <exercise label="graphical-solutions_2">
+			<webwork><xi:include href="./wwpg/1-1b-2.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="row-operation_3">
-			<webwork><xi:include href="./wwpg/1-1a-3.pg" parse="text"/></webwork>
+	  <exercise label="graphical-solutions_3">
+			<webwork><xi:include href="./wwpg/1-1b-3.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="row-operation_Multiple_1">
-			<webwork><xi:include href="./wwpg/1-1a-4.pg" parse="text"/></webwork>
+	  <exercise label="graphical-NumberOfSolutions_1">
+			<webwork><xi:include href="./wwpg/1-1b-4.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="matrix-rref_1">
-			<webwork><xi:include href="./wwpg/1-1a-5.pg" parse="text"/></webwork>
+	  <exercise label="is-system-solution_1">
+			<webwork><xi:include href="./wwpg/1-1b-5.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="system_NumberOfSolutions_1">
-			<webwork><xi:include href="./wwpg/1-1a-6.pg" parse="text"/></webwork>
+	  <exercise label="is-system-solution_2">
+			<webwork><xi:include href="./wwpg/1-1b-6.pg" parse="text"/></webwork>
 		</exercise>
 
    <!-- Exercises added previously from WW database -->
