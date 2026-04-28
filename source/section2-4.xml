@@ -31,6 +31,20 @@
 			<webwork><xi:include href="./wwpg/2-4a-5.pg" parse="text"/></webwork>
 		</exercise>
 
+
+<!-- Exercises from 2.4b - Edfinity -->
+	  <exercise label="homogeneous-system-solutions_1">
+			<webwork><xi:include href="./wwpg/2-4b-1.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="homogeneous-system-solutions_2">
+			<webwork><xi:include href="./wwpg/2-4b-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="homogeneous-system-solutions_3">
+			<webwork><xi:include href="./wwpg/2-4b-3.pg" parse="text"/></webwork>
+		</exercise>
+
 <!-- Exercises from MATH-204-ww set03.01.21.Sects2.3-2.4.def -->
 		<exercise label="lin-ind-1">
 			<webwork source="Library/TCNJ/TCNJ_SolutionSetsLinearSystems/problem7.pg" />
