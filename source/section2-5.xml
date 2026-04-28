@@ -9,6 +9,49 @@
 
   	<exercises>
 		<title>Practice</title>
+
+<!-- Exercises from 2.5a - Edfinity -->
+	  <exercise label="linear-transformation_1">
+			<webwork><xi:include href="./wwpg/2-5a-1.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="linear-transformation_2">
+			<webwork><xi:include href="./wwpg/2-5a-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="linear-transformation_3">
+			<webwork><xi:include href="./wwpg/2-5a-3.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="linear-transformation_4">
+			<webwork><xi:include href="./wwpg/2-5a-4.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="linear-transformation_5">
+			<webwork><xi:include href="./wwpg/2-5a-5.pg" parse="text"/></webwork>
+		</exercise>		
+
+	  <exercise label="linear-transformation_6">
+			<webwork><xi:include href="./wwpg/2-5a-6.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="linear-transformation_7">
+			<webwork><xi:include href="./wwpg/2-5a-7.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="linear-transformation_8">
+			<webwork><xi:include href="./wwpg/2-5a-8.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="linear-transformation_9">
+			<webwork><xi:include href="./wwpg/2-5a-9.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="linear-transformation_10">
+			<webwork><xi:include href="./wwpg/2-5a-10.pg" parse="text"/></webwork>
+		</exercise>		
+
+
 <!-- Exercises from MATH-204-ww set03.08.21.Sects2.5-2.6.def -->
 		<exercise label="maxtrix-transformations-1">
 			<webwork source="Library/TCNJ/TCNJ_MatrixLinearTransformation/problem11.pg" />
