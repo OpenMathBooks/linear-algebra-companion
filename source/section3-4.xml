@@ -8,6 +8,31 @@
   <exercises>
 		<title>Practice</title>
 
+<!-- Exercises from 3.4 - Edfinity -->
+ 
+		<exercise label="determinant_1">
+			<webwork><xi:include href="./wwpg/3-4-1.pg" parse="text"/></webwork>
+		</exercise>
+
+		<exercise label="determinant_2">
+			<webwork><xi:include href="./wwpg/3-4-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="determinant_3">
+			<webwork><xi:include href="./wwpg/3-4-3.pg" parse="text"/></webwork>
+		</exercise>		
+
+	  <exercise label="determinant_4">
+			<webwork><xi:include href="./wwpg/3-4-4.pg" parse="text"/></webwork>
+		</exercise>
+		
+	  <exercise label="determinant_5">
+			<webwork><xi:include href="./wwpg/3-4-5.pg" parse="text"/></webwork>
+		</exercise>
+ 
+
+<!-- Previous Exercises Found WW -->
+
 		<exercise label="determinants-compute-1">
 			<webwork source="Library/maCalcDB/setAlgebra34Matrices/determinant_2x2.pg" />
 		</exercise>
