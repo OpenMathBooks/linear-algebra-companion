@@ -1,0 +1,98 @@
+## DESCRIPTION
+## Systems of Linear Equations
+## ENDDESCRIPTION
+
+## Tagged by tda2d
+
+## DBsubject(Linear algebra)
+## DBchapter(Systems of linear equations)
+## DBsection(Augmented matrices)
+## Institution(ASU)
+## MLT(augmat)
+## MLTleader(1)
+## Level(2)
+## KEYWORDS('Algebra' 'Linear Equations' 'Matrix' 'Matrices')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "PGasu.pl",
+  "PGchoicemacros.pl",
+  "PGmatrixmacros.pl",
+  "PGcourse.pl"
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+$a1 = non_zero_random(-9,9,1);
+$b1 = non_zero_random(-9,9,1);
+$d1 = 0;
+$a2 = non_zero_random(-9,9,1);
+$b2 = non_zero_random(-9,9,1);
+$d2 = 0;
+$a3 = 0;
+$b3 = non_zero_random(-9,9,1);
+$d3 = 0;
+$a4 = non_zero_random(-9,9,1);
+$b4 = 0;
+$d4 = 0;
+$a5 = non_zero_random(-9,9,1);
+$b5 = non_zero_random(-9,9,1);
+$d5 = 0;
+
+@a = ($a1, $a2, $a3, $a4, $a5);
+@b = ($b1, $b2, $b3, $b4, $b5);
+@d = ($d1, $d2, $d3, $d4, $d5);
+
+@mx = ("$a1 x_1", "$a2 x_1", "", "$a4 x_1", "$a5 x_1");
+@my = ("+$b1 x_2", "+$b2 x_2", "+$b3 x_2", "", "+$b5 x_2");
+@m = ("$d1", "$d2", "$d3", "$d4", "$d5");
+
+$tag1 = random(0,2,1);
+$tag2 = $tag1 +1;
+$tag3 = $tag1 +2;
+ 
+$NO_SPACE = '@{}';
+
+BEGIN_TEXT
+
+Write the augmented matrix of the system
+\[ \left\{"\{"\} \begin{array}{r${NO_SPACE}r${NO_SPACE}r${NO_SPACE}r${NO_SPACE}r}
+\{join("&",$mx[$tag1],$my[$tag1],"=",$m[$tag1] ) \} \cr
+\{join("&",$mx[$tag2],$my[$tag2],"=",$m[$tag2] ) \} \cr
+\{join("&",$mx[$tag3],$my[$tag3],"=",$m[$tag3] ) \} \cr
+\end{array} \right. \]
+
+$BR
+
+$BCENTER
+\{display_matrix([[ans_rule(5),ans_rule(5),ans_rule(5)],
+[ans_rule(5),ans_rule(5),ans_rule(5)],
+[ans_rule(5),ans_rule(5),ans_rule(5)]],
+  'align' =>"cc|c")
+\}
+$ECENTER
+
+
+END_TEXT
+
+
+
+ANS(num_cmp($a[$tag1], mode=>"arith"));
+ANS(num_cmp($b[$tag1], mode=>"arith"));
+ANS(num_cmp($d[$tag1], mode=>"arith"));
+
+# row 2
+ANS(num_cmp($a[$tag2], mode=>"arith"));
+ANS(num_cmp($b[$tag2], mode=>"arith"));
+ANS(num_cmp($d[$tag2], mode=>"arith"));
+
+# row 3
+ANS(num_cmp($a[$tag3], mode=>"arith"));
+ANS(num_cmp($b[$tag3], mode=>"arith"));
+ANS(num_cmp($d[$tag3], mode=>"arith"));
+
+
+ENDDOCUMENT();       # This should be the last executable line in the problem.

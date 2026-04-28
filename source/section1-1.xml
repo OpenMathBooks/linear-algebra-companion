@@ -10,6 +10,57 @@
   <exercises xml:id="expect-practice">
     <title>Practice</title>
 
+ <!-- Exercises from 1.1a - Edfinity -->
+	  <exercise label="augmented-matrix_1">
+			<webwork><xi:include href="./wwpg/1-1a-1.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="augmented-matrix_2">
+			<webwork><xi:include href="./wwpg/1-1a-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="augmented-matrix_3">
+			<webwork><xi:include href="./wwpg/1-1a-3.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="augmented-matrix_4">
+			<webwork><xi:include href="./wwpg/1-1a-4.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="augmented-matrix_5">
+			<webwork><xi:include href="./wwpg/1-1a-5.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="augmented-matrix_6">
+			<webwork><xi:include href="./wwpg/1-1a-6.pg" parse="text"/></webwork>
+		</exercise>
+
+<!-- Exercises from 1.1b - Edfinity -->
+	  <exercise label="row-operation_1">
+			<webwork><xi:include href="./wwpg/1-1a-1.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="row-operation_2">
+			<webwork><xi:include href="./wwpg/1-1a-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="row-operation_3">
+			<webwork><xi:include href="./wwpg/1-1a-3.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="row-operation_Multiple_1">
+			<webwork><xi:include href="./wwpg/1-1a-4.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="matrix-rref_1">
+			<webwork><xi:include href="./wwpg/1-1a-5.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="system_NumberOfSolutions_1">
+			<webwork><xi:include href="./wwpg/1-1a-6.pg" parse="text"/></webwork>
+		</exercise>
+
+   <!-- Exercises added previously from WW database -->
     <exercise label="system-word-problem-1">
       <webwork source="Library/ASU-topics/set119LinearSystems/p8.pg" />
     </exercise>
