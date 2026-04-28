@@ -9,6 +9,44 @@
 
   	<exercises>
 		<title>Practice</title>
+
+<!-- Exercises from 2.6 - Edfinity -->
+	  <exercise label="linear-tranformation_1">
+			<webwork><xi:include href="./wwpg/2-6-1.pg" parse="text"/></webwork>
+		</exercise>
+
+<!-- Non-WW enabled Problems from this edfinity section -->
+	  <!-- <exercise label="linear-tranformation_2">
+			<webwork><xi:include href="./wwpg/2-6-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="linear-tranformation_3">
+			<webwork><xi:include href="./wwpg/2-6-3.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="linear-tranformation_4">
+			<webwork><xi:include href="./wwpg/2-6-4.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="linear-tranformation_5">
+			<webwork><xi:include href="./wwpg/2-6-5.pg" parse="text"/></webwork>
+		</exercise>		
+
+	  <exercise label="geometry-transformation_1">
+			<webwork><xi:include href="./wwpg/2-6-6.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="geometry-transformation_2">
+			<webwork><xi:include href="./wwpg/2-6-7.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="geometry-transformation_3">
+			<webwork><xi:include href="./wwpg/2-6-8.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="geometry-transformation_4">
+			<webwork><xi:include href="./wwpg/2-6-9.pg" parse="text"/></webwork>
+		</exercise> -->
     
 <!-- 2.6 Problems found by Andrew -->
  <!-- The following exercise are from WW: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: Properties, not including Contrib] -->
