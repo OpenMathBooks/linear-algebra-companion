@@ -10,7 +10,29 @@
 
 	<exercises xml:id="pivots-practice">
 		<title>Practice</title>
-		
+
+	<!-- Exercises from 1.4 - Edfinity -->
+	  <exercise label="number-pivots_1">
+			<webwork><xi:include href="./wwpg/1-4-1.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="number-variables_1">
+			<webwork><xi:include href="./wwpg/1-4-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="number-free-variables_1">
+			<webwork><xi:include href="./wwpg/1-4-3.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="augment-matrix_1">
+			<webwork><xi:include href="./wwpg/1-4-4.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="augment-matrix_2">
+			<webwork><xi:include href="./wwpg/1-4-5.pg" parse="text"/></webwork>
+		</exercise>
+
+    <!-- Exercises added previously from WW database --> 	
 		<exercise label="pivots-count-1">
 			<webwork source="Library/TCNJ/TCNJ_RowReduction/problem13.pg" />
 		</exercise>
