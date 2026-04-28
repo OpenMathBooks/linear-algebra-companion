@@ -36,6 +36,36 @@
 		</exercise>
 		
 
+<!-- Exercises from 2.3b - Edfinity -->
+	  <exercise label="rank_1">
+			<webwork><xi:include href="./wwpg/2-3b-1.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="rank_2">
+			<webwork><xi:include href="./wwpg/2-3b-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="row-reduce_1">
+			<webwork><xi:include href="./wwpg/2-3b-3.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="row-reduce_2">
+			<webwork><xi:include href="./wwpg/2-3b-4.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="row-reduce_3">
+			<webwork><xi:include href="./wwpg/2-3b-5.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="row-reduce_4">
+			<webwork><xi:include href="./wwpg/2-3b-6.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="span-size_2">
+			<webwork><xi:include href="./wwpg/2-3b-7.pg" parse="text"/></webwork>
+		</exercise>
+		
+		
 
 <!-- Exercises from MATH-204-ww set02.22.21.Sects2.2-2.3.def -->
 		<exercise label="ms-span-line-plane,R3">
