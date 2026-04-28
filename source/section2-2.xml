@@ -9,7 +9,29 @@
 
   	<exercises>
 		<title>Practice</title>
-		
+
+<!-- Exercises from 2.2a - Edfinity -->
+	  <exercise label="matrix-vector-product_1">
+			<webwork><xi:include href="./wwpg/2-2a-1.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="matrix-vector-product_2">
+			<webwork><xi:include href="./wwpg/2-2a-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="matrix-product_1">
+			<webwork><xi:include href="./wwpg/2-2a-3.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="matrix-product-defined_1">
+			<webwork><xi:include href="./wwpg/2-2a-4.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="system-AsMatrix_1">
+			<webwork><xi:include href="./wwpg/2-2a-5.pg" parse="text"/></webwork>
+		</exercise>
+
+    <!-- Exercises added previously from WW database --> 			
 		<exercise label="matrices-lin-comb-1">
 			<webwork source="Library/TCNJ/TCNJ_MatrixEquations/problem6.pg" />
 		</exercise>
