@@ -9,7 +9,39 @@
 
 	<exercises>
 		<title>Practice</title>
-		
+	
+	
+	<!-- Exercises from 2.1a - Edfinity -->
+	  <exercise label="linear-combinations_1">
+			<webwork><xi:include href="./wwpg/2-1a-1.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="linear-combinations_2">
+			<webwork><xi:include href="./wwpg/2-1a-2.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="vector-length_1">
+			<webwork><xi:include href="./wwpg/2-1a-3.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="vector-length_2">
+			<webwork><xi:include href="./wwpg/2-1a-4.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="vector-unit_1">
+			<webwork><xi:include href="./wwpg/2-1a-5.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="vector-unit_2">
+			<webwork><xi:include href="./wwpg/2-1a-6.pg" parse="text"/></webwork>
+		</exercise>
+
+	  <exercise label="vector-start_1">
+			<webwork><xi:include href="./wwpg/2-1a-7.pg" parse="text"/></webwork>
+		</exercise>
+
+
+    <!-- Exercises added previously from WW database --> 		
 		<exercise label="vectors-lin-comb-0">
 			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.6.pg" />
 		</exercise>
