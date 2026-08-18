@@ -1,0 +1,81 @@
+##DESCRIPTION
+##
+##ENDDESCRIPTION
+
+## DBsubject(Linear algebra)
+## DBchapter(Matrices)
+## DBsection(Markov chains)
+## Date(2/6/2022)
+## Author(Su Doree)
+## Level(3)
+## MO(1)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('David Lay')
+## EditionText1('5')
+
+
+########################################################################
+
+DOCUMENT();      
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "freemanMacros.pl",
+  "answerHints.pl",
+  "PGcourse.pl"
+);
+
+# Print problem number and point value (weight) for the problem
+TEXT(beginproblem());
+
+# Show which answers are correct and which ones are incorrect
+$showPartialCorrectAnswers = 1;
+
+##############################################################
+#
+#  Setup
+#
+#
+Context("Matrix");
+$citytoburbs = Compute(random(21,30));
+$burbstocity = Compute(random(15,20));
+
+$transition = Matrix([[1-$citytoburbs/100,$burbstocity/100],[$citytoburbs/100,1-$burbstocity/100]]);
+
+##############################################################
+#
+#  Text
+#
+#
+
+Context()->texStrings;
+BEGIN_TEXT
+$BR
+In an urban area for a given year, approximately $citytoburbs% of people living in the city move to the suburbs 
+(and the rest stay in the city) and $burbstocity% of people living in the suburbs move to the city (and the rest stay in the suburbs.)
+$PAR
+$BR
+
+In this problem we explore a simplified model where nobody moves out of the area entirely and there are no births and no deaths.
+$PAR
+$BR
+
+Find the transition matrix for this scenario. Assume the components of the state vector are listed in this order: [city population, suburb population]. 
+The transition matrix should have the percentages written as decimals.
+$PAR
+$BR
+
+\{$transition->ans_array\}
+END_TEXT
+Context()->normalStrings;
+
+##############################################################
+#
+#  Answers
+#
+#
+ANS($transition->cmp() );
+
+
+ENDDOCUMENT();        

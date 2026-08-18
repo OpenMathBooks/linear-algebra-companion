@@ -321,7 +321,7 @@
       </choices>
     </exercise>
 
-    <exercise label="row-ops-mc 5">
+    <exercise label="row-ops-mc-5">
       <statement>
         <p>
           We are many steps into the row reduction algorithm on a large matrix.

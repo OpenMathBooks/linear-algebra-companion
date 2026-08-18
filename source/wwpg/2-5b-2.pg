@@ -1,0 +1,80 @@
+##DESCRIPTION
+##
+##ENDDESCRIPTION
+
+## DBsubject(Linear algebra)
+## DBchapter(Matrices)
+## DBsection(Markov chains)
+## Date(2/6/2022)
+## Author(Su Doree)
+## Level(3)
+## MO(1)
+## TitleText1('Linear Algebra with Applications')
+## AuthorText1('David Lay')
+## EditionText1('5')
+
+
+########################################################################
+
+DOCUMENT();      
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "freemanMacros.pl",
+  "answerHints.pl",
+  "PGcourse.pl"
+);
+
+# Print problem number and point value (weight) for the problem
+TEXT(beginproblem());
+
+# Show which answers are correct and which ones are incorrect
+$showPartialCorrectAnswers = 1;
+
+##############################################################
+#
+#  Setup
+#
+#
+Context("Matrix");
+$goodtobad = Compute(random(11,20));
+$badtogood = Compute(random(5,10));
+
+$transition = Matrix([[1-$goodtobad/100,$badtogood/100],[$goodtobad/100,1-$badtogood/100]]);
+
+##############################################################
+#
+#  Text
+#
+#
+
+Context()->texStrings;
+BEGIN_TEXT
+$BR
+A population of pine trees is rapidly being affected by a disease. 
+Every month, the disease infects $goodtobad% of the healthy trees, 
+and $badtogood% of the infected trees recover.  
+In this simplified model, no tree actually dies -- it will eventually recover.
+
+$BR
+$BR
+Find the transition matrix for this scenario. 
+Assume the components of the state vector are listed in this order: [healthy trees, infected trees]. 
+The transition matrix should have the percentages written as decimals.
+$BR
+$BR
+
+\{$transition->ans_array\}
+END_TEXT
+Context()->normalStrings;
+
+##############################################################
+#
+#  Answers
+#
+#
+ANS($transition->cmp() );
+
+
+ENDDOCUMENT();        

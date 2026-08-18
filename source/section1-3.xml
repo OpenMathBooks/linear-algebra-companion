@@ -26,6 +26,36 @@
 			<webwork><xi:include href="./wwpg/1-3-4.pg" parse="text"/></webwork>
 		</exercise>
 
+
+		<exercise label="sage-cardsort">
+			<statement>
+				<p>
+					Match each matrix with its dimension.
+				</p>
+			</statement>
+			<cardsort>
+				<match>
+					<premise order="2"><m>
+					  \left[ \begin{array}{cc}1 \amp 2 \\ 3 \amp 4\end{array} \right]
+					</m></premise>
+					<response>2 x 2</response>
+				</match>
+				<match>
+					<premise order="3"><m>
+					  \left[ \begin{array}{ccc}1 &amp; 0 &amp; 2 \\ 4 &amp; -1 &amp; 3\end{array} \right]
+					</m></premise>
+					<response>2 x 3</response>
+				</match>
+
+				<match>
+					<premise order="1"><m>
+					  \left[ \begin{array}{cc}1 \amp 0 \\ 2 \amp 4 \\ -1 \amp 3\end{array} \right]
+					</m></premise>
+					<response>3 x 2</response>
+				</match>			
+			</cardsort>
+		</exercise>
+
 	</exercises>
 
 </section>

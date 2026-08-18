@@ -1,128 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-vectors-lin-combs"
-	 xmlns:xi="http://www.w3.org/2001/XInclude">
-
-  <title>
-    Vectors and linear combinations
-  </title>
+<section xml:id="sec-vectors-lin-combs" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Vectors and linear combinations</title>
 
 	<exercises>
 		<title>Practice</title>
-	
-	
-	<!-- Exercises from 2.1a - Edfinity -->
-	  <exercise label="linear-combinations_1">
+
+		<!-- Exercises from 2.1a - Edfinity -->
+		<exercise label="linear-combinations_1">
 			<webwork><xi:include href="./wwpg/2-1a-1.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="linear-combinations_2">
+		<exercise label="linear-combinations_2">
 			<webwork><xi:include href="./wwpg/2-1a-2.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="vector-length_1">
+		<exercise label="vector-length_1">
 			<webwork><xi:include href="./wwpg/2-1a-3.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="vector-length_2">
+		<exercise label="vector-length_2">
 			<webwork><xi:include href="./wwpg/2-1a-4.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="vector-unit_1">
+		<exercise label="vector-unit_1">
 			<webwork><xi:include href="./wwpg/2-1a-5.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="vector-unit_2">
+		<exercise label="vector-unit_2">
 			<webwork><xi:include href="./wwpg/2-1a-6.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="vector-start_1">
+		<exercise label="vector-start_1">
 			<webwork><xi:include href="./wwpg/2-1a-7.pg" parse="text"/></webwork>
 		</exercise>
-	
-	<!-- Exercises from 2.1b - Edfinity -->
-	  <exercise label="vector-linear-combination_1">
+		<!-- Exercises from 2.1b - Edfinity -->
+		<exercise label="vector-linear-combination_1">
 			<webwork><xi:include href="./wwpg/2-1b-1.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="vector-linear-combination_2">
+		<exercise label="vector-linear-combination_2">
 			<webwork><xi:include href="./wwpg/2-1b-2.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="vector-linear-combination_3">
+		<exercise label="vector-linear-combination_3">
 			<webwork><xi:include href="./wwpg/2-1b-3.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="geometry-linear-combination_1">
+		<exercise label="geometry-linear-combination_1">
 			<webwork><xi:include href="./wwpg/2-1b-4.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="vector-linear-combination_4">
+		<exercise label="vector-linear-combination_4">
 			<webwork><xi:include href="./wwpg/2-1b-5.pg" parse="text"/></webwork>
 		</exercise>
-
-    <!-- Exercises added previously from WW database --> 		
+		<!-- Exercises added previously from WW database -->
 		<exercise label="vectors-lin-comb-0">
-			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.6.pg" />
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.6.pg"/>
 		</exercise>
-		
+
 		<exercise label="vectors-lin-comb-1">
-			<webwork source="Library/Rochester/setLinearAlgebra8VectorSpaces/ur_la_8_8.pg" />
+			<webwork source="Library/Rochester/setLinearAlgebra8VectorSpaces/ur_la_8_8.pg"/>
 		</exercise>
-		
+
 		<exercise label="vectors-lin-comb-graphical">
 			<webwork><xi:include href="wwpg/vectors-lin-comb-graphic.pg" parse="text"/></webwork>
 		</exercise>
-		
+
 		<exercise label="vectors-lin-comb-3">
-			<webwork source="Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_10.pg" />
+			<webwork source="Library/Rochester/setLinearAlgebra9Dependence/ur_la_9_10.pg"/>
 		</exercise>
-		
+
 		<exercise label="vectors-lin-comb-4">
-			<webwork source="Library/Rochester/setLinearAlgebra3Matrices/ur_la_3_15.pg" />
+			<webwork source="Library/Rochester/setLinearAlgebra3Matrices/ur_la_3_15.pg"/>
 		</exercise>
-		
+
 		<exercise label="vectors-lin-comb-5">
-			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.7.pg" />
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.7.pg"/>
 		</exercise>
-		
+
 		<exercise label="vectors-lin-comb-6">
-			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.24.pg" />
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.24.pg"/>
 		</exercise>
-		
+
 		<exercise label="vectors-lin-comb-7">
-			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.12.pg" />
+			<webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/2.1.12.pg"/>
 		</exercise>
-		
+
 		<exercise label="vectors-lin-comb-8">
-			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_01a.pg" />
+			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_01a.pg"/>
 		</exercise>
-		
+
 		<exercise label="vectors-lin-comb-9">
-			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_01b.pg" />
+			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_01b.pg"/>
 		</exercise>
-		
+
 		<exercise label="vectors-lin-comb-10">
-			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_03a.pg" />
+			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_03a.pg"/>
 		</exercise>
-		
+
 		<exercise label="vectors-lin-comb-11">
-			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_05a.pg" />
+			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_05a.pg"/>
 		</exercise>
-		
+
 		<exercise label="vectors-lin-comb-12">
-			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_06a.pg" />
+			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_06a.pg"/>
 		</exercise>
-		
+
 		<exercise label="vectors-lin-comb-13">
-			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_07a.pg" />
+			<webwork source="Library/Hope/Multi1/03-03-Linear-combinations/Lin_combi_07a.pg"/>
 		</exercise>
-		
+		<!-- Edfinity 2.1A 5 -->
+		<exercise label="unit-vectors-ms">
+			<statement>
+				<p>
+					Which of the following vectors are unit vectors?
+					Hint: four are unit vectors and four are not.
+				</p>
+			</statement>
 
+			<choices randomize="yes">
+				<choice>
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{r}4 \\ 1\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
 
-		
+				<choice correct="yes">
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{r}0 \\ 1 \\ 0\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+
+				<choice correct="yes">
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{r}\frac{3}{5} \\ \frac{-4}{5}\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+
+				<choice correct="no">
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{r}0 \\ 0 \\ 0\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+
+				<choice correct="yes">
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{r}\frac{1}{2}\\ \frac{1}{2} \\ \frac{1}{2} \\ \frac{1}{2}\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+
+				<choice correct="yes">
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{r}\frac{-1}{2}\\ \frac{\sqrt{3}}{2} \end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+
+				<choice correct="no">
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{r}1 \\ 1 \\ 1 \\ 1\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+
+				<choice correct="no">
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{r}1 \\ 0 \\ -1\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+
+				<choice correct="no">
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{r}\frac{3}{5} \\ \frac{-2}{5}\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+			</choices>
+		</exercise>
 	</exercises>
-  
-  
 </section>
-
