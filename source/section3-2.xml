@@ -50,15 +50,15 @@
 
 <!-- Exercises from 3.2b - Edfinity -->
  
-		<exercise label="vector-basis_1">
+		<exercise label="vector-basis_1b">
 			<webwork><xi:include href="./wwpg/3-2b-1.pg" parse="text"/></webwork>
 		</exercise>
 
-		<exercise label="vector-basis_2">
+		<exercise label="vector-basis_2b">
 			<webwork><xi:include href="./wwpg/3-2b-2.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="vector-basis_3">
+	  <exercise label="vector-basis_3b">
 			<webwork><xi:include href="./wwpg/3-2b-3.pg" parse="text"/></webwork>
 		</exercise>		
 

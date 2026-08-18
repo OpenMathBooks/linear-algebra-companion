@@ -128,6 +128,56 @@
     <exercise label="system-3-check-2">
       <webwork source="Library/WHFreeman/Holt_linear_algebra/Chaps_1-4/holt_01_01_005.pg" />
     </exercise>
+
+    <exercise label="ms-system-solutions">
+      <statement>
+        <p>
+          Consider the system of linear equations
+          <md>
+            <mrow>2x_1 - 3x_2 + x_3 \amp = a</mrow>
+            <mrow>x_2 + 2x_3 \amp = b</mrow>
+          </md>
+          where <m>a</m> and <m>b</m> are unknown real numbers.  Select all true statements.
+        </p>
+      </statement>
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              <m>(0,0,0)</m> is a solution when <m>a = 0</m> and <m>b = 0</m>.
+            </p>
+          </statement>
+        </choice>
+        <choice>
+          <statement>
+            <p>
+              <m>(1,1,1)</m> is a solution when <m>a = 0</m> and <m>b = 0</m>.
+            </p>
+          </statement>
+        </choice>
+        <choice correct="yes">
+          <statement>
+            <p>
+              <m>(-7, -4, 2)</m> is a solution when <m>a = 0</m> and <m>b = 0</m>.
+            </p>
+          </statement>
+        </choice>
+        <choice>
+          <statement>
+            <p>
+              <m>(0,0,0)</m> is a solution when <m>a = 0</m> and <m>b = 3</m>.
+            </p>
+          </statement>
+        </choice>
+        <choice correct="yes">
+          <statement>
+            <p>
+              <m>(1,1,1)</m> is a solution when <m>a = 0</m> and <m>b = 3</m>.
+            </p>
+          </statement>
+        </choice>
+      </choices>
+    </exercise>
   </exercises>
 
 </section>

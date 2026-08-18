@@ -68,7 +68,7 @@
 		
 
 <!-- Exercises from MATH-204-ww set02.22.21.Sects2.2-2.3.def -->
-		<exercise label="ms-span-line-plane,R3">
+		<exercise label="ms-span-line-plane-R3">
 			<webwork source="Library/TCNJ/TCNJ_VectorEquations/problem10.pg" />
 		</exercise>
 
