@@ -48,9 +48,10 @@
 			<webwork><xi:include href="./wwpg/1-1b-3.pg" parse="text"/></webwork>
 		</exercise>
 
-	  <exercise label="graphical-NumberOfSolutions_1">
+    <!-- Not currently working since we can't display the graphs properly -->
+	  <!-- <exercise label="graphical-NumberOfSolutions_1">
 			<webwork><xi:include href="./wwpg/1-1b-4.pg" parse="text"/></webwork>
-		</exercise>
+		</exercise> -->
 
 	  <exercise label="is-system-solution_1">
 			<webwork><xi:include href="./wwpg/1-1b-5.pg" parse="text"/></webwork>

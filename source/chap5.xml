@@ -3,7 +3,7 @@
 
   <title> Linear algebra and computing </title>
   
-  <xi:include href="./section5-1.xml" />
-  <xi:include href="./section5-2.xml" />
+  <!-- <xi:include href="./section5-1.xml" />
+  <xi:include href="./section5-2.xml" /> -->
   
 </chapter>
