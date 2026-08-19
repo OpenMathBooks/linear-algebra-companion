@@ -34,6 +34,7 @@
 		<exercise label="vector-start_1">
 			<webwork><xi:include href="./wwpg/2-1a-7.pg" parse="text"/></webwork>
 		</exercise>
+		
 		<!-- Exercises from 2.1b - Edfinity -->
 		<exercise label="vector-linear-combination_1">
 			<webwork><xi:include href="./wwpg/2-1b-1.pg" parse="text"/></webwork>

@@ -51,6 +51,226 @@
 			<webwork><xi:include href="./wwpg/6-2b-5.pg" parse="text"/></webwork>
 		</exercise>
 	    
+
+
+		<!-- MCQs from edfinity -->
+
+		<exercise label="matrix-symmetric-mc-1">
+			<statement>
+					<p>
+					  A matrix <m>A</m> is symmetric if <m>A^{T}=A</m>, where <m>T</m> indicates the transpose of the matrix.
+					</p>
+
+					<p>
+					  Which of the following matrices are symmetric?
+					  Check all that apply.
+					</p>
+			</statement>
+			<choices>
+				<choice>
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{cc}1 &amp; 2 \\ 3 &amp; 4\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{cc}1 &amp; 2 \\ 2 &amp; 3\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{cc}1 &amp; 0 \\ 0 &amp; 2\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{cc}0 &amp; 2 \\ 3 &amp; 0\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{ccc}1 &amp; 2 &amp; 0\\ 2 &amp; 0 &amp; 1 \\ 0 &amp; 1 &amp; 2\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							<m>
+							  \left[ \begin{array}{ccc}1 &amp; 2 &amp; 0 \\ -2 &amp; 0 &amp; -1 \\ 0 &amp; 1 &amp; 2\end{array} \right]
+							</m>
+						</p>
+					</statement>
+				</choice>
+			
+			</choices>
+		</exercise>
+
+		<exercise label="orthogonal-mc-1">
+			<statement>
+				<p>
+					Which of the following sets are orthogonal?  Choose all correct answers.
+				</p>
+			</statement>
+			<choices randomize="yes">
+				<choice correct="yes">
+					<statement>
+						<p>
+							<m>
+							  \left\{ \left[ \begin{array}{r}\frac{1}{2} \\ \frac{1}{2}\end{array} \right], \left[ \begin{array}{r}^-\frac{1}{2} \\ \frac{1}{2}\end{array} \right] \right\}
+							</m>
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							<m>
+							  \left\{ \left[ \begin{array}{r}\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}}\end{array} \right], \left[ \begin{array}{r}^-\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}}\end{array} \right] \right\}
+							</m>
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							<m>
+							  \left\{ \left[ \begin{array}{r}1 \\0\\ 1\end{array} \right], \left[ \begin{array}{r}-1 \\ 2 \\ 1\end{array} \right], \left[ \begin{array}{r}-1 \\ -1\\ 1\end{array} \right]\right\}
+							</m>
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							<m>
+							  \left\{ \left[ \begin{array}{r}\frac{1}{2} \\ \frac{\sqrt{3}}{2}\end{array} \right], \left[ \begin{array}{r}0 \\ 1\end{array} \right] \right\}
+							</m>
+						</p>
+					</statement>
+				</choice>
+			</choices>
+		</exercise>
+
+
+
+		<exercise label="orthonormal-mc-1">
+			<statement>
+				<p>
+					Which of the following sets are orthonormal?  Choose all correct answers.
+				</p>
+			</statement>
+			<choices randomize="yes">
+				<choice>
+					<statement>
+						<p>
+							<m>
+							  \left\{ \left[ \begin{array}{r}\frac{1}{2} \\ \frac{1}{2}\end{array} \right], \left[ \begin{array}{r}^-\frac{1}{2} \\ \frac{1}{2}\end{array} \right] \right\}
+							</m>
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							<m>
+							  \left\{ \left[ \begin{array}{r}\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}}\end{array} \right], \left[ \begin{array}{r}^-\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}}\end{array} \right] \right\}
+							</m>
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							<m>
+							  \left\{ \left[ \begin{array}{r}1 \\0\\ 1\end{array} \right], \left[ \begin{array}{r}-1 \\ 2 \\ 1\end{array} \right], \left[ \begin{array}{r}-1 \\ -1\\ 1\end{array} \right]\right\}
+							</m>
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							<m>
+							  \left\{ \left[ \begin{array}{r}1 \\0\\ 0\end{array} \right], \left[ \begin{array}{r}0 \\ 1 \\ 0\end{array} \right], \left[ \begin{array}{r}0 \\ 0\\ 1\end{array} \right]\right\}
+							</m>
+						</p>
+					</statement>
+				</choice>
+			</choices>
+		</exercise>
+
+		<exercise label="orthogonal-matrix-mc-1">
+			<statement>
+				<p>
+					If <m>A</m> is an orthogonal matrix, then which of the following statements are true? Choose all correct answers.
+				</p>
+			</statement>
+			<choices randomize="yes">
+				<choice correct="yes">
+					<statement>
+						<p>
+							<m>A^{-1} = A^T</m>.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							The columns of <m>A</m> are orthogonal.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							The columns of <m>A</m> are each unit vectors.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							rref<m>(A) = I</m>.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							<m>A^2 = I</m>
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							<m>A</m> is symmetric (meaning <m>A^T = A</m>).
+						</p>
+					</statement>
+				</choice>
+			</choices>
+		</exercise>
+
 	</exercises>
   
 
