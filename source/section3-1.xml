@@ -11,18 +11,98 @@
 		<title>Practice</title>
 
 <!-- Exercises from 3.1a - Edfinity non-WW enabled-->
-	  <!-- <exercise label="linear-tranformation_2">
-			<webwork><xi:include href="./wwpg/2-6-2.pg" parse="text"/></webwork>
-		</exercise>
 
-	  <exercise label="linear-tranformation_3">
-			<webwork><xi:include href="./wwpg/2-6-3.pg" parse="text"/></webwork>
-		</exercise>		
+<exercise label="invertible-geometry-mc_1">
+	<statement>
+		<p>
+			Which of the following linear transformations is invertible?  Select all correct answers.
+		</p>
+	</statement>	
+	<choices randomize="yes">
+		<choice correct="yes">
+			<statement>
+				<p>
+					Reflection across the <m>x</m>-axis.
+				</p>
+			</statement>
+		</choice>
+		<choice correct="yes">
+			<statement>
+				<p>
+					Rotation by 45 degrees counterclockwise.
+				</p>
+			</statement>
+		</choice>
+		<choice correct="yes">
+			<statement>
+				<p>
+					Vertical stretch by 2.
+				</p>
+			</statement>
+		</choice>
+		<choice correct="yes">
+			<statement>
+				<p>
+					Dilation by a factor of 3.
+				</p>
+			</statement>
+		</choice>
+		<choice>
+			<statement>
+				<p>
+					Projection onto the line <m>y = x</m>.
+				</p>
+			</statement>
+		</choice>
+	
+	</choices>
+</exercise>
 
-	  <exercise label="linear-tranformation_1">
-			<webwork><xi:include href="./wwpg/2-6-1.pg" parse="text"/></webwork>
-		</exercise>
-	-->		
+<exercise label="invertible-geometry-mc_2">
+	<statement>
+		<p>
+			Which of the following invertible linear transformations are their own inverse, meaning <m>T^{-1} = T</m>?  Select all correct answers.
+		</p>
+	</statement>	
+	<choices randomize="yes">
+		<choice correct="yes">
+			<statement>
+				<p>
+					Reflection across the the line <m>y = x</m>.
+				</p>
+			</statement>
+		</choice>
+		<choice correct="no">
+			<statement>
+				<p>
+					Rotation by 30 degrees clockwise.
+				</p>
+			</statement>
+		</choice>
+		<choice correct="yes">
+			<statement>
+				<p>
+					Rotation by 180 degrees counterclockwise.
+				</p>
+			</statement>
+		</choice>
+		<choice>
+			<statement>
+				<p>
+					Horizontal stretch by a factor of 3.
+				</p>
+			</statement>
+		</choice>
+		<choice>
+			<statement>
+				<p>
+					Vertical shear down by a factor of 2.
+				</p>
+			</statement>
+		</choice>
+	</choices>
+</exercise>
+
 
 <!-- Exercises from 3.1b - Edfinity -->
  

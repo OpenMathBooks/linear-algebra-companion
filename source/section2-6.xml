@@ -15,38 +15,568 @@
 			<webwork><xi:include href="./wwpg/2-6-1.pg" parse="text"/></webwork>
 		</exercise>
 
+
+	
+			
+	
 <!-- Non-WW enabled Problems from this edfinity section -->
-	  <!-- <exercise label="linear-tranformation_2">
-			<webwork><xi:include href="./wwpg/2-6-2.pg" parse="text"/></webwork>
-		</exercise>
-
-	  <exercise label="linear-tranformation_3">
-			<webwork><xi:include href="./wwpg/2-6-3.pg" parse="text"/></webwork>
-		</exercise>
-
-	  <exercise label="linear-tranformation_4">
-			<webwork><xi:include href="./wwpg/2-6-4.pg" parse="text"/></webwork>
-		</exercise>
-
-	  <exercise label="linear-tranformation_5">
-			<webwork><xi:include href="./wwpg/2-6-5.pg" parse="text"/></webwork>
-		</exercise>		
-
-	  <exercise label="geometry-transformation_1">
-			<webwork><xi:include href="./wwpg/2-6-6.pg" parse="text"/></webwork>
+	  <exercise label="geometry-tranformation_1">
+			<statement>
+				<p>
+					Which of the following transformations has the property that
+					<m>T(\vec{e}_{1}) = \vec{e}_{1}</m>? Select all correct answers.
+				</p>
+			</statement>
+			<choices randomize="yes">
+				<choice correct="yes">
+					<statement>
+						<p>
+							Reflection across the <m>x</m>-axis.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Reflection across the <m>y</m>-axis.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Reflection across the line <m>y = x</m>.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Rotation by 45 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Rotation by 90 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Rotation by 180 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Horizontal stretch by 2.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							Vertical stretch by 2.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Dilation by 3.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							Projection onto the <m>x</m>-axis.
+						</p>
+					</statement>
+				</choice>
+			</choices>
 		</exercise>
 
 	  <exercise label="geometry-transformation_2">
-			<webwork><xi:include href="./wwpg/2-6-7.pg" parse="text"/></webwork>
+			<statement>
+				<p>
+					Which of the following transformations has the property that
+					<m>T(\vec{e}_{2}) = -\vec{e}_{2}</m>? Select all correct answers.
+				</p>
+			</statement>
+			<choices randomize="yes">
+				<choice correct="yes">
+					<statement>
+						<p>
+							Reflection across the <m>x</m>-axis.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Reflection across the <m>y</m>-axis.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Reflection across the line <m>y = x</m>.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Rotation by 45 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Rotation by 90 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							Rotation by 180 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Horizontal stretch by 2.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="no">
+					<statement>
+						<p>
+							Vertical stretch by 2.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Dilation by 3.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="no">
+					<statement>
+						<p>
+							Projection onto the <m>x</m>-axis.
+						</p>
+					</statement>
+				</choice>
+			</choices>
 		</exercise>
 
+
+
 	  <exercise label="geometry-transformation_3">
-			<webwork><xi:include href="./wwpg/2-6-8.pg" parse="text"/></webwork>
+			<statement>
+				<p>
+					Which of the following transformations has the property that
+					<m>T(\vec{e}_{1}) = \vec{e}_{2}</m>? Select all correct answers.
+				</p>
+			</statement>
+			<choices randomize="yes">
+				<choice correct="no">
+					<statement>
+						<p>
+							Reflection across the <m>x</m>-axis.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Reflection across the <m>y</m>-axis.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							Reflection across the line <m>y = x</m>.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Rotation by 45 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							Rotation by 90 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="no">
+					<statement>
+						<p>
+							Rotation by 180 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Horizontal stretch by 2.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="no">
+					<statement>
+						<p>
+							Vertical stretch by 2.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Dilation by 3.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="no">
+					<statement>
+						<p>
+							Projection onto the <m>x</m>-axis.
+						</p>
+					</statement>
+				</choice>
+			</choices>
 		</exercise>
 
 	  <exercise label="geometry-transformation_4">
-			<webwork><xi:include href="./wwpg/2-6-9.pg" parse="text"/></webwork>
-		</exercise> -->
+			<statement>
+				<p>
+					Which of the following transformations has the property that
+					<m>
+					  T(\vec{e}_{1})
+					</m>
+					is on the x-axis and
+					<m>
+					  T(\vec{e}_{2})
+					</m>
+					is on the y-axis? Note that the zero vector is on both axes. Select all correct answers.
+				</p>
+			</statement>
+			<choices randomize="yes">
+				<choice correct="yes">
+					<statement>
+						<p>
+							Reflection across the <m>x</m>-axis.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							Reflection across the <m>y</m>-axis.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Reflection across the line <m>y = x</m>.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Rotation by 45 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Rotation by 90 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							Rotation by 180 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							Horizontal stretch by 2.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							Vertical stretch by 2.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							Dilation by 3.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							Projection onto the <m>x</m>-axis.
+						</p>
+					</statement>
+				</choice>
+			</choices>
+		</exercise>		
+
+	  <exercise label="geometry-transformation_5">
+			<statement>
+					<p>
+					  What is the geometric effect on the plane <m>z=1</m> given by the transformation with matrix
+
+					  <md>
+					    \left[ \begin{array}{rrr}0 &amp; -1 &amp; 0 \\ 1 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{array} \right]
+					  </md>?
+					</p>
+
+					<p>
+					  Hint: calculate <m>A \left[ \begin{array}{c}x \\ y \\ 1\end{array} \right]</m>.
+					</p>
+			</statement>
+			<choices randomize="no">
+				<choice>
+					<statement>
+						<p>
+							Translates one unit to the left and one unit up.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Reflects across the <m>y</m>-axis.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							Rotates 90 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							None of the other choices is correct.
+						</p>
+					</statement>
+				</choice>
+			</choices>
+		</exercise>
+
+	  <exercise label="geometry-transformation_6">
+				<statement>
+					<p>
+					  What is the geometric effect on the plane <m>z=1</m> given by the transformation with matrix
+
+					  <md>
+					    \left[ \begin{array}{rrr}1 &amp; 0 &amp; -10 \\
+							0  &amp; 1 &amp; 1 \\ 
+							0 &amp; 0 &amp; 1\end{array} \right]
+					  </md>?
+					</p>
+
+					<p>
+					  Hint: calculate <m>A \left[ \begin{array}{c}x \\ y \\ 1\end{array} \right]</m>.
+					</p>
+			</statement>
+			<choices randomize="no">
+				<choice correct="yes">
+					<statement>
+						<p>
+							Translates one unit to the left and one unit up.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							Reflects across the <m>y</m>-axis.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="no">
+					<statement>
+						<p>
+							Rotates 90 degrees counterclockwise.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							None of the other choices is correct.
+						</p>
+					</statement>
+				</choice>
+			</choices>
+		</exercise>
+
+	  <exercise label="geometry-transformation_7">
+			<statement>
+				<p>
+					Which of the following matrices corresponds to the transformation of the plane <m>z=1</m> that has the geometric
+					effect of stretching horizontally by 2 and moving down 2?
+				</p>
+
+				<p>
+					Hint: calculate <m>A \left[ \begin{array}{c}x \\ y \\ 1\end{array} \right]</m>.
+				</p>
+			</statement>
+			<choices>
+				<choice>
+					<statement>
+						<p>
+							 <m>
+							   \left[ \begin{array}{rrr}2 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; -2 \\ 0 &amp; 0 &amp; 1\end{array} \right]
+							 </m>
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							 <m>
+							   \left[ \begin{array}{rrr}2 &amp; 0 &amp; -2 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{array} \right]
+							 </m>
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							<m>
+							   \left[ \begin{array}{rrr}1 &amp; 0 &amp; -2 \\ 0 &amp; 2 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{array} \right]
+							 </m>
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							 <m>
+							   \left[ \begin{array}{rrr}1 &amp; 0 &amp; 0 \\ 0 &amp; 2 &amp; -2 \\ 0 &amp; 0 &amp; 1\end{array} \right]
+							 </m>
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							None of the other choices is correct.
+						</p>
+					</statement>
+				</choice>
+			</choices>
+		</exercise>
+
+	  <exercise label="geometry-transformation_8">
+			<statement>
+					<p>
+					  Consider the transformation of the plane <m>z=1</m> given by the matrix
+					  <md>
+					    \left[ \begin{array}{rrr}-1 &amp; 0 &amp; 1 \\ 0 &amp; -1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{array} \right]
+					  </md>.
+					</p>
+
+					<p>
+					  Suppose we have a stick figure standing at the point <m>(0,0,1)</m>.
+					  Which is a correct description of the stick figure after we apply the transformation?
+					  Select all correct answers.
+					</p>
+
+					<p>
+					  Hint: calculate <m>A \left[ \begin{array}{c}x \\ y \\ 1\end{array} \right]</m>.
+					</p>
+			</statement>
+			<choices>
+				<choice correct="yes">
+					<statement>
+						<p>
+							The stick figure will be standing at the point <m>(1,0,1)</m>.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							The stick figure will be standing at the point <m>(0,1,1)</m>.
+						</p>
+					</statement>
+				</choice>
+				<choice correct="yes">
+					<statement>
+						<p>
+							The stick figure will be standing on its head.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							The stick figure will be laying down.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							The stick figure will be standing at the point <m>(-1,-1,0)</m>.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							The stick figure will be twice as tall.
+						</p>
+					</statement>
+				</choice>
+				<choice>
+					<statement>
+						<p>
+							The stick figure will be twice as wide.
+						</p>
+					</statement>
+				</choice>
+			
+			</choices>
+		</exercise>
     
 <!-- 2.6 Problems found by Andrew -->
  <!-- The following exercise are from WW: [Subject: Linear Algebra, Chapter: Linear Transformations, Section: Properties, not including Contrib] -->
