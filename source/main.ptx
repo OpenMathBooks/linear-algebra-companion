@@ -2,7 +2,7 @@
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <xi:include href="bookinfo.xml" />
-  
+
   <book xml:id="la-companion">
     <title>The Linear Algebra Companion</title>
 
