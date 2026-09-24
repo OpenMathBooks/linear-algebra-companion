@@ -136,7 +136,7 @@ do {
 } until ($b[0][0] == floor($b[0][0]) && $b[0][1] == floor($b[0][1]) && $b[0][2] == floor($b[0][2]) && $b[0][3] == floor($b[0][3]) && $b[1][0] == floor($b[1][0]) && $b[1][1] == floor($b[1][1]) && $b[1][2] == floor($b[1][2]) && $b[1][3] == floor($b[1][3]) && $b[2][0] == floor($b[2][0]) && $b[2][1] == floor($b[2][1]) && $b[2][2] == floor($b[2][2]) && $b[2][3] == floor($b[2][3]) && $A->det != 0 && floor($x[1]) == $x[1] && floor($x[0]) == $x[0] && floor($x[2]) == $x[2] && abs($b[0][0]) != abs($b[0][1]) && abs($b[1][0]) != abs($b[1][1]) && abs($x[0]) < 20 && abs($x[1]) < 20 && abs($x[2]) < 20);
 
 $dS = dispSyst(Matrix([$b[0][0], $b[0][1], $b[0][2]], [$b[1][0], $b[1][1], $b[1][2]], [$b[2][0], $b[2][1], $b[2][2]]), Matrix([$b[0][3]],[$b[1][3]], [$b[2][3]]), (3,3));
-$pivot = PopUp(["select", 0,1, 2,3,4], 3);
+$pivot = PopUp(["select", 0,1, 2,3,4], 4);
 $consistent = PopUp(["select", "yes", "no"], "yes");
 $unique = PopUp(["select", "yes", "no", "neither because not consistent"], "yes");
 $soln = MultiAnswer($x[0],0,$x[1],0,$x[2],0)->with(
