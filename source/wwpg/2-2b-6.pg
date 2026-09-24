@@ -23,6 +23,7 @@ loadMacros(
   "PGstandard.pl",
   "MathObjects.pl",
   "AnswerFormatHelp.pl",
+  "PGML.pl",
   "PGcourse.pl"
 );
 $showPartialCorrectAnswers = 0;
@@ -35,31 +36,23 @@ $A = Matrix([
 [0,non_zero_random(-5,5,1)],
 ]);
 
-Context()->texStrings;
-BEGIN_TEXT
-Let 
-\[ A = $A.\]
-If possible, compute the following. 
-If an answer does not exist, enter ${BBOLD}DNE${EBOLD}.
-$BR
-As you might guess: \(A^2 = AA\) and \(A^3 = AAA\). 
-$HR
-\( A^2 = \)
-\{ ans_box(3,30).$SPACE.AnswerFormatHelp('matrices') \}
-$BR
-$BR
+BEGIN_PGML
 
+Let
+[``A = [$A].``]
 
-\( A^3 = \)
-\{ ans_box(3,30).$SPACE.AnswerFormatHelp('matrices') \}
-END_TEXT
-Context()->normalStrings;
+If possible, compute the following.
+If an answer does not exist, enter DNE.
 
-install_problem_grader(~~&std_problem_grader);
+As you might guess: [`A^2 = AA`] and [`A^3 = AAA`].
 
+[`A^2 = `] [___]{$A*$A}
 
-ANS( ($A * $A)->cmp() );
-ANS( ($A * $A * $A)->cmp() );
+[`A^3 = `] [___]{$A*$A*$A}
+
+[@ AnswerFormatHelp("matrices") @]*
+END_PGML
+
 
 
 

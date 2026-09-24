@@ -23,6 +23,7 @@ loadMacros(
   "PGstandard.pl",
   "MathObjects.pl",
   "parserPopUp.pl",
+  "PGML.pl",
   "AnswerFormatHelp.pl",
   "PGcourse.pl"
 );
@@ -41,36 +42,33 @@ $B = Matrix([
 [non_zero_random(-5,5,1),non_zero_random(-5,5,1),non_zero_random(-5,5,1)],
 ]);
 
+$ans1 = $A * $B;
+$ans2 = 'DNE';
 $popup = PopUp(['Choose','True','False'],'False');
 
-Context()->texStrings;
-BEGIN_TEXT
-Let 
-\[ A = $A,\]
-\[ B = $B.\]
-If possible, compute the following.  
-If an answer does not exist, enter ${BBOLD}DNE${EBOLD}.
-$BR
-$BR
-\( AB = \)
-\{ ans_box(3,30).$SPACE.AnswerFormatHelp('matrices') \}
-$BR
-$BR
-\( BA = \)
-\{ ans_box(3,30).$SPACE.AnswerFormatHelp('matrices') \}
-$BR
-$BR
-\{ $popup->menu \} True or False: For any two matrices 
-\( A \) and \( B \), both of the products \( AB \) and \( BA \) 
+BEGIN_PGML
+
+Let
+>> [`` A = [$A]``] and [`` B = [$B]``]. <<
+
+If possible, compute the following.
+If an answer does not exist, enter DNE.
+
+
+[`AB = `] [_________________________]{$ans1}
+
+
+[`BA = `] [__________________________]{$ans2}
+
+
+[@ AnswerFormatHelp("matrices") @]*
+
+
+[_]{$popup} True or False: For any two matrices 
+[`A`] and [`B`], both of the products [`AB`] and [`BA`] 
 are always defined.
-END_TEXT
-Context()->normalStrings;
+END_PGML
 
-install_problem_grader(~~&std_problem_grader);
-
-ANS( ($A * $B)->cmp() );
-ANS( Compute('DNE')->cmp() );
-ANS( $popup->cmp );
 
 
 
