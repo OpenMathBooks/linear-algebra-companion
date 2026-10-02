@@ -64,7 +64,11 @@ $day5atwork = Compute(round($day5->element(1,1)));
 $a = Compute($transition->element(1,1));
 $b = Compute($transition->element(1,2));
 #There is only one eigenvector with eigenvalue 1.
-$steadystate = Matrix( [[$b/(1-$a+$b)*$employees],[(1-$a)/(1-$a+$b)*$employees]]);
+# Exact (non-integer) steady state; the displayed answer is rounded so the entries sum to $employees.
+$ssatwork = ($b/(1-$a+$b)*$employees)->value;
+$ssabsent = $employees->value - $ssatwork;
+$ssatworkround = round($ssatwork);
+$steadystate = Matrix( [[$ssatworkround],[$employees-$ssatworkround]]);
 
 ##############################################################
 #
@@ -119,7 +123,16 @@ ANS($day5atwork->cmp() );
 #)));
 #
 
-ANS($steadystate -> cmp() -> withPostFilter( AnswerHints(
+# Accept any vector whose entries are each within 0.5 of the exact steady state
+# (i.e., correctly rounded) and that sum to the total number of employees.
+ANS($steadystate -> cmp( checker => sub {
+    my ($correct, $student, $ansHash) = @_;
+    my $stu_1 = $student->element(1,1)->value;
+    my $stu_2 = $student->element(2,1)->value;
+    return (abs($stu_1 - $ssatwork) <= 0.5 + 1E-6
+        && abs($stu_2 - $ssabsent) <= 0.5 + 1E-6
+        && abs($stu_1 + $stu_2 - $employees->value) < 1E-6) ? 1 : 0;
+  }) -> withPostFilter( AnswerHints(
   sub {
     my ($corr, $stu, $ansHash) = @_;
     my $stuclass = $stu->class;
