@@ -419,7 +419,7 @@
 				<choice correct="yes">
 					<statement>
 						<p>
-							Translates one unit to the left and one unit up.
+							Translates ten units to the left and one unit up.
 						</p>
 					</statement>
 				</choice>
@@ -459,7 +459,7 @@
 				</p>
 			</statement>
 			<choices>
-				<choice>
+				<choice correct="yes">
 					<statement>
 						<p>
 							 <m>
